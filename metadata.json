@@ -1,0 +1,19 @@
+{
+  "title": "The Duel",
+  "shortTitle": "The Duel",
+  "author": "Anton Chekhov",
+  "translator": "Constance Garnett",
+  "year": 1891,
+  "source": "https://standardebooks.org/ebooks/anton-chekhov/the-duel/constance-garnett",
+  "words": 1,
+  "pulpDate": null,
+  "repo": "https://github.com/JohnQPulp/TheDuel",
+  "links": {
+    "Goodreads": "https://www.goodreads.com/book/show/312862.The_Duel",
+    "Wikipedia": "https://en.wikipedia.org/wiki/The_Duel_(Chekhov_novella)"
+  },
+  "blurb": "",
+  "blurb2": "",
+  "useAvif": true,
+  "authorWidth": null
+}
