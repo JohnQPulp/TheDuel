@@ -3838,3 +3838,445 @@ e:nadyezhda=fearful
 That was from Kirilin.
 
 
+## XIII
+
+
+Laevsky received two notes; he opened one and read: “Don’t go away, my darling.”
+s=none;e:laevsky=curious
+
+“Who could have written that?” he thought.
+t=laevsky;e:laevsky=thinking
+
+“Not Samoylenko, of course.”
+
+
+“And not the deacon, for he doesn’t know I want to go away. Von Koren, perhaps?”
+e:laevsky=contemplative
+
+The zoologist bent over the table and drew a pyramid.
+t=none
+
+Laevsky fancied that his eyes were smiling.
+e:vonkoren=smirking
+
+“Most likely Samoylenko… has been gossiping,” thought Laevsky.
+t=laevsky;e:laevsky=annoyed
+
+In the other note, in the same disguised angular handwriting with long tails to the letters, was written: “Somebody won’t go away on Saturday.”
+t=none
+
+“A stupid gibe,” thought Laevsky.
+t=laevsky;e:laevsky=annoyed
+
+“Friday, Friday.…”
+
+
+Something rose in his throat.
+t=none;e:laevsky=nervous
+
+He touched his collar and coughed, but instead of a cough a laugh broke from his throat.
+e:laevsky=surprised
+
+“Ha-ha-ha!” he laughed.
+s=laevsky
+
+“Ha-ha-ha! What am I laughing at? Ha-ha-ha!”
+e:laevsky=confused
+
+He tried to restrain himself, covered his mouth with his hand, but the laugh choked his chest and throat, and his hand could not cover his mouth.
+s=none;e:laevsky=upset
+
+“How stupid it is!” he thought, rolling with laughter.
+t=laevsky
+
+“Have I gone out of my mind?”
+e:laevsky=fearful
+
+The laugh grew shriller and shriller, and became something like the bark of a lapdog.
+t=none
+
+Laevsky tried to get up from the table, but his legs would not obey him and his right hand was strangely, without his volition, dancing on the table, convulsively clutching and crumpling up the bits of paper.
+e:laevsky=nervous
+
+He saw looks of wonder, Samoylenko’s grave, frightened face, and the eyes of the zoologist full of cold irony and disgust, and realised that he was in hysterics.
+e:samoylenko=fearful;e:vonkoren=scowling;e:laevsky=upset
+
+“How hideous, how shameful!” he thought, feeling the warmth of tears on his face.
+t=laevsky;e:laevsky=weary
+
+“… Oh, oh, what a disgrace! It has never happened to me.…”
+e:laevsky=unhappy
+
+They took him under his arms, and supporting his head from behind, led him away;
+t=none
+
+a glass gleamed before his eyes and knocked against his teeth, and the water was spilt on his breast;
+
+
+he was in a little room, with two beds in the middle, side by side, covered by two snow-white quilts.
+
+
+He dropped on one of the beds and sobbed.
+e:laevsky=unhappy
+
+“It’s nothing, it’s nothing,” Samoylenko kept saying;
+s=samoylenko;e:samoylenko=nervous
+
+“it does happen… it does happen.…”
+
+
+Chill with horror, trembling all over and dreading something awful, Nadyezhda Fyodorovna stood by the bedside and kept asking:
+s=none;e:nadyezhda=fearful
+
+“What is it? What is it? For God’s sake, tell me.”
+s=nadyezhda
+
+“Can Kirilin have written him something?” she thought.
+e:nadyezhda=nervous
+
+“It’s nothing,” said Laevsky, laughing and crying;
+s=laevsky;e:laevsky=upset
+
+“go away, darling.”
+
+
+His face expressed neither hatred nor repulsion: so he knew nothing;
+s=none
+
+Nadyezhda Fyodorovna was somewhat reassured, and she went into the drawing room.
+e:nadyezhda=neutral
+
+“Don’t agitate yourself, my dear!” said Marya Konstantinovna, sitting down beside her and taking her hand.
+s=marya;e:marya=nervous
+
+“It will pass. Men are just as weak as we poor sinners.”
+e:marya=neutral
+
+“You are both going through a crisis.… One can so well understand it!”
+
+
+“Well, my dear, I am waiting for an answer. Let us have a little talk.”
+e:marya=serious
+
+“No, we are not going to talk,” said Nadyezhda Fyodorovna, listening to Laevsky’s sobs.
+s=nadyezhda;e:nadyezhda=unhappy
+
+“I feel depressed.… You must allow me to go home.”
+e:nadyezhda=weary
+
+“What do you mean, what do you mean, my dear?” cried Marya Konstantinovna in alarm.
+s=marya;e:marya=surprised
+
+“Do you think I could let you go without supper?”
+e:marya=serious
+
+“We will have something to eat, and then you may go with my blessing.”
+e:marya=neutral
+
+“I feel miserable…” whispered Nadyezhda Fyodorovna, and she caught at the arm of the chair with both hands to avoid falling.
+s=nadyezhda;e:nadyezhda=weary
+
+“He’s got a touch of hysterics,” said Von Koren gaily, coming into the drawing room, but seeing Nadyezhda Fyodorovna, he was taken aback and retreated.
+s=vonkoren;e:vonkoren=surprised
+
+When the attack was over, Laevsky sat on the strange bed and thought.
+s=none;e:laevsky=thinking
+
+“Disgraceful! I’ve been howling like some wretched girl!”
+s=laevsky;e:laevsky=angry
+
+“I must have been absurd and disgusting.”
+e:laevsky=upset
+
+“I will go away by the back stairs.…”
+
+
+“But that would seem as though I took my hysterics too seriously. I ought to take it as a joke.…”
+e:laevsky=thinking
+
+He looked in the looking-glass, sat there for some time, and went back into the drawing room.
+s=none;e:laevsky=neutral
+
+“Here I am,” he said, smiling; he felt agonisingly ashamed, and he felt others were ashamed in his presence.
+s=laevsky;e:laevsky=sadsmile
+
+“Fancy such a thing happening,” he said, sitting down.
+e:laevsky=nervous
+
+“I was sitting here, and all of a sudden, do you know, I felt a terrible piercing pain in my side… unendurable, my nerves could not stand it, and… and it led to this silly performance.”
+
+
+“This is the age of nerves; there is no help for it.”
+
+
+At supper he drank some wine, and, from time to time, with an abrupt sigh rubbed his side as though to suggest that he still felt the pain.
+s=none
+
+And no one, except Nadyezhda Fyodorovna, believed him, and he saw that.
+e:laevsky=unhappy
+
+After nine o’clock they went for a walk on the boulevard.
+e:nadyezhda=neutral;e:marya=neutral
+
+Nadyezhda Fyodorovna, afraid that Kirilin would speak to her, did her best to keep all the time beside Marya Konstantinovna and the children.
+e:nadyezhda=wary;e:kirilin=neutral
+
+She felt weak with fear and misery, and felt she was going to be feverish;
+e:nadyezhda=fearful
+
+she was exhausted and her legs would hardly move, but she did not go home, because she felt sure that she would be followed by Kirilin or Atchmianov or both at once.
+e:nadyezhda=weary;e:atchmianov=neutral
+
+Kirilin walked behind her with Nikodim Alexandritch, and kept humming in an undertone:
+e:kirilin=smirking
+
+“I don’t al-low people to play with me! I don’t al-low it.”
+s=kirilin
+
+From the boulevard they went back to the pavilion and walked along the beach, and looked for a long time at the phosphorescence on the water.
+s=none
+
+Von Koren began telling them why it looked phosphorescent.
+e:vonkoren=neutral
+
+## XIV
+
+
+“It’s time I went to my Vint.… They will be waiting for me,” said Laevsky.
+s=laevsky;e:laevsky=neutral
+
+“Goodbye, my friends.”
+
+
+“I’ll come with you; wait a minute,” said Nadyezhda Fyodorovna, and she took his arm.
+s=nadyezhda;e:nadyezhda=nervous
+
+They said goodbye to the company and went away.
+s=none
+
+Kirilin took leave too, and saying that he was going the same way, went along beside them.
+e:kirilin=neutral
+
+“What will be, will be,” thought Nadyezhda Fyodorovna.
+t=nadyezhda;e:nadyezhda=weary
+
+“So be it.…”
+
+
+And it seemed to her that all the evil memories in her head had taken shape and were walking beside her in the darkness, breathing heavily, while she, like a fly that had fallen into the inkpot, was crawling painfully along the pavement and smirching Laevsky’s side and arm with blackness.
+t=none;e:nadyezhda=upset
+
+If Kirilin should do anything horrid, she thought, not he but she would be to blame for it.
+e:nadyezhda=thinking
+
+There was a time when no man would have talked to her as Kirilin had done, and she had torn up her security like a thread and destroyed it irrevocably﻿—who was to blame for it?
+e:nadyezhda=unhappy
+
+Intoxicated by her passions she had smiled at a complete stranger, probably just because he was tall and a fine figure.
+
+
+After two meetings she was weary of him, had thrown him over, and did not that, she thought now, give him the right to treat her as he chose?
+
+
+“Here I’ll say goodbye to you, darling,” said Laevsky.
+s=laevsky;e:laevsky=neutral
+
+“Ilya Mihalitch will see you home.”
+
+
+He nodded to Kirilin, and, quickly crossing the boulevard, walked along the street to Sheshkovsky’s, where there were lights in the windows, and then they heard the gate bang as he went in.
+s=none
+
+“Allow me to have an explanation with you,” said Kirilin.
+s=kirilin;e:kirilin=serious
+
+“I’m not a boy, not some Atchkasov or Latchkasov, Zatchkasov.…”
+e:kirilin=annoyed
+
+“I demand serious attention.”
+
+
+Nadyezhda Fyodorovna’s heart began beating violently.
+s=none;e:nadyezhda=fearful
+
+She made no reply.
+
+
+“The abrupt change in your behaviour to me I put down at first to coquetry,” Kirilin went on;
+s=kirilin;e:kirilin=serious
+
+“now I see that you don’t know how to behave with gentlemanly people.”
+e:kirilin=angry
+
+“You simply wanted to play with me, as you are playing with that wretched Armenian boy; but I’m a gentleman and I insist on being treated like a gentleman.”
+
+
+“And so I am at your service.…”
+
+
+“I’m miserable,” said Nadyezhda Fyodorovna beginning to cry, and to hide her tears she turned away.
+s=nadyezhda;e:nadyezhda=upset
+
+“I’m miserable too,” said Kirilin, “but what of that?”
+s=kirilin;e:kirilin=annoyed
+
+Kirilin was silent for a space, then he said distinctly and emphatically:
+s=none;e:kirilin=serious
+
+“I repeat, madam, that if you do not give me an interview this evening, I’ll make a scandal this very evening.”
+s=kirilin;e:kirilin=angry
+
+“Let me off this evening,” said Nadyezhda Fyodorovna, and she did not recognise her own voice, it was so weak and pitiful.
+s=nadyezhda;e:nadyezhda=weary
+
+“I must give you a lesson.… Excuse me for the roughness of my tone, but it’s necessary to give you a lesson.”
+s=kirilin;e:kirilin=serious
+
+“Yes, I regret to say I must give you a lesson.”
+
+
+“I insist on two interviews﻿—today and tomorrow.”
+
+
+“After tomorrow you are perfectly free and can go wherever you like with anyone you choose. Today and tomorrow.”
+
+
+Nadyezhda Fyodorovna went up to her gate and stopped.
+s=none;e:nadyezhda=nervous
+
+“Let me go,” she murmured, trembling all over and seeing nothing before her in the darkness but his white tunic.
+s=nadyezhda;e:nadyezhda=fearful
+
+“You’re right: I’m a horrible woman.… I’m to blame, but let me go… I beg you.”
+e:nadyezhda=upset
+
+She touched his cold hand and shuddered.
+s=none
+
+“I beseech you.…”
+s=nadyezhda;e:nadyezhda=weary
+
+“Alas!” sighed Kirilin, “alas! it’s not part of my plan to let you go; I only mean to give you a lesson and make you realise.”
+s=kirilin;e:kirilin=smirking
+
+“And what’s more, madam, I’ve too little faith in women.”
+e:kirilin=serious
+
+“I’m miserable.…”
+s=nadyezhda;e:nadyezhda=unhappy
+
+Nadyezhda Fyodorovna listened to the even splash of the sea, looked at the sky studded with stars, and longed to make haste and end it all, and get away from the cursed sensation of life, with its sea, stars, men, fever.
+s=none;e:nadyezhda=weary
+
+“Only not in my home,” she said coldly.
+s=nadyezhda;e:nadyezhda=serious
+
+“Take me somewhere else.”
+
+
+“Come to Muridov’s. That’s better.”
+s=kirilin;e:kirilin=smirking
+
+“Where’s that?”
+s=nadyezhda
+
+“Near the old wall.”
+s=kirilin
+
+She walked quickly along the street and then turned into the side-street that led towards the mountains.
+s=none
+
+It was dark. There were pale streaks of light here and there on the pavement, from the lighted windows, and it seemed to her that, like a fly, she kept falling into the ink and crawling out into the light again.
+e:nadyezhda=weary
+
+At one point he stumbled, almost fell down and burst out laughing.
+e:kirilin=happy
+
+“He’s drunk,” thought Nadyezhda Fyodorovna.
+s=nadyezhda;e:nadyezhda=suspicious
+
+“Never mind.… Never mind.… So be it.”
+e:nadyezhda=weary
+
+Atchmianov, too, soon took leave of the party and followed Nadyezhda Fyodorovna to ask her to go for a row.
+s=none;e:atchmianov=neutral
+
+He went to her house and looked over the fence: the windows were wide open, there were no lights.
+e:atchmianov=curious
+
+“Nadyezhda Fyodorovna!” he called.
+s=atchmianov
+
+A moment passed, he called again.
+s=none
+
+“Who’s there?” he heard Olga’s voice.
+s=olga;e:olga=neutral
+
+“Is Nadyezhda Fyodorovna at home?”
+s=atchmianov;e:atchmianov=curious
+
+“No, she has not come in yet.”
+s=olga
+
+“Strange… very strange,” thought Atchmianov, feeling very uneasy.
+s=;t=atchmianov;e:atchmianov=wary
+
+“She went home.…”
+
+
+He walked along the boulevard, then along the street, and glanced in at the windows of Sheshkovsky’s.
+t=none;e:atchmianov=thinking
+
+Laevsky was sitting at the table without his coat on, looking attentively at his cards.
+e:laevsky=serious
+
+“Strange, strange,” muttered Atchmianov, and remembering Laevsky’s hysterics, he felt ashamed.
+s=atchmianov;e:atchmianov=upset
+
+“If she is not at home, where is she?”
+e:atchmianov=confused
+
+He went to Nadyezhda Fyodorovna’s lodgings again, and looked at the dark windows.
+s=none;e:atchmianov=suspicious
+
+“It’s a cheat, a cheat…” he thought, remembering that, meeting him at midday at Marya Konstantinovna’s, she had promised to go in a boat with him that evening.
+t=atchmianov;e:atchmianov=angry
+
+The windows of the house where Kirilin lived were dark, and there was a policeman sitting asleep on a little bench at the gate.
+t=none
+
+Everything was clear to Atchmianov when he looked at the windows and the policeman.
+e:atchmianov=scowling
+
+He made up his mind to go home, and set off in that direction, but somehow found himself near Nadyezhda Fyodorovna’s lodgings again.
+e:atchmianov=contemplative
+
+He sat down on the bench near the gate and took off his hat, feeling that his head was burning with jealousy and resentment.
+e:atchmianov=angry
+
+The clock in the town church only struck twice in the twenty-four hours﻿—at midday and midnight.
+
+
+Soon after it struck midnight he heard hurried footsteps.
+e:atchmianov=wary
+
+“Tomorrow evening, then, again at Muridov’s,” Atchmianov heard, and he recognised Kirilin’s voice.
+s=kirilin;e:kirilin=neutral;m=nospeaker
+
+“At eight o’clock; goodbye!”
+
+
+Nadyezhda Fyodorovna made her appearance near the garden.
+s=none;e:nadyezhda=weary;m=
+
+Without noticing that Atchmianov was sitting on the bench, she passed beside him like a shadow, opened the gate, and leaving it open, went into the house.
+
+
+In her own room she lighted the candle and quickly undressed, but instead of getting into bed, she sank on her knees before a chair, flung her arms round it, and rested her head on it.
+e:nadyezhda=upset
+
+It was past two when Laevsky came home.
+e:laevsky=neutral
+
+
