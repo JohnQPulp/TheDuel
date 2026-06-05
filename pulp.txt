@@ -1,8 +1,8 @@
 The Duel<br>Anton Chekhov<e>TODO</e>
-
+b=title;t=author
 
 ## I
-
+r=title
 
 It was eight o’clock in the morning—the time when the officers, the local officials, and the visitors usually took their morning dip in the sea after the hot, stifling night, and then went into the pavilion to drink tea or coffee.
 
@@ -1229,10 +1229,10 @@ The deacon took up the guitar, which was constantly lying on the ground near the
 e:deacon=happy
 
 “‘Gathered round the tavern were the seminary lads,’”
-s=deacon
+s=deacon;m=margin
 
 but instantly subsided, overcome by the heat, mopped his brow and glanced upwards at the blazing blue sky.
-s=none;e:deacon=weary
+s=none;e:deacon=weary;m=
 
 Samoylenko grew drowsy; the sultry heat, the stillness and the delicious after-dinner languor, which quickly pervaded all his limbs, made him feel heavy and sleepy; his arms dropped at his sides, his eyes grew small, his head sank on his breast.
 e:samoylenko=weary
@@ -2729,7 +2729,7 @@ Laevsky lay down on the sofa, and went on talking to the doctor for a long time.
 s=none;e:laevsky=neutral
 
 ## X
-
+r=title
 
 Three days after the picnic, Marya Konstantinovna unexpectedly called on Nadyezhda Fyodorovna, and without greeting her or taking off her hat, seized her by both hands, pressed them to her breast and said in great excitement:
 e:marya=excited;e:nadyezhda=surprised
@@ -3173,7 +3173,7 @@ Samoylenko sat down and prescribed solution of quinine and kalii bromati and tin
 s=none;e:samoylenko=serious
 
 ## XI
-
+r=title
 
 “You look as though you were coming to arrest me,” said Von Koren, seeing Samoylenko coming in, in his full dress uniform.
 s=vonkoren;e:vonkoren=smirking;e:samoylenko=neutral
@@ -3839,7 +3839,7 @@ That was from Kirilin.
 
 
 ## XIII
-
+r=title
 
 Laevsky received two notes; he opened one and read: “Don’t go away, my darling.”
 s=none;e:laevsky=curious
@@ -4040,7 +4040,7 @@ Von Koren began telling them why it looked phosphorescent.
 e:vonkoren=neutral
 
 ## XIV
-
+r=title
 
 “It’s time I went to my Vint.… They will be waiting for me,” said Laevsky.
 s=laevsky;e:laevsky=neutral
@@ -4280,7 +4280,7 @@ It was past two when Laevsky came home.
 e:laevsky=neutral
 
 ## XV
-
+r=title
 
 Having made up his mind to lie, not all at once but piecemeal, Laevsky went soon after one o’clock next day to Samoylenko to ask for the money that he might be sure to get off on Saturday.
 e:laevsky=thinking
@@ -4742,7 +4742,7 @@ At home in his study he walked backwards and forwards, rubbing his hands, and aw
 e:laevsky=contemplative
 
 ## XVI
-
+r=title
 
 “The ‘humane studies’ of which you speak will only satisfy human thought when, as they advance, they meet the exact sciences and progress side by side with them.”
 s=vonkoren;e:vonkoren=serious
@@ -5096,16 +5096,13 @@ s=vonkoren;e:vonkoren=neutral
 r=title
 
 “Upon my mind, weighed down with woe,<br>Crowd thoughts, a heavy multitude:<br>In silence memory unfolds<br>Her long, long scroll before my eyes.”
+m=margin
 
-
-“Loathing and shuddering I curse<br>And bitterly lament in vain,<br>And bitter though the tears I weep<br>I do not wash those lines away.”
-
-
-Pushkin.
+“Loathing and shuddering I curse<br>And bitterly lament in vain,<br>And bitter though the tears I weep<br>I do not wash those lines away.”<br><div class='fright italics'>Pushkin.</div>
 
 
 Whether they killed him next morning, or mocked at him﻿—that is, left him his life﻿—he was ruined, anyway.
-e:laevsky=weary
+e:laevsky=weary;m=
 
 Whether this disgraced woman killed herself in her shame and despair, or dragged on her pitiful existence, she was ruined anyway.
 e:laevsky=unhappy
@@ -5345,7 +5342,7 @@ When he went out of the house and got into the carriage he wanted to return home
 e:laevsky=serious
 
 ## XVIII
-
+r=title
 
 The deacon got up, dressed, took his thick, gnarled stick and slipped quietly out of the house.
 e:deacon=neutral
@@ -5837,7 +5834,7 @@ Sheshkovsky laughed with joy, burst into tears, and moved away.…
 e:sheshkovsky=happy
 
 ## XX
-
+r=title
 
 A little while afterwards, Von Koren and the deacon met near the little bridge.
 e:vonkoren=neutral;e:deacon=nervous
@@ -5993,7 +5990,7 @@ Then they sat a long while in the garden, huddled close together, saying nothing
 s=none;e:laevsky=happy;e:nadyezhda=sadsmile
 
 ## XXI
-
+r=title
 
 More than three months had passed.
 
@@ -6371,4 +6368,4 @@ It began to spot with rain.
 s=none
 
 <e>TODO</e>
-
+r=title
