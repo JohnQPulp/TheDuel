@@ -362,7 +362,7 @@ It was very hot, thirty degrees Réaumur in the shade. The sultry air was stagna
 
 The deacon took up the guitar, which was constantly lying on the ground near the table, tuned it, and began singing softly in a thin voice:
 
-> “ ‘Gathered round the tavern were the seminary lads,’ ”
+“ ‘Gathered round the tavern were the seminary lads,’ ”
 
 but instantly subsided, overcome by the heat, mopped his brow and glanced upwards at the blazing blue sky. Samoylenko grew drowsy; the sultry heat, the stillness and the delicious after-dinner languor, which quickly pervaded all his limbs, made him feel heavy and sleepy; his arms dropped at his sides, his eyes grew small, his head sank on his breast. He looked with almost tearful tenderness at Von Koren and the deacon, and muttered:
 
@@ -1596,16 +1596,11 @@ In the roar of the wind and the sea and the crashes of thunder, it was difficult
 
 ## XVII
 
-> “Upon my mind, weighed down with woe,  
-> Crowd thoughts, a heavy multitude:  
-> In silence memory unfolds  
-> Her long, long scroll before my eyes.  
-> Loathing and shuddering I curse  
-> And bitterly lament in vain,  
-> And bitter though the tears I weep  
-> I do not wash those lines away.”
->
-> Pushkin.
+“Upon my mind, weighed down with woe,<br>Crowd thoughts, a heavy multitude:<br>In silence memory unfolds<br>Her long, long scroll before my eyes.
+
+Loathing and shuddering I curse<br>And bitterly lament in vain,<br>And bitter though the tears I weep<br>I do not wash those lines away.”
+
+Pushkin.
 
 Whether they killed him next morning, or mocked at him﻿—that is, left him his life﻿—he was ruined, anyway. Whether this disgraced woman killed herself in her shame and despair, or dragged on her pitiful existence, she was ruined anyway.
 
