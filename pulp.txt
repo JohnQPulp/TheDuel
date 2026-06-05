@@ -10,10 +10,7 @@ It was eight o’clock in the morning—the time when the officers, the local of
 Ivan Andreitch Laevsky, a thin, fair young man of twenty-eight, wearing the cap of a clerk in the Ministry of Finance and with slippers on his feet, coming down to bathe, found a number of acquaintances on the beach, and among them his friend Samoylenko, the army doctor.
 n:laevsky=Ivan Andreitch “Vanya” Laevsky;e:laevsky=neutral;n:samoylenko=Alexandr Daviditch “Sasha” Samoylenko;e:samoylenko=neutral
 
-With his big cropped head, short neck, his red face, his big nose, his shaggy black eyebrows and grey whiskers, his stout puffy figure and his hoarse military bass, this Samoylenko made on every newcomer the unpleasant impression of a gruff bully;
-
-
-but two or three days after making his acquaintance, one began to think his face extraordinarily good-natured, kind, and even handsome.
+With his big cropped head, short neck, his red face, his big nose, his shaggy black eyebrows and grey whiskers, his stout puffy figure and his hoarse military bass, this Samoylenko made on every newcomer the unpleasant impression of a gruff bully; but two or three days after making his acquaintance, one began to think his face extraordinarily good-natured, kind, and even handsome.
 e:samoylenko=happy
 
 In spite of his clumsiness and rough manner, he was a peaceable man, of infinite kindliness and goodness of heart, always ready to be of use.
@@ -28,10 +25,7 @@ He was always looking after other people’s affairs and trying to interest some
 The general opinion about him was that he was without faults of character.
 
 
-He had only two weaknesses: he was ashamed of his own good nature, and tried to disguise it by a surly expression and an assumed gruffness;
-
-
-and he liked his assistants and his soldiers to call him “Your Excellency,” although he was only a civil councillor.
+He had only two weaknesses: he was ashamed of his own good nature, and tried to disguise it by a surly expression and an assumed gruffness; and he liked his assistants and his soldiers to call him “Your Excellency,” although he was only a civil councillor.
 
 
 “Answer one question for me, Alexandr Daviditch,” Laevsky began, when both he and Samoylenko were in the water up to their shoulders.
@@ -97,11 +91,8 @@ e:laevsky=upset
 Samoylenko, who had a misgiving of what he was going to speak about, dropped his eyes and drummed with his fingers on the table.
 s=none;e:samoylenko=wary
 
-“I’ve lived with her for two years and have ceased to love her,” Laevsky went on;
-s=laevsky;e:laevsky=sadsmile
-
-“or, rather, I realised that I never had felt any love for her.… These two years have been a mistake.”
-e:laevsky=unhappy
+“I’ve lived with her for two years and have ceased to love her,” Laevsky went on; “or, rather, I realised that I never had felt any love for her.… These two years have been a mistake.”
+s=laevsky;e:laevsky=sadsmile;e:laevsky=unhappy
 
 It was Laevsky’s habit as he talked to gaze attentively at the pink palms of his hands, to bite his nails, or to pinch his cuffs.
 s=none;e:laevsky=nervous
@@ -166,11 +157,8 @@ s=samoylenko;e:samoylenko=nervous
 “Nadyezhda Fyodorovna is a splendid woman, highly educated, and you are a man of the highest intellect.”
 e:samoylenko=serious
 
-“Of course, you are not married,” Samoylenko went on, glancing round at the adjacent tables, “but that’s not your fault;”
-e:samoylenko=wary
-
-“and besides… one ought to be above conventional prejudices and rise to the level of modern ideas.”
-e:samoylenko=contemplative
+“Of course, you are not married,” Samoylenko went on, glancing round at the adjacent tables, “but that’s not your fault; and besides… one ought to be above conventional prejudices and rise to the level of modern ideas.”
+e:samoylenko=wary;e:samoylenko=contemplative
 
 “I believe in free love myself, yes.… But to my thinking, once you have settled together, you ought to go on living together all your life.”
 e:samoylenko=serious
@@ -214,17 +202,11 @@ s=samoylenko;e:samoylenko=serious
 “Oh!… Well, you see my position; I can’t live with her: it is more than I can do.”
 s=laevsky;e:laevsky=upset
 
-“While I’m with you I can be philosophical about it and smile, but at home I lose heart completely;”
-e:laevsky=unhappy
+“While I’m with you I can be philosophical about it and smile, but at home I lose heart completely; I am so utterly miserable, that if I were told, for instance, that I should have to live another month with her, I should blow out my brains.”
+e:laevsky=unhappy;e:laevsky=fearful
 
-“I am so utterly miserable, that if I were told, for instance, that I should have to live another month with her, I should blow out my brains.”
-e:laevsky=fearful
-
-“At the same time, parting with her is out of the question. She has no friends or relations;”
-e:laevsky=nervous
-
-“she cannot work, and neither she nor I have any money.… What could become of her?”
-e:laevsky=upset
+“At the same time, parting with her is out of the question. She has no friends or relations; she cannot work, and neither she nor I have any money.… What could become of her?”
+e:laevsky=nervous;e:laevsky=upset
 
 “To whom could she go? There is nothing one can think of.… Come, tell me, what am I to do?”
 e:laevsky=weary
@@ -247,11 +229,8 @@ s=none;e:samoylenko=nervous
 “You are out of humour today, Vanya,” he said. “You must have had a bad night.”
 s=samoylenko;e:samoylenko=serious
 
-“Yes, I slept badly.… Altogether, I feel horribly out of sorts, brother. My head feels empty;”
-s=laevsky;e:laevsky=weary
-
-“there’s a sinking at my heart, a weakness.… I must run away.”
-e:laevsky=upset
+“Yes, I slept badly.… Altogether, I feel horribly out of sorts, brother. My head feels empty; there’s a sinking at my heart, a weakness.… I must run away.”
+s=laevsky;e:laevsky=weary;e:laevsky=upset
 
 “Run where?”
 s=samoylenko;e:samoylenko=confused
@@ -259,17 +238,11 @@ s=samoylenko;e:samoylenko=confused
 “There, to the North.”
 s=laevsky;e:laevsky=thinking
 
-“To the pines and the mushrooms, to people and ideas.… I’d give half my life to bathe now in some little stream in the province of Moscow or Tula;”
-e:laevsky=excited
+“To the pines and the mushrooms, to people and ideas.… I’d give half my life to bathe now in some little stream in the province of Moscow or Tula; to feel chilly, you know, and then to stroll for three hours even with the feeblest student, and to talk and talk endlessly.… And the scent of the hay!”
+e:laevsky=excited;e:laevsky=happy
 
-“to feel chilly, you know, and then to stroll for three hours even with the feeblest student, and to talk and talk endlessly.… And the scent of the hay!”
-e:laevsky=happy
-
-“Do you remember it? And in the evening, when one walks in the garden, sounds of the piano float from the house;”
-e:laevsky=contemplative
-
-“one hears the train passing.…”
-e:laevsky=sadsmile
+“Do you remember it? And in the evening, when one walks in the garden, sounds of the piano float from the house; one hears the train passing.…”
+e:laevsky=contemplative;e:laevsky=sadsmile
 
 Laevsky laughed with pleasure; tears came into his eyes, and to cover them, without getting up, he stretched across the next table for the matches.
 s=none;e:laevsky=sadsmile
@@ -613,20 +586,14 @@ s=laevsky;e:laevsky=scowling
 “Samoylenko has cabbage soup and Marya Konstantinovna has cabbage soup, and only I am obliged to eat this mawkish mess. We can’t go on like this, darling.”
 e:laevsky=angry
 
-As is common with the vast majority of husbands and wives, not a single dinner had in earlier days passed without scenes and faultfinding between Nadyezhda Fyodorovna and Laevsky;
+As is common with the vast majority of husbands and wives, not a single dinner had in earlier days passed without scenes and faultfinding between Nadyezhda Fyodorovna and Laevsky; but ever since Laevsky had made up his mind that he did not love her, he had tried to give way to Nadyezhda Fyodorovna in everything, spoke to her gently and politely, smiled, and called her “darling.”
 s=none
-
-but ever since Laevsky had made up his mind that he did not love her, he had tried to give way to Nadyezhda Fyodorovna in everything, spoke to her gently and politely, smiled, and called her “darling.”
-
 
 “This soup tastes like liquorice,” he said, smiling; he made an effort to control himself and seem amiable, but could not refrain from saying: “Nobody looks after the housekeeping.﻿﻿… If you are too ill or busy with reading, let me look after the cooking.”
 s=laevsky;e:laevsky=sadsmile
 
-In earlier days she would have said to him, “Do by all means,” or, “I see you want to turn me into a cook”;
-s=none;e:nadyezhda=nervous
-
-but now she only looked at him timidly and flushed crimson.
-e:nadyezhda=fearful
+In earlier days she would have said to him, “Do by all means,” or, “I see you want to turn me into a cook”; but now she only looked at him timidly and flushed crimson.
+s=none;e:nadyezhda=nervous;e:nadyezhda=fearful
 
 “Well, how do you feel today?” he asked kindly.
 s=laevsky;e:laevsky=sadsmile
@@ -664,11 +631,8 @@ e:laevsky=scowling
 “Merci, darling,” he said after dinner, and kissed Nadyezhda Fyodorovna on the forehead.
 s=laevsky;e:laevsky=sadsmile
 
-Going back into his study, he spent five minutes in walking to and fro, looking at his boots;
-s=none;e:laevsky=contemplative
-
-then he sat down on his sofa and muttered:
-e:laevsky=serious
+Going back into his study, he spent five minutes in walking to and fro, looking at his boots; then he sat down on his sofa and muttered:
+s=none;e:laevsky=contemplative;e:laevsky=serious
 
 “Run away, run away! We must define the position and run away!”
 s=laevsky;e:laevsky=nervous
@@ -742,11 +706,8 @@ n:orderly=Orderly;s=orderly;e:orderly=nervous
 “Make haste; it’s in the cupboard! And tell Daria to put some fennel in the jar with the cucumbers! Fennel! Cover the cream up, gaping laggard, or the flies will get into it!”
 s=samoylenko;e:samoylenko=angry
 
-And the whole house seemed resounding with his shouts. When it was ten or fifteen minutes to two the deacon would come in;
+And the whole house seemed resounding with his shouts. When it was ten or fifteen minutes to two the deacon would come in; he was a lanky young man of twenty-two, with long hair, with no beard and a hardly perceptible moustache.
 s=none
-
-he was a lanky young man of twenty-two, with long hair, with no beard and a hardly perceptible moustache.
-
 
 Going into the drawing room, he crossed himself before the icon, smiled, and held out his hand to Von Koren.
 e:deacon=happy
@@ -781,14 +742,8 @@ s=none;e:deacon=annoyed;e:vonkoren=annoyed
 At last the door opened and the harassed orderly announced that dinner was ready!
 e:orderly=weary
 
-In the dining room they were met by Samoylenko, crimson in the face, wrathful, perspiring from the heat of the kitchen;
-e:samoylenko=angry
-
-he looked at them furiously, and with an expression of horror, took the lid off the soup tureen and helped each of them to a plateful;
-e:samoylenko=fearful
-
-and only when he was convinced that they were eating it with relish and liked it, he gave a sigh of relief and settled himself in his deep armchair.
-e:samoylenko=neutral
+In the dining room they were met by Samoylenko, crimson in the face, wrathful, perspiring from the heat of the kitchen; he looked at them furiously, and with an expression of horror, took the lid off the soup tureen and helped each of them to a plateful; and only when he was convinced that they were eating it with relish and liked it, he gave a sigh of relief and settled himself in his deep armchair.
+e:samoylenko=angry;e:samoylenko=fearful;e:samoylenko=neutral
 
 His face looked blissful and his eyes grew moist.… He deliberately poured himself out a glass of vodka and said:
 e:samoylenko=happy
@@ -796,11 +751,8 @@ e:samoylenko=happy
 “To the health of the younger generation.”
 s=samoylenko
 
-After his conversation with Laevsky, from early morning till dinner Samoylenko had been conscious of a load at his heart, although he was in the best of humours;
-s=none;e:samoylenko=contemplative
-
-he felt sorry for Laevsky and wanted to help him.
-e:samoylenko=sadsmile
+After his conversation with Laevsky, from early morning till dinner Samoylenko had been conscious of a load at his heart, although he was in the best of humours; he felt sorry for Laevsky and wanted to help him.
+s=none;e:samoylenko=contemplative;e:samoylenko=sadsmile
 
 After drinking a glass of vodka before the soup, he heaved a sigh and said:
 e:samoylenko=weary
@@ -886,10 +838,7 @@ s=vonkoren;e:vonkoren=thinking
 “We made friends﻿—that is, he turned up every day, hindered me working, and indulged in confidences in regard to his mistress. From the first he struck me by his exceptional falsity, which simply made me sick.”
 e:vonkoren=annoyed
 
-“As a friend I pitched into him, asking him why he drank too much, why he lived beyond his means and got into debt, why he did nothing and read nothing, why he had so little culture and so little knowledge;”
-
-
-“and in answer to all my questions he used to smile bitterly, sigh, and say: ‘I am a failure, a superfluous man’; or: ‘What do you expect, my dear fellow, from us, the debris of the serf-owning class?’ or: ‘We are degenerate.…’”
+“As a friend I pitched into him, asking him why he drank too much, why he lived beyond his means and got into debt, why he did nothing and read nothing, why he had so little culture and so little knowledge; and in answer to all my questions he used to smile bitterly, sigh, and say: ‘I am a failure, a superfluous man’; or: ‘What do you expect, my dear fellow, from us, the debris of the serf-owning class?’ or: ‘We are degenerate.…’”
 
 
 “Or he would begin a long rigmarole about Onyegin, Petchorin, Byron’s Cain, and Bazarov, of whom he would say: ‘They are our fathers in flesh and in spirit.’”
@@ -904,10 +853,7 @@ e:vonkoren=scowling
 “And so﻿—an ingenious idea!﻿—it is not only he who is dissolute, false, and disgusting, but we… ‘we men of the eighties,’ ‘we the spiritless, nervous offspring of the serf-owning class’; ‘civilisation has crippled us’…”
 
 
-“in fact, we are to understand that such a great man as Laevsky is great even in his fall: that his dissoluteness, his lack of culture and of moral purity, is a phenomenon of natural history, sanctified by inevitability;”
-
-
-“that the causes of it are worldwide, elemental; and that we ought to hang up a lamp before Laevsky, since he is the fated victim of the age, of influences, of heredity, and so on.”
+“in fact, we are to understand that such a great man as Laevsky is great even in his fall: that his dissoluteness, his lack of culture and of moral purity, is a phenomenon of natural history, sanctified by inevitability; that the causes of it are worldwide, elemental; and that we ought to hang up a lamp before Laevsky, since he is the fated victim of the age, of influences, of heredity, and so on.”
 
 
 “All the officials and their ladies were in ecstasies when they listened to him, and I could not make out for a long time what sort of man I had to deal with, a cynic or a clever rogue.”
@@ -922,25 +868,13 @@ s=samoylenko;e:samoylenko=angry
 “Don’t interrupt, Alexandr Daviditch,” said Von Koren coldly; “I am just finishing. Laevsky is by no means a complex organism.”
 s=vonkoren;e:vonkoren=neutral
 
-“Here is his moral skeleton: in the morning, slippers, a bathe, and coffee;”
-
-
-“then till dinnertime, slippers, a constitutional, and conversation; at two o’clock slippers, dinner, and wine;”
-
-
-“at five o’clock a bathe, tea and wine, then Vint and lying; at ten o’clock supper and wine;”
-
-
-“and after midnight sleep and *la femme*. His existence is confined within this narrow programme like an egg within its shell.”
+“Here is his moral skeleton: in the morning, slippers, a bathe, and coffee; then till dinnertime, slippers, a constitutional, and conversation; at two o’clock slippers, dinner, and wine; at five o’clock a bathe, tea and wine, then Vint and lying; at ten o’clock supper and wine; and after midnight sleep and *la femme*. His existence is confined within this narrow programme like an egg within its shell.”
 e:vonkoren=serious
 
 “Whether he walks or sits, is angry, writes, rejoices, it may all be reduced to wine, cards, slippers, and women.”
 
 
-“Woman plays a fatal, overwhelming part in his life. He tells us himself that at thirteen he was in love;”
-
-
-“that when he was a student in his first year he was living with a lady who had a good influence over him, and to whom he was indebted for his musical education.”
+“Woman plays a fatal, overwhelming part in his life. He tells us himself that at thirteen he was in love; that when he was a student in his first year he was living with a lady who had a good influence over him, and to whom he was indebted for his musical education.”
 
 
 “In his second year he bought a prostitute from a brothel and raised her to his level﻿—that is, took her as his kept mistress, and she lived with him for six months and then ran away back to the brothel-keeper, and her flight caused him much spiritual suffering.”
@@ -970,13 +904,7 @@ s=vonkoren;e:vonkoren=thinking
 “To Laevsky she is everything, and at the same time nothing but a mistress.”
 e:vonkoren=scowling
 
-“She﻿—that is, cohabitation with her﻿—is the happiness and object of his life;”
-
-
-“he is gay, sad, bored, disenchanted﻿—on account of woman; his life grows disagreeable﻿—woman is to blame;”
-
-
-“the dawn of a new life begins to glow, ideals turn up﻿—and again look for the woman.… He only derives enjoyment from books and pictures in which there is woman.”
+“She﻿—that is, cohabitation with her﻿—is the happiness and object of his life; he is gay, sad, bored, disenchanted﻿—on account of woman; his life grows disagreeable﻿—woman is to blame; the dawn of a new life begins to glow, ideals turn up﻿—and again look for the woman.… He only derives enjoyment from books and pictures in which there is woman.”
 
 
 “Our age is, to his thinking, poor and inferior to the forties and the sixties only because we do not know how to abandon ourselves obviously to the passion and ecstasy of love.”
@@ -985,11 +913,8 @@ e:vonkoren=scowling
 “These voluptuaries must have in their brains a special growth of the nature of sarcoma, which stifles the brain and directs their whole psychology.”
 e:vonkoren=angry
 
-“Watch Laevsky when he is sitting anywhere in company. You notice: when one raises any general question in his presence, for instance, about the cell or instinct, he sits apart, and neither speaks nor listens;”
+“Watch Laevsky when he is sitting anywhere in company. You notice: when one raises any general question in his presence, for instance, about the cell or instinct, he sits apart, and neither speaks nor listens; he looks languid and disillusioned; nothing has any interest for him, everything is vulgar and trivial.”
 e:vonkoren=serious
-
-“he looks languid and disillusioned; nothing has any interest for him, everything is vulgar and trivial.”
-
 
 “But as soon as you speak of male and female﻿—for instance, of the fact that the female spider, after fertilisation, devours the male﻿—his eyes glow with curiosity, his face brightens, and the man revives, in fact.”
 
@@ -1045,11 +970,8 @@ s=none;e:deacon=happy
 “Don’t laugh, deacon,” said Von Koren.
 s=vonkoren;e:vonkoren=serious
 
-“It grows stupid, at last. I should not have paid attention to his insignificance,” he went on, after waiting till the deacon had left off laughing;
-e:vonkoren=annoyed
-
-“I should have passed him by if he were not so noxious and dangerous. His noxiousness lies first of all in the fact that he has great success with women, and so threatens to leave descendants﻿—that is, to present the world with a dozen Laevskys as feeble and as depraved as himself.”
-e:vonkoren=serious
+“It grows stupid, at last. I should not have paid attention to his insignificance,” he went on, after waiting till the deacon had left off laughing; “I should have passed him by if he were not so noxious and dangerous. His noxiousness lies first of all in the fact that he has great success with women, and so threatens to leave descendants﻿—that is, to present the world with a dozen Laevskys as feeble and as depraved as himself.”
+e:vonkoren=annoyed;e:vonkoren=serious
 
 “Secondly, he is in the highest degree contaminating. I have spoken to you already of Vint and beer.”
 
@@ -1552,11 +1474,8 @@ e:nadyezhda=unhappy
 Marya Konstantinovna stopped at her gate and asked her to come in and sit down for a little while.
 e:marya=neutral
 
-“Come in, my dear,” she said in an imploring voice, and at the same time she looked at Nadyezhda Fyodorovna with anxiety and hope;
-s=marya;e:marya=nervous
-
-perhaps she would refuse and not come in!
-s=none;e:marya=fearful
+“Come in, my dear,” she said in an imploring voice, and at the same time she looked at Nadyezhda Fyodorovna with anxiety and hope; perhaps she would refuse and not come in!
+s=marya;e:marya=nervous;s=none;e:marya=fearful
 
 “With pleasure,” said Nadyezhda Fyodorovna, accepting.
 s=nadyezhda;e:nadyezhda=happy
@@ -1594,17 +1513,11 @@ r=title
 It was agreed to drive about five miles out of town on the road to the south, to stop near a *duhan* at the junction of two streams﻿—the Black River and the Yellow River﻿—and to cook fish soup.
 
 
-They started out soon after five. Foremost of the party in a charabanc drove Samoylenko and Laevsky;
-e:samoylenko=neutral;e:laevsky=neutral
+They started out soon after five. Foremost of the party in a charabanc drove Samoylenko and Laevsky; they were followed by Marya Konstantinovna, Nadyezhda Fyodorovna, Katya and Kostya, in a coach with three horses, carrying with them the crockery and a basket with provisions.
+e:samoylenko=neutral;e:laevsky=neutral;e:marya=neutral;e:nadyezhda=neutral;e:katya=neutral;e:kostya=neutral
 
-they were followed by Marya Konstantinovna, Nadyezhda Fyodorovna, Katya and Kostya, in a coach with three horses, carrying with them the crockery and a basket with provisions.
-e:marya=neutral;e:nadyezhda=neutral;e:katya=neutral;e:kostya=neutral
-
-In the next carriage came the police captain, Kirilin, and the young Atchmianov, the son of the shopkeeper to whom Nadyezhda Fyodorovna owed three hundred roubles;
-n:kirilin=Kirilin;n:atchmianov=Atchmianov;e:kirilin=neutral;e:atchmianov=neutral
-
-opposite them, huddled up on the little seat with his feet tucked under him, sat Nikodim Alexandritch, a neat little man with hair combed on to his temples.
-n:nikodim=Nikodim Alexandritch;e:nikodim=neutral
+In the next carriage came the police captain, Kirilin, and the young Atchmianov, the son of the shopkeeper to whom Nadyezhda Fyodorovna owed three hundred roubles; opposite them, huddled up on the little seat with his feet tucked under him, sat Nikodim Alexandritch, a neat little man with hair combed on to his temples.
+n:kirilin=Kirilin;n:atchmianov=Atchmianov;e:kirilin=neutral;e:atchmianov=neutral;n:nikodim=Nikodim Alexandritch;e:nikodim=neutral
 
 Last of all came Von Koren and the deacon; at the deacon’s feet stood a basket of fish.
 e:vonkoren=neutral;e:deacon=neutral
@@ -1681,11 +1594,8 @@ e:deacon=wary
 “I don’t understand your hesitation.”
 s=vonkoren;e:vonkoren=annoyed
 
-“If you go on being an ordinary deacon, who is only obliged to hold a service on holidays, and on the other days can rest from work, you will be exactly the same as you are now in ten years’ time, and will have gained nothing but a beard and moustache;”
-e:vonkoren=serious
-
-“while on returning from this expedition in ten years’ time you will be a different man, you will be enriched by the consciousness that something has been done by you.”
-e:vonkoren=contemplative
+“If you go on being an ordinary deacon, who is only obliged to hold a service on holidays, and on the other days can rest from work, you will be exactly the same as you are now in ten years’ time, and will have gained nothing but a beard and moustache; while on returning from this expedition in ten years’ time you will be a different man, you will be enriched by the consciousness that something has been done by you.”
+e:vonkoren=serious;e:vonkoren=contemplative
 
 From the ladies’ carriage came shrieks of terror and delight.
 s=none;e:marya=surprised;e:nadyezhda=surprised
@@ -1693,10 +1603,7 @@ s=none;e:marya=surprised;e:nadyezhda=surprised
 The carriages were driving along a road hollowed in a literally overhanging precipitous cliff, and it seemed to everyone that they were galloping along a shelf on a steep wall, and that in a moment the carriages would drop into the abyss.
 e:katya=fearful;e:kostya=fearful
 
-On the right stretched the sea; on the left was a rough brown wall with black blotches and red veins and with climbing roots;
-
-
-while on the summit stood shaggy fir trees bent over, as though looking down in terror and curiosity.
+On the right stretched the sea; on the left was a rough brown wall with black blotches and red veins and with climbing roots; while on the summit stood shaggy fir trees bent over, as though looking down in terror and curiosity.
 
 
 A minute later there were shrieks and laughter again: they had to drive under a huge overhanging rock.
@@ -1726,16 +1633,10 @@ e:laevsky=scowling
 The carriages now were by the banks of the stream.
 s=none
 
-The high mountain banks gradually grew closer, the valley shrank together and ended in a gorge;
-
-
-the rocky mountain round which they were driving had been piled together by nature out of huge rocks, pressing upon each other with such terrible weight, that Samoylenko could not help gasping every time he looked at them.
+The high mountain banks gradually grew closer, the valley shrank together and ended in a gorge; the rocky mountain round which they were driving had been piled together by nature out of huge rocks, pressing upon each other with such terrible weight, that Samoylenko could not help gasping every time he looked at them.
 e:samoylenko=surprised
 
-The dark and beautiful mountain was cleft in places by narrow fissures and gorges from which came a breath of dewy moisture and mystery;
-
-
-through the gorges could be seen other mountains, brown, pink, lilac, smoky, or bathed in vivid sunlight.
+The dark and beautiful mountain was cleft in places by narrow fissures and gorges from which came a breath of dewy moisture and mystery; through the gorges could be seen other mountains, brown, pink, lilac, smoky, or bathed in vivid sunlight.
 
 
 From time to time as they passed a gorge they caught the sound of water falling from the heights and splashing on the stones.
@@ -1777,10 +1678,7 @@ s=none
 Samoylenko selected a small meadow round which there were scattered stones convenient for sitting on, and a fallen tree blown down by the storm with roots overgrown by moss and dry yellow needles.
 e:samoylenko=neutral
 
-Here there was a fragile wooden bridge over the stream, and just opposite on the other bank there was a little barn for drying maize, standing on four low piles, and looking like the hut on hen’s legs in the fairy tale;
-
-
-a little ladder sloped from its door.
+Here there was a fragile wooden bridge over the stream, and just opposite on the other bank there was a little barn for drying maize, standing on four low piles, and looking like the hut on hen’s legs in the fairy tale; a little ladder sloped from its door.
 
 
 The first impression in all was a feeling that they would never get out of that place again.
@@ -1792,11 +1690,8 @@ On all sides wherever they looked, the mountains rose up and towered above them,
 They could hear the river murmuring and the unceasing chirrup of the grasshoppers.
 
 
-“Enchanting!”
+“Enchanting!” said Marya Konstantinovna, heaving deep sighs of ecstasy.
 s=marya;e:marya=excited
-
-said Marya Konstantinovna, heaving deep sighs of ecstasy.
-s=none
 
 “Children, look how fine! What peace!”
 s=marya;e:marya=happy
@@ -1861,23 +1756,17 @@ s=none;e:laevsky=nervous
 He made no answer and walked away, feeling sorry he had come.
 e:laevsky=unhappy
 
-“Gentlemen, quick march for brushwood for the fire!”
+“Gentlemen, quick march for brushwood for the fire!” commanded Samoylenko.
 s=samoylenko;e:samoylenko=excited
 
-commanded Samoylenko.
-s=none
-
 They all wandered off in different directions, and no one was left but Kirilin, Atchmianov, and Nikodim Alexandritch.
-e:kirilin=neutral;e:atchmianov=neutral;e:nikodim=neutral
+s=;e:kirilin=neutral;e:atchmianov=neutral;e:nikodim=neutral
 
 Kerbalay brought chairs, spread a rug on the ground, and set a few bottles of wine.
 e:kerbalay=neutral
 
-The police captain, Kirilin, a tall, good-looking man, who in all weathers wore his greatcoat over his tunic, with his haughty deportment, stately carriage, and thick, rather hoarse voice, looked like a young provincial chief of police;
-e:kirilin=serious
-
-his expression was mournful and sleepy, as though he had just been waked against his will.
-e:kirilin=weary
+The police captain, Kirilin, a tall, good-looking man, who in all weathers wore his greatcoat over his tunic, with his haughty deportment, stately carriage, and thick, rather hoarse voice, looked like a young provincial chief of police; his expression was mournful and sleepy, as though he had just been waked against his will.
+e:kirilin=serious;e:kirilin=weary
 
 “What have you brought this for, you brute?” he asked Kerbalay, deliberately articulating each word.
 s=kirilin;e:kirilin=annoyed
@@ -1903,29 +1792,20 @@ s=kirilin;e:kirilin=excited
 “Never mind, let him,” Atchmianov whispered to Nikodim Alexandritch; “I’ll pay.”
 s=atchmianov;e:atchmianov=smirking
 
-Nadyezhda Fyodorovna was in a lighthearted, mischievous mood;
-s=none;e:nadyezhda=smirking
-
-she wanted to skip and jump, to laugh, to shout, to tease, to flirt.
-e:nadyezhda=excited
+Nadyezhda Fyodorovna was in a lighthearted, mischievous mood; she wanted to skip and jump, to laugh, to shout, to tease, to flirt.
+s=none;e:nadyezhda=smirking;e:nadyezhda=excited
 
 In her cheap cotton dress with blue pansies on it, in her red shoes and the same straw hat, she seemed to herself, little, simple, light, ethereal as a butterfly.
 e:nadyezhda=happy
 
-She ran over the rickety bridge and looked for a minute into the water, in order to feel giddy;
-e:nadyezhda=excited
-
-then, shrieking and laughing, ran to the other side to the drying-shed, and she fancied that all the men were admiring her, even Kerbalay.
-e:nadyezhda=happy
+She ran over the rickety bridge and looked for a minute into the water, in order to feel giddy; then, shrieking and laughing, ran to the other side to the drying-shed, and she fancied that all the men were admiring her, even Kerbalay.
+e:nadyezhda=excited;e:nadyezhda=happy
 
 When in the rapidly falling darkness the trees began to melt into the mountains and the horses into the carriages, and a light gleamed in the windows of the *duhan*, she climbed up the mountain by the little path which zigzagged between stones and thornbushes and sat on a stone.
 e:nadyezhda=neutral
 
-Down below, the campfire was burning. Near the fire, with his sleeves tucked up, the deacon was moving to and fro, and his long black shadow kept describing a circle round it;
+Down below, the campfire was burning. Near the fire, with his sleeves tucked up, the deacon was moving to and fro, and his long black shadow kept describing a circle round it; he put on wood, and with a spoon tied to a long stick he stirred the cauldron.
 e:deacon=neutral
-
-he put on wood, and with a spoon tied to a long stick he stirred the cauldron.
-
 
 Samoylenko, with a copper-red face, was fussing round the fire just as though he were in his own kitchen, shouting furiously:
 e:samoylenko=angry
@@ -1945,10 +1825,7 @@ e:marya=neutral;e:katya=neutral;e:kostya=neutral
 Von Koren, with his arms folded and one foot on a stone, was standing on a bank at the very edge of the water, thinking about something.
 e:vonkoren=thinking
 
-Patches of red light from the fire moved together with the shadows over the ground near the dark human figures, and quivered on the mountain, on the trees, on the bridge, on the drying-shed;
-
-
-on the other side the steep, scooped-out bank was all lighted up and glimmering in the stream, and the rushing turbid water broke its reflection into little bits.
+Patches of red light from the fire moved together with the shadows over the ground near the dark human figures, and quivered on the mountain, on the trees, on the bridge, on the drying-shed; on the other side the steep, scooped-out bank was all lighted up and glimmering in the stream, and the rushing turbid water broke its reflection into little bits.
 
 
 The deacon went for the fish which Kerbalay was cleaning and washing on the bank, but he stood still halfway and looked about him.
@@ -1963,10 +1840,7 @@ e:deacon=contemplative
 On the further bank some unknown persons made their appearance near the drying-shed.
 t=none
 
-The flickering light and the smoke from the campfire puffing in that direction made it impossible to get a full view of them all at once, but glimpses were caught now of a shaggy hat and a grey beard, now of a blue shirt, now of a figure, ragged from shoulder to knee, with a dagger across the body;
-
-
-then a swarthy young face with black eyebrows, as thick and bold as though they had been drawn in charcoal.
+The flickering light and the smoke from the campfire puffing in that direction made it impossible to get a full view of them all at once, but glimpses were caught now of a shaggy hat and a grey beard, now of a blue shirt, now of a figure, ragged from shoulder to knee, with a dagger across the body; then a swarthy young face with black eyebrows, as thick and bold as though they had been drawn in charcoal.
 
 
 Five of them sat in a circle on the ground, and the other five went into the drying-shed.
@@ -1978,29 +1852,14 @@ One was standing at the door with his back to the fire, and with his hands behin
 Soon after, those sitting in a circle began softly singing something slow and melodious, that sounded like Lenten Church music.…
 
 
-Listening to them, the deacon imagined how it would be with him in ten years’ time, when he would come back from the expedition: he would be a young priest and monk, an author with a name and a splendid past;
-e:deacon=thinking
+Listening to them, the deacon imagined how it would be with him in ten years’ time, when he would come back from the expedition: he would be a young priest and monk, an author with a name and a splendid past; he would be consecrated an archimandrite, then a bishop; and he would serve mass in the cathedral; in a golden mitre he would come out into the body of the church with the icon on his breast, and blessing the mass of the people with the triple and the double candelabra, would proclaim: “Look down from Heaven, O God, behold and visit this vineyard which Thy Hand has planted,” and the children with their angel voices would sing in response: “Holy God…”
+e:deacon=thinking;e:deacon=happy;e:deacon=excited
 
-he would be consecrated an archimandrite, then a bishop; and he would serve mass in the cathedral;
-e:deacon=happy
-
-in a golden mitre he would come out into the body of the church with the icon on his breast, and blessing the mass of the people with the triple and the double candelabra, would proclaim: “Look down from Heaven, O God, behold and visit this vineyard which Thy Hand has planted,” and the children with their angel voices would sing in response: “Holy God…”
-e:deacon=excited
-
-“Deacon, where is that fish?”
+“Deacon, where is that fish?” he heard Samoylenko’s voice.
 s=samoylenko;e:samoylenko=annoyed
 
-he heard Samoylenko’s voice.
-s=none;e:deacon=surprised
-
-As he went back to the fire, the deacon imagined the Church procession going along a dusty road on a hot July day;
-e:deacon=contemplative
-
-in front the peasants carrying the banners and the women and children the icons, then the boy choristers and the sacristan with his face tied up and a straw in his hair, then in due order himself, the deacon, and behind him the priest wearing his calotte and carrying a cross, and behind them, tramping in the dust, a crowd of peasants﻿—men, women, and children;
-
-
-in the crowd his wife and the priest’s wife with kerchiefs on their heads.
-
+As he went back to the fire, the deacon imagined the Church procession going along a dusty road on a hot July day; in front the peasants carrying the banners and the women and children the icons, then the boy choristers and the sacristan with his face tied up and a straw in his hair, then in due order himself, the deacon, and behind him the priest wearing his calotte and carrying a cross, and behind them, tramping in the dust, a crowd of peasants﻿—men, women, and children; in the crowd his wife and the priest’s wife with kerchiefs on their heads.
+e:deacon=contemplative;s=
 
 The choristers sing, the babies cry, the corncrakes call, the lark carols.…
 
@@ -2062,11 +1921,8 @@ e:atchmianov=nervous
 “What a fine evening!” he said with a slight Armenian accent.
 s=atchmianov;e:atchmianov=happy
 
-He was nice-looking, fashionably dressed, and behaved unaffectedly like a well-bred youth, but Nadyezhda Fyodorovna did not like him because she owed his father three hundred roubles;
-s=none;e:nadyezhda=annoyed
-
-it was displeasing to her, too, that a shopkeeper had been asked to the picnic, and she was vexed at his coming up to her that evening when her heart felt so pure.
-e:nadyezhda=scowling
+He was nice-looking, fashionably dressed, and behaved unaffectedly like a well-bred youth, but Nadyezhda Fyodorovna did not like him because she owed his father three hundred roubles; it was displeasing to her, too, that a shopkeeper had been asked to the picnic, and she was vexed at his coming up to her that evening when her heart felt so pure.
+s=none;e:nadyezhda=annoyed;e:nadyezhda=scowling
 
 “The picnic is a success altogether,” he said, after a pause.
 s=atchmianov;e:atchmianov=neutral
@@ -2107,10 +1963,7 @@ e:nadyezhda=neutral
 The fish soup was ready by now.
 s=none
 
-They were ladling it out by platefuls, and eating it with the religious solemnity with which this is only done at a picnic;
-
-
-and everyone thought the fish soup very good, and thought that at home they had never eaten anything so nice.
+They were ladling it out by platefuls, and eating it with the religious solemnity with which this is only done at a picnic; and everyone thought the fish soup very good, and thought that at home they had never eaten anything so nice.
 
 
 As is always the case at picnics, in the mass of dinner napkins, parcels, useless greasy papers fluttering in the wind, no one knew where was his glass or where his bread.
@@ -2377,11 +2230,8 @@ t=laevsky;e:laevsky=unhappy
 The windows in Samoylenko’s house were open.
 t=none;e:laevsky=neutral
 
-Laevsky looked in at one of them, then in at another;
+Laevsky looked in at one of them, then in at another; it was dark and still in the rooms.
 e:laevsky=curious
-
-it was dark and still in the rooms.
-
 
 “Alexandr Daviditch, are you asleep?” he called. “Alexandr Daviditch!”
 s=laevsky;e:laevsky=nervous
@@ -2473,11 +2323,8 @@ s=laevsky;e:laevsky=excited
 “I will send it from Petersburg as soon as I get there. You can set your mind at rest about that.”
 
 
-“I’ll tell you what, Sasha,” he said, growing more animated;
+“I’ll tell you what, Sasha,” he said, growing more animated; “let us have some wine.”
 e:laevsky=happy
-
-“let us have some wine.”
-
 
 “Yes… we can have some wine, too.”
 s=samoylenko;e:samoylenko=neutral
@@ -2590,11 +2437,8 @@ e:laevsky=serious
 “All the serious zoologists work at the biological station at Naples or Villefranche.”
 
 
-“But Von Koren is independent and obstinate: he works on the Black Sea because nobody else is working there;”
+“But Von Koren is independent and obstinate: he works on the Black Sea because nobody else is working there; he is at loggerheads with the university, does not care to know his comrades and other scientific men because he is first of all a despot and only secondly a zoologist.”
 e:laevsky=annoyed
-
-“he is at loggerheads with the university, does not care to know his comrades and other scientific men because he is first of all a despot and only secondly a zoologist.”
-
 
 “And you’ll see he’ll do something.”
 e:laevsky=contemplative
@@ -2611,11 +2455,8 @@ e:laevsky=smirking
 “Here he is a king and an eagle; he keeps all the inhabitants under his thumb and oppresses them with his authority.”
 e:laevsky=annoyed
 
-“He has appropriated everyone, he meddles in other people’s affairs;”
+“He has appropriated everyone, he meddles in other people’s affairs; everything is of use to him, and everyone is afraid of him.”
 e:laevsky=angry
-
-“everything is of use to him, and everyone is afraid of him.”
-
 
 “I am slipping out of his clutches, he feels that and hates me.”
 e:laevsky=serious
@@ -2641,17 +2482,8 @@ e:laevsky=serious
 “He works, will go for his expedition and break his neck there, not for the sake of love for his neighbour, but for the sake of such abstractions as humanity, future generations, an ideal race of men.”
 
 
-“He exerts himself for the improvement of the human race, and we are in his eyes only slaves, food for the cannon, beasts of burden;”
-e:laevsky=annoyed
-
-“some he would destroy or stow away in Siberia, others he would break by discipline, would, like Araktcheev, force them to get up and go to bed to the sound of the drum;”
-
-
-“would appoint eunuchs to preserve our chastity and morality, would order them to fire at anyone who steps out of the circle of our narrow conservative morality;”
-
-
-“and all this in the name of the improvement of the human race.… And what is the human race?”
-e:laevsky=curious
+“He exerts himself for the improvement of the human race, and we are in his eyes only slaves, food for the cannon, beasts of burden; some he would destroy or stow away in Siberia, others he would break by discipline, would, like Araktcheev, force them to get up and go to bed to the sound of the drum; would appoint eunuchs to preserve our chastity and morality, would order them to fire at anyone who steps out of the circle of our narrow conservative morality; and all this in the name of the improvement of the human race.… And what is the human race?”
+e:laevsky=annoyed;e:laevsky=curious
 
 “Illusion, mirage… despots have always been illusionists. I understand him very well, brother.”
 e:laevsky=smirking
@@ -2749,11 +2581,8 @@ s=marya;e:marya=upset
 “But there’s no evil without some compensation; your husband was no doubt a noble, wonderful, holy man, and such are more needed in Heaven than on earth.”
 e:marya=sadsmile
 
-Every line and feature in Marya Konstantinovna’s face began quivering as though little needles were jumping up and down under her skin;
-s=none;e:marya=nervous
-
-she gave an almond-oily smile and said, breathlessly, enthusiastically:
-e:marya=happy
+Every line and feature in Marya Konstantinovna’s face began quivering as though little needles were jumping up and down under her skin; she gave an almond-oily smile and said, breathlessly, enthusiastically:
+s=none;e:marya=nervous;e:marya=happy
 
 “And so you are free, my dear.”
 s=marya
@@ -2824,11 +2653,8 @@ e:nadyezhda=nervous
 “No, it’s impossible. Even if Ivan Andreitch begged me to on his knees﻿—even then I would refuse.”
 s=nadyezhda;e:nadyezhda=upset
 
-Marya Konstantinovna sat on the sofa for a minute in silence, grave and mournful, gazing fixedly into space;
-s=none;e:marya=serious
-
-then she got up and said coldly:
-e:marya=scowling
+Marya Konstantinovna sat on the sofa for a minute in silence, grave and mournful, gazing fixedly into space; then she got up and said coldly:
+s=none;e:marya=serious;e:marya=scowling
 
 “Goodbye, my dear! Forgive me for having troubled you.”
 s=marya;e:marya=angry
@@ -3010,11 +2836,8 @@ s=marya;e:marya=confused
 “It’s impossible. Oh, if only you knew!”
 s=nadyezhda;e:nadyezhda=fearful
 
-Nadyezhda Fyodorovna had an impulse to tell her about Kirilin, and how the evening before she had met handsome young Atchmianov at the harbour, and how the mad, ridiculous idea had occurred to her of cancelling her debt for three hundred;
-s=none;e:nadyezhda=nervous
-
-it had amused her very much, and she returned home late in the evening feeling that she had sold herself and was irrevocably lost.
-e:nadyezhda=weary
+Nadyezhda Fyodorovna had an impulse to tell her about Kirilin, and how the evening before she had met handsome young Atchmianov at the harbour, and how the mad, ridiculous idea had occurred to her of cancelling her debt for three hundred; it had amused her very much, and she returned home late in the evening feeling that she had sold herself and was irrevocably lost.
+s=none;e:nadyezhda=nervous;e:nadyezhda=weary
 
 She did not know herself how it had happened.
 e:nadyezhda=confused
@@ -3103,11 +2926,8 @@ s=laevsky;e:laevsky=serious
 He took his pillow and went to the door.
 s=none
 
-Ever since he had finally made up his mind to go away and leave Nadyezhda Fyodorovna, she had begun to raise in him pity and a sense of guilt;
-e:laevsky=sadsmile
-
-he felt a little ashamed in her presence, as though in the presence of a sick or old horse whom one has decided to kill.
-e:laevsky=weary
+Ever since he had finally made up his mind to go away and leave Nadyezhda Fyodorovna, she had begun to raise in him pity and a sense of guilt; he felt a little ashamed in her presence, as though in the presence of a sick or old horse whom one has decided to kill.
+e:laevsky=sadsmile;e:laevsky=weary
 
 He stopped in the doorway and looked round at her.
 
@@ -3208,11 +3028,8 @@ s=samoylenko;e:samoylenko=curious
 “Yes, to protect it and enable it to attack.”
 s=vonkoren
 
-“To be sure, to be sure.… And everything in nature, my dear fellows, is consistent and can be explained,” sighed Samoylenko;
+“To be sure, to be sure.… And everything in nature, my dear fellows, is consistent and can be explained,” sighed Samoylenko; “only I tell you what I don’t understand. You’re a man of very great intellect, so explain it to me, please.”
 s=samoylenko;e:samoylenko=contemplative
-
-“only I tell you what I don’t understand. You’re a man of very great intellect, so explain it to me, please.”
-
 
 “There are, you know, little beasts no bigger than rats, rather handsome to look at, but nasty and immoral in the extreme, let me tell you.”
 e:samoylenko=thinking
@@ -3235,10 +3052,7 @@ e:samoylenko=confused
 “I don’t know what animal you are talking of,” said Von Koren; “most likely one of the insectivora.”
 s=vonkoren;e:vonkoren=thinking
 
-“Well, he got hold of the bird because it was incautious;”
-
-
-“he broke the nest of eggs because the bird was not skilful, had made the nest badly and did not know how to conceal it.”
+“Well, he got hold of the bird because it was incautious; he broke the nest of eggs because the bird was not skilful, had made the nest badly and did not know how to conceal it.”
 
 
 “The frog probably had some defect in its colouring or he would not have seen it, and so on.”
@@ -3247,10 +3061,7 @@ s=vonkoren;e:vonkoren=thinking
 “Your little beast only destroys the weak, the unskilful, the careless﻿—in fact, those who have defects which nature does not think fit to hand on to posterity.”
 e:vonkoren=serious
 
-“Only the cleverer, the stronger, the more careful and developed survive;”
-
-
-“and so your little beast, without suspecting it, is serving the great ends of perfecting creation.”
+“Only the cleverer, the stronger, the more careful and developed survive; and so your little beast, without suspecting it, is serving the great ends of perfecting creation.”
 e:vonkoren=smirking
 
 “Yes, yes, yes.… By the way, brother,” said Samoylenko carelessly, “lend me a hundred roubles.”
@@ -3280,11 +3091,8 @@ s=vonkoren
 “If it had the proportions of an elephant, it would be an all-destructive, invincible animal.”
 
 
-“It is interesting when two moles meet underground; they begin at once as though by agreement digging a little platform;”
+“It is interesting when two moles meet underground; they begin at once as though by agreement digging a little platform; they need the platform in order to have a battle more conveniently.”
 e:vonkoren=curious
-
-“they need the platform in order to have a battle more conveniently.”
-
 
 “When they have made it they enter upon a ferocious struggle and fight till the weaker one falls.”
 e:vonkoren=serious
@@ -3298,10 +3106,7 @@ s=samoylenko;e:samoylenko=angry
 “I can’t give it to you for Laevsky. I know you like lending people money.”
 s=vonkoren;e:vonkoren=annoyed
 
-“You would give it to Kerim, the brigand, if he were to ask you;”
-
-
-“but, excuse me, I can’t assist you in that direction.”
+“You would give it to Kerim, the brigand, if he were to ask you; but, excuse me, I can’t assist you in that direction.”
 e:vonkoren=serious
 
 “Yes, it is for Laevsky I am asking it,” said Samoylenko, standing up and waving his right arm.
@@ -3337,11 +3142,8 @@ s=samoylenko;e:samoylenko=angry
 “Tell me openly: what does he want money for?”
 s=vonkoren;e:vonkoren=suspicious
 
-“It’s not a secret;”
+“It’s not a secret; he wants to go to Petersburg on Saturday.”
 s=samoylenko;e:samoylenko=neutral
-
-“he wants to go to Petersburg on Saturday.”
-
 
 “So that is it!” Von Koren drawled out. “Aha!… We understand.”
 s=vonkoren;e:vonkoren=smirking
@@ -3415,11 +3217,8 @@ s=vonkoren;e:vonkoren=angry
 “Stop; let us talk it over coolly. I imagine it will be possible to make some arrangement.…” Samoylenko reflected, twiddling his fingers. “I’ll give him the money, you see, but make him promise on his honour that within a week he’ll send Nadyezhda Fyodorovna the money for the journey.”
 s=samoylenko;e:samoylenko=thinking
 
-“And he’ll give you his word of honour﻿—in fact, he’ll shed tears and believe in it himself;”
-s=vonkoren;e:vonkoren=smirking
-
-“but what’s his word of honour worth? He won’t keep it, and when in a year or two you meet him on the Nevsky Prospect with a new mistress on his arm, he’ll excuse himself on the ground that he has been crippled by civilisation, and that he is made after the pattern of Rudin.”
-e:vonkoren=annoyed
+“And he’ll give you his word of honour﻿—in fact, he’ll shed tears and believe in it himself; but what’s his word of honour worth? He won’t keep it, and when in a year or two you meet him on the Nevsky Prospect with a new mistress on his arm, he’ll excuse himself on the ground that he has been crippled by civilisation, and that he is made after the pattern of Rudin.”
+s=vonkoren;e:vonkoren=smirking;e:vonkoren=annoyed
 
 “Drop him, for God’s sake! Keep away from the filth; don’t stir it up with both hands!”
 e:vonkoren=angry
@@ -3484,11 +3283,8 @@ e:vonkoren=neutral
 “The same, but not the same.”
 s=deacon;e:deacon=annoyed
 
-The deacon was offended and took up his pen. “If you had been the same, the Divine Grace would have rested upon you, and you would have been bishop yourself;”
+The deacon was offended and took up his pen. “If you had been the same, the Divine Grace would have rested upon you, and you would have been bishop yourself; and since you are not bishop, it follows you are not the same.”
 e:deacon=scowling
-
-“and since you are not bishop, it follows you are not the same.”
-
 
 “Don’t talk nonsense, deacon,” said Samoylenko dejectedly. “Listen to what I suggest,” he said, turning to Von Koren. “Don’t give me that hundred roubles.”
 s=samoylenko;e:samoylenko=weary
@@ -3907,23 +3703,14 @@ t=laevsky;e:laevsky=weary
 “… Oh, oh, what a disgrace! It has never happened to me.…”
 e:laevsky=unhappy
 
-They took him under his arms, and supporting his head from behind, led him away;
+They took him under his arms, and supporting his head from behind, led him away; a glass gleamed before his eyes and knocked against his teeth, and the water was spilt on his breast; he was in a little room, with two beds in the middle, side by side, covered by two snow-white quilts.
 t=none
-
-a glass gleamed before his eyes and knocked against his teeth, and the water was spilt on his breast;
-
-
-he was in a little room, with two beds in the middle, side by side, covered by two snow-white quilts.
-
 
 He dropped on one of the beds and sobbed.
 e:laevsky=unhappy
 
-“It’s nothing, it’s nothing,” Samoylenko kept saying;
+“It’s nothing, it’s nothing,” Samoylenko kept saying; “it does happen… it does happen.…”
 s=samoylenko;e:samoylenko=nervous
-
-“it does happen… it does happen.…”
-
 
 Chill with horror, trembling all over and dreading something awful, Nadyezhda Fyodorovna stood by the bedside and kept asking:
 s=none;e:nadyezhda=fearful
@@ -3934,17 +3721,11 @@ s=nadyezhda
 “Can Kirilin have written him something?” she thought.
 e:nadyezhda=nervous
 
-“It’s nothing,” said Laevsky, laughing and crying;
+“It’s nothing,” said Laevsky, laughing and crying; “go away, darling.”
 s=laevsky;e:laevsky=upset
 
-“go away, darling.”
-
-
-His face expressed neither hatred nor repulsion: so he knew nothing;
-s=none
-
-Nadyezhda Fyodorovna was somewhat reassured, and she went into the drawing room.
-e:nadyezhda=neutral
+His face expressed neither hatred nor repulsion: so he knew nothing; Nadyezhda Fyodorovna was somewhat reassured, and she went into the drawing room.
+s=none;e:nadyezhda=neutral
 
 “Don’t agitate yourself, my dear!” said Marya Konstantinovna, sitting down beside her and taking her hand.
 s=marya;e:marya=nervous
@@ -4021,11 +3802,8 @@ e:nadyezhda=neutral;e:marya=neutral
 Nadyezhda Fyodorovna, afraid that Kirilin would speak to her, did her best to keep all the time beside Marya Konstantinovna and the children.
 e:nadyezhda=wary;e:kirilin=neutral
 
-She felt weak with fear and misery, and felt she was going to be feverish;
-e:nadyezhda=fearful
-
-she was exhausted and her legs would hardly move, but she did not go home, because she felt sure that she would be followed by Kirilin or Atchmianov or both at once.
-e:nadyezhda=weary;e:atchmianov=neutral
+She felt weak with fear and misery, and felt she was going to be feverish; she was exhausted and her legs would hardly move, but she did not go home, because she felt sure that she would be followed by Kirilin or Atchmianov or both at once.
+e:nadyezhda=fearful;e:nadyezhda=weary;e:atchmianov=neutral
 
 Kirilin walked behind her with Nikodim Alexandritch, and kept humming in an undertone:
 e:kirilin=smirking
@@ -4102,11 +3880,8 @@ s=none;e:nadyezhda=fearful
 She made no reply.
 
 
-“The abrupt change in your behaviour to me I put down at first to coquetry,” Kirilin went on;
-s=kirilin;e:kirilin=serious
-
-“now I see that you don’t know how to behave with gentlemanly people.”
-e:kirilin=angry
+“The abrupt change in your behaviour to me I put down at first to coquetry,” Kirilin went on; “now I see that you don’t know how to behave with gentlemanly people.”
+s=kirilin;e:kirilin=serious;e:kirilin=angry
 
 “You simply wanted to play with me, as you are playing with that wretched Armenian boy; but I’m a gentleman and I insist on being treated like a gentleman.”
 
@@ -4612,11 +4387,8 @@ e:laevsky=happy
 But when the sun had set and it grew dark, he was possessed by a feeling of uneasiness.
 e:laevsky=nervous
 
-It was not fear at the thought of death, because while he was dining and playing cards, he had for some reason a confident belief that the duel would end in nothing;
-e:laevsky=thinking
-
-it was dread at the thought of something unknown which was to happen next morning for the first time in his life, and dread of the coming night.…
-e:laevsky=fearful
+It was not fear at the thought of death, because while he was dining and playing cards, he had for some reason a confident belief that the duel would end in nothing; it was dread at the thought of something unknown which was to happen next morning for the first time in his life, and dread of the coming night.…
+e:laevsky=thinking;e:laevsky=fearful
 
 He knew that the night would be long and sleepless, and that he would have to think not only of Von Koren and his hatred, but also of the mountain of lies which he had to get through, and which he had not strength or ability to dispense with.
 e:laevsky=weary
@@ -4954,11 +4726,8 @@ e:deacon=happy
 The deacon laughed and slapped the zoologist on the shoulder.
 s=none;e:deacon=happy
 
-“Yes…” he went on; “here you are teaching all the time, fathoming the depths of the ocean, dividing the weak and the strong, writing books and challenging to duels﻿—and everything remains as it is;”
-s=deacon;e:deacon=smirking
-
-“but, behold! some feeble old man will mutter just one word with a holy spirit, or a new Muhammad, with a sword, will gallop from Arabia, and everything will be topsy-turvy, and in Europe not one stone will be left standing upon another.”
-e:deacon=excited
+“Yes…” he went on; “here you are teaching all the time, fathoming the depths of the ocean, dividing the weak and the strong, writing books and challenging to duels﻿—and everything remains as it is; but, behold! some feeble old man will mutter just one word with a holy spirit, or a new Muhammad, with a sword, will gallop from Arabia, and everything will be topsy-turvy, and in Europe not one stone will be left standing upon another.”
+s=deacon;e:deacon=smirking;e:deacon=excited
 
 “Well, deacon, that’s on the knees of the gods.”
 s=vonkoren;e:vonkoren=smirking
@@ -5305,11 +5074,8 @@ e:nadyezhda=weary
 She did not stir, and her whole appearance, especially her head, suggested an Egyptian mummy.
 
 
-Looking at her in silence, Laevsky mentally asked her forgiveness, and thought that if the heavens were not empty and there really were a God, then He would save her;
-e:laevsky=sadsmile
-
-if there were no God, then she had better perish﻿—there was nothing for her to live for.
-e:laevsky=serious
+Looking at her in silence, Laevsky mentally asked her forgiveness, and thought that if the heavens were not empty and there really were a God, then He would save her; if there were no God, then she had better perish﻿—there was nothing for her to live for.
+e:laevsky=sadsmile;e:laevsky=serious
 
 All at once she jumped up, and sat up in bed.
 e:nadyezhda=surprised
@@ -5692,11 +5458,8 @@ s=vonkoren;e:vonkoren=annoyed
 “Reconciliation has been discussed already. What is the next formality? Make haste, gentlemen, time won’t wait for us.”
 
 
-“But we insist on reconciliation all the same,” said Sheshkovsky in a guilty voice, as a man compelled to interfere in another man’s business;
-s=sheshkovsky;e:sheshkovsky=nervous
-
-he flushed, laid his hand on his heart, and went on: “Gentlemen, we see no grounds for associating the offence with the duel.”
-e:sheshkovsky=serious
+“But we insist on reconciliation all the same,” said Sheshkovsky in a guilty voice, as a man compelled to interfere in another man’s business; he flushed, laid his hand on his heart, and went on: “Gentlemen, we see no grounds for associating the offence with the duel.”
+s=sheshkovsky;e:sheshkovsky=nervous;e:sheshkovsky=serious
 
 “There’s nothing in common between duelling and offences against one another of which we are sometimes guilty through human weakness.”
 
@@ -5896,11 +5659,8 @@ s=vonkoren;e:vonkoren=weary
 “As you like.…”
 
 
-While they were moving about the carriages and taking their seats, Kerbalay stood in the road, and, laying his hands on his stomach, he bowed low, showing his teeth;
-s=none;e:kerbalay=smirking
-
-he imagined that the gentry had come to enjoy the beauties of nature and drink tea, and could not understand why they were getting into the carriages.
-e:kerbalay=confused
+While they were moving about the carriages and taking their seats, Kerbalay stood in the road, and, laying his hands on his stomach, he bowed low, showing his teeth; he imagined that the gentry had come to enjoy the beauties of nature and drink tea, and could not understand why they were getting into the carriages.
+s=none;e:kerbalay=smirking;e:kerbalay=confused
 
 The party set off in complete silence and only the deacon was left by the *duhan*.
 e:deacon=neutral
@@ -5974,11 +5734,8 @@ e:laevsky=contemplative
 Like a man released from prison or from hospital, he stared at the long-familiar objects and wondered that the tables, the windows, the chairs, the light, and the sea stirred in him a keen, childish delight such as he had not known for long, long years.
 e:laevsky=happy
 
-Nadyezhda Fyodorovna, pale and haggard, could not understand his gentle voice and strange movements;
-e:nadyezhda=confused
-
-she made haste to tell him everything that had happened to her.…
-e:nadyezhda=nervous
+Nadyezhda Fyodorovna, pale and haggard, could not understand his gentle voice and strange movements; she made haste to tell him everything that had happened to her.…
+e:nadyezhda=confused;e:nadyezhda=nervous
 
 It seemed to her that very likely he scarcely heard and did not understand her, and that if he did know everything he would curse her and kill her, but he listened to her, stroked her face and hair, looked into her eyes and said:
 e:nadyezhda=fearful;e:laevsky=happy
@@ -6325,11 +6082,8 @@ It vanished in the waves, but at once from a deep hollow glided up onto a high b
 The boat moved three yards forward and was sucked two yards back.
 
 
-“Write!” shouted Samoylenko;
-s=samoylenko;e:samoylenko=excited
-
-“it’s devilish weather for you to go in.”
-e:samoylenko=wary
+“Write!” shouted Samoylenko; “it’s devilish weather for you to go in.”
+s=samoylenko;e:samoylenko=excited;e:samoylenko=wary
 
 “Yes, no one knows the real truth…” thought Laevsky, looking wearily at the dark, restless sea.
 s=laevsky;e:laevsky=weary
