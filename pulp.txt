@@ -1288,3 +1288,304 @@ s=vonkoren;e:vonkoren=annoyed
 “You mustn’t be slack; you must pull yourself together.”
 e:vonkoren=serious
 
+## V
+r=title
+
+Nadyezhda Fyodorovna went to bathe in the morning, and her cook, Olga, followed her with a jug, a copper basin, towels, and a sponge.
+n:olga=Olga;e:nadyezhda=neutral
+
+In the bay stood two unknown steamers with dirty white funnels, obviously foreign cargo vessels.
+
+
+Some men dressed in white and wearing white shoes were walking along the harbour, shouting loudly in French, and were answered from the steamers.
+
+
+The bells were ringing briskly in the little church of the town.
+
+
+“Today is Sunday!” Nadyezhda Fyodorovna remembered with pleasure.
+s=nadyezhda;e:nadyezhda=happy
+
+She felt perfectly well, and was in a gay holiday humour.
+s=none
+
+In a new loose-fitting dress of coarse thick tussore silk, and a big wide-brimmed straw hat which was bent down over her ears, so that her face looked out as though from a basket, she fancied she looked very charming.
+e:nadyezhda=smirking
+
+She thought that in the whole town there was only one young, pretty, intellectual woman, and that was herself, and that she was the only one who knew how to dress herself cheaply, elegantly, and with taste.
+e:nadyezhda=happy
+
+That dress, for example, cost only twenty-two roubles, and yet how charming it was!
+e:nadyezhda=excited
+
+In the whole town she was the only one who could be attractive, while there were numbers of men, so they must all, whether they would or not, be envious of Laevsky.
+e:nadyezhda=smirking
+
+She was glad that of late Laevsky had been cold to her, reserved and polite, and at times even harsh and rude; in the past she had met all his outbursts, all his contemptuous, cold or strange incomprehensible glances, with tears, reproaches, and threats to leave him or to starve herself to death; now she only blushed, looked guiltily at him, and was glad he was not affectionate to her.
+e:nadyezhda=thinking
+
+If he had abused her, threatened her, it would have been better and pleasanter, since she felt hopelessly guilty towards him.
+e:nadyezhda=unhappy
+
+She felt she was to blame, in the first place, for not sympathising with the dreams of a life of hard work, for the sake of which he had given up Petersburg and had come here to the Caucasus, and she was convinced that he had been angry with her of late for precisely that.
+e:nadyezhda=contemplative
+
+When she was travelling to the Caucasus, it seemed that she would find here on the first day a cosy nook by the sea, a snug little garden with shade, with birds, with little brooks, where she could grow flowers and vegetables, rear ducks and hens, entertain her neighbours, doctor poor peasants and distribute little books amongst them.
+e:nadyezhda=thinking
+
+It had turned out that the Caucasus was nothing but bare mountains, forests, and huge valleys, where it took a long time and a great deal of effort to find anything and settle down; that there were no neighbours of any sort; that it was very hot and one might be robbed.
+e:nadyezhda=weary
+
+Laevsky had been in no hurry to obtain a piece of land; she was glad of it, and they seemed to be in a tacit compact never to allude to a life of hard work.
+e:nadyezhda=neutral
+
+He was silent about it, she thought, because he was angry with her for being silent about it.
+e:nadyezhda=nervous
+
+In the second place, she had without his knowledge during those two years bought various trifles to the value of three hundred roubles at Atchmianov’s shop.
+e:nadyezhda=wary
+
+She had bought the things by degrees, at one time materials, at another time silk or a parasol, and the debt had grown imperceptibly.
+
+
+“I will tell him about it today…” she used to decide, but at once reflected that in Laevsky’s present mood it would hardly be convenient to talk to him of debts.
+s=nadyezhda;e:nadyezhda=contemplative
+
+Thirdly, she had on two occasions in Laevsky’s absence received a visit from Kirilin, the police captain: once in the morning when Laevsky had gone to bathe, and another time at midnight when he was playing cards.
+s=none;e:nadyezhda=nervous
+
+Remembering this, Nadyezhda Fyodorovna flushed crimson, and looked round at the cook as though she might overhear her thoughts.
+e:nadyezhda=fearful
+
+The long, insufferably hot, wearisome days, beautiful languorous evenings and stifling nights, and the whole manner of living, when from morning to night one is at a loss to fill up the useless hours, and the persistent thought that she was the prettiest young woman in the town, and that her youth was passing and being wasted, and Laevsky himself, though honest and idealistic, always the same, always lounging about in his slippers, biting his nails, and wearying her with his caprices, led by degrees to her becoming possessed by desire, and as though she were mad, she thought of nothing else day and night.
+e:nadyezhda=weary
+
+Breathing, looking, walking, she felt nothing but desire.
+e:nadyezhda=contemplative
+
+The sound of the sea told her she must love; the darkness of evening﻿—the same; the mountains﻿—the same.…
+e:nadyezhda=thinking
+
+And when Kirilin began paying her attentions, she had neither the power nor the wish to resist, and surrendered to him.…
+e:nadyezhda=weary
+
+Now the foreign steamers and the men in white reminded her for some reason of a huge hall; together with the shouts of French she heard the strains of a waltz, and her bosom heaved with unaccountable delight.
+e:nadyezhda=surprised
+
+She longed to dance and talk French.
+e:nadyezhda=excited
+
+She reflected joyfully that there was nothing terrible about her infidelity.
+e:nadyezhda=smirking
+
+Her soul had no part in her infidelity; she still loved Laevsky, and that was proved by the fact that she was jealous of him, was sorry for him, and missed him when he was away.
+e:nadyezhda=thinking
+
+Kirilin had turned out to be very mediocre, rather coarse though handsome; everything was broken off with him already and there would never be anything more.
+e:nadyezhda=scowling
+
+What had happened was over; it had nothing to do with anyone, and if Laevsky found it out he would not believe in it.
+e:nadyezhda=neutral
+
+There was only one bathing-house for ladies on the seafront; men bathed under the open sky.
+
+
+Going into the bathing-house, Nadyezhda Fyodorovna found there an elderly lady, Marya Konstantinovna Bityugov, and her daughter Katya, a schoolgirl of fifteen; both of them were sitting on a bench undressing.
+n:marya=Marya Konstantinovna Bityugov;n:katya=Katya Bityugov;e:nadyezhda=neutral
+
+Marya Konstantinovna was a good-natured, enthusiastic, and genteel person, who talked in a drawling and pathetic voice.
+e:marya=happy
+
+She had been a governess until she was thirty-two, and then had married Bityugov, a government official﻿—a bald little man with his hair combed on to his temples and with a very meek disposition.
+
+
+She was still in love with him, was jealous, blushed at the word “love,” and told everyone she was very happy.
+e:marya=happy
+
+“My dear,” she cried enthusiastically, on seeing Nadyezhda Fyodorovna, assuming an expression which all her acquaintances called “almond-oily.”
+s=marya;e:marya=excited
+
+“My dear, how delightful that you have come! We’ll bathe together﻿—that’s enchanting!”
+
+
+Olga quickly flung off her dress and chemise, and began undressing her mistress.
+s=none;e:olga=neutral
+
+“It’s not quite so hot today as yesterday?” said Nadyezhda Fyodorovna, shrinking at the coarse touch of the naked cook.
+s=nadyezhda;e:nadyezhda=wary
+
+“Yesterday I almost died of the heat.”
+
+
+“Oh, yes, my dear; I could hardly breathe myself.”
+s=marya;e:marya=weary
+
+“Would you believe it? I bathed yesterday three times!”
+e:marya=surprised
+
+“Just imagine, my dear, three times! Nikodim Alexandritch was quite uneasy.”
+e:marya=smirking
+
+“Is it possible to be so ugly?” thought Nadyezhda Fyodorovna, looking at Olga and the official’s wife; she glanced at Katya and thought: “The little girl’s not badly made.”
+s=nadyezhda;e:nadyezhda=scowling
+
+“Your Nikodim Alexandritch is very charming!” she said.
+e:nadyezhda=happy
+
+“I’m simply in love with him.”
+
+
+“Ha, ha, ha!” cried Marya Konstantinovna, with a forced laugh; “that’s quite enchanting.”
+s=marya;e:marya=happy
+
+Free from her clothes, Nadyezhda Fyodorovna felt a desire to fly.
+s=none;e:nadyezhda=happy
+
+And it seemed to her that if she were to wave her hands she would fly upwards.
+e:nadyezhda=excited
+
+When she was undressed, she noticed that Olga looked scornfully at her white body.
+e:nadyezhda=wary;e:olga=scowling
+
+Olga, a young soldier’s wife, was living with her lawful husband, and so considered herself superior to her mistress.
+e:olga=smirking
+
+Marya Konstantinovna and Katya were afraid of her, and did not respect her.
+e:marya=fearful;e:katya=fearful
+
+This was disagreeable, and to raise herself in their opinion, Nadyezhda Fyodorovna said:
+e:nadyezhda=annoyed
+
+“At home, in Petersburg, summer villa life is at its height now.”
+s=nadyezhda;e:nadyezhda=smirking
+
+“My husband and I have so many friends! We ought to go and see them.”
+e:nadyezhda=excited
+
+“I believe your husband is an engineer?” said Marya Konstantinovna timidly.
+s=marya;e:marya=nervous
+
+“I am speaking of Laevsky. He has a great many acquaintances.”
+s=nadyezhda;e:nadyezhda=neutral
+
+“But unfortunately his mother is a proud aristocrat, not very intelligent.…”
+e:nadyezhda=thinking
+
+Nadyezhda Fyodorovna threw herself into the water without finishing; Marya Konstantinovna and Katya made their way in after her.
+s=none;e:nadyezhda=neutral
+
+“There are so many conventional ideas in the world,” Nadyezhda Fyodorovna went on, “and life is not so easy as it seems.”
+s=nadyezhda;e:nadyezhda=weary
+
+Marya Konstantinovna, who had been a governess in aristocratic families and who was an authority on social matters, said:
+s=none;e:marya=neutral
+
+“Oh yes! Would you believe me, my dear, at the Garatynskys’ I was expected to dress for lunch as well as for dinner, so that, like an actress, I received a special allowance for my wardrobe in addition to my salary.”
+s=marya;e:marya=smirking
+
+She stood between Nadyezhda Fyodorovna and Katya as though to screen her daughter from the water that washed the former.
+s=none;e:marya=wary
+
+Through the open doors looking out to the sea they could see someone swimming a hundred paces from their bathing-place.
+
+
+“Mother, it’s our Kostya,” said Katya.
+s=katya;e:katya=neutral
+
+“Ach, ach!” Marya Konstantinovna cackled in her dismay.
+s=marya;e:marya=fearful
+
+“Ach, Kostya!” she shouted, “Come back! Kostya, come back!”
+
+
+Kostya, a boy of fourteen, to show off his prowess before his mother and sister, dived and swam farther, but began to be exhausted and hurried back, and from his strained and serious face it could be seen that he could not trust his own strength.
+n:kostya=Kostya Bityugov;s=none;e:kostya=nervous
+
+“The trouble one has with these boys, my dear!” said Marya Konstantinovna, growing calmer.
+s=marya;e:marya=weary
+
+“Before you can turn round, he will break his neck.”
+e:marya=wary
+
+“Ah, my dear, how sweet it is, and yet at the same time how difficult, to be a mother! One’s afraid of everything.”
+e:marya=thinking
+
+Nadyezhda Fyodorovna put on her straw hat and dashed out into the open sea.
+s=none;e:nadyezhda=excited
+
+She swam some thirty feet and then turned on her back.
+
+
+She could see the sea to the horizon, the steamers, the people on the seafront, the town; and all this, together with the sultry heat and the soft, transparent waves, excited her and whispered that she must live, live.…
+e:nadyezhda=excited
+
+A sailing-boat darted by her rapidly and vigorously, cleaving the waves and the air; the man sitting at the helm looked at her, and she liked being looked at.…
+e:nadyezhda=smirking
+
+After bathing, the ladies dressed and went away together.
+
+
+“I have fever every alternate day, and yet I don’t get thin,” said Nadyezhda Fyodorovna, licking her lips, which were salt from the bathe, and responding with a smile to the bows of her acquaintances.
+s=nadyezhda;e:nadyezhda=happy
+
+“I’ve always been plump, and now I believe I’m plumper than ever.”
+
+
+“That, my dear, is constitutional.”
+s=marya;e:marya=neutral
+
+“If, like me, one has no constitutional tendency to stoutness, no diet is of any use.…”
+
+
+“But you’ve wetted your hat, my dear.”
+e:marya=surprised
+
+“It doesn’t matter; it will dry.”
+s=nadyezhda;e:nadyezhda=neutral
+
+Nadyezhda Fyodorovna saw again the men in white who were walking on the seafront and talking French; and again she felt a sudden thrill of joy, and had a vague memory of some big hall in which she had once danced, or of which, perhaps, she had once dreamed.
+s=none;e:nadyezhda=happy
+
+And something at the bottom of her soul dimly and obscurely whispered to her that she was a pretty, common, miserable, worthless woman.…
+e:nadyezhda=unhappy
+
+Marya Konstantinovna stopped at her gate and asked her to come in and sit down for a little while.
+e:marya=neutral
+
+“Come in, my dear,” she said in an imploring voice, and at the same time she looked at Nadyezhda Fyodorovna with anxiety and hope;
+s=marya;e:marya=nervous
+
+perhaps she would refuse and not come in!
+s=none;e:marya=fearful
+
+“With pleasure,” said Nadyezhda Fyodorovna, accepting.
+s=nadyezhda;e:nadyezhda=happy
+
+“You know how I love being with you!”
+
+
+And she went into the house.
+s=none
+
+Marya Konstantinovna sat her down and gave her coffee, regaled her with milk rolls, then showed her photographs of her former pupils, the Garatynskys, who were by now married.
+e:marya=happy
+
+She showed her, too, the examination reports of Kostya and Katya.
+
+
+The reports were very good, but to make them seem even better, she complained, with a sigh, how difficult the lessons at school were now.…
+e:marya=weary
+
+She made much of her visitor, and was sorry for her, though at the same time she was harassed by the thought that Nadyezhda Fyodorovna might have a corrupting influence on the morals of Kostya and Katya, and was glad that her Nikodim Alexandritch was not at home.
+e:marya=wary
+
+Seeing that in her opinion all men are fond of “women like that,” Nadyezhda Fyodorovna might have a bad effect on Nikodim Alexandritch too.
+e:marya=suspicious
+
+As she talked to her visitor, Marya Konstantinovna kept remembering that they were to have a picnic that evening, and that Von Koren had particularly begged her to say nothing about it to the “Japanese monkeys”﻿—that is, Laevsky and Nadyezhda Fyodorovna; but she dropped a word about it unawares, crimsoned, and said in confusion:
+e:marya=surprised
+
+“I hope you will come too!”
+s=marya;e:marya=nervous
+
+
