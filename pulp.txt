@@ -442,3 +442,255 @@ s=none;e:samoylenko=serious
 “Be so good as to give me some soda-water!”
 s=samoylenko;e:samoylenko=happy
 
+## II
+r=title
+
+Laevsky’s not loving Nadyezhda Fyodorovna showed itself chiefly in the fact that everything she said or did seemed to him a lie, or equivalent to a lie, and everything he read against women and love seemed to him to apply perfectly to himself, to Nadyezhda Fyodorovna and her husband.
+n:nadyezhda=Nadyezhda “Nadya” Fyodorovna;e:laevsky=thinking
+
+When he returned home, she was sitting at the window, dressed and with her hair done, and with a preoccupied face was drinking coffee and turning over the leaves of a fat magazine; and he thought the drinking of coffee was not such a remarkable event that she need put on a preoccupied expression over it, and that she had been wasting her time doing her hair in a fashionable style, as there was no one here to attract and no need to be attractive.
+e:nadyezhda=neutral;e:laevsky=annoyed
+
+And in the magazine he saw nothing but falsity. He thought she had dressed and done her hair so as to look handsomer, and was reading in order to seem clever.
+e:laevsky=scowling
+
+“Will it be all right for me to go to bathe today?” she said.
+s=nadyezhda;e:nadyezhda=curious
+
+“Why? There won’t be an earthquake whether you go or not, I suppose.﻿﻿…”
+s=laevsky;e:laevsky=annoyed
+
+“No, I only ask in case the doctor should be vexed.”
+s=nadyezhda;e:nadyezhda=wary
+
+“Well, ask the doctor, then; I’m not a doctor.”
+s=laevsky;e:laevsky=annoyed
+
+On this occasion what displeased Laevsky most in Nadyezhda Fyodorovna was her white open neck and the little curls at the back of her head.
+s=none;e:laevsky=scowling
+
+And he remembered that when Anna Karenin got tired of her husband, what she disliked most of all was his ears, and thought: “How true it is, how true!”
+s=laevsky;e:laevsky=thinking
+
+Feeling weak and as though his head were perfectly empty, he went into his study, lay down on his sofa, and covered his face with a handkerchief that he might not be bothered by the flies.
+s=none;e:laevsky=weary
+
+Despondent and oppressive thoughts always about the same thing trailed slowly across his brain like a long string of wagons on a gloomy autumn evening, and he sank into a state of drowsy oppression.
+e:laevsky=unhappy
+
+It seemed to him that he had wronged Nadyezhda Fyodorovna and her husband, and that it was through his fault that her husband had died.
+e:laevsky=upset
+
+It seemed to him that he had sinned against his own life, which he had ruined, against the world of lofty ideas, of learning, and of work, and he conceived that wonderful world as real and possible, not on this seafront with hungry Turks and lazy mountaineers sauntering upon it, but there in the North, where there were operas, theatres, newspapers, and all kinds of intellectual activity.
+e:laevsky=contemplative
+
+One could only there﻿—not here﻿—be honest, intelligent, lofty, and pure.
+
+
+He accused himself of having no ideal, no guiding principle in life, though he had a dim understanding now what it meant.
+e:laevsky=unhappy
+
+Two years before, when he fell in love with Nadyezhda Fyodorovna, it seemed to him that he had only to go with her as his wife to the Caucasus, and he would be saved from vulgarity and emptiness; in the same way now, he was convinced that he had only to part from Nadyezhda Fyodorovna and to go to Petersburg, and he would get everything he wanted.
+e:laevsky=thinking
+
+“Run away,” he muttered to himself, sitting up and biting his nails.
+s=laevsky;e:laevsky=nervous
+
+“Run away!”
+
+
+He pictured in his imagination how he would go aboard the steamer and then would have some lunch, would drink some cold beer, would talk on deck with ladies, then would get into the train at Sevastopol and set off.
+s=none;e:laevsky=contemplative
+
+Hurrah for freedom! One station after another would flash by, the air would keep growing colder and keener, then the birches and the fir trees, then Kursk, Moscow.﻿﻿…
+e:laevsky=excited
+
+In the restaurants cabbage soup, mutton with kasha, sturgeon, beer, no more Asiaticism, but Russia, real Russia.
+e:laevsky=happy
+
+The passengers in the train would talk about trade, new singers, the Franco-Russian entente; on all sides there would be the feeling of keen, cultured, intellectual, eager life.﻿﻿… Hasten on, on!
+e:laevsky=excited
+
+At last Nevsky Prospect, and Great Morskaya Street, and then Kovensky Place, where he used to live at one time when he was a student, the dear grey sky, the drizzling rain, the drenched cabmen.﻿﻿…
+e:laevsky=happy
+
+“Ivan Andreitch!” someone called from the next room.
+n:clerk=?;s=clerk;e:laevsky=surprised;m=nospeaker
+
+“Are you at home?”
+
+
+“I’m here,” Laevsky responded.
+s=laevsky;e:laevsky=neutral;m=
+
+“What do you want?”
+e:laevsky=annoyed
+
+“Papers.”
+s=clerk;e:clerk=neutral;m=nospeaker
+
+Laevsky got up languidly, feeling giddy, walked into the other room, yawning and shuffling with his slippers.
+s=none;e:laevsky=weary;m=
+
+There, at the open window that looked into the street, stood one of his young fellow-clerks, laying out some government documents on the windowsill.
+n:clerk=Clerk
+
+“One minute, my dear fellow,” Laevsky said softly, and he went to look for the ink; returning to the window, he signed the papers without looking at them, and said: “It’s hot!”
+s=laevsky;e:laevsky=weary
+
+“Yes. Are you coming today?”
+s=clerk;e:clerk=curious
+
+“I don’t think so.﻿﻿… I’m not quite well.”
+s=laevsky;e:laevsky=weary
+
+“Tell Sheshkovsky that I will come and see him after dinner.”
+e:laevsky=neutral
+
+The clerk went away.
+s=none
+
+Laevsky lay down on his sofa again and began thinking:
+e:laevsky=thinking
+
+“And so I must weigh all the circumstances and reflect on them.”
+s=laevsky;e:laevsky=serious
+
+“Before I go away from here I ought to pay up my debts. I owe about two thousand roubles. I have no money.﻿﻿…”
+e:laevsky=weary
+
+“Of course, that’s not important; I shall pay part now, somehow, and I shall send the rest, later, from Petersburg.”
+e:laevsky=thinking
+
+“The chief point is Nadyezhda Fyodorovna.﻿﻿… First of all we must define our relations.﻿﻿… Yes.”
+e:laevsky=contemplative
+
+A little later he was considering whether it would not be better to go to Samoylenko for advice.
+s=none
+
+“I might go,” he thought, “but what use would there be in it?”
+t=laevsky;e:laevsky=contemplative
+
+“I shall only say something inappropriate about boudoirs, about women, about what is honest or dishonest.”
+e:laevsky=annoyed
+
+“What’s the use of talking about what is honest or dishonest, if I must make haste to save my life, if I am suffocating in this cursed slavery and am killing myself?﻿﻿…”
+e:laevsky=upset
+
+“One must realise at last that to go on leading the life I do is something so base and so cruel that everything else seems petty and trivial beside it.”
+e:laevsky=angry
+
+“To run away,” he muttered, sitting down, “to run away.”
+t=;s=laevsky;e:laevsky=nervous
+
+The deserted seashore, the insatiable heat, and the monotony of the smoky lilac mountains, ever the same and silent, everlastingly solitary, overwhelmed him with depression, and, as it were, made him drowsy and sapped his energy.
+s=none;e:laevsky=weary
+
+He was perhaps very clever, talented, remarkably honest; perhaps if the sea and the mountains had not closed him in on all sides, he might have become an excellent Zemstvo leader, a statesman, an orator, a political writer, a saint.
+e:laevsky=contemplative
+
+Who knows? If so, was it not stupid to argue whether it were honest or dishonest when a gifted and useful man﻿—an artist or musician, for instance﻿—to escape from prison, breaks a wall and deceives his jailers?
+e:laevsky=thinking
+
+Anything is honest when a man is in such a position.
+e:laevsky=serious
+
+At two o’clock Laevsky and Nadyezhda Fyodorovna sat down to dinner.
+e:laevsky=neutral;e:nadyezhda=neutral
+
+When the cook gave them rice and tomato soup, Laevsky said:
+
+
+“The same thing every day. Why not have cabbage soup?”
+s=laevsky;e:laevsky=annoyed
+
+“There are no cabbages.”
+s=nadyezhda
+
+“It’s strange.”
+s=laevsky;e:laevsky=scowling
+
+“Samoylenko has cabbage soup and Marya Konstantinovna has cabbage soup, and only I am obliged to eat this mawkish mess. We can’t go on like this, darling.”
+e:laevsky=angry
+
+As is common with the vast majority of husbands and wives, not a single dinner had in earlier days passed without scenes and faultfinding between Nadyezhda Fyodorovna and Laevsky;
+s=none
+
+but ever since Laevsky had made up his mind that he did not love her, he had tried to give way to Nadyezhda Fyodorovna in everything, spoke to her gently and politely, smiled, and called her “darling.”
+
+
+“This soup tastes like liquorice,” he said, smiling; he made an effort to control himself and seem amiable, but could not refrain from saying: “Nobody looks after the housekeeping.﻿﻿… If you are too ill or busy with reading, let me look after the cooking.”
+s=laevsky;e:laevsky=sadsmile
+
+In earlier days she would have said to him, “Do by all means,” or, “I see you want to turn me into a cook”;
+s=none;e:nadyezhda=nervous
+
+but now she only looked at him timidly and flushed crimson.
+e:nadyezhda=fearful
+
+“Well, how do you feel today?” he asked kindly.
+s=laevsky;e:laevsky=sadsmile
+
+“I am all right today. There is nothing but a little weakness.”
+s=nadyezhda;e:nadyezhda=weary
+
+“You must take care of yourself, darling. I am awfully anxious about you.”
+s=laevsky;e:laevsky=nervous
+
+Nadyezhda Fyodorovna was ill in some way.
+s=none
+
+Samoylenko said she had intermittent fever, and gave her quinine; the other doctor, Ustimovitch, a tall, lean, unsociable man, who used to sit at home in the daytime, and in the evenings walk slowly up and down on the seafront coughing, with his hands folded behind him and a cane stretched along his back, was of opinion that she had a female complaint, and prescribed warm compresses.
+
+
+In old days, when Laevsky loved her, Nadyezhda Fyodorovna’s illness had excited his pity and terror; now he saw falsity even in her illness.
+e:laevsky=scowling
+
+Her yellow, sleepy face, her lustreless eyes, her apathetic expression, and the yawning that always followed her attacks of fever, and the fact that during them she lay under a shawl and looked more like a boy than a woman, and that it was close and stuffy in her room﻿—all this, in his opinion, destroyed the illusion and was an argument against love and marriage.
+e:laevsky=annoyed
+
+The next dish given him was spinach with hard-boiled eggs, while Nadyezhda Fyodorovna, as an invalid, had jelly and milk.
+
+
+When with a preoccupied face she touched the jelly with a spoon and then began languidly eating it, sipping milk, and he heard her swallowing, he was possessed by such an overwhelming aversion that it made his head tingle.
+e:laevsky=upset
+
+He recognised that such a feeling would be an insult even to a dog, but he was angry, not with himself but with Nadyezhda Fyodorovna, for arousing such a feeling, and he understood why lovers sometimes murder their mistresses.
+e:laevsky=angry
+
+He would not murder her, of course, but if he had been on a jury now, he would have acquitted the murderer.
+e:laevsky=scowling
+
+“Merci, darling,” he said after dinner, and kissed Nadyezhda Fyodorovna on the forehead.
+s=laevsky;e:laevsky=sadsmile
+
+Going back into his study, he spent five minutes in walking to and fro, looking at his boots;
+s=none;e:laevsky=contemplative
+
+then he sat down on his sofa and muttered:
+e:laevsky=serious
+
+“Run away, run away! We must define the position and run away!”
+s=laevsky;e:laevsky=nervous
+
+He lay down on the sofa and recalled again that Nadyezhda Fyodorovna’s husband had died, perhaps, by his fault.
+s=none;e:laevsky=unhappy
+
+“To blame a man for loving a woman, or ceasing to love a woman, is stupid,” he persuaded himself, lying down and raising his legs in order to put on his high boots.
+s=laevsky;e:laevsky=thinking
+
+“Love and hatred are not under our control.”
+e:laevsky=contemplative
+
+“As for her husband, maybe I was in an indirect way one of the causes of his death; but again, is it my fault that I fell in love with his wife and she with me?”
+e:laevsky=serious
+
+Then he got up, and finding his cap, set off to the lodgings of his colleague, Sheshkovsky, where the government clerks met every day to play Vint and drink beer.
+s=none;e:laevsky=neutral
+
+“My indecision reminds me of Hamlet,” thought Laevsky on the way.
+t=laevsky;e:laevsky=thinking
+
+“How truly Shakespeare describes it! Ah, how truly!”
+e:laevsky=contemplative
+
