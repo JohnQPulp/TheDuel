@@ -5545,4 +5545,295 @@ s=none;e:sheshkovsky=neutral
 “They’re coming!”
 s=sheshkovsky
 
+## XIX
+r=title
+
+“It’s the first time in my life I’ve seen it! How glorious!” said Von Koren, pointing to the glade and stretching out his hands to the east. “Look: green rays!”
+s=vonkoren;e:vonkoren=excited
+
+In the east behind the mountains rose two green streaks of light, and it really was beautiful.
+s=none
+
+The sun was rising.
+
+
+“Good morning!” the zoologist went on, nodding to Laevsky’s seconds. “I’m not late, am I?”
+s=vonkoren;e:vonkoren=happy
+
+He was followed by his seconds, Boyko and Govorovsky, two very young officers of the same height, wearing white tunics, and Ustimovitch, the thin, unsociable doctor; in one hand he had a bag of some sort, and in the other hand, as usual, a cane which he held behind him.
+n:boyko=Boyko;n:govorovsky=Govorovsky;n:ustimovitch=Ustimovitch;s=none
+
+Laying the bag on the ground and greeting no one, he put the other hand, too, behind his back and began pacing up and down the glade.
+e:ustimovitch=neutral
+
+Laevsky felt the exhaustion and awkwardness of a man who is soon perhaps to die, and is for that reason an object of general attention.
+e:laevsky=weary
+
+He wanted to be killed as soon as possible or taken home.
+e:laevsky=unhappy
+
+He saw the sunrise now for the first time in his life; the early morning, the green rays of light, the dampness, and the men in wet boots, seemed to him to have nothing to do with his life, to be superfluous and embarrassing.
+e:laevsky=weary
+
+All this had no connection with the night he had been through, with his thoughts and his feeling of guilt, and so he would have gladly gone away without waiting for the duel.
+e:laevsky=upset
+
+Von Koren was noticeably excited and tried to conceal it, pretending that he was more interested in the green light than anything.
+e:vonkoren=excited
+
+The seconds were confused, and looked at one another as though wondering why they were here and what they were to do.
+e:boyko=confused;e:govorovsky=confused
+
+“I imagine, gentlemen, there is no need for us to go further,” said Sheshkovsky. “This place will do.”
+s=sheshkovsky;e:sheshkovsky=nervous
+
+“Yes, of course,” Von Koren agreed.
+s=vonkoren;e:vonkoren=neutral
+
+A silence followed.
+s=none
+
+Ustimovitch, pacing to and fro, suddenly turned sharply to Laevsky and said in a low voice, breathing into his face:
+e:ustimovitch=serious
+
+“They have very likely not told you my terms yet. Each side is to pay me fifteen roubles, and in the case of the death of one party, the survivor is to pay thirty.”
+s=ustimovitch
+
+Laevsky was already acquainted with the man, but now for the first time he had a distinct view of his lustreless eyes, his stiff moustaches, and wasted, consumptive neck; he was a moneygrubber, not a doctor; his breath had an unpleasant smell of beef.
+s=none;e:laevsky=annoyed
+
+“What people there are in the world!” thought Laevsky, and answered: “Very good.”
+s=laevsky;e:laevsky=weary
+
+The doctor nodded and began pacing to and fro again, and it was evident he did not need the money at all, but simply asked for it from hatred.
+s=none;e:ustimovitch=scowling
+
+Everyone felt it was time to begin, or to end what had been begun, but instead of beginning or ending, they stood about, moved to and fro and smoked.
+e:laevsky=nervous
+
+The young officers, who were present at a duel for the first time in their lives, and even now hardly believed in this civilian and, to their thinking, unnecessary duel, looked critically at their tunics and stroked their sleeves.
+e:boyko=nervous;e:govorovsky=nervous
+
+Sheshkovsky went up to them and said softly: “Gentlemen, we must use every effort to prevent this duel; they ought to be reconciled.”
+s=sheshkovsky;e:sheshkovsky=wary
+
+He flushed crimson and added:
+s=none;e:sheshkovsky=upset
+
+“Kirilin was at my rooms last night complaining that Laevsky had found him with Nadyezhda Fyodorovna, and all that sort of thing.”
+s=sheshkovsky
+
+“Yes, we know that too,” said Boyko.
+s=boyko;e:boyko=serious
+
+“Well, you see, then… Laevsky’s hands are trembling and all that sort of thing… he can scarcely hold a pistol now.”
+s=sheshkovsky;e:sheshkovsky=nervous
+
+“To fight with him is as inhuman as to fight a man who is drunk or who has typhoid.”
+
+
+“If a reconciliation cannot be arranged, we ought to put off the duel, gentlemen, or something.… It’s such a sickening business, I can’t bear to see it.”
+e:sheshkovsky=upset
+
+“Talk to Von Koren.”
+s=boyko;e:boyko=neutral
+
+“I don’t know the rules of duelling, damnation take them, and I don’t want to either; perhaps he’ll imagine Laevsky funks it and has sent me to him, but he can think what he likes﻿—I’ll speak to him.”
+s=sheshkovsky;e:sheshkovsky=annoyed
+
+Sheshkovsky hesitatingly walked up to Von Koren with a slight limp, as though his leg had gone to sleep; and as he went towards him, clearing his throat, his whole figure was a picture of indolence.
+s=none;e:sheshkovsky=nervous
+
+“There’s something I must say to you, sir,” he began, carefully scrutinising the flowers on the zoologist’s shirt.
+s=sheshkovsky
+
+“It’s confidential. I don’t know the rules of duelling, damnation take them, and I don’t want to, and I look on the matter not as a second and that sort of thing, but as a man, and that’s all about it.”
+
+
+“Yes. Well?”
+s=vonkoren;e:vonkoren=curious
+
+“When seconds suggest reconciliation they are usually not listened to; it is looked upon as a formality. *Amour propre* and all that.”
+s=sheshkovsky;e:sheshkovsky=wary
+
+“But I humbly beg you to look carefully at Ivan Andreitch. He’s not in a normal state, so to speak, today﻿—not in his right mind, and a pitiable object.”
+e:sheshkovsky=upset
+
+“He has had a misfortune. I can’t endure gossip.…”
+
+
+Sheshkovsky flushed crimson and looked round.
+s=none;e:sheshkovsky=nervous
+
+“But in view of the duel, I think it necessary to inform you, Laevsky found his madam last night at Muridov’s with… another gentleman.”
+s=sheshkovsky;e:sheshkovsky=weary
+
+“How disgusting!” muttered the zoologist; he turned pale, frowned, and spat loudly. “Tfoo!”
+s=vonkoren;e:vonkoren=scowling
+
+His lower lip quivered, he walked away from Sheshkovsky, unwilling to hear more, and as though he had accidentally tasted something bitter, spat loudly again, and for the first time that morning looked with hatred at Laevsky.
+s=none;e:vonkoren=angry
+
+His excitement and awkwardness passed off; he tossed his head and said aloud:
+e:vonkoren=serious
+
+“Gentlemen, what are we waiting for, I should like to know? Why don’t we begin?”
+s=vonkoren
+
+Sheshkovsky glanced at the officers and shrugged his shoulders.
+s=none;e:sheshkovsky=confused
+
+“Gentlemen,” he said aloud, addressing no one in particular.
+s=sheshkovsky
+
+“Gentlemen, we propose that you should be reconciled.”
+e:sheshkovsky=wary
+
+“Let us make haste and get the formalities over,” said Von Koren.
+s=vonkoren;e:vonkoren=annoyed
+
+“Reconciliation has been discussed already. What is the next formality? Make haste, gentlemen, time won’t wait for us.”
+
+
+“But we insist on reconciliation all the same,” said Sheshkovsky in a guilty voice, as a man compelled to interfere in another man’s business;
+s=sheshkovsky;e:sheshkovsky=nervous
+
+he flushed, laid his hand on his heart, and went on: “Gentlemen, we see no grounds for associating the offence with the duel.”
+e:sheshkovsky=serious
+
+“There’s nothing in common between duelling and offences against one another of which we are sometimes guilty through human weakness.”
+
+
+“You are university men and men of culture, and no doubt you see in the duel nothing but a foolish and out-of-date formality, and all that sort of thing.”
+
+
+“That’s how we look at it ourselves, or we shouldn’t have come, for we cannot allow that in our presence men should fire at one another, and all that.”
+
+
+Sheshkovsky wiped the perspiration off his face and went on:
+s=
+
+“Make an end to your misunderstanding, gentlemen; shake hands, and let us go home and drink to peace. Upon my honour, gentlemen!”
+e:sheshkovsky=wary;s=sheshkovsky
+
+Von Koren did not speak.
+s=none;e:vonkoren=scowling
+
+Laevsky, seeing that they were looking at him, said:
+e:laevsky=weary
+
+“I have nothing against Nikolay Vassilitch; if he considers I’m to blame, I’m ready to apologise to him.”
+s=laevsky;e:laevsky=sadsmile
+
+Von Koren was offended.
+s=none;e:vonkoren=angry
+
+“It is evident, gentlemen,” he said, “you want Mr. Laevsky to return home a magnanimous and chivalrous figure, but I cannot give you and him that satisfaction.”
+s=vonkoren;e:vonkoren=scowling
+
+“And there was no need to get up early and drive eight miles out of town simply to drink to peace, to have breakfast, and to explain to me that the duel is an out-of-date formality.”
+
+
+“A duel is a duel, and there is no need to make it more false and stupid than it is in reality. I want to fight!”
+e:vonkoren=angry
+
+A silence followed.
+s=none
+
+Boyko took a pair of pistols out of a box; one was given to Von Koren and one to Laevsky, and then there followed a difficulty which afforded a brief amusement to the zoologist and the seconds.
+e:boyko=serious;e:vonkoren=smirking
+
+It appeared that of all the people present not one had ever in his life been at a duel, and no one knew precisely how they ought to stand, and what the seconds ought to say and do.
+e:boyko=confused
+
+But then Boyko remembered and began, with a smile, to explain.
+e:boyko=happy
+
+“Gentlemen, who remembers the description in Lermontov?” asked Von Koren, laughing. “In Turgenev, too, Bazarov had a duel with someone.…”
+s=vonkoren;e:vonkoren=smirking
+
+“There’s no need to remember,” said Ustimovitch impatiently. “Measure the distance, that’s all.”
+s=ustimovitch;e:ustimovitch=annoyed
+
+And he took three steps as though to show how to measure it.
+s=none;e:ustimovitch=serious
+
+Boyko counted out the steps while his companion drew his sabre and scratched the earth at the extreme points to mark the barrier.
+e:boyko=serious;e:govorovsky=serious
+
+In complete silence the opponents took their places.
+e:laevsky=fearful;e:vonkoren=serious
+
+“Moles,” the deacon thought, sitting in the bushes.
+t=deacon;e:deacon=scowling
+
+Sheshkovsky said something, Boyko explained something again, but Laevsky did not hear﻿—or rather heard, but did not understand.
+t=none;e:laevsky=confused
+
+He cocked his pistol when the time came to do so, and raised the cold, heavy weapon with the barrel upwards.
+e:laevsky=nervous
+
+He forgot to unbutton his overcoat, and it felt very tight over his shoulder and under his arm, and his arm rose as awkwardly as though the sleeve had been cut out of tin.
+e:laevsky=wary
+
+He remembered the hatred he had felt the night before for the swarthy brow and curly hair, and felt that even yesterday at the moment of intense hatred and anger he could not have shot a man.
+e:laevsky=weary
+
+Fearing that the bullet might somehow hit Von Koren by accident, he raised the pistol higher and higher, and felt that this too obvious magnanimity was indelicate and anything but magnanimous, but he did not know how else to do and could do nothing else.
+e:laevsky=nervous
+
+Looking at the pale, ironically smiling face of Von Koren, who evidently had been convinced from the beginning that his opponent would fire in the air, Laevsky thought that, thank God, everything would be over directly, and all that he had to do was to press the trigger rather hard.…
+e:vonkoren=smirking;e:laevsky=fearful
+
+He felt a violent shock on the shoulder; there was the sound of a shot and an answering echo in the mountains: ping-ting!
+e:laevsky=surprised
+
+Von Koren cocked his pistol and looked at Ustimovitch, who was pacing as before with his hands behind his back, taking no notice of anyone.
+e:vonkoren=serious;e:ustimovitch=neutral
+
+“Doctor,” said the zoologist, “be so good as not to move to and fro like a pendulum. You make me dizzy.”
+s=vonkoren;e:vonkoren=annoyed
+
+The doctor stood still.
+s=none;e:ustimovitch=serious
+
+Von Koren began to take aim at Laevsky.
+e:vonkoren=serious
+
+“It’s all over!” thought Laevsky.
+t=laevsky;e:laevsky=fearful
+
+The barrel of the pistol aimed straight at his face, the expression of hatred and contempt in Von Koren’s attitude and whole figure, and the murder just about to be committed by a decent man in broad daylight, in the presence of decent men, and the stillness and the unknown force that compelled Laevsky to stand still and not to run﻿—how mysterious it all was, how incomprehensible and terrible!
+t=none;e:laevsky=fearful;e:vonkoren=angry
+
+The moment while Von Koren was taking aim seemed to Laevsky longer than a night: he glanced imploringly at the seconds; they were pale and did not stir.
+e:sheshkovsky=fearful;e:boyko=fearful
+
+“Make haste and fire,” thought Laevsky, and felt that his pale, quivering, and pitiful face must arouse even greater hatred in Von Koren.
+s=laevsky;e:laevsky=fearful
+
+“I’ll kill him directly,” thought Von Koren, aiming at his forehead, with his finger already on the catch.
+s=vonkoren;e:vonkoren=angry
+
+“Yes, of course I’ll kill him.”
+
+
+“He’ll kill him!”
+s=deacon;e:deacon=fearful
+
+A despairing shout was suddenly heard somewhere very close at hand.
+s=none
+
+A shot rang out at once.
+e:laevsky=surprised;e:vonkoren=surprised
+
+Seeing that Laevsky remained standing where he was and did not fall, they all looked in the direction from which the shout had come, and saw the deacon.
+
+
+With pale face and wet hair sticking to his forehead and his cheeks, wet through and muddy, he was standing in the maize on the further bank, smiling rather queerly and waving his wet hat.
+e:deacon=sadsmile
+
+Sheshkovsky laughed with joy, burst into tears, and moved away.…
+e:sheshkovsky=happy
+
 
