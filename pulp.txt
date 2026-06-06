@@ -91,7 +91,7 @@ e:laevsky=upset
 Samoylenko, who had a misgiving of what he was going to speak about, dropped his eyes and drummed with his fingers on the table.
 s=none;e:samoylenko=wary
 
-“I’ve lived with her for two years and have ceased to love her,” Laevsky went on; “or, rather, I realised that I never had felt any love for her.… These two years have been a mistake.”
+“I’ve lived with her for two years and have ceased to love her,” Laevsky went on; “or, rather, I realised that I never had felt any love for her.… These two years have been a mistake.”<e>A moth goes into a podiatrist's office…</e>
 s=laevsky;e:laevsky=sadsmile;e:laevsky=unhappy
 
 It was Laevsky’s habit as he talked to gaze attentively at the pink palms of his hands, to bite his nails, or to pinch his cuffs.
@@ -442,7 +442,7 @@ s=laevsky;e:laevsky=annoyed
 On this occasion what displeased Laevsky most in Nadyezhda Fyodorovna was her white open neck and the little curls at the back of her head.
 s=none;e:laevsky=scowling
 
-And he remembered that when Anna Karenin got tired of her husband, what she disliked most of all was his ears, and thought: “How true it is, how true!”
+And he remembered that when Anna Karenin got tired of her husband, what she disliked most of all was his ears, and thought: “How true it is, how true!”<e>SPOILERS.</e>
 s=laevsky;e:laevsky=thinking
 
 Feeling weak and as though his head were perfectly empty, he went into his study, lay down on his sofa, and covered his face with a handkerchief that he might not be bothered by the flies.
@@ -529,7 +529,7 @@ e:laevsky=thinking
 “And so I must weigh all the circumstances and reflect on them.”
 s=laevsky;e:laevsky=serious
 
-“Before I go away from here I ought to pay up my debts. I owe about two thousand roubles. I have no money.﻿﻿…”
+“Before I go away from here I ought to pay up my debts. I owe about two thousand roubles. I have no money.﻿﻿…”<e>A Russian novel about being in debt. Chekhov's always bringing these fresh ideas to the table.</e>
 e:laevsky=weary
 
 “Of course, that’s not important; I shall pay part now, somehow, and I shall send the rest, later, from Petersburg.”
@@ -1141,7 +1141,7 @@ The zoologist and the deacon sat on a bench by the table, while Samoylenko sank 
 The orderly handed them tea, jam, and a bottle of syrup.
 
 
-It was very hot, thirty degrees Réaumur in the shade.
+It was very hot, thirty degrees Réaumur in the shade.<e>99.5°F</e>
 
 
 The sultry air was stagnant and motionless, and a long spiderweb, stretching from the chestnut tree to the ground, hung limply and did not stir.
@@ -1900,7 +1900,7 @@ s=nadyezhda;e:nadyezhda=curious;e:atchmianov=wary
 “And so it seems,” said the officer, slowly, “that our love has withered before it has blossomed, so to speak.”
 s=kirilin;e:kirilin=contemplative
 
-“How do you wish me to understand it? Is it a sort of coquetry on your part, or do you look upon me as a nincompoop who can be treated as you choose.”
+“How do you wish me to understand it? Is it a sort of coquetry on your part, or do you look upon me as a nincompoop who can be treated as you choose.”<e>Great translation of шалопаем.</e>
 e:kirilin=annoyed
 
 “It was a mistake! Leave me alone!” Nadyezhda Fyodorovna said sharply, on that beautiful, marvellous evening, looking at him with terror and asking herself with bewilderment, could there really have been a moment when that man attracted her and had been near to her?
@@ -3391,7 +3391,7 @@ s=samoylenko;e:samoylenko=serious
 “It’s not for nothing they whistle.”
 s=vonkoren;e:vonkoren=contemplative
 
-“The fact that girls strangle their illegitimate children and go to prison for it, and that Anna Karenin flung herself under the train, and that in the villages they smear the gates with tar, and that you and I, without knowing why, are pleased by Katya’s purity, and that every one of us feels a vague craving for pure love, though he knows there is no such love﻿—is all that prejudice?”
+“The fact that girls strangle their illegitimate children and go to prison for it, and that Anna Karenin flung herself under the train, and that in the villages they smear the gates with tar, and that you and I, without knowing why, are pleased by Katya’s purity, and that every one of us feels a vague craving for pure love, though he knows there is no such love﻿—is all that prejudice?”<e>SPOILERS.</e>
 
 
 “That is the one thing, brother, which has survived intact from natural selection, and, if it were not for that obscure force regulating the relations of the sexes, the Laevskys would have it all their own way, and mankind would degenerate in two years.”
@@ -3556,7 +3556,7 @@ e:laevsky=contemplative
 But Laevsky felt that was impossible for him.
 e:laevsky=fearful
 
-“Friday, Friday…” he thought.
+“Friday, Friday…” he thought.<e>♫Can't trust that day♫</e>
 t=laevsky;e:laevsky=nervous
 
 “Friday.…”
@@ -3859,7 +3859,7 @@ After two meetings she was weary of him, had thrown him over, and did not that, 
 “Here I’ll say goodbye to you, darling,” said Laevsky.
 s=laevsky;e:laevsky=neutral
 
-“Ilya Mihalitch will see you home.”
+“Ilya Mihalitch will see you home.”<e>Gee Kirilin, how come you get two patronymics?</e>
 n:kirilin=Yegor Alekseitch “Ilya Mihalitch” (???) Kirilin
 
 He nodded to Kirilin, and, quickly crossing the boulevard, walked along the street to Sheshkovsky’s, where there were lights in the windows, and then they heard the gate bang as he went in.
@@ -4867,7 +4867,7 @@ r=title
 “Upon my mind, weighed down with woe,<br>Crowd thoughts, a heavy multitude:<br>In silence memory unfolds<br>Her long, long scroll before my eyes.”
 m=margin
 
-“Loathing and shuddering I curse<br>And bitterly lament in vain,<br>And bitter though the tears I weep<br>I do not wash those lines away.”<br><div class='fright italics'>Pushkin.</div>
+“Loathing and shuddering I curse<br>And bitterly lament in vain,<br>And bitter though the tears I weep<br>I do not wash those lines away.”<br><div class='fright italics'>Pushkin.</div><e>Pushkin was famously killed in a duel — hence this opener.</e>
 
 
 Whether they killed him next morning, or mocked at him﻿—that is, left him his life﻿—he was ruined, anyway.
@@ -5945,13 +5945,13 @@ She held out her hand uncertainly, while Laevsky bowed.
 s=none
 
 “What pitiful figures they are, though!” thought Von Koren.
-s=vonkoren;e:vonkoren=weary
+t=vonkoren;e:vonkoren=weary
 
 “The life they are living does not come easy to them.”
 e:vonkoren=sadsmile
 
 “I shall be in Moscow and Petersburg; can I send you anything?” he asked.
-e:vonkoren=neutral
+t=;s=vonkoren;e:vonkoren=neutral
 
 “Oh!” said Nadyezhda Fyodorovna, and she looked anxiously at her husband.
 s=nadyezhda;e:nadyezhda=surprised
