@@ -8,7 +8,7 @@ It was eight o’clock in the morning—the time when the officers, the local of
 
 
 Ivan Andreitch Laevsky, a thin, fair young man of twenty-eight, wearing the cap of a clerk in the Ministry of Finance and with slippers on his feet, coming down to bathe, found a number of acquaintances on the beach, and among them his friend Samoylenko, the army doctor.
-n:laevsky=Ivan Andreitch “Vanya” Laevsky;e:laevsky=neutral;n:samoylenko=Alexandr Daviditch “Sasha” Samoylenko;e:samoylenko=neutral
+n:laevsky=Ivan Andreitch Laevsky;e:laevsky=neutral;n:samoylenko=Alexandr Daviditch Samoylenko;e:samoylenko=neutral
 
 With his big cropped head, short neck, his red face, his big nose, his shaggy black eyebrows and grey whiskers, his stout puffy figure and his hoarse military bass, this Samoylenko made on every newcomer the unpleasant impression of a gruff bully; but two or three days after making his acquaintance, one began to think his face extraordinarily good-natured, kind, and even handsome.
 e:samoylenko=happy
@@ -56,7 +56,7 @@ e:laevsky=neutral;e:samoylenko=neutral
 s=samoylenko;e:samoylenko=serious
 
 “But one must look at the thing humanely, Vanya. If it were my case, I should never show a sign that I did not love her, and I should go on living with her till I died.”
-e:samoylenko=contemplative
+e:samoylenko=contemplative;n:laevsky=Ivan Andreitch “Vanya” Laevsky
 
 He was at once ashamed of his own words; he pulled himself up and said:
 s=none;e:samoylenko=nervous
@@ -1019,7 +1019,7 @@ e:vonkoren=scowling
 s=samoylenko;e:samoylenko=nervous
 
 “He is a man the same as everyone else.”
-
+n:vonkoren=“Kolya” Von Koren
 
 “Of course, he has his weaknesses, but he is abreast of modern ideas, is in the service, is of use to his country.”
 e:samoylenko=neutral
@@ -1517,7 +1517,7 @@ They started out soon after five. Foremost of the party in a charabanc drove Sam
 e:samoylenko=neutral;e:laevsky=neutral;e:marya=neutral;e:nadyezhda=neutral;e:katya=neutral;e:kostya=neutral
 
 In the next carriage came the police captain, Kirilin, and the young Atchmianov, the son of the shopkeeper to whom Nadyezhda Fyodorovna owed three hundred roubles; opposite them, huddled up on the little seat with his feet tucked under him, sat Nikodim Alexandritch, a neat little man with hair combed on to his temples.
-n:kirilin=Kirilin;n:atchmianov=Atchmianov;e:kirilin=neutral;e:atchmianov=neutral;n:nikodim=Nikodim Alexandritch;e:nikodim=neutral
+n:kirilin=Kirilin;n:atchmianov=Atchmianov;e:kirilin=neutral;e:atchmianov=neutral;n:nikodim=Nikodim Alexandritch Bityugov;e:nikodim=neutral
 
 Last of all came Von Koren and the deacon; at the deacon’s feet stood a basket of fish.
 e:vonkoren=neutral;e:deacon=neutral
@@ -1622,7 +1622,7 @@ e:laevsky=weary
 s=samoylenko;e:samoylenko=excited
 
 “I see nothing fine in that, Sasha,” answered Laevsky.
-s=laevsky;e:laevsky=weary
+s=laevsky;e:laevsky=weary;n:samoylenko=Alexandr Daviditch “Sasha” Samoylenko
 
 “To be in continual ecstasies over nature shows poverty of imagination.”
 e:laevsky=annoyed
@@ -1775,7 +1775,7 @@ s=kirilin;e:kirilin=annoyed
 e:kirilin=angry
 
 “We have plenty of wine of our own, Yegor Alekseitch,” Nikodim Alexandritch observed, timidly and politely.
-s=nikodim;e:nikodim=nervous
+s=nikodim;e:nikodim=nervous;n:kirilin=Yegor Alekseitch Kirilin
 
 “What? But I want us to have my wine, too; I’m taking part in the picnic and I imagine I have full right to contribute my share.”
 s=kirilin;e:kirilin=scowling
@@ -3860,7 +3860,7 @@ After two meetings she was weary of him, had thrown him over, and did not that, 
 s=laevsky;e:laevsky=neutral
 
 “Ilya Mihalitch will see you home.”
-
+n:kirilin=Yegor Alekseitch “Ilya Mihalitch” (???) Kirilin
 
 He nodded to Kirilin, and, quickly crossing the boulevard, walked along the street to Sheshkovsky’s, where there were lights in the windows, and then they heard the gate bang as he went in.
 s=none
@@ -5297,7 +5297,7 @@ e:deacon=curious
 s=deacon;e:deacon=confused
 
 “How rude it is of them!” said the superintendent of the post-office, looking at his watch.
-n:superintendent=Superintendent;s=superintendent;e:superintendent=annoyed
+n:superintendent=Postal Superintendent;s=superintendent;e:superintendent=annoyed
 
 “It may be learned manners to be late, but to my thinking it’s hoggish.”
 
@@ -5324,7 +5324,7 @@ The sun was rising.
 s=vonkoren;e:vonkoren=happy
 
 He was followed by his seconds, Boyko and Govorovsky, two very young officers of the same height, wearing white tunics, and Ustimovitch, the thin, unsociable doctor; in one hand he had a bag of some sort, and in the other hand, as usual, a cane which he held behind him.
-n:boyko=Boyko;n:govorovsky=Govorovsky;n:ustimovitch=Ustimovitch;s=none
+n:boyko=Boyko;n:govorovsky=Govorovsky;n:ustimovitch=Dr. Ustimovitch;s=none
 
 Laying the bag on the ground and greeting no one, he put the other hand, too, behind his back and began pacing up and down the glade.
 e:ustimovitch=neutral
@@ -5486,7 +5486,7 @@ e:laevsky=weary
 s=laevsky;e:laevsky=sadsmile
 
 Von Koren was offended.
-s=none;e:vonkoren=angry
+s=none;e:vonkoren=angry;n:vonkoren=Nikolay Vassilitch “Kolya” Von Koren
 
 “It is evident, gentlemen,” he said, “you want Mr. Laevsky to return home a magnanimous and chivalrous figure, but I cannot give you and him that satisfaction.”
 s=vonkoren;e:vonkoren=scowling
