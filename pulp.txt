@@ -4586,7 +4586,7 @@ e:laevsky=contemplative
 r=title
 
 “The ‘humane studies’ of which you speak will only satisfy human thought when, as they advance, they meet the exact sciences and progress side by side with them.”
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;b=beach-wide-night-clouded;x:vonkoren=hat;x:deacon=hat
 
 “Whether they will meet under a new microscope, or in the monologues of a new Hamlet, or in a new religion, I do not know, but I expect the earth will be covered with a crust of ice before it comes to pass.”
 e:vonkoren=contemplative
@@ -4594,10 +4594,7 @@ e:vonkoren=contemplative
 “Of all humane learning the most durable and living is, of course, the teaching of Christ; but look how differently even that is interpreted!”
 e:vonkoren=serious
 
-“Some teach that we must love all our neighbours but make an exception of soldiers, criminals, and lunatics.”
-
-
-“They allow the first to be killed in war, the second to be isolated or executed, and the third they forbid to marry.”
+“Some teach that we must love all our neighbours but make an exception of soldiers, criminals, and lunatics. They allow the first to be killed in war, the second to be isolated or executed, and the third they forbid to marry.”
 
 
 “Other interpreters teach that we must love all our neighbours without exception, with no distinction of *plus* or *minus*.”
@@ -4637,16 +4634,13 @@ e:vonkoren=serious
 s=deacon;e:deacon=thinking
 
 “Is that it? But our natural man through self-love opposes the voice of conscience and reason, and this gives rise to many brain-racking questions.”
-e:deacon=curious
+e:deacon=contemplative
 
 “To whom ought we to turn for the solution of those questions if you forbid us to put them on the philosophic basis?”
 
 
-“Turn to what little exact science we have. Trust to evidence and the logic of facts.”
+“Turn to what little exact science we have. Trust to evidence and the logic of facts. It is true it is but little, but, on the other hand, it is less fluid and shifting than philosophy.”
 s=vonkoren;e:vonkoren=serious
-
-“It is true it is but little, but, on the other hand, it is less fluid and shifting than philosophy.”
-
 
 “The moral law, let us suppose, demands that you love your neighbour. Well?”
 e:vonkoren=contemplative
@@ -4661,7 +4655,7 @@ e:vonkoren=serious
 e:vonkoren=scowling
 
 “So love consists in the strong overcoming the weak.”
-s=deacon;e:deacon=surprised
+s=deacon;e:deacon=annoyed
 
 “Undoubtedly.”
 s=vonkoren;e:vonkoren=serious
@@ -4687,23 +4681,17 @@ e:vonkoren=scowling
 “Among savages untouched by civilisation the strongest, cleverest, and most moral takes the lead; he is the chief and the master.”
 e:vonkoren=serious
 
-“But we civilised men have crucified Christ, and we go on crucifying Him, so there is something lacking in us.…”
+“But we civilised men have crucified Christ, and we go on crucifying Him, so there is something lacking in us.… And that something one ought to raise up in ourselves, or there will be no end to these errors.”
 e:vonkoren=weary
 
-“And that something one ought to raise up in ourselves, or there will be no end to these errors.”
-e:vonkoren=serious
-
 “But what criterion have you to distinguish the strong from the weak?”
-s=deacon;e:deacon=confused
+s=deacon;e:deacon=serious
 
-“Knowledge and evidence.”
+“Knowledge and evidence. The tuberculous and the scrofulous are recognised by their diseases, and the insane and the immoral by their actions.”
 s=vonkoren;e:vonkoren=serious
 
-“The tuberculous and the scrofulous are recognised by their diseases, and the insane and the immoral by their actions.”
-
-
 “But mistakes may be made!”
-s=deacon;e:deacon=upset
+s=deacon;e:deacon=serious;i=2
 
 “Yes, but it’s no use to be afraid of getting your feet wet when you are threatened with the deluge!”
 s=vonkoren;e:vonkoren=annoyed
@@ -4735,38 +4723,35 @@ e:vonkoren=thinking
 “We shout that war is plunder, robbery, atrocity, fratricide; we cannot look upon blood without fainting; but the French or the Germans have only to insult us for us to feel at once an exaltation of spirit; in the most genuine way we shout ‘Hurrah!’ and rush to attack the foe.”
 e:vonkoren=excited
 
-“You will invoke the blessing of God on our weapons, and our valour will arouse universal and general enthusiasm.”
-
-
-“Again it follows that there is a force, if not higher, at any rate stronger, than us and our philosophy.”
+“You will invoke the blessing of God on our weapons, and our valour will arouse universal and general enthusiasm. Again it follows that there is a force, if not higher, at any rate stronger, than us and our philosophy. We can no more stop it than that cloud which is moving upwards over the sea.”
 e:vonkoren=serious
 
-“We can no more stop it than that cloud which is moving upwards over the sea.”
-e:vonkoren=contemplative
-
-“Don’t be hypocritical, don’t make a long nose at it on the sly; and don’t say, ‘Ah, old-fashioned, stupid!”
-e:vonkoren=annoyed
-
-“Ah, it’s inconsistent with Scripture!’ but look it straight in the face, recognise its rational lawfulness, and when, for instance, it wants to destroy a rotten, scrofulous, corrupt race, don’t hinder it with your pilules and misunderstood quotations from the Gospel.”
+“Don’t be hypocritical, don’t make a long nose at it on the sly; and don’t say, ‘Ah, old-fashioned, stupid! Ah, it’s inconsistent with Scripture!’ but look it straight in the face, recognise its rational lawfulness, and when, for instance, it wants to destroy a rotten, scrofulous, corrupt race, don’t hinder it with your pilules and misunderstood quotations from the Gospel.”
 e:vonkoren=angry
 
-“Leskov has a story of a conscientious Danila who found a leper outside the town, and fed and warmed him in the name of love and of Christ.”
-e:vonkoren=serious
-
-“If that Danila had really loved humanity, he would have dragged the leper as far as possible from the town, and would have flung him in a pit, and would have gone to save the healthy.”
+“Leskov has a story of a conscientious Danila who found a leper outside the town, and fed and warmed him in the name of love and of Christ. If that Danila had really loved humanity, he would have dragged the leper as far as possible from the town, and would have flung him in a pit, and would have gone to save the healthy.”
 e:vonkoren=scowling
 
 “Christ, I hope, taught us a rational, intelligent, practical love.”
 e:vonkoren=serious
 
-“What a fellow you are!” laughed the deacon. “You don’t believe in Christ. Why do you mention His name so often?”
-s=deacon;e:deacon=smirking
+“What a fellow you are!” laughed the deacon.
+s=deacon;e:deacon=curious
+
+“You don’t believe in Christ. Why do you mention His name so often?”
+e:deacon=curious
 
 “Yes, I do believe in Him. Only, of course, in my own way, not in yours.”
 s=vonkoren;e:vonkoren=serious
 
-“Oh, deacon, deacon!” laughed the zoologist; he put his arm round the deacon’s waist, and said gaily: “Well? Are you coming with us to the duel tomorrow?”
+“Oh, deacon, deacon!” laughed the zoologist;
 e:vonkoren=happy
+
+he put his arm round the deacon’s waist, and said gaily:
+s=
+
+“Well? Are you coming with us to the duel tomorrow?”
+s=vonkoren;e:vonkoren=smirking
 
 “My orders don’t allow it, or else I should come.”
 s=deacon;e:deacon=unhappy
@@ -4778,16 +4763,16 @@ s=vonkoren;e:vonkoren=curious
 s=deacon;e:deacon=serious
 
 “Oh, deacon, deacon,” repeated Von Koren, laughing, “I love talking to you.”
-s=vonkoren;e:vonkoren=happy
+s=vonkoren;e:vonkoren=smirking
 
 “You say you have faith,” said the deacon. “What sort of faith is it?”
 s=deacon;e:deacon=curious
 
 “Why, I have an uncle, a priest, and he believes so that when in time of drought he goes out into the fields to pray for rain, he takes his umbrella and leather overcoat for fear of getting wet through on his way home.”
-e:deacon=smirking
+e:deacon=thinking
 
 “That’s faith! When he speaks of Christ, his face is full of radiance, and all the peasants, men and women, weep floods of tears.”
-e:deacon=excited
+e:deacon=happy
 
 “He would stop that cloud and put all those forces you talk about to flight. Yes… faith moves mountains.”
 e:deacon=happy
@@ -4795,8 +4780,11 @@ e:deacon=happy
 The deacon laughed and slapped the zoologist on the shoulder.
 s=none;e:deacon=happy
 
-“Yes…” he went on; “here you are teaching all the time, fathoming the depths of the ocean, dividing the weak and the strong, writing books and challenging to duels﻿—and everything remains as it is; but, behold! some feeble old man will mutter just one word with a holy spirit, or a new Muhammad, with a sword, will gallop from Arabia, and everything will be topsy-turvy, and in Europe not one stone will be left standing upon another.”
-s=deacon;e:deacon=smirking;e:deacon=excited
+“Yes…” he went on; “here you are teaching all the time, fathoming the depths of the ocean, dividing the weak and the strong, writing books and challenging to duels﻿—and everything remains as it is;”
+s=deacon;e:deacon=smirking
+
+“but, behold! some feeble old man will mutter just one word with a holy spirit, or a new Muhammad, with a sword, will gallop from Arabia, and everything will be topsy-turvy, and in Europe not one stone will be left standing upon another.”
+e:deacon=contemplative
 
 “Well, deacon, that’s on the knees of the gods.”
 s=vonkoren;e:vonkoren=smirking
@@ -4805,58 +4793,61 @@ s=vonkoren;e:vonkoren=smirking
 s=deacon;e:deacon=serious
 
 The doctor came into sight on the seafront. He saw the deacon and the zoologist, and went up to them.
-s=none;e:samoylenko=neutral
+s=none;e:samoylenko=neutral;x:samoylenko=hat
 
-“I believe everything is ready,” he said, breathing hard. “Govorovsky and Boyko will be the seconds.”
+“I believe everything is ready,” he said, breathing hard.
 s=samoylenko;e:samoylenko=weary
 
-“They will start at five o’clock in the morning.”
+“Govorovsky and Boyko will be the seconds. They will start at five o’clock in the morning.”
 
 
 “How it has clouded over,” he said, looking at the sky. “One can see nothing; there will be rain directly.”
-e:samoylenko=wary
+e:samoylenko=contemplativeskylooking
 
 “I hope you are coming with us?” said the zoologist.
 s=vonkoren;e:vonkoren=curious
 
-“No, God preserve me; I’m worried enough as it is.”
-s=samoylenko;e:samoylenko=nervous
-
-“Ustimovitch is going instead of me. I’ve spoken to him already.”
-e:samoylenko=weary
+“No, God preserve me; I’m worried enough as it is. Ustimovitch is going instead of me. I’ve spoken to him already.”
+s=samoylenko;e:samoylenko=weary
 
 Far over the sea was a flash of lightning, followed by a hollow roll of thunder.
 s=none
 
-“How stifling it is before a storm!” said Von Koren. “I bet you’ve been to Laevsky already and have been weeping on his bosom.”
-s=vonkoren;e:vonkoren=smirking
+“How stifling it is before a storm!” said Von Koren.
+s=vonkoren;e:vonkoren=thinking
 
-“Why should I go to him?” answered the doctor in confusion. “What next?”
+“I bet you’ve been to Laevsky already and have been weeping on his bosom.”
+e:vonkoren=smirking
+
+“Why should I go to him?” answered the doctor in confusion.
 s=samoylenko;e:samoylenko=confused
 
+“What next?”
+e:samoylenko=weary
+
 Before sunset he had walked several times along the boulevard and the street in the hope of meeting Laevsky.
-s=none;e:samoylenko=neutral
+s=none;e:samoylenko=neutral;f:b:beach-wide-night-clouded=blur(3px)
 
 He was ashamed of his hastiness and the sudden outburst of friendliness which had followed it.
 e:samoylenko=unhappy
 
-He wanted to apologise to Laevsky in a joking tone, to give him a good talking to, to soothe him and to tell him that the duel was a survival of medieval barbarism, but that Providence itself had brought them to the duel as a means of reconciliation; that the next day, both being splendid and highly intelligent people, they would, after exchanging shots, appreciate each other’s noble qualities and would become friends.
+He wanted to apologise to Laevsky in a joking tone, to give him a good talking to, to soothe him and to tell him that the duel was a survival of medieval barbarism, but that Providence itself had brought them to the duel as a means of reconciliation;
 e:samoylenko=thinking
+
+that the next day, both being splendid and highly intelligent people, they would, after exchanging shots, appreciate each other’s noble qualities and would become friends.
+
 
 But he could not come across Laevsky.
 e:samoylenko=sadsmile
 
 “What should I go and see him for?” repeated Samoylenko. “I did not insult him; he insulted me.”
-s=samoylenko;e:samoylenko=annoyed
+s=samoylenko;e:samoylenko=serious;f:b:beach-wide-night-clouded=
 
 “Tell me, please, why he attacked me. What harm had I done him?”
-e:samoylenko=confused
+e:samoylenko=unhappy
 
-“I go into the drawing room, and, all of a sudden, without the least provocation: ‘Spy!’ There’s a nice thing!”
+“I go into the drawing room, and, all of a sudden, without the least provocation: ‘Spy!’ There’s a nice thing! Tell me, how did it begin? What did you say to him?”
 e:samoylenko=upset
-
-“Tell me, how did it begin? What did you say to him?”
-e:samoylenko=curious
 
 “I told him his position was hopeless. And I was right.”
 s=vonkoren;e:vonkoren=serious
@@ -4865,7 +4856,7 @@ s=vonkoren;e:vonkoren=serious
 
 
 “But it’s eleven o’clock, gentlemen, and we have to be up early tomorrow.”
-e:vonkoren=neutral
+e:vonkoren=thinking
 
 There was a sudden gust of wind; it blew up the dust on the seafront, whirled it round in eddies, with a howl that drowned the roar of the sea.
 s=none
@@ -4877,13 +4868,13 @@ As they went, Samoylenko sighed and, holding his hat, said:
 s=none;e:samoylenko=weary
 
 “I suppose I shan’t sleep tonight.”
-s=samoylenko;e:samoylenko=nervous
+s=samoylenko;e:samoylenko=nervoushatholding
 
 “Don’t you agitate yourself,” laughed the zoologist. “You can set your mind at rest; the duel will end in nothing.”
 s=vonkoren;e:vonkoren=smirking
 
 “Laevsky will magnanimously fire into the air﻿—he can do nothing else; and I daresay I shall not fire at all.”
-e:vonkoren=neutral
+e:vonkoren=contemplative
 
 “To be arrested and lose my time on Laevsky’s account﻿—the game’s not worth the candle.”
 e:vonkoren=annoyed
@@ -4904,10 +4895,10 @@ s=samoylenko;e:samoylenko=thinking
 s=vonkoren;e:vonkoren=scowling
 
 Behind them on the sea, there was a flash of lightning, which for an instant lighted up the roofs of the houses and the mountains.
-s=none
+s=none;f:b:beach-wide-night-clouded=blur(3px)
 
 The friends parted near the boulevard.
-
+b=boulevard-night
 
 When the doctor disappeared in the darkness and his steps had died away, Von Koren shouted to him:
 
@@ -4919,7 +4910,7 @@ s=vonkoren;e:vonkoren=serious
 s=samoylenko;e:samoylenko=nervous
 
 “Good night!”
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=shouting
 
 “What about the night? What do you say?”
 s=samoylenko;e:samoylenko=confused
@@ -4927,8 +4918,11 @@ s=samoylenko;e:samoylenko=confused
 In the roar of the wind and the sea and the crashes of thunder, it was difficult to hear.
 s=none
 
-“It’s nothing,” shouted the zoologist, and hurried home.
-s=vonkoren;e:vonkoren=neutral
+“It’s nothing,” shouted the zoologist,
+s=vonkoren;e:vonkoren=shouting;i=2;m=allowbreak
+
+and hurried home.
+m=;s=
 
 ## XVII
 r=title
