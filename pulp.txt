@@ -2021,37 +2021,46 @@ t=deacon;e:deacon=sadsmile
 r=title
 
 Kirilin and Atchmianov climbed up the mountain by the path.
-
+b=meadow-duhan-wide
 
 Atchmianov dropped behind and stopped, while Kirilin went up to Nadyezhda Fyodorovna.
 e:atchmianov=weary;e:kirilin=neutral;e:nadyezhda=neutral
 
 “Good evening,” he said, touching his cap.
-s=kirilin;e:kirilin=neutral
+s=kirilin;e:kirilin=captouching;x:kirilin=hat
 
 “Good evening.”
-s=nadyezhda;e:nadyezhda=neutral
+s=nadyezhda;e:nadyezhda=wary;x:nadyezhda=cotton,hat
 
 “Yes!” said Kirilin, looking at the sky and pondering.
-s=kirilin;e:kirilin=thinking
+s=kirilin;e:kirilin=skypondering
 
 “Why ‘yes’?” asked Nadyezhda Fyodorovna after a brief pause, noticing that Atchmianov was watching them both.
-s=nadyezhda;e:nadyezhda=curious;e:atchmianov=wary
+s=nadyezhda;e:nadyezhda=nervous;e:atchmianov=wary
 
 “And so it seems,” said the officer, slowly, “that our love has withered before it has blossomed, so to speak.”
 s=kirilin;e:kirilin=contemplative
 
-“How do you wish me to understand it? Is it a sort of coquetry on your part, or do you look upon me as a nincompoop who can be treated as you choose.”<e>Great translation of шалопаем.</e>
-e:kirilin=annoyed
+“How do you wish me to understand it?”
+e:kirilin=serious
 
-“It was a mistake! Leave me alone!” Nadyezhda Fyodorovna said sharply, on that beautiful, marvellous evening, looking at him with terror and asking herself with bewilderment, could there really have been a moment when that man attracted her and had been near to her?
-s=nadyezhda;e:nadyezhda=fearful
+“Is it a sort of coquetry on your part, or do you look upon me as a nincompoop who can be treated as you choose.”<e>"nincompoop"</e>
 
-“So that’s it!” said Kirilin; he thought in silence for a few minutes and said: “Well, I’ll wait till you are in a better humour, and meanwhile I venture to assure you I am a gentleman, and I don’t allow anyone to doubt it.”
-s=kirilin;e:kirilin=serious
 
-“Adieu!”
-e:kirilin=neutral
+“It was a mistake! Leave me alone!” Nadyezhda Fyodorovna said sharply,
+s=nadyezhda;e:nadyezhda=fearful;m=allowbreak
+
+on that beautiful, marvellous evening, looking at him with terror and asking herself with bewilderment, could there really have been a moment when that man attracted her and had been near to her?
+m=;s=
+
+“So that’s it!” said Kirilin;
+s=kirilin;e:kirilin=serious;i=3
+
+he thought in silence for a few minutes and said:
+s=
+
+“Well, I’ll wait till you are in a better humour, and meanwhile I venture to assure you I am a gentleman, and I don’t allow anyone to doubt it. Adieu!”
+s=kirilin;e:kirilin=thinking
 
 He touched his cap again and walked off, making his way between the bushes.
 s=none;e:kirilin=neutral
@@ -2060,33 +2069,39 @@ After a short interval Atchmianov approached hesitatingly.
 e:atchmianov=nervous
 
 “What a fine evening!” he said with a slight Armenian accent.
-s=atchmianov;e:atchmianov=happy
+s=atchmianov;e:atchmianov=happy;x:atchmianov=hat
 
-He was nice-looking, fashionably dressed, and behaved unaffectedly like a well-bred youth, but Nadyezhda Fyodorovna did not like him because she owed his father three hundred roubles; it was displeasing to her, too, that a shopkeeper had been asked to the picnic, and she was vexed at his coming up to her that evening when her heart felt so pure.
+He was nice-looking, fashionably dressed, and behaved unaffectedly like a well-bred youth, but Nadyezhda Fyodorovna did not like him because she owed his father three hundred roubles;
 s=none;e:nadyezhda=annoyed;e:nadyezhda=scowling
+
+it was displeasing to her, too, that a shopkeeper had been asked to the picnic, and she was vexed at his coming up to her that evening when her heart felt so pure.
+
 
 “The picnic is a success altogether,” he said, after a pause.
 s=atchmianov;e:atchmianov=neutral
 
-“Yes,” she agreed, and as though suddenly remembering her debt, she said carelessly: “Oh, tell them in your shop that Ivan Andreitch will come round in a day or two and will pay three hundred roubles.… I don’t remember exactly what it is.”
-s=nadyezhda;e:nadyezhda=neutral
+“Yes,” she agreed,
+s=nadyezhda;e:nadyezhda=contemplative;m=allowbreak
+
+and as though suddenly remembering her debt, she said carelessly:
+s=;m=
+
+“Oh, tell them in your shop that Ivan Andreitch will come round in a day or two and will pay three hundred roubles.… I don’t remember exactly what it is.”
+e:nadyezhda=unhappy;s=nadyezhda
 
 “I would give another three hundred if you would not mention that debt every day.”
 s=atchmianov;e:atchmianov=weary
 
 “Why be prosaic?”
-e:atchmianov=smirking
+e:atchmianov=curious
 
 Nadyezhda Fyodorovna laughed; the amusing idea occurred to her that if she had been willing and sufficiently immoral she might in one minute be free from her debt.
 s=none;e:nadyezhda=smirking
 
-If she, for instance, were to turn the head of this handsome young fool!
+If she, for instance, were to turn the head of this handsome young fool! How amusing, absurd, wild it would be really!
 e:nadyezhda=contemplative
 
-How amusing, absurd, wild it would be really!
-e:nadyezhda=excited
-
-And she suddenly felt a longing to make him love her, to plunder him, throw him over, and then to see what would come of it.
+And she suddenly felt a longing to make him love her, to plunder him, throw him over, and then to see what would come of it.<e>"plunder"</e>
 e:nadyezhda=smirking
 
 “Allow me to give you one piece of advice,” Atchmianov said timidly.
@@ -2095,17 +2110,20 @@ s=atchmianov;e:atchmianov=nervous
 “I beg you to beware of Kirilin. He says horrible things about you everywhere.”
 e:atchmianov=serious
 
-“It doesn’t interest me to know what every fool says of me,” Nadyezhda Fyodorovna said coldly, and the amusing thought of playing with handsome young Atchmianov suddenly lost its charm.
-s=nadyezhda;e:nadyezhda=scowling
+“It doesn’t interest me to know what every fool says of me,” Nadyezhda Fyodorovna said coldly,
+s=nadyezhda;e:nadyezhda=scowling;m=allowbreak
+
+and the amusing thought of playing with handsome young Atchmianov suddenly lost its charm.
+m=;s=
 
 “We must go down,” she said; “they’re calling us.”
-e:nadyezhda=neutral
+s=nadyezhda;e:nadyezhda=contemplative
 
 The fish soup was ready by now.
 s=none
 
 They were ladling it out by platefuls, and eating it with the religious solemnity with which this is only done at a picnic; and everyone thought the fish soup very good, and thought that at home they had never eaten anything so nice.
-
+b=meadow-shed-via-fire-smoke
 
 As is always the case at picnics, in the mass of dinner napkins, parcels, useless greasy papers fluttering in the wind, no one knew where was his glass or where his bread.
 
@@ -2120,19 +2138,19 @@ Nadyezhda Fyodorovna drank one glass and then another, got a little drunk and fo
 e:nadyezhda=happy
 
 “A splendid picnic, an enchanting evening,” said Laevsky, growing lively with the wine.
-s=laevsky;e:laevsky=happy
+s=laevsky;e:laevsky=happy;x:laevsky=hat
 
-“But I should prefer a fine winter to all this.”
-e:laevsky=thinking
-
-“‘His beaver collar is silver with hoarfrost.’”
-e:laevsky=contemplative
+“But I should prefer a fine winter to all this. ‘His beaver collar is silver with hoarfrost.’”
+e:laevsky=unhappy
 
 “Everyone to his taste,” observed Von Koren.
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=annoyed;x:vonkoren=hat
 
-Laevsky felt uncomfortable; the heat of the campfire was beating upon his back, and the hatred of Von Koren upon his breast and face: this hatred on the part of a decent, clever man, a feeling in which there probably lay hid a well-grounded reason, humiliated him and enervated him, and unable to stand up against it, he said in a propitiatory tone:
+Laevsky felt uncomfortable; the heat of the campfire was beating upon his back, and the hatred of Von Koren upon his breast and face:
 s=none;e:laevsky=nervous;e:vonkoren=scowling
+
+this hatred on the part of a decent, clever man, a feeling in which there probably lay hid a well-grounded reason, humiliated him and enervated him, and unable to stand up against it, he said in a propitiatory tone:
+
 
 “I am passionately fond of nature, and I regret that I’m not a naturalist. I envy you.”
 s=laevsky;e:laevsky=sadsmile
@@ -2141,19 +2159,22 @@ s=laevsky;e:laevsky=sadsmile
 s=nadyezhda;e:nadyezhda=annoyed
 
 “I don’t understand how anyone can seriously interest himself in beetles and ladybirds while the people are suffering.”
-e:nadyezhda=scowling
+
 
 Laevsky shared her opinion.
 s=none;e:laevsky=neutral
 
-He was absolutely ignorant of natural science, and so could never reconcile himself to the authoritative tone and the learned and profound air of the people who devoted themselves to the whiskers of ants and the claws of beetles, and he always felt vexed that these people, relying on these whiskers, claws, and something they called protoplasm (he always imagined it in the form of an oyster), should undertake to decide questions involving the origin and life of man.
-e:laevsky=annoyed
+He was absolutely ignorant of natural science, and so could never reconcile himself to the authoritative tone and the learned and profound air of the people who devoted themselves to the whiskers of ants and the claws of beetles,
+e:laevsky=annoyed;m=allowbreak
+
+and he always felt vexed that these people, relying on these whiskers, claws, and something they called protoplasm (he always imagined it in the form of an oyster), should undertake to decide questions involving the origin and life of man.
+m=
 
 But in Nadyezhda Fyodorovna’s words he heard a note of falsity, and simply to contradict her he said:
 e:laevsky=serious
 
 “The point is not the ladybirds, but the deductions made from them.”
-s=laevsky;e:laevsky=neutral
+s=laevsky;e:laevsky=thinking
 
 ## VIII
 r=title
