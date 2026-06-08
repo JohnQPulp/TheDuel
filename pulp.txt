@@ -3508,7 +3508,7 @@ s=none;e:samoylenko=upset;m=allowbreak
 and went into the drawing room, crimson, and overcome with confusion.
 m=;b=marya-drawing
 
-“Friday… Friday,” thought Laevsky, going back into the drawing room.
+“Friday… Friday,” thought Laevsky, going back into the drawing room.<e>♫Can't trust that day♫</e>
 t=laevsky;e:laevsky=nervous
 
 “Friday.…”
@@ -3517,7 +3517,7 @@ e:laevsky=thinking
 He was handed a cup of chocolate; he burnt his lips and tongue with the scalding chocolate and thought:
 t=none
 
-“Friday… Friday.…”
+“Friday… Friday.…”<e>♫So good to me♫</e>
 t=laevsky;e:laevsky=serious
 
 For some reason he could not get the word “Friday” out of his head; he could think of nothing but Friday, and the only thing that was clear to him, not in his brain but somewhere in his heart, was that he would not get off on Saturday.
@@ -3553,7 +3553,7 @@ s=none
 Laevsky sat down too.
 
 
-“Friday… Friday…” he kept thinking, as he smiled and took a pencil out of his pocket.
+“Friday… Friday…” he kept thinking, as he smiled and took a pencil out of his pocket.<e>♫Won't go away♫</e>
 t=laevsky;e:laevsky=sadsmile
 
 “Friday.…”
@@ -3598,7 +3598,7 @@ e:laevsky=contemplative
 But Laevsky felt that was impossible for him.
 e:laevsky=fearful
 
-“Friday, Friday…” he thought.<e>♫Can't trust that day♫</e>
+“Friday, Friday…” he thought.<e>♫It's here to stay♫</e>
 t=laevsky;e:laevsky=thinking
 
 “Friday.…”
@@ -3671,13 +3671,10 @@ That was from Kirilin.
 r=title
 
 Laevsky received two notes; he opened one and read: “Don’t go away, my darling.”
-s=none;e:laevsky=curious
+s=none;e:laevsky=curious;b=marya-drawing
 
-“Who could have written that?” he thought.
+“Who could have written that?” he thought. “Not Samoylenko, of course.”
 t=laevsky;e:laevsky=thinking
-
-“Not Samoylenko, of course.”
-
 
 “And not the deacon, for he doesn’t know I want to go away. Von Koren, perhaps?”
 e:laevsky=contemplative
@@ -3697,8 +3694,8 @@ t=none
 “A stupid gibe,” thought Laevsky.
 t=laevsky;e:laevsky=annoyed
 
-“Friday, Friday.…”
-
+“Friday, Friday.…”<e>♫How could you leave and not take me♫</e>
+e:laevsky=thinking
 
 Something rose in his throat.
 t=none;e:laevsky=nervous
@@ -3706,44 +3703,44 @@ t=none;e:laevsky=nervous
 He touched his collar and coughed, but instead of a cough a laugh broke from his throat.
 e:laevsky=surprised
 
-“Ha-ha-ha!” he laughed.
-s=laevsky
-
-“Ha-ha-ha! What am I laughing at? Ha-ha-ha!”
-e:laevsky=confused
+“Ha-ha-ha!” he laughed. “Ha-ha-ha! What am I laughing at? Ha-ha-ha!”
+s=laevsky;e:laevsky=hysterical
 
 He tried to restrain himself, covered his mouth with his hand, but the laugh choked his chest and throat, and his hand could not cover his mouth.
 s=none;e:laevsky=upset
 
-“How stupid it is!” he thought, rolling with laughter.
-t=laevsky
-
-“Have I gone out of my mind?”
-e:laevsky=fearful
+“How stupid it is!” he thought, rolling with laughter. “Have I gone out of my mind?”
+t=laevsky;e:laevsky=hystericalhandmouth
 
 The laugh grew shriller and shriller, and became something like the bark of a lapdog.
 t=none
 
 Laevsky tried to get up from the table, but his legs would not obey him and his right hand was strangely, without his volition, dancing on the table, convulsively clutching and crumpling up the bits of paper.
-e:laevsky=nervous
+e:laevsky=nervous;f:b:marya-drawing=blur(3px)
 
 He saw looks of wonder, Samoylenko’s grave, frightened face, and the eyes of the zoologist full of cold irony and disgust, and realised that he was in hysterics.
 e:samoylenko=fearful;e:vonkoren=scowling;e:laevsky=upset
 
-“How hideous, how shameful!” he thought, feeling the warmth of tears on his face.
-t=laevsky;e:laevsky=weary
+“How hideous, how shameful!” he thought, feeling the warmth of tears on his face. “… Oh, oh, what a disgrace! It has never happened to me.…”
+t=laevsky;e:laevsky=hystericalhandmouthupset
 
-“… Oh, oh, what a disgrace! It has never happened to me.…”
-e:laevsky=unhappy
-
-They took him under his arms, and supporting his head from behind, led him away; a glass gleamed before his eyes and knocked against his teeth, and the water was spilt on his breast; he was in a little room, with two beds in the middle, side by side, covered by two snow-white quilts.
+They took him under his arms, and supporting his head from behind, led him away;
 t=none
+
+a glass gleamed before his eyes and knocked against his teeth, and the water was spilt on his breast;
+b=marya-little;f:b:marya-little=blur(3px)
+
+he was in a little room, with two beds in the middle, side by side, covered by two snow-white quilts.
+f:b:marya-little=
 
 He dropped on one of the beds and sobbed.
 e:laevsky=unhappy
 
-“It’s nothing, it’s nothing,” Samoylenko kept saying; “it does happen… it does happen.…”
+“It’s nothing, it’s nothing,” Samoylenko kept saying;
 s=samoylenko;e:samoylenko=nervous
+
+“it does happen… it does happen.…”
+
 
 Chill with horror, trembling all over and dreading something awful, Nadyezhda Fyodorovna stood by the bedside and kept asking:
 s=none;e:nadyezhda=fearful
@@ -3752,22 +3749,25 @@ s=none;e:nadyezhda=fearful
 s=nadyezhda
 
 “Can Kirilin have written him something?” she thought.
-e:nadyezhda=nervous
+s=;t=nadyezhda;e:nadyezhda=nervous
 
 “It’s nothing,” said Laevsky, laughing and crying; “go away, darling.”
-s=laevsky;e:laevsky=upset
+t=;s=laevsky;e:laevsky=hystericalcrying
 
-His face expressed neither hatred nor repulsion: so he knew nothing; Nadyezhda Fyodorovna was somewhat reassured, and she went into the drawing room.
-s=none;e:nadyezhda=neutral
+His face expressed neither hatred nor repulsion: so he knew nothing; Nadyezhda Fyodorovna was somewhat reassured,
+s=none;e:nadyezhda=neutral;m=allowbreak
+
+and she went into the drawing room.
+m=;b=marya-drawing
 
 “Don’t agitate yourself, my dear!” said Marya Konstantinovna, sitting down beside her and taking her hand.
 s=marya;e:marya=nervous
 
 “It will pass. Men are just as weak as we poor sinners.”
-e:marya=neutral
+e:marya=thinking
 
 “You are both going through a crisis.… One can so well understand it!”
-
+e:marya=serious
 
 “Well, my dear, I am waiting for an answer. Let us have a little talk.”
 e:marya=serious
@@ -3781,41 +3781,44 @@ e:nadyezhda=weary
 “What do you mean, what do you mean, my dear?” cried Marya Konstantinovna in alarm.
 s=marya;e:marya=surprised
 
-“Do you think I could let you go without supper?”
+“Do you think I could let you go without supper? We will have something to eat, and then you may go with my blessing.”
 e:marya=serious
 
-“We will have something to eat, and then you may go with my blessing.”
-e:marya=neutral
+“I feel miserable…” whispered Nadyezhda Fyodorovna,
+s=nadyezhda;e:nadyezhda=weary;m=allowbreak
 
-“I feel miserable…” whispered Nadyezhda Fyodorovna, and she caught at the arm of the chair with both hands to avoid falling.
-s=nadyezhda;e:nadyezhda=weary
+and she caught at the arm of the chair with both hands to avoid falling.
+m=;s=
 
-“He’s got a touch of hysterics,” said Von Koren gaily, coming into the drawing room, but seeing Nadyezhda Fyodorovna, he was taken aback and retreated.
-s=vonkoren;e:vonkoren=surprised
+“He’s got a touch of hysterics,” said Von Koren gaily, coming into the drawing room,
+s=vonkoren;e:vonkoren=smirking;m=allowbreak
+
+but seeing Nadyezhda Fyodorovna, he was taken aback and retreated.
+m=;s=
 
 When the attack was over, Laevsky sat on the strange bed and thought.
-s=none;e:laevsky=thinking
+s=none;e:laevsky=thinking;b=marya-little
 
-“Disgraceful! I’ve been howling like some wretched girl!”
-s=laevsky;e:laevsky=angry
+“Disgraceful! I’ve been howling like some wretched girl! I must have been absurd and disgusting.”
+t=laevsky;e:laevsky=unhappy
 
-“I must have been absurd and disgusting.”
-e:laevsky=upset
+“I will go away by the back stairs.… But that would seem as though I took my hysterics too seriously. I ought to take it as a joke.…”
+i=2
 
-“I will go away by the back stairs.…”
+He looked in the looking-glass, sat there for some time,
+t=none;e:laevsky=neutral;m=allowbreak
 
+and went back into the drawing room.
+m=;b=marya-drawing
 
-“But that would seem as though I took my hysterics too seriously. I ought to take it as a joke.…”
-e:laevsky=thinking
-
-He looked in the looking-glass, sat there for some time, and went back into the drawing room.
-s=none;e:laevsky=neutral
-
-“Here I am,” he said, smiling; he felt agonisingly ashamed, and he felt others were ashamed in his presence.
+“Here I am,” he said, smiling;
 s=laevsky;e:laevsky=sadsmile
 
+he felt agonisingly ashamed, and he felt others were ashamed in his presence.
+s=
+
 “Fancy such a thing happening,” he said, sitting down.
-e:laevsky=nervous
+e:laevsky=nervous;s=laevsky
 
 “I was sitting here, and all of a sudden, do you know, I felt a terrible piercing pain in my side… unendurable, my nerves could not stand it, and… and it led to this silly performance.”
 
@@ -3824,13 +3827,13 @@ e:laevsky=nervous
 
 
 At supper he drank some wine, and, from time to time, with an abrupt sigh rubbed his side as though to suggest that he still felt the pain.
-s=none
+s=none;f:b:marya-drawing=blur(3px)
 
 And no one, except Nadyezhda Fyodorovna, believed him, and he saw that.
 e:laevsky=unhappy
 
 After nine o’clock they went for a walk on the boulevard.
-e:nadyezhda=neutral;e:marya=neutral
+e:nadyezhda=neutral;e:marya=neutral;b=boulevard-night
 
 Nadyezhda Fyodorovna, afraid that Kirilin would speak to her, did her best to keep all the time beside Marya Konstantinovna and the children.
 e:nadyezhda=wary;e:kirilin=neutral
@@ -3845,7 +3848,7 @@ e:kirilin=smirking
 s=kirilin
 
 From the boulevard they went back to the pavilion and walked along the beach, and looked for a long time at the phosphorescence on the water.
-s=none
+s=none;f:b:boulevard-night=blur(3px)
 
 Von Koren began telling them why it looked phosphorescent.
 e:vonkoren=neutral
