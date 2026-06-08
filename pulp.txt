@@ -3397,11 +3397,8 @@ s=samoylenko
 ## XII
 r=title
 
-Next day, Thursday, Marya Konstantinovna was celebrating the birthday of her Kostya.
-e:marya=happy
-
-All were invited to come at midday and eat pies, and in the evening to drink chocolate.
-
+Next day, Thursday, Marya Konstantinovna was celebrating the birthday of her Kostya. All were invited to come at midday and eat pies, and in the evening to drink chocolate.
+e:marya=happy;b=marya-drawing
 
 When Laevsky and Nadyezhda Fyodorovna arrived in the evening, the zoologist, who was already sitting in the drawing room, drinking chocolate, asked Samoylenko:
 e:vonkoren=neutral;e:samoylenko=neutral
@@ -3419,22 +3416,22 @@ s=vonkoren;e:vonkoren=angry
 
 
 “If one is to pay attention to every prejudice,” said Samoylenko, “one could go nowhere.”
-s=samoylenko;e:samoylenko=annoyed
+s=samoylenko;e:samoylenko=contemplative
 
 “Do you mean to say that the repugnance felt by the masses for illicit love and moral laxity is a prejudice?”
 s=vonkoren;e:vonkoren=annoyed
 
-“Of course it is. It’s prejudice and hate.”
+“Of course it is. It’s prejudice and hate. When the soldiers see a girl of light behaviour, they laugh and whistle; but just ask them what they are themselves.”
 s=samoylenko;e:samoylenko=serious
 
-“When the soldiers see a girl of light behaviour, they laugh and whistle; but just ask them what they are themselves.”
-
-
 “It’s not for nothing they whistle.”
-s=vonkoren;e:vonkoren=contemplative
+e:vonkoren=serious
 
-“The fact that girls strangle their illegitimate children and go to prison for it, and that Anna Karenin flung herself under the train, and that in the villages they smear the gates with tar, and that you and I, without knowing why, are pleased by Katya’s purity, and that every one of us feels a vague craving for pure love, though he knows there is no such love﻿—is all that prejudice?”<e>SPOILERS.</e>
+“The fact that girls strangle their illegitimate children and go to prison for it, and that Anna Karenin flung herself under the train, and that in the villages they smear the gates with tar,”
+s=vonkoren;e:vonkoren=serious;m=allowbreak
 
+“and that you and I, without knowing why, are pleased by Katya’s purity, and that every one of us feels a vague craving for pure love, though he knows there is no such love﻿—is all that prejudice?”
+m=
 
 “That is the one thing, brother, which has survived intact from natural selection, and, if it were not for that obscure force regulating the relations of the sexes, the Laevskys would have it all their own way, and mankind would degenerate in two years.”
 e:vonkoren=serious
@@ -3448,40 +3445,37 @@ e:laevsky=nervous
 “Excuse me, Alexandr Daviditch, I must say two words to you.”
 s=laevsky
 
-Samoylenko got up, put his arm round Laevsky’s waist, and both of them went into Nikodim Alexandritch’s study.
-s=none;e:samoylenko=neutral
+Samoylenko got up, put his arm round Laevsky’s waist,
+s=none;e:samoylenko=neutral;m=allowbreak
 
-“Tomorrow’s Friday,” said Laevsky, biting his nails. “Have you got what you promised?”
-s=laevsky;e:laevsky=nervous
+and both of them went into Nikodim Alexandritch’s study.
+m=;b=marya-study
+
+“Tomorrow’s Friday,” said Laevsky, biting his nails.
+s=laevsky;e:laevsky=nervousnailbiting
+
+“Have you got what you promised?”
+e:laevsky=serious
 
 “I’ve only got two hundred. I’ll get the rest today or tomorrow. Don’t worry yourself.”
-s=samoylenko;e:samoylenko=neutral
+s=samoylenko;e:samoylenko=wary
 
 “Thank God…” sighed Laevsky, and his hands began trembling with joy.
-s=laevsky;e:laevsky=excited
+s=laevsky;e:laevsky=weary
 
-“You are saving me, Alexandr Daviditch, and I swear to you by God, by my happiness and anything you like, I’ll send you the money as soon as I arrive.”
-
-
-“And I’ll send you my old debt too.”
-
+“You are saving me, Alexandr Daviditch, and I swear to you by God, by my happiness and anything you like, I’ll send you the money as soon as I arrive. And I’ll send you my old debt too.”
+e:laevsky=sadsmile
 
 “Look here, Vanya…” said Samoylenko, turning crimson and taking him by the button.
-s=samoylenko;e:samoylenko=wary
+s=samoylenko;e:samoylenko=nervous
 
 “You must forgive my meddling in your private affairs, but… why shouldn’t you take Nadyezhda Fyodorovna with you?”
 
 
-“You queer fellow. How is that possible?”
-s=laevsky;e:laevsky=surprised
+“You queer fellow. How is that possible? One of us must stay, or our creditors will raise an outcry.”
+s=laevsky;e:laevsky=serious
 
-“One of us must stay, or our creditors will raise an outcry.”
-e:laevsky=nervous
-
-“You see, I owe seven hundred or more to the shops. Only wait, and I will send them the money.”
-
-
-“I’ll stop their mouths, and then she can come away.”
+“You see, I owe seven hundred or more to the shops. Only wait, and I will send them the money. I’ll stop their mouths, and then she can come away.”
 
 
 “I see.… But why shouldn’t you send her on first?”
@@ -3493,35 +3487,38 @@ s=laevsky;e:laevsky=fearful
 Laevsky was horrified.
 s=none
 
-“Why, she’s a woman; what would she do there alone? What does she know about it?”
+“Why, she’s a woman; what would she do there alone? What does she know about it? That would only be a loss of time and a useless waste of money.”
 s=laevsky;e:laevsky=nervous
 
-“That would only be a loss of time and a useless waste of money.”
+“That’s reasonable…” thought Samoylenko,
+s=;t=samoylenko;e:samoylenko=wary;m=allowbreak
 
+but remembering his conversation with Von Koren, he looked down and said sullenly:
+t=;m=
 
-“That’s reasonable…” thought Samoylenko, but remembering his conversation with Von Koren, he looked down and said sullenly: “I can’t agree with you.”
+“I can’t agree with you. Either go with her or send her first; otherwise… otherwise I won’t give you the money.”
 s=samoylenko;e:samoylenko=unhappy
-
-“Either go with her or send her first; otherwise… otherwise I won’t give you the money.”
-
 
 “Those are my last words…”
 
 
-He staggered back, lurched backwards against the door, and went into the drawing room, crimson, and overcome with confusion.
-s=none;e:samoylenko=upset
+He staggered back, lurched backwards against the door,
+s=none;e:samoylenko=upset;m=allowbreak
+
+and went into the drawing room, crimson, and overcome with confusion.
+m=;b=marya-drawing
 
 “Friday… Friday,” thought Laevsky, going back into the drawing room.
 t=laevsky;e:laevsky=nervous
 
 “Friday.…”
-
+e:laevsky=thinking
 
 He was handed a cup of chocolate; he burnt his lips and tongue with the scalding chocolate and thought:
 t=none
 
 “Friday… Friday.…”
-t=laevsky;e:laevsky=nervous
+t=laevsky;e:laevsky=serious
 
 For some reason he could not get the word “Friday” out of his head; he could think of nothing but Friday, and the only thing that was clear to him, not in his brain but somewhere in his heart, was that he would not get off on Saturday.
 t=none;e:laevsky=upset
@@ -3539,12 +3536,15 @@ s=none;e:marya=happy;e:katya=neutral
 s=marya
 
 “Mamma!” groaned Katya, not knowing where to hide her confusion at the praises of the company.
-s=katya;e:katya=nervous
+s=katya;e:katya=embarrassed
 
 Laevsky, too, looked at the report and praised it.
 s=none;e:laevsky=neutral
 
-Scripture, Russian language, conduct, fives and fours, danced before his eyes, and all this, mixed with the haunting refrain of “Friday,” with the carefully combed locks of Nikodim Alexandritch and the red cheeks of Katya, produced on him a sensation of such immense overwhelming boredom that he almost shrieked with despair and asked himself: “Is it possible, is it possible I shall not get away?”
+Scripture, Russian language, conduct, fives and fours, danced before his eyes, and all this, mixed with the haunting refrain of “Friday,” with the carefully combed locks of Nikodim Alexandritch and the red cheeks of Katya, produced on him a sensation of such immense overwhelming boredom that he almost shrieked with despair and asked himself:
+
+
+“Is it possible, is it possible I shall not get away?”
 s=laevsky;e:laevsky=weary
 
 They put two card tables side by side and sat down to play post.
@@ -3554,10 +3554,10 @@ Laevsky sat down too.
 
 
 “Friday… Friday…” he kept thinking, as he smiled and took a pencil out of his pocket.
-t=laevsky;e:laevsky=nervous
+t=laevsky;e:laevsky=sadsmile
 
 “Friday.…”
-
+e:laevsky=thinking
 
 He wanted to think over his position, and was afraid to think.
 t=none;e:laevsky=fearful
@@ -3580,16 +3580,16 @@ And that was right: at the price of a small lie he would win so much truth.
 Now when by his blunt refusal the doctor had crudely hinted at his deception, he began to understand that he would need deception not only in the remote future, but today, and tomorrow, and in a month’s time, and perhaps up to the very end of his life.
 e:laevsky=weary
 
-In fact, in order to get away he would have to lie to Nadyezhda Fyodorovna, to his creditors, and to his superiors in the Service; then, in order to get money in Petersburg, he would have to lie to his mother, to tell her that he had already broken with Nadyezhda Fyodorovna; and his mother would not give him more than five hundred roubles, so he had already deceived the doctor, as he would not be in a position to pay him back the money within a short time.
+In fact, in order to get away he would have to lie to Nadyezhda Fyodorovna, to his creditors, and to his superiors in the Service;
+
+
+then, in order to get money in Petersburg, he would have to lie to his mother, to tell her that he had already broken with Nadyezhda Fyodorovna; and his mother would not give him more than five hundred roubles, so he had already deceived the doctor, as he would not be in a position to pay him back the money within a short time.
 
 
 Afterwards, when Nadyezhda Fyodorovna came to Petersburg, he would have to resort to a regular series of deceptions, little and big, in order to get free of her; and again there would be tears, boredom, a disgusting existence, remorse, and so there would be no new life.
 e:laevsky=upset
 
-Deception and nothing more.
-
-
-A whole mountain of lies rose before Laevsky’s imagination.
+Deception and nothing more. A whole mountain of lies rose before Laevsky’s imagination.
 
 
 To leap over it at one bound and not to do his lying piecemeal, he would have to bring himself to stern, uncompromising action; for instance, to getting up without saying a word, putting on his hat, and at once setting off without money and without explanation.
@@ -3599,10 +3599,10 @@ But Laevsky felt that was impossible for him.
 e:laevsky=fearful
 
 “Friday, Friday…” he thought.<e>♫Can't trust that day♫</e>
-t=laevsky;e:laevsky=nervous
+t=laevsky;e:laevsky=thinking
 
 “Friday.…”
-
+i=2
 
 They wrote little notes, folded them in two, and put them in Nikodim Alexandritch’s old top-hat.
 t=none
@@ -3617,22 +3617,25 @@ e:deacon=happy;e:katya=happy
 s=none;e:nadyezhda=confused;e:marya=smirking
 
 “Talk of what?” thought Nadyezhda Fyodorovna.
-s=nadyezhda;e:nadyezhda=wary
+t=nadyezhda;e:nadyezhda=wary
 
 “If one can’t tell the whole, it’s no use talking.”
 e:nadyezhda=unhappy
 
 Before going out for the evening she had tied Laevsky’s cravat for him, and that simple action filled her soul with tenderness and sorrow.
-s=none
+t=none
 
 The anxiety in his face, his absentminded looks, his pallor, and the incomprehensible change that had taken place in him of late, and the fact that she had a terrible revolting secret from him, and the fact that her hands trembled when she tied his cravat﻿—all this seemed to tell her that they had not long left to be together.
 e:nadyezhda=fearful
 
-She looked at him as though he were an icon, with terror and penitence, and thought: “Forgive, forgive.”
-s=nadyezhda;e:nadyezhda=upset
+She looked at him as though he were an icon, with terror and penitence, and thought:
+
+
+“Forgive, forgive.”
+t=nadyezhda;e:nadyezhda=upset
 
 Opposite her was sitting Atchmianov, and he never took his black, lovesick eyes off her.
-s=none;e:atchmianov=contemplative
+t=none;e:atchmianov=contemplative
 
 She was stirred by passion; she was ashamed of herself, and afraid that even her misery and sorrow would not prevent her from yielding to impure desire tomorrow, if not today﻿—and that, like a drunkard, she would not have the strength to stop herself.
 e:nadyezhda=nervous
@@ -3640,17 +3643,11 @@ e:nadyezhda=nervous
 She made up her mind to go away that she might not continue this life, shameful for herself, and humiliating for Laevsky.
 e:nadyezhda=contemplative
 
-She would beseech him with tears to let her go; and if he opposed her, she would go away secretly.
+She would beseech him with tears to let her go; and if he opposed her, she would go away secretly. She would not tell him what had happened; let him keep a pure memory of her.
 
 
-She would not tell him what had happened; let him keep a pure memory of her.
-
-
-“I love you, I love you, I love you,” she read.
+“I love you, I love you, I love you,” she read. It was from Atchmianov.
 s=none;e:nadyezhda=upset
-
-It was from Atchmianov.
-
 
 She would live in some far remote place, would work and send Laevsky, “anonymously,” money, embroidered shirts, and tobacco, and would return to him only in old age or if he were dangerously ill and needed a nurse.
 e:nadyezhda=contemplative
@@ -3658,19 +3655,13 @@ e:nadyezhda=contemplative
 When in his old age he learned what were her reasons for leaving him and refusing to be his wife, he would appreciate her sacrifice and forgive.
 e:nadyezhda=sadsmile
 
-“You’ve got a long nose.”
-
-
-That must be from the deacon or Kostya.
+“You’ve got a long nose.” That must be from the deacon or Kostya.
 
 
 Nadyezhda Fyodorovna imagined how, parting from Laevsky, she would embrace him warmly, would kiss his hand, and would swear to love him all her life, all her life, and then, living in obscurity among strangers, she would every day think that somewhere she had a friend, someone she loved﻿—a pure, noble, lofty man who kept a pure memory of her.
 
 
-“If you don’t give me an interview today, I shall take measures, I assure you on my word of honour.”
-e:nadyezhda=fearful
-
-“You can’t treat decent people like this; you must understand that.”
+“If you don’t give me an interview today, I shall take measures, I assure you on my word of honour. You can’t treat decent people like this; you must understand that.”
 
 
 That was from Kirilin.
