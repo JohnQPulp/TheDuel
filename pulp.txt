@@ -5822,12 +5822,9 @@ s=none;e:laevsky=happy;e:nadyezhda=sadsmile;f:b:vanya-sitting=blur(3px)
 r=title
 
 More than three months had passed.
+b=town-wide-rain
 
-
-The day came that Von Koren had fixed on for his departure.
-
-
-A cold, heavy rain had been falling from early morning, a northeast wind was blowing, and the waves were high on the sea.
+The day came that Von Koren had fixed on for his departure. A cold, heavy rain had been falling from early morning, a northeast wind was blowing, and the waves were high on the sea.
 
 
 It was said that the steamer would hardly be able to come into the harbour in such weather.
@@ -5837,7 +5834,7 @@ By the timetable it should have arrived at ten o’clock in the morning, but Von
 e:vonkoren=thinking
 
 Towards the end of the day the rain ceased and the wind began to drop perceptibly.
-
+b=dr-wide-night
 
 Von Koren had already made up his mind that he would not be able to get off that day, and had settled down to play chess with Samoylenko; but after dark the orderly announced that there were lights on the sea and that a rocket had been seen.
 e:vonkoren=surprised;e:samoylenko=neutral
@@ -5849,43 +5846,34 @@ Though there was not the slightest necessity, he went through the rooms again, s
 e:vonkoren=confused
 
 In the street he walked beside Samoylenko, behind them came the deacon with a box, and last of all the orderly with two portmanteaus.
-e:vonkoren=neutral
+e:vonkoren=neutral;b=boulevard
 
-Only Samoylenko and the orderly could distinguish the dim lights on the sea.
+Only Samoylenko and the orderly could distinguish the dim lights on the sea. The others gazed into the darkness and saw nothing. The steamer had stopped a long way from the coast.
 e:samoylenko=contemplative
 
-The others gazed into the darkness and saw nothing.
-e:vonkoren=thinking
-
-The steamer had stopped a long way from the coast.
-
-
 “Make haste, make haste,” Von Koren hurried them.
-s=vonkoren;e:vonkoren=nervous
+s=vonkoren;e:vonkoren=nervous;x:vonkoren=hat
 
 “I am afraid it will set off.”
 
 
 As they passed the little house with three windows, into which Laevsky had moved soon after the duel, Von Koren could not resist peeping in at the window.
-s=none;e:vonkoren=curious
+s=none;e:vonkoren=curious;b=house-wide-night
 
 Laevsky was sitting, writing, bent over the table, with his back to the window.
 e:laevsky=thinking
 
 “I wonder at him!” said the zoologist softly.
-s=vonkoren;e:vonkoren=surprised
+s=vonkoren;e:vonkoren=curious
 
 “What a screw he has put on himself!”
 
 
 “Yes, one may well wonder,” said Samoylenko.
-s=samoylenko;e:samoylenko=contemplative
+s=samoylenko;e:samoylenko=contemplative;x:samoylenko=hat
 
-“He sits from morning till night, he’s always at work.”
+“He sits from morning till night, he’s always at work. He works to pay off his debts. And he lives, brother, worse than a beggar!”
 e:samoylenko=serious
-
-“He works to pay off his debts. And he lives, brother, worse than a beggar!”
-e:samoylenko=weary
 
 Half a minute of silence followed.
 s=none
@@ -5893,14 +5881,11 @@ s=none
 The zoologist, the doctor, and the deacon stood at the window and went on looking at Laevsky.
 e:vonkoren=contemplative;e:samoylenko=contemplative;e:deacon=contemplative
 
-“So he didn’t get away from here, poor fellow,” said Samoylenko.
+“So he didn’t get away from here, poor fellow,” said Samoylenko. “Do you remember how hard he tried?”
 s=samoylenko;e:samoylenko=sadsmile
 
-“Do you remember how hard he tried?”
-
-
 “Yes, he has put a screw on himself,” Von Koren repeated.
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=contemplative
 
 “His marriage, the way he works all day long for his daily bread, a new expression in his face, and even in his walk﻿—it’s all so extraordinary that I don’t know what to call it.”
 e:vonkoren=contemplative
@@ -5909,7 +5894,7 @@ The zoologist took Samoylenko’s sleeve and went on with emotion in his voice:
 s=none;e:vonkoren=sadsmile
 
 “You tell him and his wife that when I went away I was full of admiration for them and wished them all happiness… and I beg him, if he can, not to remember evil against me.”
-s=vonkoren
+s=vonkoren;e:vonkoren=serious
 
 “He knows me. He knows that if I could have foreseen this change, then I might have become his best friend.”
 
@@ -5929,49 +5914,49 @@ s=none;e:vonkoren=thinking
 “That’s true.”
 s=vonkoren;e:vonkoren=serious
 
-Samoylenko tapped softly at the window.
+Samoylenko tapped softly at the window. Laevsky started and looked round.
 s=none
 
-Laevsky started and looked round.
-e:laevsky=surprised
-
-“Vanya, Nikolay Vassilitch wants to say goodbye to you,” said Samoylenko.
+“Vanya, Nikolay Vassilitch wants to say goodbye to you,” said Samoylenko. “He is just going away.”
 s=samoylenko;e:samoylenko=happy
-
-“He is just going away.”
-
 
 Laevsky got up from the table, and went into the passage to open the door.
 s=none;e:laevsky=neutral
 
 Samoylenko, the zoologist, and the deacon went into the house.
+b=house-int
 
+“I can only come for one minute,” began the zoologist,
+s=vonkoren;e:vonkoren=nervous;m=allowbreak
 
-“I can only come for one minute,” began the zoologist, taking off his goloshes in the passage, and already wishing he had not given way to his feelings and come in, uninvited.
-s=vonkoren;e:vonkoren=nervous
+taking off his goloshes in the passage, and already wishing he had not given way to his feelings and come in, uninvited.
+m=;s=
 
 “It is as though I were forcing myself on him,” he thought, “and that’s stupid.”
-e:vonkoren=upset
+e:vonkoren=contemplative;t=vonkoren
 
-“Forgive me for disturbing you,” he said as he went into the room with Laevsky, “but I’m just going away, and I had an impulse to see you.”
-e:vonkoren=sadsmile
+“Forgive me for disturbing you,” he said as he went into the room with Laevsky,
+e:vonkoren=wary;t=;s=vonkoren
 
-“God knows whether we shall ever meet again.”
+“but I’m just going away, and I had an impulse to see you. God knows whether we shall ever meet again.”
 
 
-“I am very glad to see you.… Please come in,” said Laevsky, and he awkwardly set chairs for his visitors as though he wanted to bar their way, and stood in the middle of the room, rubbing his hands.
-s=laevsky;e:laevsky=nervous
+“I am very glad to see you.… Please come in,” said Laevsky,
+s=laevsky;e:laevsky=nervousrubbing;m=allowbreak
 
-“I should have done better to have left my audience in the street,” thought Von Koren, and he said firmly:
-s=vonkoren;e:vonkoren=wary
+and he awkwardly set chairs for his visitors as though he wanted to bar their way, and stood in the middle of the room, rubbing his hands.
+m=;s=
+
+“I should have done better to have left my audience in the street,” thought Von Koren,
+t=vonkoren;e:vonkoren=contemplative;m=allowbreak
+
+and he said firmly:
+m=;t=
 
 “Don’t remember evil against me, Ivan Andreitch.”
-e:vonkoren=serious
+e:vonkoren=serious;s=vonkoren
 
-“To forget the past is, of course, impossible﻿—it is too painful, and I’ve not come here to apologise or to declare that I was not to blame.”
-
-
-“I acted sincerely, and I have not changed my convictions since then.…”
+“To forget the past is, of course, impossible﻿—it is too painful, and I’ve not come here to apologise or to declare that I was not to blame. I acted sincerely, and I have not changed my convictions since then.…”
 
 
 “It is true that I see, to my great delight, that I was mistaken in regard to you, but it’s easy to make a false step even on a smooth road, and, in fact, it’s the natural human lot: if one is not mistaken in the main, one is mistaken in the details.”
@@ -5984,13 +5969,13 @@ e:vonkoren=contemplative
 s=laevsky;e:laevsky=contemplative
 
 “Well, goodbye.… God give you all happiness.”
-s=vonkoren;e:vonkoren=sadsmile
+s=vonkoren;e:vonkoren=wary
 
 Von Koren gave Laevsky his hand; the latter took it and bowed.
 s=none
 
 “Don’t remember evil against me,” said Von Koren.
-s=vonkoren;e:vonkoren=sadsmile
+s=vonkoren;e:vonkoren=serious
 
 “Give my greetings to your wife, and say I am very sorry not to say goodbye to her.”
 
@@ -6017,43 +6002,46 @@ She held out her hand uncertainly, while Laevsky bowed.
 s=none
 
 “What pitiful figures they are, though!” thought Von Koren.
-t=vonkoren;e:vonkoren=weary
+t=vonkoren;e:vonkoren=thinking
 
 “The life they are living does not come easy to them.”
-e:vonkoren=sadsmile
+e:vonkoren=contemplative
 
 “I shall be in Moscow and Petersburg; can I send you anything?” he asked.
 t=;s=vonkoren;e:vonkoren=neutral
 
-“Oh!” said Nadyezhda Fyodorovna, and she looked anxiously at her husband.
-s=nadyezhda;e:nadyezhda=surprised
+“Oh!” said Nadyezhda Fyodorovna,
+s=nadyezhda;e:nadyezhda=surprised;m=allowbreak
+
+and she looked anxiously at her husband.
+m=;s=
 
 “I don’t think there’s anything.…”
-e:nadyezhda=nervous
+e:nadyezhda=nervous;s=nadyezhda
 
 “No, nothing…” said Laevsky, rubbing his hands.
-s=laevsky;e:laevsky=nervous
+s=laevsky;e:laevsky=nervousrubbing
 
 “Our greetings.”
-
+e:laevsky=thinking
 
 Von Koren did not know what he could or ought to say, though as he went in he thought he would say a very great deal that would be warm and good and important.
 s=none;e:vonkoren=sadsmile
 
-He shook hands with Laevsky and his wife in silence, and left them with a depressed feeling.
-e:vonkoren=unhappy
+He shook hands with Laevsky and his wife in silence,
+e:vonkoren=unhappy;m=allowbreak
+
+and left them with a depressed feeling.
+m=;b=house-wide-night
 
 “What people!” said the deacon in a low voice, as he walked behind them.
-s=deacon;e:deacon=contemplative
+s=deacon;e:deacon=contemplative;x:deacon=hat
 
-“My God, what people! Of a truth, the right hand of God has planted this vine!”
-e:deacon=surprised
-
-“Lord! Lord! One man vanquishes thousands and another tens of thousands.”
-
+“My God, what people! Of a truth, the right hand of God has planted this vine! Lord! Lord! One man vanquishes thousands and another tens of thousands.”
+e:deacon=thinking
 
 “Nikolay Vassilitch,” he said ecstatically, “let me tell you that today you have conquered the greatest of man’s enemies﻿—pride.”
-e:deacon=excited
+e:deacon=happy
 
 “Hush, deacon! Fine conquerors we are!”
 s=vonkoren;e:vonkoren=weary
@@ -6068,10 +6056,10 @@ It was Laevsky, hurrying after them to see him off.
 e:laevsky=neutral
 
 The orderly was standing on the quay with the two portmanteaus, and at a little distance stood four boatmen.
-
+b=quay-night
 
 “There is a wind, though.… Brrr!” said Samoylenko.
-s=samoylenko;e:samoylenko=nervous
+s=samoylenko;e:samoylenko=thinking
 
 “There must be a pretty stiff storm on the sea now! You are not going off at a nice time, Kolya.”
 e:samoylenko=wary
@@ -6079,11 +6067,11 @@ e:samoylenko=wary
 “I’m not afraid of seasickness.”
 s=vonkoren;e:vonkoren=neutral
 
-“That’s not the point.… I only hope these rascals won’t upset you.”
+“That’s not the point.… I only hope these rascals won’t upset you. You ought to have crossed in the agent’s sloop.”
 s=samoylenko;e:samoylenko=wary
 
-“You ought to have crossed in the agent’s sloop. Where’s the agent’s sloop?” he shouted to the boatmen.
-e:samoylenko=angry
+“Where’s the agent’s sloop?” he shouted to the boatmen.
+e:samoylenko=shouting
 
 “It has gone, Your Excellency.”
 n:boatman=Boatman;s=boatman;e:boatman=neutral
@@ -6104,7 +6092,7 @@ s=samoylenko;e:samoylenko=angry
 s=vonkoren;e:vonkoren=neutral
 
 “Well, goodbye. God keep you.”
-e:vonkoren=sadsmile
+e:vonkoren=thinking
 
 Samoylenko embraced Von Koren and made the sign of the cross over him three times.
 s=none;e:samoylenko=sadsmile
@@ -6113,19 +6101,13 @@ s=none;e:samoylenko=sadsmile
 s=samoylenko;e:samoylenko=sadsmile
 
 “Goodbye, deacon,” said Von Koren, shaking hands with the deacon.
-s=vonkoren;e:vonkoren=sadsmile
+s=vonkoren;e:vonkoren=contemplative
 
-“Thank you for your company and for your pleasant conversation.”
+“Thank you for your company and for your pleasant conversation. Think about the expedition.”
 
 
-“Think about the expedition.”
-e:vonkoren=smirking
-
-“Oh Lord, yes! to the ends of the earth,” laughed the deacon.
+“Oh Lord, yes! to the ends of the earth,” laughed the deacon. “I’ve nothing against it.”
 s=deacon;e:deacon=happy
-
-“I’ve nothing against it.”
-
 
 Von Koren recognised Laevsky in the darkness, and held out his hand without speaking.
 s=none;e:vonkoren=neutral
@@ -6137,16 +6119,16 @@ Von Koren went down the ladder, jumped into the boat, and sat at the helm.
 
 
 “Write!” Samoylenko shouted to him.
-s=samoylenko;e:samoylenko=excited
+s=samoylenko;e:samoylenko=shouting
 
 “Take care of yourself.”
-
+e:samoylenko=happy
 
 “No one knows the real truth,” thought Laevsky, turning up the collar of his coat and thrusting his hands into his sleeves.
-s=laevsky;e:laevsky=contemplative
+t=laevsky;e:laevsky=contemplative;x:laevsky=hat;s=
 
 The boat turned briskly out of the harbour into the open sea.
-s=none
+t=none
 
 It vanished in the waves, but at once from a deep hollow glided up onto a high breaker, so that they could distinguish the men and even the oars.
 
@@ -6158,37 +6140,31 @@ The boat moved three yards forward and was sucked two yards back.
 s=samoylenko;e:samoylenko=excited;e:samoylenko=wary
 
 “Yes, no one knows the real truth…” thought Laevsky, looking wearily at the dark, restless sea.
-s=laevsky;e:laevsky=weary
+t=laevsky;e:laevsky=contemplative;s=
 
-“It flings the boat back,” he thought; “she makes two steps forward and one step back; but the boatmen are stubborn, they work the oars unceasingly, and are not afraid of the high waves.”
-e:laevsky=contemplative
-
-“The boat goes on and on.”
-
-
-“Now she is out of sight, but in half an hour the boatmen will see the steamer lights distinctly, and within an hour they will be by the steamer ladder.”
-
-
-“So it is in life.…”
-e:laevsky=thinking
-
-“In the search for truth man makes two steps forward and one step back.”
-
-
-“Suffering, mistakes, and weariness of life thrust them back, but the thirst for truth and stubborn will drive them on and on.”
+“It flings the boat back,” he thought; “she makes two steps forward and one step back; but the boatmen are stubborn, they work the oars unceasingly, and are not afraid of the high waves. The boat goes on and on.”
 e:laevsky=serious
 
+“Now she is out of sight, but in half an hour the boatmen will see the steamer lights distinctly, and within an hour they will be by the steamer ladder.”
+e:laevsky=thinking
+
+“So it is in life.… In the search for truth man makes two steps forward and one step back.”
+e:laevsky=thinking;i=2
+
+“Suffering, mistakes, and weariness of life thrust them back, but the thirst for truth and stubborn will drive them on and on.”
+e:laevsky=serious;i=2
+
 “And who knows? Perhaps they will reach the real truth at last.”
-e:laevsky=sadsmile
+e:laevsky=contemplative
 
 “Go-o-od-by-e,” shouted Samoylenko.
-s=samoylenko;e:samoylenko=sadsmile
+s=samoylenko;e:samoylenko=happy;t=
 
 “There’s no sight or sound of them,” said the deacon.
-s=deacon;e:deacon=contemplative
+s=deacon;e:deacon=
 
 “Good luck on the journey!”
-
+e:deacon=shouting
 
 It began to spot with rain.
 s=none
