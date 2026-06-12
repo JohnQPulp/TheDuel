@@ -1526,10 +1526,10 @@ Through the open doors looking out to the sea they could see someone swimming a 
 
 
 “Mother, it’s our Kostya,” said Katya.
-s=katya;e:katya=neutral
+s=katya;e:katya=neutral;m=nospeaker
 
 “Ach, ach!” Marya Konstantinovna cackled in her dismay.
-s=marya;e:marya=fearful
+s=marya;e:marya=fearful;m=
 
 “Ach, Kostya!” she shouted, “Come back! Kostya, come back!”
 e:marya=shouting
@@ -1922,7 +1922,7 @@ s=nikodim;e:nikodim=confused
 s=kirilin;e:kirilin=smirking
 
 “Never mind, let him,” Atchmianov whispered to Nikodim Alexandritch;
-s=atchmianov;e:atchmianov=contemplative
+s=atchmianov;e:atchmianov=contemplative;x:atchmianov=hat
 
 “I’ll pay.”
 
