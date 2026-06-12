@@ -1907,7 +1907,7 @@ s=kirilin;e:kirilin=annoyed
 
 
 “We have plenty of wine of our own, Yegor Alekseitch,” Nikodim Alexandritch observed, timidly and politely.
-s=nikodim;e:nikodim=contemplative;n:kirilin=Yegor Alekseitch Kirilin
+s=nikodim;e:nikodim=contemplative;n:kirilin=Yegor Alekseitch Kirilin;x:nikodim=hat
 
 “What? But I want us to have my wine, too; I’m taking part in the picnic and I imagine I have full right to contribute my share. I im-ma-gine so!”
 s=kirilin;e:kirilin=scowling
@@ -1931,7 +1931,7 @@ Nadyezhda Fyodorovna was in a lighthearted, mischievous mood; she wanted to skip
 s=none;e:nadyezhda=smirking;e:nadyezhda=excited
 
 In her cheap cotton dress with blue pansies on it, in her red shoes and the same straw hat, she seemed to herself, little, simple, light, ethereal as a butterfly.
-e:nadyezhda=happy;x:nadyezhda=cotton,hat
+e:nadyezhda=happy;x:nadyezhda=hat
 
 She ran over the rickety bridge and looked for a minute into the water, in order to feel giddy; then, shrieking and laughing, ran to the other side to the drying-shed, and she fancied that all the men were admiring her, even Kerbalay.
 e:nadyezhda=excited;e:nadyezhda=happy
@@ -2030,7 +2030,7 @@ e:atchmianov=weary;e:kirilin=neutral;e:nadyezhda=neutral
 s=kirilin;e:kirilin=captouching;x:kirilin=hat
 
 “Good evening.”
-s=nadyezhda;e:nadyezhda=wary;x:nadyezhda=cotton,hat
+s=nadyezhda;e:nadyezhda=wary;x:nadyezhda=hat
 
 “Yes!” said Kirilin, looking at the sky and pondering.
 s=kirilin;e:kirilin=skypondering
@@ -5117,7 +5117,7 @@ s=laevsky;e:laevsky=serious
 s=;m=dialogue
 
 Laevsky put on his overcoat and cap, put some cigarettes in his pocket, and stood still hesitating. He felt as though there was something else he must do.
-s=none;e:laevsky=nervous;m=;x:laevsky=hat
+s=none;e:laevsky=nervous;m=;x:laevsky=hat,overcoat
 
 In the street the seconds talked in low voices and the horses snorted, and this sound in the damp, early morning, when everybody was asleep and light was hardly dawning in the sky, filled Laevsky’s soul with a disconsolate feeling which was like a presentiment of evil.
 e:laevsky=fearful
@@ -5423,7 +5423,7 @@ Laevsky was already acquainted with the man, but now for the first time he had a
 s=none;e:laevsky=annoyed
 
 “What people there are in the world!” thought Laevsky,
-t=laevsky;e:laevsky=weary;x:laevsky=hat;m=allowbreak
+t=laevsky;e:laevsky=weary;x:laevsky=hat,overcoat;m=allowbreak
 
 and answered:
 t=;m=
@@ -5792,7 +5792,7 @@ He looked at Sheshkovsky’s sullen, tear-stained face, and at the two carriages
 e:sheshkovsky=unhappy
 
 “Everything is over,” he thought of his past, cautiously touching his neck with his fingers.
-t=laevsky;e:laevsky=wearyneck;x:laevsky=hat
+t=laevsky;e:laevsky=wearyneck;x:laevsky=hat,overcoat
 
 On the right side of his neck was a small swelling, of the length and breadth of his little finger, and he felt a pain, as though someone had passed a hot iron over his neck.
 t=none;e:laevsky=wary
@@ -6125,7 +6125,7 @@ s=samoylenko;e:samoylenko=shouting
 e:samoylenko=happy
 
 “No one knows the real truth,” thought Laevsky, turning up the collar of his coat and thrusting his hands into his sleeves.
-t=laevsky;e:laevsky=contemplative;x:laevsky=hat;s=
+t=laevsky;e:laevsky=contemplative;x:laevsky=hat,overcoat;s=
 
 The boat turned briskly out of the harbour into the open sea.
 t=none
