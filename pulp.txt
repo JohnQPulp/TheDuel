@@ -5354,10 +5354,10 @@ t=deacon;e:deacon=contemplative
 i=2
 
 “How rude it is of them!” said the superintendent of the post-office, looking at his watch.
-n:superintendent=Postal Superintendent;s=superintendent;e:superintendent=annoyed;t=;x:superintendent=hat
+n:superintendent=Postal Superintendent;s=superintendent;e:superintendent=annoyedlook;t=;x:superintendent=hat
 
 “It may be learned manners to be late, but to my thinking it’s hoggish.”
-
+e:superintendent=annoyed
 
 Sheshkovsky, a stout man with a black beard, listened and said:
 s=none;e:sheshkovsky=serious
