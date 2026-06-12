@@ -2210,7 +2210,7 @@ Laevsky got in with Kirilin, the zoologist with Samoylenko, the deacon with the 
 e:laevsky=weary;e:kirilin=neutral;e:vonkoren=neutral;e:samoylenko=neutral;e:deacon=neutral
 
 “You see what the Japanese monkeys are like,” Von Koren began, rolling himself up in his cloak and shutting his eyes.
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;x:vonkoren=hat,cloak
 
 “You heard she doesn’t care to take an interest in beetles and ladybirds because the people are suffering. That’s how all the Japanese monkeys look upon people like us.”
 e:vonkoren=scowling
@@ -2291,7 +2291,7 @@ When they got home, Laevsky and Nadyezhda Fyodorovna went into their dark, stuff
 b=vanya-sitting-night
 
 Laevsky lighted a candle, while Nadyezhda Fyodorovna sat down, and without taking off her cloak and hat, lifted her melancholy, guilty eyes to him.
-e:laevsky=neutral;e:nadyezhda=upset
+e:laevsky=neutral;e:nadyezhda=upset;x:nadyezhda=cloak,hat
 
 He knew that she expected an explanation from him, but an explanation would be wearisome, useless and exhausting, and his heart was heavy because he had lost control over himself and been rude to her.
 e:laevsky=weary
@@ -5852,7 +5852,7 @@ Only Samoylenko and the orderly could distinguish the dim lights on the sea. The
 e:samoylenko=contemplative
 
 “Make haste, make haste,” Von Koren hurried them.
-s=vonkoren;e:vonkoren=nervous;x:vonkoren=hat
+s=vonkoren;e:vonkoren=nervous;x:vonkoren=hat,satchel
 
 “I am afraid it will set off.”
 
