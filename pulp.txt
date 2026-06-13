@@ -386,7 +386,7 @@ e:laevsky=annoyed
 e:laevsky=shouting
 
 “What’s our bill?”
-e:laevsky=talking
+e:laevsky=
 
 “No, no…” the doctor cried in dismay, clutching Laevsky’s arm.
 s=samoylenko;e:samoylenko=surprised
@@ -5942,7 +5942,7 @@ e:vonkoren=wary;t=;s=vonkoren
 
 
 “I am very glad to see you.… Please come in,” said Laevsky,
-s=laevsky;e:laevsky=nervousrubbing;m=allowbreak
+s=laevsky;e:laevsky=nervous;m=allowbreak
 
 and he awkwardly set chairs for his visitors as though he wanted to bar their way, and stood in the middle of the room, rubbing his hands.
 m=;s=
