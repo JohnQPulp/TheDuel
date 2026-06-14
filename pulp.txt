@@ -3362,7 +3362,7 @@ s=vonkoren;e:vonkoren=annoyed
 s=samoylenko;e:samoylenko=wary;x:samoylenko=uniform,hat
 
 “I quite understand you, but… you must put yourself in my place.”
-e:samoylenko=contemplativ
+e:samoylenko=contemplative
 
 “You are an old woman, that’s what you are.”
 s=vonkoren;e:vonkoren=weary
