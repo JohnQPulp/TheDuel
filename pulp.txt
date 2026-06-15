@@ -5072,7 +5072,7 @@ He would have found God and goodness, but that was as impossible as to put back 
 e:laevsky=upset
 
 When the storm was over, he sat by the open window and thought calmly of what was before him.
-e:laevsky=contemplative;b=vanya-windows-dawn
+e:laevsky=contemplative;b=vanya-windows
 
 Von Koren would most likely kill him.
 e:laevsky=serious
