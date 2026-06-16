@@ -1,5 +1,5 @@
 The Duel<br>Anton Chekhov<e>This book contains <book>Anna Karenina</book> spoilers. You've been warned.</e>
-b=title;t=author
+b=title;t=author;z:author=78,,8
 
 ## I
 r=title
@@ -6020,7 +6020,7 @@ m=;s=
 e:nadyezhda=nervous;s=nadyezhda
 
 “No, nothing…” said Laevsky, rubbing his hands.
-s=laevsky;e:laevsky=nervousrubbing
+s=laevsky;e:laevsky=nervous
 
 “Our greetings.”
 e:laevsky=thinking
