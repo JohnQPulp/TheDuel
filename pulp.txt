@@ -3812,10 +3812,10 @@ r=title
 s=laevsky;e:laevsky=weary;b=beach-pavilion-night;x:laevsky=hat
 
 “Goodbye, my friends.”
-e:laevsky=thinking
+e:laevsky=thinking;e:laevsky=;i=2
 
 “I’ll come with you; wait a minute,” said Nadyezhda Fyodorovna, and she took his arm.
-s=nadyezhda;e:nadyezhda=nervous;x:nadyezhda=hat
+s=nadyezhda;e:nadyezhda=nervous;x:nadyezhda=hat;e:nadyezhda=serious;i=2
 
 They said goodbye to the company and went away.
 s=none
@@ -3842,16 +3842,16 @@ After two meetings she was weary of him, had thrown him over, and did not that, 
 
 
 “Here I’ll say goodbye to you, darling,” said Laevsky.
-s=laevsky;e:laevsky=neutral;b=boulevard-night
+s=laevsky;e:laevsky=neutral;b=town-wide-night;e:laevsky=nervous;i=
 
-“Ilya Mihalitch will see you home.”<e>Laevsky calls him "Ilya Mihalitch", despite the book previously referring to Kirilin as "Yegor Alekseitch". (Boy, I really hope somebody got tuberculosis for that blunder.)</e>
-n:kirilin=Yegor Alekseitch “Ilya Mihalitch” Kirilin
+“Ilya Mihalitch will see you home.”<e>Laevsky calls him "Ilya Mihalitch" despite the book previously referring to Kirilin as "Yegor Alekseitch". Two patronymics! How embarrassing.</e>
+n:kirilin=Yegor Alekseitch “Ilya Mihalitch” Kirilin;e:laevsky=angry;i=2
 
 He nodded to Kirilin, and, quickly crossing the boulevard, walked along the street to Sheshkovsky’s, where there were lights in the windows, and then they heard the gate bang as he went in.
 s=none
 
 “Allow me to have an explanation with you,” said Kirilin.
-s=kirilin;e:kirilin=serious;x:kirilin=hat
+s=kirilin;e:kirilin=serious;x:kirilin=hat;e:kirilin=annoyed;i=2;
 
 “I’m not a boy, not some Atchkasov or Latchkasov, Zatchkasov.… I demand serious attention.”
 e:kirilin=smirking
@@ -3860,7 +3860,7 @@ Nadyezhda Fyodorovna’s heart began beating violently. She made no reply.
 s=none;e:nadyezhda=fearful
 
 “The abrupt change in your behaviour to me I put down at first to coquetry,” Kirilin went on; “now I see that you don’t know how to behave with gentlemanly people.”
-s=kirilin;e:kirilin=annoyed
+s=kirilin;e:kirilin=annoyed;e:kirilin=serious;i=2
 
 “You simply wanted to play with me, as you are playing with that wretched Armenian boy; but I’m a gentleman and I insist on being treated like a gentleman.”
 e:kirilin=annoyed
@@ -3869,7 +3869,7 @@ e:kirilin=annoyed
 e:kirilin=smirking;i=2
 
 “I’m miserable,” said Nadyezhda Fyodorovna beginning to cry,
-s=nadyezhda;e:nadyezhda=upset;m=allowbreak
+s=nadyezhda;e:nadyezhda=upset;m=allowbreak;e:nadyezhda=weary;i=
 
 and to hide her tears she turned away.
 m=;s=
@@ -3884,19 +3884,19 @@ s=none;e:kirilin=serious
 s=kirilin;e:kirilin=angry
 
 “Let me off this evening,” said Nadyezhda Fyodorovna,
-s=nadyezhda;e:nadyezhda=weary;m=allowbreak
+s=nadyezhda;e:nadyezhda=weary;m=allowbreak;e:nadyezhda=upset;i=
 
 and she did not recognise her own voice, it was so weak and pitiful.
 m=;s=
 
-“I must give you a lesson.… Excuse me for the roughness of my tone, but it’s necessary to give you a lesson. Yes, I regret to say I must give you a lesson.”<e>He's going to give her a lesson.</e>
+“I must give you a lesson.… Excuse me for the roughness of my tone, but it’s necessary to give you a lesson. Yes, I regret to say I must give you a lesson.”<e>The book is hinting that he's going to give her a lesson.</e>
 s=kirilin;e:kirilin=serious
 
 “I insist on two interviews﻿—today and tomorrow. After tomorrow you are perfectly free and can go wherever you like with anyone you choose. Today and tomorrow.”
 
 
 Nadyezhda Fyodorovna went up to her gate and stopped.
-s=none;e:nadyezhda=nervous
+s=none;e:nadyezhda=nervous;b=vanya-wide-night
 
 “Let me go,” she murmured,
 s=nadyezhda;e:nadyezhda=fearful;m=allowbreak
@@ -3914,34 +3914,34 @@ s=none
 s=nadyezhda;e:nadyezhda=weary
 
 “Alas!” sighed Kirilin, “alas! it’s not part of my plan to let you go; I only mean to give you a lesson and make you realise.”
-s=kirilin;e:kirilin=thinking
+s=kirilin;e:kirilin=thinking;e:kirilin=annoyed;i=
 
 “And what’s more, madam, I’ve too little faith in women.”
 e:kirilin=serious
 
 “I’m miserable.…”
-s=nadyezhda;e:nadyezhda=unhappy
+s=nadyezhda;e:nadyezhda=unhappy;e:nadyezhda=weary;i=
 
 Nadyezhda Fyodorovna listened to the even splash of the sea, looked at the sky studded with stars, and longed to make haste and end it all, and get away from the cursed sensation of life, with its sea, stars, men, fever.
 s=none;e:nadyezhda=weary
 
 “Only not in my home,” she said coldly.
-s=nadyezhda;e:nadyezhda=serious
+s=nadyezhda;e:nadyezhda=serious;e:nadyezhda=serious;i=2
 
 “Take me somewhere else.”
-
+;e:nadyezhda=unhappy;i=
 
 “Come to Muridov’s. That’s better.”
-s=kirilin;e:kirilin=serious
+s=kirilin;e:kirilin=serious;e:kirilin=smirking;i=
 
 “Where’s that?”
 s=nadyezhda;e:nadyezhda=wary
 
 “Near the old wall.”
-s=kirilin;i=3
+s=kirilin;i=3;e:kirilin=contemplative;i=;e:kirilin=smirking;i=2
 
 She walked quickly along the street and then turned into the side-street that led towards the mountains.
-s=none
+s=none;b=town-wide-night
 
 It was dark.
 e:nadyezhda=weary;b=town-wide-night
