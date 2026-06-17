@@ -2147,16 +2147,16 @@ s=laevsky;e:laevsky=thinking;e:laevsky=angry;i=2
 r=title
 
 It was late, eleven o’clock, when they began to get into the carriages to go home.
-s=none;b=meadow-duhan-wide-night
+s=none;b=meadow-duhan-night
 
 They took their seats, and the only ones missing were Nadyezhda Fyodorovna and Atchmianov, who were running after one another, laughing, the other side of the stream.
 e:nadyezhda=excited;e:atchmianov=excited
 
 “Make haste, my friends,” shouted Samoylenko.
-s=samoylenko;e:samoylenko=shouting;x:samoylenko=hat
+s=samoylenko;e:samoylenko=shouting;x:samoylenko=hat;e:samoylenko=angry;i=2
 
 “You oughtn’t to give ladies wine,” said Von Koren in a low voice.
-s=vonkoren;e:vonkoren=scowling;x:vonkoren=hat
+s=vonkoren;e:vonkoren=scowling;x:vonkoren=hat;e:vonkoren=contemplative;i=
 
 Laevsky, exhausted by the picnic, by the hatred of Von Koren, and by his own thoughts, went to meet Nadyezhda Fyodorovna, and when, gay and happy, feeling light as a feather, breathless and laughing, she took him by both hands and laid her head on his breast, he stepped back and said dryly:
 s=none;e:laevsky=weary;e:nadyezhda=happy
@@ -2177,31 +2177,31 @@ Laevsky got in with Kirilin, the zoologist with Samoylenko, the deacon with the 
 e:laevsky=weary;e:kirilin=neutral;e:vonkoren=neutral;e:samoylenko=neutral;e:deacon=neutral
 
 “You see what the Japanese monkeys are like,” Von Koren began, rolling himself up in his cloak and shutting his eyes.
-s=vonkoren;e:vonkoren=annoyed;x:vonkoren=hat,cloak
+s=vonkoren;e:vonkoren=annoyed;x:vonkoren=hat,cloak;e:vonkoren=serious;i=
 
 “You heard she doesn’t care to take an interest in beetles and ladybirds because the people are suffering. That’s how all the Japanese monkeys look upon people like us.”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=annoyed;i=
 
 “They’re a slavish, cunning race, terrified by the whip and the fist for ten generations; they tremble and burn incense only before violence; but let the monkey into a free state where there’s no one to take it by the collar, and it relaxes at once and shows itself in its true colours.”
-e:vonkoren=angry
+e:vonkoren=angry;e:vonkoren=serious;i=
 
 “Look how bold they are in picture galleries, in museums, in theatres, or when they talk of science: they puff themselves out and get excited, they are abusive and critical… they are bound to criticise﻿—it’s the sign of the slave.”
-e:vonkoren=annoyed
+e:vonkoren=annoyed;e:vonkoren=angry;i=
 
 “You listen: men of the liberal professions are more often sworn at than pickpockets﻿—that’s because three-quarters of society are made up of slaves, of just such monkeys.”
-e:vonkoren=serious
+e:vonkoren=serious;e:vonkoren=scowling;i=
 
 “It never happens that a slave holds out his hand to you and sincerely says ‘Thank you’ to you for your work.”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=serious;i=
 
 “I don’t know what you want,” said Samoylenko, yawning;
-s=samoylenko;e:samoylenko=weary
+s=samoylenko;e:samoylenko=weary;e:samoylenko=contemplative;i=2
 
 “the poor thing, in the simplicity of her heart, wanted to talk to you of scientific subjects, and you draw a conclusion from that.”
-
+;e:samoylenko=contemplative;i=
 
 “You’re cross with him for something or other, and with her, too, to keep him company. She’s a splendid woman.”
-e:samoylenko=annoyed
+e:samoylenko=annoyed;e:samoylenko=weary;i=
 
 “Ah, nonsense! An ordinary kept woman, depraved and vulgar.”
 s=vonkoren;e:vonkoren=angry
@@ -2213,10 +2213,10 @@ e:vonkoren=serious
 e:vonkoren=annoyed
 
 “What am I to do with her?” said Samoylenko, getting angry.
-s=samoylenko;e:samoylenko=angry
+s=samoylenko;e:samoylenko=serious
 
 “Beat her or what?”
-e:samoylenko=serious
+e:samoylenko=serious;e:samoylenko=annoyed;i=
 
 “Not flatter vice. We curse vice only behind its back, and that’s like making a long nose at it round a corner.”
 s=vonkoren;e:vonkoren=serious
@@ -2225,16 +2225,16 @@ s=vonkoren;e:vonkoren=serious
 e:vonkoren=scowling
 
 “Fyodorovna,” Samoylenko corrected.
-s=samoylenko;e:samoylenko=contemplative
+s=samoylenko;e:samoylenko=contemplative;e:samoylenko=weary;i=
 
 “But what ought society to do?”
 
 
 “Society? That’s its affair. To my thinking the surest and most direct method is﻿—compulsion.”
-s=vonkoren;e:vonkoren=thinking
+s=vonkoren;e:vonkoren=thinking;e:vonkoren=serious;i=
 
 “*Manu militari* she ought to be returned to her husband; and if her husband won’t take her in, then she ought to be sent to penal servitude or some house of correction.”
-e:vonkoren=scowling
+e:vonkoren=thinking
 
 “Ouf!” sighed Samoylenko.
 s=samoylenko;e:samoylenko=weary
@@ -2246,10 +2246,10 @@ s=none;e:samoylenko=nervous
 s=samoylenko;e:samoylenko=serious
 
 “Tell me, if you… if the State or society commissioned you to destroy him, could you… bring yourself to it?”
-e:samoylenko=wary
+e:samoylenko=wary;e:samoylenko=nervoushatholding;i=
 
 “My hand would not tremble.”
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=angry;i=
 
 ## IX
 r=title
