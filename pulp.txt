@@ -1868,7 +1868,7 @@ his expression was mournful and sleepy, as though he had just been waked against
 
 
 “What have you brought this for, you brute?” he asked Kerbalay, deliberately articulating each word.
-s=kirilin;e:kirilin=annoyed;x:kirilin=hat;z:kirilin=88,,8
+s=kirilin;e:kirilin=annoyed;x:kirilin=hat;z:kirilin=90,,9
 
 “I ordered you to give us *kvarel*, and what have you brought, you ugly Tatar? Eh? What?”
 
@@ -1988,7 +1988,7 @@ t=deacon;e:deacon=sadsmile
 r=title
 
 Kirilin and Atchmianov climbed up the mountain by the path.
-b=meadow-duhan-wide
+b=meadow-duhan-wide-night-people
 
 Atchmianov dropped behind and stopped, while Kirilin went up to Nadyezhda Fyodorovna.
 e:atchmianov=weary;e:kirilin=neutral;e:nadyezhda=neutral
@@ -2003,10 +2003,10 @@ s=nadyezhda;e:nadyezhda=wary;x:nadyezhda=hat
 s=kirilin;e:kirilin=skypondering
 
 “Why ‘yes’?” asked Nadyezhda Fyodorovna after a brief pause, noticing that Atchmianov was watching them both.
-s=nadyezhda;e:nadyezhda=nervous;e:atchmianov=wary
+s=nadyezhda;e:nadyezhda=nervous;e:atchmianov=wary;e:nadyezhda=serious;i=2
 
 “And so it seems,” said the officer, slowly, “that our love has withered before it has blossomed, so to speak.”
-s=kirilin;e:kirilin=contemplative
+s=kirilin;e:kirilin=contemplative;e:kirilin=annoyed;i=2
 
 “How do you wish me to understand it?”
 e:kirilin=serious
@@ -2021,13 +2021,13 @@ on that beautiful, marvellous evening, looking at him with terror and asking her
 m=;s=
 
 “So that’s it!” said Kirilin;
-s=kirilin;e:kirilin=serious;i=3
+s=kirilin;e:kirilin=serious;i=3;e:kirilin=serious;i=
 
 he thought in silence for a few minutes and said:
 s=
 
 “Well, I’ll wait till you are in a better humour, and meanwhile I venture to assure you I am a gentleman, and I don’t allow anyone to doubt it. Adieu!”
-s=kirilin;e:kirilin=thinking
+s=kirilin;e:kirilin=thinking;e:kirilin=annoyed;i=2
 
 He touched his cap again and walked off, making his way between the bushes.
 s=none;e:kirilin=neutral
@@ -2036,7 +2036,7 @@ After a short interval Atchmianov approached hesitatingly.
 e:atchmianov=nervous
 
 “What a fine evening!” he said with a slight Armenian accent.
-s=atchmianov;e:atchmianov=happy;x:atchmianov=hat
+s=atchmianov;e:atchmianov=happy;x:atchmianov=hat;e:atchmianov=curious;i=
 
 He was nice-looking, fashionably dressed, and behaved unaffectedly like a well-bred youth, but Nadyezhda Fyodorovna did not like him because she owed his father three hundred roubles;
 s=none;e:nadyezhda=annoyed;e:nadyezhda=scowling
@@ -2045,7 +2045,7 @@ it was displeasing to her, too, that a shopkeeper had been asked to the picnic, 
 
 
 “The picnic is a success altogether,” he said, after a pause.
-s=atchmianov;e:atchmianov=neutral
+s=atchmianov;e:atchmianov=neutral;e:atchmianov=happy;i=
 
 “Yes,” she agreed,
 s=nadyezhda;e:nadyezhda=contemplative;m=allowbreak
@@ -2060,7 +2060,7 @@ e:nadyezhda=unhappy;s=nadyezhda
 s=atchmianov;e:atchmianov=weary
 
 “Why be prosaic?”
-e:atchmianov=curious
+e:atchmianov=curious;e:atchmianov=contemplative;i=2
 
 Nadyezhda Fyodorovna laughed; the amusing idea occurred to her that if she had been willing and sufficiently immoral she might in one minute be free from her debt.
 s=none;e:nadyezhda=smirking
@@ -2072,10 +2072,10 @@ And she suddenly felt a longing to make him love her, to plunder him, throw him 
 e:nadyezhda=smirking
 
 “Allow me to give you one piece of advice,” Atchmianov said timidly.
-s=atchmianov;e:atchmianov=nervous
+s=atchmianov;e:atchmianov=nervous;e:atchmianov=serious;i=2
 
 “I beg you to beware of Kirilin. He says horrible things about you everywhere.”
-e:atchmianov=serious
+e:atchmianov=serious;i=
 
 “It doesn’t interest me to know what every fool says of me,” Nadyezhda Fyodorovna said coldly,
 s=nadyezhda;e:nadyezhda=scowling;m=allowbreak
@@ -2087,10 +2087,10 @@ m=;s=
 s=nadyezhda;e:nadyezhda=contemplative
 
 The fish soup was ready by now.
-s=none
+s=none;b=meadow-shed-night
 
 They were ladling it out by platefuls, and eating it with the religious solemnity with which this is only done at a picnic; and everyone thought the fish soup very good, and thought that at home they had never eaten anything so nice.
-b=meadow-shed-via-fire-smoke
+
 
 As is always the case at picnics, in the mass of dinner napkins, parcels, useless greasy papers fluttering in the wind, no one knew where was his glass or where his bread.
 
@@ -2105,13 +2105,13 @@ Nadyezhda Fyodorovna drank one glass and then another, got a little drunk and fo
 e:nadyezhda=happy
 
 “A splendid picnic, an enchanting evening,” said Laevsky, growing lively with the wine.
-s=laevsky;e:laevsky=happy;x:laevsky=hat
+s=laevsky;e:laevsky=happy;x:laevsky=hat;e:laevsky=sadsmile;i=
 
 “But I should prefer a fine winter to all this. ‘His beaver collar is silver with hoarfrost.’”
-e:laevsky=unhappy
+e:laevsky=unhappy;e:laevsky=upset;i=2
 
 “Everyone to his taste,” observed Von Koren.
-s=vonkoren;e:vonkoren=annoyed;x:vonkoren=hat
+s=vonkoren;e:vonkoren=annoyed;x:vonkoren=hat;e:vonkoren=serious;i=3
 
 Laevsky felt uncomfortable; the heat of the campfire was beating upon his back, and the hatred of Von Koren upon his breast and face:
 s=none;e:laevsky=nervous;e:vonkoren=scowling
@@ -2120,13 +2120,13 @@ this hatred on the part of a decent, clever man, a feeling in which there probab
 
 
 “I am passionately fond of nature, and I regret that I’m not a naturalist. I envy you.”
-s=laevsky;e:laevsky=sadsmile
+s=laevsky;e:laevsky=sadsmile;e:laevsky=confused;i=2
 
 “Well, I don’t envy you, and don’t regret it,” said Nadyezhda Fyodorovna.
-s=nadyezhda;e:nadyezhda=annoyed
+s=nadyezhda;e:nadyezhda=annoyed;e:nadyezhda=scowling;i=
 
 “I don’t understand how anyone can seriously interest himself in beetles and ladybirds while the people are suffering.”
-
+;e:nadyezhda=annoyed;i=2
 
 Laevsky shared her opinion.
 s=none;e:laevsky=neutral
@@ -2141,7 +2141,7 @@ But in Nadyezhda Fyodorovna’s words he heard a note of falsity, and simply to 
 e:laevsky=serious
 
 “The point is not the ladybirds, but the deductions made from them.”
-s=laevsky;e:laevsky=thinking
+s=laevsky;e:laevsky=thinking;e:laevsky=angry;i=2
 
 ## VIII
 r=title
