@@ -719,10 +719,10 @@ e:laevsky=contemplative
 r=title
 
 For the sake of sociability and from sympathy for the hard plight of newcomers without families, who, as there was not an hotel in the town, had nowhere to dine, Dr. Samoylenko kept a sort of table d’hôte.
-b=dr-wide
+b=dr-wide;x:samoylenko=coatless
 
 At this time there were only two men who habitually dined with him:
-n:vonkoren=Von Koren;n:deacon=Pobyedov
+n:vonkoren=Von Koren;n:deacon=Dcn. Pobyedov
 
 a young zoologist called Von Koren, who had come for the summer to the Black Sea to study the embryology of the medusa, and a deacon called Pobyedov, who had only just left the seminary and been sent to the town to take the duty of the old deacon who had gone away for a cure.
 
@@ -736,11 +736,8 @@ b=dr-drawing
 He sat down in the drawing room in silence, and taking an album from the table, began attentively scrutinising the faded photographs of unknown men in full trousers and top-hats, and ladies in crinolines and caps.
 e:vonkoren=neutral
 
-Samoylenko only remembered a few of them by name, and of those whom he had forgotten he said with a sigh:
+Samoylenko only remembered a few of them by name, and of those whom he had forgotten he said with a sigh: “A very fine fellow, remarkably intelligent!”
 
-
-“A very fine fellow, remarkably intelligent!”
-s=samoylenko;e:samoylenko=contemplative;x:samoylenko=coatless
 
 When he had finished with the album, Von Koren took a pistol from the whatnot, and screwing up his left eye, took deliberate aim at the portrait of Prince Vorontsov,<e>этажерка = étagère ≈ whatnot = open-shelved furniture piece</e>
 s=none;e:vonkoren=thinking;m=;m=allowbreak
@@ -757,23 +754,26 @@ He was very well satisfied with his face, and his becomingly clipped beard, and 
 He was satisfied, too, with his stylish getup, from the cravat, which matched the colour of his shirt, down to his brown boots.
 
 
-While he was looking at the album and standing before the glass, at that moment, in the kitchen and in the passage near,
-e:samoylenko=angry;b=dr-kitchen;m=allowbreak
+While he was looking at the album and standing before the glass, at that moment,
+e:samoylenko=angry;m=allowbreak
 
-Samoylenko, without his coat and waistcoat, with his neck bare, excited and bathed in perspiration, was bustling about the tables, mixing the salad, or making some sauce, or preparing meat, cucumbers, and onion for the cold soup, while he glared fiercely at the orderly who was helping him, and brandished first a knife and then a spoon at him.
+in the kitchen and in the passage near, Samoylenko, without his coat and waistcoat, with his neck bare, excited and bathed in perspiration,
+b=dr-kitchen;
+
+was bustling about the tables, mixing the salad, or making some sauce, or preparing meat, cucumbers, and onion for the cold soup, while he glared fiercely at the orderly who was helping him, and brandished first a knife and then a spoon at him.
 m=
 
 “Give me the vinegar!” he said.
-s=samoylenko
+s=samoylenko;e:samoylenko=wary;i=2
 
 “That’s not the vinegar﻿—it’s the salad oil!” he shouted, stamping.
-
+e:samoylenko=angry
 
 “Where are you off to, you brute?”
-e:samoylenko=scowling
+e:samoylenko=scowling;e:samoylenko=upset;i=
 
 “To get the butter, Your Excellency,” answered the flustered orderly in a cracked voice.
-n:orderly=Orderly;s=orderly;e:orderly=nervous
+n:orderly=Orderly;s=orderly;e:orderly=nervous;z:orderly=84,,7
 
 “Make haste; it’s in the cupboard! And tell Daria to put some fennel in the jar with the cucumbers! Fennel! Cover the cream up, gaping laggard, or the flies will get into it!”
 s=samoylenko;e:samoylenko=angry
@@ -785,22 +785,22 @@ When it was ten or fifteen minutes to two the deacon would come in; he was a lan
 e:deacon=happy;b=dr-drawing
 
 “Good morning,” the zoologist said coldly.
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;z:vonkoren=78,,8;e:vonkoren=thinking;i=
 
 “Where have you been?”
-
+;e:vonkoren=curious;i=;e:vonkoren=confused;i=
 
 “I’ve been catching sea-gudgeon in the harbour.”
-s=deacon;e:deacon=happy
+s=deacon;e:deacon=happy;z:deacon=92,,9;e:deacon=;i=
 
 “Oh, of course.… Evidently, deacon, you will never be busy with work.”
-s=vonkoren;e:vonkoren=weary
+s=vonkoren;e:vonkoren=weary;e:vonkoren=;i=2
 
 “Why not? Work is not like a bear; it doesn’t run off into the woods,” said the deacon, smiling and thrusting his hands into the very deep pockets of his white cassock.
 s=deacon;e:deacon=smirking
 
 “There’s no one to whip you!” sighed the zoologist.
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;e:vonkoren=thinking;i=
 
 Another fifteen or twenty minutes passed and they were not called to dinner, and they could still hear the orderly running into the kitchen and back again, noisily treading with his boots, and Samoylenko shouting:
 s=none;e:samoylenko=angry
@@ -827,7 +827,7 @@ He deliberately poured himself out a glass of vodka and said:
 
 
 “To the health of the younger generation.”
-s=samoylenko
+s=samoylenko;e:samoylenko=sadsmile;i=
 
 After his conversation with Laevsky, from early morning till dinner Samoylenko had been conscious of a load at his heart, although he was in the best of humours; he felt sorry for Laevsky and wanted to help him.
 s=none;e:samoylenko=contemplative;e:samoylenko=sadsmile
@@ -839,19 +839,19 @@ e:samoylenko=weary
 s=samoylenko;e:samoylenko=unhappy
 
 “The material side of life is not encouraging for him, and the worst of it is all this psychology is too much for him. I’m sorry for the lad.”
-
+;e:samoylenko=contemplative;i=
 
 “Well, that is a person I am not sorry for,” said Von Koren.
-s=vonkoren;e:vonkoren=scowling
+s=vonkoren;e:vonkoren=scowling;e:vonkoren=annoyed;i=2;e:vonkoren=suspicious;i=
 
-“If that charming individual were drowning, I would push him under with a stick and say, ‘Drown, brother, drown away.’…”<e>Take <i>that</i>, Peter Singer.</e>
-
+“If that charming individual were drowning, I would push him under with a stick and say, ‘Drown, brother, drown away.’…”<e>The secret third Peter Singer option.</e>
+;e:vonkoren=scowling;i=3
 
 “That’s untrue. You wouldn’t do it.”
-s=samoylenko;e:samoylenko=wary
+s=samoylenko;e:samoylenko=wary;e:samoylenko=nervous;i=2
 
 “Why do you think that?”
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=;i=2
 
 The zoologist shrugged his shoulders.
 s=
@@ -860,37 +860,37 @@ s=
 s=vonkoren;e:vonkoren=smirking
 
 “Is drowning a man a good action?” asked the deacon, and he laughed.
-s=deacon;e:deacon=happy
+s=deacon;e:deacon=happy;e:deacon=smirking;i=
 
 “Laevsky? Yes.”
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=scowling;i=3
 
 “I think there is something amiss with the soup…” said Samoylenko, anxious to change the conversation.
-s=samoylenko;e:samoylenko=nervous
+s=samoylenko;e:samoylenko=nervous;e:samoylenko=upset;i=2
 
 “Laevsky is absolutely pernicious and is as dangerous to society as the cholera microbe,” Von Koren went on.
 s=vonkoren;e:vonkoren=angry
 
 “To drown him would be a service.”
-
+;e:vonkoren=annoyed;i=3
 
 “It does not do you credit to talk like that about your neighbour. Tell us: what do you hate him for?”
-s=samoylenko;e:samoylenko=serious
+s=samoylenko;e:samoylenko=serious;e:samoylenko=unhappy;i=
 
 “Don’t talk nonsense, doctor.”
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;e:vonkoren=scowling;i=3
 
 “To hate and despise a microbe is stupid, but to look upon everybody one meets without distinction as one’s neighbour, whatever happens﻿—thanks very much, that is equivalent to giving up criticism, renouncing a straightforward attitude to people, washing one’s hands of responsibility, in fact!”
-
+;e:vonkoren=serious;i=2
 
 “I consider your Laevsky a blackguard; I do not conceal it, and I am perfectly conscientious in treating him as such.”
-
+;e:vonkoren=suspicious;i=
 
 “Well, you look upon him as your neighbour﻿—and you may kiss him if you like: you look upon him as your neighbour, and that means that your attitude to him is the same as to me and to the deacon; that is no attitude at all.”
-
+;e:vonkoren=serious;i=2;e:vonkoren=annoyed;i=2
 
 “You are equally indifferent to all.”
-
+;e:vonkoren=scowling;i=3
 
 “To call a man a blackguard!” muttered Samoylenko, frowning with distaste﻿—
 s=samoylenko;e:samoylenko=upset;m=allowbreak;m=nospace
@@ -899,106 +899,103 @@ s=samoylenko;e:samoylenko=upset;m=allowbreak;m=nospace
 m=
 
 “People are judged by their actions,” Von Koren continued.
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=scowling;i=3
 
-“Now you decide, deacon.… I am going to talk to you, deacon.”
-
-
-“Mr. Laevsky’s career lies open before you, like a long Chinese puzzle, and you can read it from beginning to end.”
-
+“Now you decide, deacon.… I am going to talk to you, deacon. Mr. Laevsky’s career lies open before you, like a long Chinese puzzle, and you can read it from beginning to end.”
+;e:vonkoren=annoyed;i=3
 
 “What has he been doing these two years that he has been living here? We will reckon his doings on our fingers.”
-
+;e:vonkoren=scowling;i=2
 
 “First, he has taught the inhabitants of the town to play Vint: two years ago that game was unknown here; now they all play it from morning till late at night, even the women and the boys.”
-
+;e:vonkoren=confused;i=
 
 “Secondly, he has taught the residents to drink beer, which was not known here either; the inhabitants are indebted to him for the knowledge of various sorts of spirits, so that now they can distinguish Kospelov’s vodka from Smirnov’s No. 21, blindfold.”
-
+;e:vonkoren=suspicious;i=
 
 “Thirdly, in former days, people here made love to other men’s wives in secret, from the same motives as thieves steal in secret and not openly; adultery was considered something they were ashamed to make a public display of.”
-
+;e:vonkoren=scowling;i=3
 
 “Laevsky has come as a pioneer in that line; he lives with another man’s wife openly.… Fourthly…”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=confused;i=
 
 Von Koren hurriedly ate up his soup and gave his plate to the orderly.
 s=none;e:vonkoren=neutral
 
 “I understood Laevsky from the first month of our acquaintance,” he went on, addressing the deacon.
-s=vonkoren;e:vonkoren=thinking
+s=vonkoren;e:vonkoren=thinking;e:vonkoren=annoyed;i=3
 
 “We arrived here at the same time. Men like him are very fond of friendship, intimacy, solidarity, and all the rest of it, because they always want company for Vint, drinking, and eating; besides, they are talkative and must have listeners.”
-
+;e:vonkoren=angry;i=2
 
 “We made friends﻿—that is, he turned up every day, hindered me working, and indulged in confidences in regard to his mistress. From the first he struck me by his exceptional falsity, which simply made me sick.”
 e:vonkoren=annoyed
 
 “As a friend I pitched into him, asking him why he drank too much, why he lived beyond his means and got into debt, why he did nothing and read nothing, why he had so little culture and so little knowledge; and in answer to all my questions he used to smile bitterly, sigh, and say:”
-
+;e:vonkoren=suspicious;i=
 
 “‘I am a failure, a superfluous man’; or: ‘What do you expect, my dear fellow, from us, the debris of the serf-owning class?’ or: ‘We are degenerate.…’ Or he would begin a long rigmarole about Onyegin, Petchorin, Byron’s Cain, and Bazarov, of whom he would say: ‘They are our fathers in flesh and in spirit.’”
-
+;e:vonkoren=scowling;i=
 
 “So we are to understand that it was not his fault that government envelopes lay unopened in his office for weeks together, and that he drank and taught others to drink, but Onyegin, Petchorin, and Turgenev, who had invented the failure and the superfluous man, were responsible for it.”
 e:vonkoren=scowling
 
 “The cause of his extreme dissoluteness and unseemliness lies, do you see, not in himself, but somewhere outside in space.”
-
+;e:vonkoren=scowling;i=3
 
 “And so﻿—an ingenious idea!﻿—it is not only he who is dissolute, false, and disgusting, but we… ‘we men of the eighties,’ ‘we the spiritless, nervous offspring of the serf-owning class’; ‘civilisation has crippled us’…”
-
+;e:vonkoren=suspicious;i=
 
 “in fact, we are to understand that such a great man as Laevsky is great even in his fall: that his dissoluteness, his lack of culture and of moral purity, is a phenomenon of natural history, sanctified by inevitability;”
-
+;e:vonkoren=serious;i=
 
 “that the causes of it are worldwide, elemental; and that we ought to hang up a lamp before Laevsky, since he is the fated victim of the age, of influences, of heredity, and so on.”
 
 
 “All the officials and their ladies were in ecstasies when they listened to him, and I could not make out for a long time what sort of man I had to deal with, a cynic or a clever rogue.”
-e:vonkoren=confused
+e:vonkoren=confused;e:vonkoren=thinking;i=
 
 “Such types as he, on the surface intellectual with a smattering of education and a great deal of talk about their own nobility, are very clever in posing as exceptionally complex natures.”
-e:vonkoren=smirking
+e:vonkoren=smirking;e:vonkoren=scowling;i=3
 
 “Hold your tongue!” Samoylenko flared up.
 s=samoylenko;e:samoylenko=angry
 
 “I will not allow a splendid fellow to be spoken ill of in my presence!”
-
+;e:samoylenko=scowling;i=
 
 “Don’t interrupt, Alexandr Daviditch,” said Von Koren coldly;
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=suspicious;i=
 
 “I am just finishing. Laevsky is by no means a complex organism.”
-
+;e:vonkoren=scowling;i=3
 
 “Here is his moral skeleton: in the morning, slippers, a bathe, and coffee; then till dinnertime, slippers, a constitutional, and conversation; at two o’clock slippers, dinner, and wine; at five o’clock a bathe, tea and wine, then Vint and lying; at ten o’clock supper and wine; and after midnight sleep and *la femme*.”
-e:vonkoren=serious
+e:vonkoren=serious;e:vonkoren=thinking;i=
 
 “His existence is confined within this narrow programme like an egg within its shell. Whether he walks or sits, is angry, writes, rejoices, it may all be reduced to wine, cards, slippers, and women.”
-
+;e:vonkoren=angry;i=2
 
 “Woman plays a fatal, overwhelming part in his life. He tells us himself that at thirteen he was in love; that when he was a student in his first year he was living with a lady who had a good influence over him, and to whom he was indebted for his musical education.”
-
+;e:vonkoren=annoyed;i=3
 
 “In his second year he bought a prostitute from a brothel and raised her to his level﻿—that is, took her as his kept mistress, and she lived with him for six months and then ran away back to the brothel-keeper, and her flight caused him much spiritual suffering.”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=serious;i=2
 
 “Alas! his sufferings were so great that he had to leave the university and spend two years at home doing nothing.”
-
+;e:vonkoren=suspicious;i=
 
 “But this was all for the best. At home he made friends with a widow who advised him to leave the Faculty of Jurisprudence and go into the Faculty of Arts. And so he did.”
-
+;e:vonkoren=scowling;i=3
 
 “When he had taken his degree, he fell passionately in love with his present… what’s her name?… married lady, and was obliged to flee with her here to the Caucasus for the sake of his ideals, he would have us believe, seeing that… tomorrow, if not today, he will be tired of her and flee back again to Petersburg, and that, too, will be for the sake of his ideals.”
-
+;e:vonkoren=thinking;i=
 
 “How do you know?” growled Samoylenko, looking angrily at the zoologist.
 s=samoylenko;e:samoylenko=angry
 
 “You had better eat your dinner.”
-
+;e:samoylenko=annoyed;i=
 
 The next course consisted of boiled mullet with Polish sauce.
 s=none;e:samoylenko=neutral
@@ -1022,10 +1019,10 @@ e:vonkoren=scowling
 
 
 “He only derives enjoyment from books and pictures in which there is woman. Our age is, to his thinking, poor and inferior to the forties and the sixties only because we do not know how to abandon ourselves obviously to the passion and ecstasy of love.”
-
+;e:vonkoren=suspicious;i=
 
 “These voluptuaries must have in their brains a special growth of the nature of sarcoma, which stifles the brain and directs their whole psychology.”
-e:vonkoren=angry
+e:vonkoren=angry;e:vonkoren=scowling;i=3
 
 “Watch Laevsky when he is sitting anywhere in company. You notice: when one raises any general question in his presence, for instance, about the cell or instinct, he sits apart, and neither speaks nor listens; he looks languid and disillusioned; nothing has any interest for him, everything is vulgar and trivial.”
 e:vonkoren=serious
@@ -1034,13 +1031,13 @@ e:vonkoren=serious
 
 
 “All his thoughts, however noble, lofty, or neutral they may be, they all have one point of resemblance.”
-
+;e:vonkoren=thinking;i=
 
 “You walk along the street with him and meet a donkey, for instance.… ‘Tell me, please,’ he asks, ‘what would happen if you mated a donkey with a camel?’ And his dreams!”
-e:vonkoren=smirking
+e:vonkoren=smirking;e:vonkoren=curious;i=
 
 “Has he told you of his dreams? It is magnificent! First, he dreams that he is married to the moon, then that he is summoned before the police and ordered to live with a guitar…”
-
+e:vonkoren=smirking;i=
 
 The deacon burst into resounding laughter; Samoylenko frowned and wrinkled up his face angrily so as not to laugh, but could not restrain himself, and laughed.
 s=none;e:deacon=happy;e:samoylenko=happy
