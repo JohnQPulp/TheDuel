@@ -2273,25 +2273,28 @@ He took out the letter and gave it her.
 t=none;e:laevsky=neutral
 
 “Read it. It concerns you.”
-s=laevsky;e:laevsky=serious
+s=laevsky;e:laevsky=serious;e:laevsky=serious;i=2
 
 Saying this, he went into his own room and lay down on the sofa in the dark without a pillow.
-s=none;e:laevsky=weary
+s=none;e:laevsky=weary;f:b:vanya-sitting-night=blur(3px)
 
 Nadyezhda Fyodorovna read the letter, and it seemed to her as though the ceiling were falling and the walls were closing in on her. It seemed suddenly dark and shut in and terrible.
-e:nadyezhda=fearful
+e:nadyezhda=fearful;f:b:vanya-sitting-night=
 
 She crossed herself quickly three times and said:
 e:nadyezhda=upset
 
 “Give him peace, O Lord… give him peace.…”
-s=nadyezhda
+s=nadyezhda;e:nadyezhda=upset;i=2
 
 And she began crying.
 s=none
 
-“Vanya,” she called. “Ivan Andreitch!”
-s=nadyezhda;i=2
+“Vanya,” she called.
+s=nadyezhda;i=2;e:nadyezhda=sobbing;i=2
+
+“Ivan Andreitch!”
+i=
 
 There was no answer.
 s=none
@@ -2299,14 +2302,11 @@ s=none
 Thinking that Laevsky had come in and was standing behind her chair, she sobbed like a child, and said:
 
 
-“Why did you not tell me before that he was dead? I wouldn’t have gone to the picnic; I shouldn’t have laughed so horribly.…”
-s=nadyezhda;e:nadyezhda=sobbing
-
-“The men said horrid things to me. What a sin, what a sin! Save me, Vanya, save me.… I have been mad.… I am lost.…”
-
+“Why did you not tell me before that he was dead? I wouldn’t have gone to the picnic; I shouldn’t have laughed so horribly.… The men said horrid things to me. What a sin, what a sin! Save me, Vanya, save me.… I have been mad.… I am lost.…”
+s=nadyezhda;e:nadyezhda=sobbing;i=2
 
 Laevsky heard her sobs. He felt stifled and his heart was beating violently.
-s=none;e:laevsky=nervous
+s=none;e:laevsky=nervous;b=vanya-study;f:b:vanya-study=brightness(85%)
 
 In his misery he got up, stood in the middle of the room, groped his way in the dark to an easy-chair by the table, and sat down.
 e:laevsky=upset
@@ -2318,13 +2318,13 @@ It was too late to go and play cards; there were no restaurants in the town.
 t=none;e:laevsky=thinking
 
 He lay down again and covered his ears that he might not hear her sobbing, and he suddenly remembered that he could go to Samoylenko.
-e:laevsky=surprised
+e:laevsky=surprised;f:b:vanya-study=brightness(85%) blur(3px)
 
 To avoid going near Nadyezhda Fyodorovna, he got out of the window into the garden, climbed over the garden fence and went along the street.
-e:laevsky=nervous
+e:laevsky=nervous;b=vanya-wide-night
 
 It was dark.
-e:laevsky=neutral;b=town-wide-night
+e:laevsky=neutral
 
 A steamer, judging by its lights, a big passenger one, had just come in. He heard the clank of the anchor chain.
 
@@ -2333,7 +2333,7 @@ A red light was moving rapidly from the shore in the direction of the steamer: i
 
 
 “The passengers are asleep in their cabins…” thought Laevsky,
-t=laevsky;e:laevsky=scowling;m=allowbreak;x:laevsky=hat
+t=laevsky;e:laevsky=scowling;m=allowbreak;x:laevsky=hat;e:laevsky=contemplative;i=
 
 and he envied the peace of mind of other people.
 m=;t=
@@ -2345,7 +2345,7 @@ Laevsky looked in at one of them, then in at another; it was dark and still in t
 e:laevsky=curious
 
 “Alexandr Daviditch, are you asleep?” he called. “Alexandr Daviditch!”
-s=laevsky;e:laevsky=nervous
+s=laevsky;e:laevsky=nervous;e:laevsky=upset;i=
 
 He heard a cough and an uneasy shout:
 s=none
@@ -2360,19 +2360,16 @@ A little later the door opened; there was a glow of soft light from the lamp, an
 s=none;e:samoylenko=weary
 
 “What now?” he asked, scratching himself and breathing hard from sleepiness.
-s=samoylenko;x:samoylenko=night
+s=samoylenko;x:samoylenko=night;e:samoylenko=confused;i=
 
 “Wait a minute; I’ll open the door directly.”
-
+;e:samoylenko=contemplative;i=
 
 “Don’t trouble; I’ll get in at the window.…”
-s=laevsky;e:laevsky=contemplative
+s=laevsky;e:laevsky=contemplative;e:laevsky=;i=2
 
-Laevsky climbed in at the window,
-s=none;e:laevsky=upset;m=allowbreak
-
-and when he reached Samoylenko, seized him by the hand.
-m=;b=dr-drawing-night;f:b:dr-drawing-night=brightness(85%)
+Laevsky climbed in at the window, and when he reached Samoylenko, seized him by the hand.
+s=none;e:laevsky=upset;b=dr-drawing-night;f:b:dr-drawing-night=brightness(85%)
 
 “Alexandr Daviditch,” he said in a shaking voice, “save me! I beseech you, I implore you.”
 s=laevsky;e:laevsky=fearful
@@ -2381,37 +2378,37 @@ s=laevsky;e:laevsky=fearful
 e:laevsky=upset
 
 “Wait a bit.… What are you talking about exactly?”
-s=samoylenko;e:samoylenko=confused
+s=samoylenko;e:samoylenko=confused;e:samoylenko=weary;i=
 
 “Light a candle.”
 s=laevsky;e:laevsky=weary
 
 “Oh… oh!…” sighed Samoylenko, lighting a candle.
-s=samoylenko;e:samoylenko=weary;f:b:dr-drawing-night=
+s=samoylenko;e:samoylenko=weary;f:b:dr-drawing-night=;e:samoylenko=weary;i=2
 
 “My God! My God!… Why, it’s past one, brother.”
-
+;e:samoylenko=weary;i=
 
 “Excuse me, but I can’t stay at home,” said Laevsky, feeling great comfort from the light and the presence of Samoylenko.
-s=laevsky;e:laevsky=thinking
+s=laevsky;e:laevsky=thinking;e:laevsky=weary;i=
 
 “You are my best, my only friend, Alexandr Daviditch.… You are my only hope. For God’s sake, come to my rescue, whether you want to or not.”
-e:laevsky=upset
+;e:laevsky=nervous;i=
 
 “I must get away from here, come what may!… Lend me the money!”
-
+;e:laevsky=upset
 
 “Oh, my God, my God!…” sighed Samoylenko, scratching himself.
-s=samoylenko;e:samoylenko=weary
+s=samoylenko;e:samoylenko=weary;e:samoylenko=confused;i=
 
 “I was dropping asleep and I hear the whistle of the steamer, and now you… Do you want much?”
-e:samoylenko=contemplative
+e:samoylenko=contemplative;e:samoylenko=contemplativewhiskers;i=2
 
 “Three hundred roubles at least. I must leave her a hundred, and I need two hundred for the journey.…”
-s=laevsky;e:laevsky=nervous
+s=laevsky;e:laevsky=nervous;e:laevsky=unhappy;i=
 
 “I owe you about four hundred already, but I will send it you all… all.…”
-e:laevsky=serious
+e:laevsky=serious;e:laevsky=confused;i=
 
 Samoylenko took hold of both his whiskers in one hand, and standing with his legs wide apart, pondered.
 s=none;e:samoylenko=thinking
@@ -2422,56 +2419,59 @@ s=samoylenko;e:samoylenko=contemplativewhiskers
 “But I haven’t got so much. I shall have to borrow it from someone.”
 e:samoylenko=weary
 
-“Borrow it, for God’s sake!” said Laevsky, seeing from Samoylenko’s face that he wanted to lend him the money and certainly would lend it.
-s=laevsky;e:laevsky=serious
+“Borrow it, for God’s sake!” said Laevsky,
+s=laevsky;e:laevsky=serious;m=allowbreak
+
+seeing from Samoylenko’s face that he wanted to lend him the money and certainly would lend it.
+m=;s=
 
 “Borrow it, and I’ll be sure to pay you back. I will send it from Petersburg as soon as I get there. You can set your mind at rest about that.”
-
+s=laevsky;e:laevsky=nervous;i=
 
 “I’ll tell you what, Sasha,” he said, growing more animated;
-e:laevsky=nervous
+e:laevsky=nervous;e:laevsky=upset;i=
 
 “let us have some wine.”
 
 
 “Yes… we can have some wine, too.”
-s=samoylenko;e:samoylenko=neutral
+s=samoylenko;e:samoylenko=neutral;e:samoylenko=contemplative;i=
 
 They both went into the dining room.
 s=none;b=dr-dining-night;x:laevsky=
 
 “And how about Nadyezhda Fyodorovna?” asked Samoylenko, setting three bottles and a plate of peaches on the table.
-s=samoylenko;e:samoylenko=serious
+s=samoylenko;e:samoylenko=serious;e:samoylenko=serious;i=2
 
 “Surely she’s not remaining?”
-
+;e:samoylenko=wary;i=
 
 “I will arrange it all, I will arrange it all,” said Laevsky, feeling an unexpected rush of joy.
-s=laevsky;e:laevsky=happy
+s=laevsky;e:laevsky=happy;e:laevsky=sadsmile;i=3
 
 “I will send her the money afterwards and she will join me.… Then we will define our relations. To your health, friend.”
-
+;e:laevsky=sadsmile;i=
 
 “Wait a bit,” said Samoylenko. “Drink this first.… This is from my vineyard. This bottle is from Navaridze’s vineyard and this one is from Ahatulov’s.…”
 s=samoylenko;e:samoylenko=contemplative
 
 “Try all three kinds and tell me candidly.… There seems a little acidity about mine. Eh? Don’t you taste it?”
-
+;e:samoylenko=;i=
 
 “Yes. You have comforted me, Alexandr Daviditch. Thank you.… I feel better.”
-s=laevsky;e:laevsky=happy
+s=laevsky;e:laevsky=happy;e:laevsky=sadsmile;i=2
 
 “Is there any acidity?”
-s=samoylenko
+s=samoylenko;e:samoylenko=weary;i=
 
 “Goodness only knows, I don’t know. But you are a splendid, wonderful man!”
-s=laevsky;e:laevsky=excited
+s=laevsky;e:laevsky=excited;e:laevsky=sadsmile;i=3
 
 Looking at his pale, excited, good-natured face, Samoylenko remembered Von Koren’s view that men like that ought to be destroyed, and Laevsky seemed to him a weak, defenceless child, whom anyone could injure and destroy.
 s=none;e:samoylenko=contemplative
 
 “And when you go, make it up with your mother,” he said. “It’s not right.”
-s=samoylenko;e:samoylenko=serious
+s=samoylenko;e:samoylenko=serious;e:samoylenko=contemplative;i=
 
 “Yes, yes; I certainly shall.”
 s=laevsky;e:laevsky=thinking
@@ -2483,16 +2483,16 @@ When they had emptied the first bottle, Samoylenko said:
 
 
 “You ought to make it up with Von Koren too. You are both such splendid, clever fellows, and you glare at each other like wolves.”
-s=samoylenko;e:samoylenko=contemplative
+s=samoylenko;e:samoylenko=contemplative;e:samoylenko=serious;i=
 
 “Yes, he’s a fine, very intelligent fellow,” Laevsky assented, ready now to praise and forgive everyone.
-s=laevsky;e:laevsky=thinking
+s=laevsky;e:laevsky=thinking;e:laevsky=annoyed;i=2
 
 “He’s a remarkable man, but it’s impossible for me to get on with him. No! Our natures are too different. I’m an indolent, weak, submissive nature.”
-e:laevsky=thinking
+e:laevsky=thinking;e:laevsky=mutter;i=
 
 “Perhaps in a good minute I might hold out my hand to him, but he would turn away from me… with contempt.”
-e:laevsky=unhappy
+e:laevsky=unhappy;e:laevsky=mutterbite;i=
 
 Laevsky took a sip of wine, walked from corner to corner and went on, standing in the middle of the room:
 s=none;e:laevsky=contemplative
@@ -2501,43 +2501,43 @@ s=none;e:laevsky=contemplative
 s=laevsky;e:laevsky=serious
 
 “He wants the wilderness, the moonlit night: all around in little tents, under the open sky, lie sleeping his sick and hungry Cossacks, guides, porters, doctor, priest, all exhausted with their weary marches, while only he is awake, sitting like Stanley on a campstool, feeling himself the monarch of the desert and the master of these men.”
-e:laevsky=contemplative
+e:laevsky=contemplative;e:laevsky=nervous;i=2
 
 “He goes on and on and on, his men groan and die, one after another, and he goes on and on, and in the end perishes himself, but still is monarch and ruler of the desert, since the cross upon his tomb can be seen by the caravans for thirty or forty miles over the desert.”
-
+;e:laevsky=suspicious;i=
 
 “I am sorry the man is not in the army. He would have made a splendid military genius. He would not have hesitated to drown his cavalry in the river and make a bridge out of dead bodies.”
-e:laevsky=smirking
+;e:laevsky=sadsmile;i=2
 
 “And such hardihood is more needed in war than any kind of fortification or strategy. Oh, I understand him perfectly! Tell me: why is he wasting his substance here? What does he want here?”
-e:laevsky=serious
+e:laevsky=serious;e:laevsky=mutter;i=
 
 “He is studying the marine fauna.”
-s=samoylenko;e:samoylenko=neutral
+s=samoylenko;e:samoylenko=neutral;e:samoylenko=contemplative;i=
 
 “No, no, brother, no!” Laevsky sighed.
-s=laevsky;e:laevsky=weary
+s=laevsky;e:laevsky=weary;e:laevsky=unhappy;i=2
 
 “A scientific man who was on the steamer told me the Black Sea was poor in animal life, and that in its depths, thanks to the abundance of sulphuric hydrogen, organic life was impossible.”
-e:laevsky=serious
+e:laevsky=serious;e:laevsky=serious;i=2
 
 “All the serious zoologists work at the biological station at Naples or Villefranche.”<e><book>Cannery Row|Monterey</book> slander.</e>
-
+;e:laevsky=annoyed;i=2
 
 “But Von Koren is independent and obstinate: he works on the Black Sea because nobody else is working there; he is at loggerheads with the university, does not care to know his comrades and other scientific men because he is first of all a despot and only secondly a zoologist.”
-e:laevsky=annoyed
+e:laevsky=annoyed;e:laevsky=angry;i=2
 
 “And you’ll see he’ll do something. He is already dreaming that when he comes back from his expedition he will purify our universities from intrigue and mediocrity, and will make the scientific men mind their p’s and q’s.”
-e:laevsky=contemplative
+e:laevsky=contemplative;e:laevsky=annoyed;i=;e:laevsky=contemplative;i=2
 
 “Despotism is just as strong in science as in the army. And he is spending his second summer in this stinking little town because he would rather be first in a village than second in a town.”
-e:laevsky=smirking
+e:laevsky=smirking;e:laevsky=shouting;i=;e:laevsky=nervousnailbiting;i=
 
 “Here he is a king and an eagle; he keeps all the inhabitants under his thumb and oppresses them with his authority. He has appropriated everyone, he meddles in other people’s affairs; everything is of use to him, and everyone is afraid of him.”
-e:laevsky=annoyed
+e:laevsky=annoyed;e:laevsky=sadsmile;i=2
 
 “I am slipping out of his clutches, he feels that and hates me. Hasn’t he told you that I ought to be destroyed or sent to hard labour?”
-e:laevsky=serious
+e:laevsky=serious;e:laevsky=sadsmile;i=3
 
 “Yes,” laughed Samoylenko.
 s=samoylenko;e:samoylenko=happy
@@ -2561,64 +2561,61 @@ e:laevsky=annoyed
 
 
 “and all this in the name of the improvement of the human race.… And what is the human race? Illusion, mirage… despots have always been illusionists. I understand him very well, brother.”
-e:laevsky=smirking
+e:laevsky=smirking;e:laevsky=serious;i=2
 
 “I appreciate him and don’t deny his importance; this world rests on men like him, and if the world were left only to such men as us, for all our good-nature and good intentions, we should make as great a mess of it as the flies have of that picture. Yes.”
-e:laevsky=serious
+e:laevsky=serious;e:laevsky=contemplative;i=2
 
 Laevsky sat down beside Samoylenko, and said with genuine feeling:
 s=none;e:laevsky=serious
 
-“I’m a foolish, worthless, depraved man.”
+“I’m a foolish, worthless, depraved man. The air I breathe, this wine, love, life in fact﻿—for all that, I have given nothing in exchange so far but lying, idleness, and cowardice.”
 s=laevsky;e:laevsky=unhappy
 
-“The air I breathe, this wine, love, life in fact﻿—for all that, I have given nothing in exchange so far but lying, idleness, and cowardice.”
-
-
 “Till now I have deceived myself and other people; I have been miserable about it, and my misery was cheap and common. I bow my back humbly before Von Koren’s hatred because at times I hate and despise myself.”
-e:laevsky=weary
+e:laevsky=weary;e:laevsky=upset;i=
 
 Laevsky began again pacing from one end of the room to the other in excitement, and said:
 s=none;e:laevsky=excited
 
 “I’m glad I see my faults clearly and am conscious of them. That will help me to reform and become a different man.”
-s=laevsky;e:laevsky=serious
+s=laevsky;e:laevsky=serious;e:laevsky=confused;i=
 
 “My dear fellow, if only you knew how passionately, with what anguish, I long for such a change. And I swear to you I’ll be a man! I will!”
-e:laevsky=excited
+e:laevsky=excited;e:laevsky=angry;i=2
 
 “I don’t know whether it is the wine that is speaking in me, or whether it really is so, but it seems to me that it is long since I have spent such pure and lucid moments as I have just now with you.”
-e:laevsky=thinking
+e:laevsky=thinking;e:laevsky=sadsmile;i=3
 
 “It’s time to sleep, brother,” said Samoylenko.
 s=samoylenko;e:samoylenko=weary
 
 “Yes, yes.… Excuse me; I’ll go directly.”
-s=laevsky;e:laevsky=contemplative
+s=laevsky;e:laevsky=contemplative;e:laevsky=annoyed;i=2
 
 Laevsky moved hurriedly about the furniture and windows, looking for his cap.
-s=none;e:laevsky=confused
+s=none;e:laevsky=confused;b=dr-drawing-night
 
 “Thank you,” he muttered, sighing. “Thank you.… Kind and friendly words are better than charity. You have given me new life.”
-s=laevsky;e:laevsky=contemplative;i=2
+s=laevsky;e:laevsky=contemplative;i=2;e:laevsky=wary;i=2
 
 He found his cap, stopped, and looked guiltily at Samoylenko.
 s=none;e:laevsky=wary;x:laevsky=hat
 
 “Alexandr Daviditch,” he said in an imploring voice.
-s=laevsky;e:laevsky=serious
+s=laevsky;e:laevsky=serious;e:laevsky=unhappy;i=
 
 “What is it?”
-s=samoylenko;e:samoylenko=wary
+s=samoylenko;e:samoylenko=wary;e:samoylenko=weary;i=
 
 “Let me stay the night with you, my dear fellow!”
-s=laevsky;e:laevsky=unhappy
+s=laevsky;e:laevsky=unhappy;e:laevsky=upset;i=2
 
 “Certainly.… Why not?”
 s=samoylenko;e:samoylenko=confused
 
 Laevsky lay down on the sofa, and went on talking to the doctor for a long time.
-s=none;e:laevsky=neutral;f:b:dr-dining=blur(3px)
+s=none;e:laevsky=neutral;f:b:dr-drawing-night=blur(3px)
 
 ## X
 r=title
