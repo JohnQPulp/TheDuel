@@ -1064,64 +1064,64 @@ He watched people’s faces greedily, listened without blinking, and it could be
 e:deacon=excited
 
 “He is a corrupt and depraved type,” the zoologist continued,
-s=vonkoren;e:vonkoren=annoyed;m=allowbreak
+s=vonkoren;e:vonkoren=annoyed;m=allowbreak;e:vonkoren=scowling;i=3
 
 while the deacon kept his eyes riveted on his face, expecting he would say something funny.
 m=;s=
 
-“It is not often one can meet with such a nonentity.”
-s=vonkoren
-
-“In body he is inert, feeble, prematurely old, while in intellect he differs in no respect from a fat shopkeeper’s wife who does nothing but eat, drink, and sleep on a featherbed, and who keeps her coachman as a lover.”
-
+“It is not often one can meet with such a nonentity. In body he is inert, feeble, prematurely old, while in intellect he differs in no respect from a fat shopkeeper’s wife who does nothing but eat, drink, and sleep on a featherbed, and who keeps her coachman as a lover.”
+s=vonkoren;e:vonkoren=thinking;i=
 
 The deacon began guffawing again.
 s=none;e:deacon=happy
 
 “Don’t laugh, deacon,” said Von Koren. “It grows stupid, at last.”
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=annoyed;i=3
 
 “I should not have paid attention to his insignificance,” he went on, after waiting till the deacon had left off laughing;
-e:vonkoren=annoyed;e:vonkoren=serious
+e:vonkoren=annoyed;e:vonkoren=serious;e:vonkoren=scowling;i=3
 
-“I should have passed him by if he were not so noxious and dangerous. His noxiousness lies first of all in the fact that he has great success with women, and so threatens to leave descendants﻿—that is, to present the world with a dozen Laevskys as feeble and as depraved as himself.”
+“I should have passed him by if he were not so noxious and dangerous.”
+;e:vonkoren=serious;i=2
 
+“His noxiousness lies first of all in the fact that he has great success with women, and so threatens to leave descendants﻿—that is, to present the world with a dozen Laevskys as feeble and as depraved as himself.”
+;e:vonkoren=annoyed;i=2
 
 “Secondly, he is in the highest degree contaminating. I have spoken to you already of Vint and beer.”
-
+;e:vonkoren=suspicious;i=
 
 “In another year or two he will dominate the whole Caucasian coast. You know how the mass, especially its middle stratum, believe in intellectuality, in a university education, in gentlemanly manners, and in literary language.”
 e:vonkoren=thinking
 
 “Whatever filthy thing he did, they would all believe that it was as it should be, since he is an intellectual man, of liberal ideas and university education. What is more, he is a failure, a superfluous man, a neurasthenic, a victim of the age, and that means he can do anything.”
-
+;e:vonkoren=scowling;i=3
 
 “He is a charming fellow, a regular good sort, he is so genuinely indulgent to human weaknesses; he is compliant, accommodating, easy and not proud; one can drink with him and gossip and talk evil of people.…”
 
 
 “The masses, always inclined to anthropomorphism in religion and morals, like best of all the little gods who have the same weaknesses as themselves. Only think what a wide field he has for contamination!”
-e:vonkoren=serious
+e:vonkoren=serious;e:vonkoren=serious;i=2
 
-“Besides, he is not a bad actor and is a clever hypocrite, and knows very well how to twist things round. Only take his little shifts and dodges, his attitude to civilisation, for instance. He has scarcely sniffed at civilisation, yet:”
+“Besides, he is not a bad actor and is a clever hypocrite, and knows very well how to twist things round. Only take his little shifts and dodges, his attitude to civilisation, for instance.”
+;e:vonkoren=thinking;i=
 
-
-“‘Ah, how we have been crippled by civilisation! Ah, how I envy those savages, those children of nature, who know nothing of civilisation!’”
-e:vonkoren=annoyed
+“He has scarcely sniffed at civilisation, yet: ‘Ah, how we have been crippled by civilisation! Ah, how I envy those savages, those children of nature, who know nothing of civilisation!’”
+e:vonkoren=annoyed;e:vonkoren=scowling;i=2
 
 “We are to understand, you see, that at one time, in ancient days, he has been devoted to civilisation with his whole soul, has served it, has sounded it to its depths, but it has exhausted him, disillusioned him, deceived him; he is a Faust, do you see?﻿—a second Tolstoy.…”
-
+;e:vonkoren=curious;i=
 
 “As for Schopenhauer and Spencer, he treats them like small boys and slaps them on the shoulder in a fatherly way: ‘Well, what do you say, old Spencer?’”
-e:vonkoren=smirking
+e:vonkoren=smirking;e:vonkoren=confused;i=
 
 “He has not read Spencer, of course, but how charming he is when with light, careless irony he says of his lady friend: ‘She has read Spencer!’”
-
+;e:vonkoren=smirking
 
 “And they all listen to him, and no one cares to understand that this charlatan has not the right to kiss the sole of Spencer’s foot, let alone speaking about him in that tone!”
 e:vonkoren=angry
 
 “Sapping the foundations of civilisation, of authority, of other people’s altars, spattering them with filth, winking jocosely at them only to justify and conceal one’s own rottenness and moral poverty is only possible for a very vain, base, and nasty creature.”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=suspicious;i=
 
 “I don’t know what it is you expect of him, Kolya,” said Samoylenko, looking at the zoologist, not with anger now, but with a guilty air.
 s=samoylenko;e:samoylenko=nervous
@@ -1130,16 +1130,16 @@ s=samoylenko;e:samoylenko=nervous
 n:vonkoren=“Kolya” Von Koren
 
 “Of course, he has his weaknesses, but he is abreast of modern ideas, is in the service, is of use to his country.”
-e:samoylenko=thinking
+e:samoylenko=thinking;e:samoylenko=unhappylook;i=
 
 “Ten years ago there was an old fellow serving as agent here, a man of the greatest intelligence… and he used to say…”
-
+;e:samoylenko=annoyed;i=
 
 “Nonsense, nonsense!” the zoologist interrupted.
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;e:vonkoren=angry;i=
 
 “You say he is in the service; but how does he serve? Do you mean to tell me that things have been done better because he is here, and the officials are more punctual, honest, and civil?”
-
+;e:vonkoren=suspicious;i=
 
 “On the contrary, he has only sanctioned their slackness by his prestige as an intellectual university man.”
 e:vonkoren=serious
@@ -1148,16 +1148,16 @@ e:vonkoren=serious
 
 
 “No, Alexandr Daviditch, don’t stick up for him. You are insincere from beginning to end.”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=angry;i=2
 
 “If you really loved him and considered him your neighbour, you would above all not be indifferent to his weaknesses, you would not be indulgent to them, but for his own sake would try to make him innocuous.”
-e:vonkoren=serious
+e:vonkoren=serious;e:vonkoren=suspicious;i=;e:vonkoren=thinking;i=
 
 “That is?”
-s=samoylenko;e:samoylenko=confused
+s=samoylenko;e:samoylenko=confused;e:samoylenko=unhappy;i=
 
 “Innocuous. Since he is incorrigible, he can only be made innocuous in one way.…”
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=suspicious;i=
 
 Von Koren passed his finger round his throat.
 s=
@@ -1166,52 +1166,52 @@ s=
 e:vonkoren=smirking;s=vonkoren
 
 “In the interests of humanity and in their own interests, such people ought to be destroyed. They certainly ought.”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=scowling;i=3
 
 “What are you saying?” muttered Samoylenko, getting up and looking with amazement at the zoologist’s calm, cold face.
-s=samoylenko;e:samoylenko=surprised
+s=samoylenko;e:samoylenko=surprised;e:samoylenko=nervous;i=2
 
 “Deacon, what is he saying? Why﻿—are you in your senses?”
-e:samoylenko=contemplative
+e:samoylenko=contemplative;e:samoylenko=upset;i=2
 
 “I don’t insist on the death penalty,” said Von Koren.
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=suspicious;i=
 
 “If it is proved that it is pernicious, devise something else. If we can’t destroy Laevsky, why then, isolate him, make him harmless, send him to hard labour.”
 e:vonkoren=thinking
 
 “What are you saying!” said Samoylenko in horror.
-s=samoylenko;e:samoylenko=upset
+s=samoylenko;e:samoylenko=upset;e:samoylenko=wary;i=2
 
 “With pepper, with pepper,” he cried in a voice of despair, seeing that the deacon was eating stuffed aubergines without pepper.
-e:samoylenko=unhappylook
+e:samoylenko=upset
 
 “You with your great intellect, what are you saying! Send our friend, a proud intellectual man, to penal servitude!”
-e:samoylenko=unhappy
+e:samoylenko=unhappy;e:samoylenko=nervous;i=
 
 “Well, if he is proud and tries to resist, put him in fetters!”
-s=vonkoren;e:vonkoren=scowling
+s=vonkoren;e:vonkoren=scowling;e:vonkoren=suspicious;i=
 
 Samoylenko could not utter a word, and only twiddled his fingers; the deacon looked at his flabbergasted and really absurd face, and laughed.
 s=none;e:samoylenko=nervous;e:deacon=happy
 
 “Let us leave off talking of that,” said the zoologist.
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=thinking;i=
 
 “Only remember one thing, Alexandr Daviditch: primitive man was preserved from such as Laevsky by the struggle for existence and by natural selection;”
-e:vonkoren=serious
+e:vonkoren=serious;e:vonkoren=scowling;i=3
 
 “now our civilisation has considerably weakened the struggle and the selection, and we ought to look after the destruction of the rotten and worthless for ourselves; otherwise, when the Laevskys multiply, civilisation will perish and mankind will degenerate utterly.”
-
+;e:vonkoren=confused;i=
 
 “It will be our fault.”
-
+;e:vonkoren=annoyed;i=3
 
 “If it depends on drowning and hanging,” said Samoylenko, “damnation take your civilisation, damnation take your humanity! Damnation take it!”
 s=samoylenko;e:samoylenko=angry
 
 “I tell you what: you are a very learned and intelligent man and the pride of your country, but the Germans have ruined you. Yes, the Germans! The Germans!”
-e:samoylenko=upset
+e:samoylenko=upset;e:samoylenko=nervous;i=
 
 Since Samoylenko had left Dorpat, where he had studied medicine, he had rarely seen a German and had not read a single German book, but, in his opinion, every harmful idea in politics or science was due to the Germans.
 s=none
@@ -1220,10 +1220,10 @@ Where he had got this notion he could not have said himself, but he held it firm
 
 
 “Yes, the Germans!” he repeated once more.
-s=samoylenko;e:samoylenko=annoyed
+s=samoylenko;e:samoylenko=annoyed;e:samoylenko=upset;i=2
 
 “Come and have some tea.”
-e:samoylenko=neutral
+e:samoylenko=neutral;e:samoylenko=sadsmile;i=
 
 All three stood up, and putting on their hats,
 s=none;e:samoylenko=neutral;e:vonkoren=neutral;e:deacon=neutral;m=allowbreak
@@ -1231,10 +1231,7 @@ s=none;e:samoylenko=neutral;e:vonkoren=neutral;e:deacon=neutral;m=allowbreak
 went out into the little garden, and sat there under the shade of the light green maples, the pear trees, and a chestnut tree.
 m=;b=dr-garden;x:samoylenko=coatless,hat;x:deacon=hat;x:vonkoren=hat
 
-The zoologist and the deacon sat on a bench by the table, while Samoylenko sank into a deep wicker chair with a sloping back.
-
-
-The orderly handed them tea, jam, and a bottle of syrup.
+The zoologist and the deacon sat on a bench by the table, while Samoylenko sank into a deep wicker chair with a sloping back. The orderly handed them tea, jam, and a bottle of syrup.
 
 
 It was very hot, thirty degrees Réaumur in the shade.<e>~100°F</e>
@@ -1277,28 +1274,28 @@ s=vonkoren;e:vonkoren=contemplative
 s=deacon;e:deacon=weary
 
 “Come and see me. You can pack up a parcel and copy something for me.”
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=;i=2
 
 “By the way, we must have a talk about what you are to do. You must work, deacon. You can’t go on like this.”
 e:vonkoren=serious
 
 “Your words are just and logical,” said the deacon.
-s=deacon;e:deacon=thinking
+s=deacon;e:deacon=thinking;e:deacon=contemplative;i=
 
 “But my laziness finds an excuse in the circumstances of my present life.”
-e:deacon=contemplative
+e:deacon=contemplative;e:deacon=curious;i=
 
 “You know yourself that an uncertain position has a great tendency to make people apathetic. God only knows whether I have been sent here for a time or permanently.”
-
+;e:deacon=unhappy;i=
 
 “I am living here in uncertainty, while my wife is vegetating at her father’s and is missing me. And I must confess my brain is melting with the heat.”
-e:deacon=unhappy
+e:deacon=unhappy;e:deacon=serious;i=2
 
 “That’s all nonsense,” said the zoologist.
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;e:vonkoren=serious;i=3
 
 “You can get used to the heat, and you can get used to being without the deaconess. You mustn’t be slack; you must pull yourself together.”
-e:vonkoren=serious
+e:vonkoren=serious;e:vonkoren=serious;i=
 
 ## V
 r=title
