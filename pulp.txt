@@ -1301,7 +1301,7 @@ e:vonkoren=serious;e:vonkoren=serious;i=
 r=title
 
 Nadyezhda Fyodorovna went to bathe in the morning, and her cook, Olga, followed her with a jug, a copper basin, towels, and a sponge.
-n:olga=Olga;e:nadyezhda=neutral;b=town-wide
+n:olga=Olga;e:nadyezhda=neutral;b=boulevard
 
 In the bay stood two unknown steamers with dirty white funnels, obviously foreign cargo vessels.
 
@@ -1331,7 +1331,7 @@ In the whole town she was the only one who could be attractive, while there were
 e:nadyezhda=smirking
 
 She was glad that of late Laevsky had been cold to her, reserved and polite, and at times even harsh and rude;
-e:nadyezhda=thinking
+e:nadyezhda=thinking;b=vanya-wide;f:b:vanya-wide=blur(3px)
 
 in the past she had met all his outbursts, all his contemptuous, cold or strange incomprehensible glances, with tears, reproaches, and threats to leave him or to starve herself to death; now she only blushed, looked guiltily at him, and was glad he was not affectionate to her.
 
@@ -1367,7 +1367,7 @@ Thirdly, she had on two occasions in Laevsky’s absence received a visit from K
 s=none;e:nadyezhda=nervous
 
 Remembering this, Nadyezhda Fyodorovna flushed crimson, and looked round at the cook as though she might overhear her thoughts.
-e:nadyezhda=fearful
+e:nadyezhda=fearful;b=boulevard
 
 The long, insufferably hot, wearisome days, beautiful languorous evenings and stifling nights, and the whole manner of living, when from morning to night one is at a loss to fill up the useless hours, and the persistent thought that she was the prettiest young woman in the town, and that her youth was passing and being wasted,
 e:nadyezhda=weary;m=allowbreak
@@ -1388,7 +1388,7 @@ Now the foreign steamers and the men in white reminded her for some reason of a 
 e:nadyezhda=surprised
 
 She reflected joyfully that there was nothing terrible about her infidelity.
-e:nadyezhda=smirking;b=vanya-wide;f:b:vanya-wide=blur(3px)
+e:nadyezhda=smirking;f:b:boulevard=blur(3px)
 
 Her soul had no part in her infidelity; she still loved Laevsky, and that was proved by the fact that she was jealous of him, was sorry for him, and missed him when he was away.
 e:nadyezhda=thinking
@@ -1414,11 +1414,14 @@ She had been a governess until she was thirty-two, and then had married Bityugov
 She was still in love with him, was jealous, blushed at the word “love,” and told everyone she was very happy.
 e:marya=happy
 
-<span class='d'>“My dear,”</span> she cried enthusiastically, on seeing Nadyezhda Fyodorovna, assuming an expression which all her acquaintances called “almond-oily.”
-s=marya;e:marya=excited;x:marya=undressing
+“My dear,” she cried enthusiastically,
+s=marya;e:marya=excited;x:marya=undressing;z:marya=96,53,9;m=allowbreak;e:marya=happy;i=
+
+on seeing Nadyezhda Fyodorovna, assuming an expression which all her acquaintances called “almond-oily.”
+s=;m=
 
 “My dear, how delightful that you have come! We’ll bathe together﻿—that’s enchanting!”
-e:marya=happy
+e:marya=happy;e:marya=happy;i=2;s=marya
 
 Olga quickly flung off her dress and chemise, and began undressing her mistress.
 s=none;e:olga=neutral
@@ -1433,16 +1436,16 @@ e:nadyezhda=contemplative
 s=marya;e:marya=weary
 
 “Would you believe it? I bathed yesterday three times! Just imagine, my dear, three times! Nikodim Alexandritch was quite uneasy.”
-e:marya=happy;i=2
+e:marya=happy
 
 “Is it possible to be so ugly?” thought Nadyezhda Fyodorovna, looking at Olga and the official’s wife;
-s=;t=nadyezhda;e:nadyezhda=looking
+s=;t=nadyezhda;e:nadyezhda=lookingtwo
 
 she glanced at Katya and thought:
 t=
 
 “The little girl’s not badly made.”
-t=nadyezhda;i=2
+t=nadyezhda;e:nadyezhda=looking
 
 “Your Nikodim Alexandritch is very charming!” she said.
 t=;s=nadyezhda;e:nadyezhda=smirking
@@ -1451,10 +1454,10 @@ t=;s=nadyezhda;e:nadyezhda=smirking
 
 
 “Ha, ha, ha!” cried Marya Konstantinovna, with a forced laugh;
-s=marya;e:marya=sadsmile
+s=marya;e:marya=sadsmile;e:marya=sadsmile;i=2
 
 “that’s quite enchanting.”
-
+;e:marya=contemplative;i=2
 
 Free from her clothes, Nadyezhda Fyodorovna felt a desire to fly. And it seemed to her that if she were to wave her hands she would fly upwards.
 s=none;e:nadyezhda=happy;x:nadyezhda=undressed
@@ -1538,31 +1541,28 @@ A sailing-boat darted by her rapidly and vigorously, cleaving the waves and the 
 e:nadyezhda=smirking
 
 After bathing, the ladies dressed and went away together.
-b=boulevard;x:nadyezhda=silk,hat;x:marya=hat
+b=boulevard;x:nadyezhda=silk,hat;x:marya=hat;f:b:boulevard=
 
 “I have fever every alternate day, and yet I don’t get thin,” said Nadyezhda Fyodorovna,
-s=nadyezhda;e:nadyezhda=happy;m=allowbreak
+s=nadyezhda;e:nadyezhda=happy;m=allowbreak;e:nadyezhda=;i=
 
 licking her lips, which were salt from the bathe, and responding with a smile to the bows of her acquaintances.
 m=;s=
 
 “I’ve always been plump, and now I believe I’m plumper than ever.”
-e:nadyezhda=smirking;s=nadyezhda
+e:nadyezhda=smirking;s=nadyezhda;e:nadyezhda=happy;i=2
 
 “That, my dear, is constitutional. If, like me, one has no constitutional tendency to stoutness, no diet is of any use.…”
-s=marya;e:marya=neutral
+s=marya;e:marya=neutral;e:marya=thinking;i=
 
 “But you’ve wetted your hat, my dear.”
-e:marya=contemplative
+e:marya=contemplative;e:marya=confused;i=
 
 “It doesn’t matter; it will dry.”
-s=nadyezhda;e:nadyezhda=
+s=nadyezhda;e:nadyezhda=;e:nadyezhda=happy;i=
 
-Nadyezhda Fyodorovna saw again the men in white who were walking on the seafront and talking French;
-s=none;e:nadyezhda=happy;b=town-wide
-
-and again she felt a sudden thrill of joy, and had a vague memory of some big hall in which she had once danced, or of which, perhaps, she had once dreamed.
-
+Nadyezhda Fyodorovna saw again the men in white who were walking on the seafront and talking French; and again she felt a sudden thrill of joy, and had a vague memory of some big hall in which she had once danced, or of which, perhaps, she had once dreamed.
+s=none;e:nadyezhda=happy
 
 And something at the bottom of her soul dimly and obscurely whispered to her that she was a pretty, common, miserable, worthless woman.…
 e:nadyezhda=unhappy
@@ -1571,16 +1571,16 @@ Marya Konstantinovna stopped at her gate and asked her to come in and sit down f
 e:marya=neutral;b=marya-wide
 
 “Come in, my dear,” she said in an imploring voice,
-s=marya;e:marya=nervous;m=allowbreak
+s=marya;e:marya=nervous;m=allowbreak;e:marya=nervous;i=2
 
 and at the same time she looked at Nadyezhda Fyodorovna with anxiety and hope; perhaps she would refuse and not come in!
 m=;s=
 
 “With pleasure,” said Nadyezhda Fyodorovna, accepting.
-s=nadyezhda;e:nadyezhda=happy
+s=nadyezhda;e:nadyezhda=happy;e:nadyezhda=smirking;i=
 
 “You know how I love being with you!”
-
+e:nadyezhda=happy;i=2
 
 And she went into the house.
 s=none;b=marya-drawing
@@ -1604,7 +1604,7 @@ but she dropped a word about it unawares, crimsoned, and said in confusion:
 
 
 “I hope you will come too!”
-s=marya;e:marya=crimsoned;x:marya=
+s=marya;e:marya=crimsoned;x:marya=;e:marya=nervous;i=
 
 ## VI
 r=title
