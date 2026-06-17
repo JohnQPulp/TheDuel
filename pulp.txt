@@ -2996,22 +2996,22 @@ r=title
 s=vonkoren;e:vonkoren=smirking;e:samoylenko=neutral;b=koren-drawing;x:samoylenko=uniform
 
 “I was passing by and thought: ‘Suppose I go in and pay my respects to zoology,’” said Samoylenko,
-s=samoylenko;e:samoylenko=happy;m=allowbreak
+s=samoylenko;e:samoylenko=happy;m=allowbreak;e:samoylenko=nervous;i=;e:samoylenko=;i=
 
 sitting down at the big table, knocked together by the zoologist himself out of plain boards.
 m=;s=
 
 “Good morning, holy father,” he said to the deacon, who was sitting in the window, copying something.
-e:deacon=neutral;s=samoylenko;e:samoylenko=happy;i=2
+e:deacon=neutral;s=samoylenko;e:samoylenko=happy;i=2;e:samoylenko=curious;i=
 
 “I’ll stay a minute and then run home to see about dinner. It’s time.… I’m not hindering you?”
-e:samoylenko=contemplative
+e:samoylenko=contemplative;e:samoylenko=;i=;e:samoylenko=thinking;i=2
 
 “Not in the least,” answered the zoologist, laying out over the table slips of paper covered with small writing.
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=;i=2
 
 “We are busy copying.”
-
+i=
 
 “Ah!… Oh, my goodness, my goodness!…” sighed Samoylenko.
 s=samoylenko;e:samoylenko=weary
@@ -3023,76 +3023,79 @@ s=
 s=samoylenko;e:samoylenko=contemplative
 
 “Yes, I suppose so.”
-s=vonkoren
+s=vonkoren;e:vonkoren=thinking;i=
 
 “Is poison given it to protect it from its enemies?”
-s=samoylenko;e:samoylenko=curious
+s=samoylenko;e:samoylenko=curious;e:samoylenko=nervous;i=
 
 “Yes, to protect it and enable it to attack.”
-s=vonkoren
+s=vonkoren;e:vonkoren=;i=2
 
-“To be sure, to be sure.… And everything in nature, my dear fellows, is consistent and can be explained,” sighed Samoylenko; “only I tell you what I don’t understand. You’re a man of very great intellect, so explain it to me, please.”
-s=samoylenko;e:samoylenko=thinking
+“To be sure, to be sure.… And everything in nature, my dear fellows, is consistent and can be explained,” sighed Samoylenko;
+s=samoylenko;e:samoylenko=thinking;e:samoylenko=upset;i=2
+
+“only I tell you what I don’t understand. You’re a man of very great intellect, so explain it to me, please.”
+;e:samoylenko=weary;i=
 
 “There are, you know, little beasts no bigger than rats, rather handsome to look at, but nasty and immoral in the extreme, let me tell you.”
-e:samoylenko=thinking
+e:samoylenko=thinking;e:samoylenko=serious;i=
 
 “Suppose such a little beast is running in the woods. He sees a bird; he catches it and devours it.”
-
+;e:samoylenko=nervous;i=
 
 “He goes on and sees in the grass a nest of eggs; he does not want to eat them﻿—he is not hungry, but yet he tastes one egg and scatters the others out of the nest with his paw.”
-
+;e:samoylenko=unhappy;i=
 
 “Then he meets a frog and begins to play with it; when he has tormented the frog he goes on licking himself and meets a beetle; he crushes the beetle with his paw… and so he spoils and destroys everything on his way.…”
-e:samoylenko=upset
+e:samoylenko=upset;e:samoylenko=confused;i=
 
 “He creeps into other beasts’ holes, tears up the anthills, cracks the snail’s shell. If he meets a rat, he fights with it; if he meets a snake or a mouse, he must strangle it; and so the whole day long.”
-
+;e:samoylenko=unhappy;i=
 
 “Come, tell me: what is the use of a beast like that? Why was he created?”
-e:samoylenko=confused
+e:samoylenko=confused;e:samoylenko=upset;i=2
 
 “I don’t know what animal you are talking of,” said Von Koren; “most likely one of the insectivora.”
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=confused;i=
 
 “Well, he got hold of the bird because it was incautious; he broke the nest of eggs because the bird was not skilful, had made the nest badly and did not know how to conceal it.”
 e:vonkoren=thinking
 
 “The frog probably had some defect in its colouring or he would not have seen it, and so on.”
-
+;e:vonkoren=scowling;i=3
 
 “Your little beast only destroys the weak, the unskilful, the careless﻿—in fact, those who have defects which nature does not think fit to hand on to posterity.”
-e:vonkoren=serious
+e:vonkoren=serious;e:vonkoren=suspicious;i=
 
 “Only the cleverer, the stronger, the more careful and developed survive; and so your little beast, without suspecting it, is serving the great ends of perfecting creation.”
 e:vonkoren=smirking
 
 “Yes, yes, yes.… By the way, brother,” said Samoylenko carelessly, “lend me a hundred roubles.”
-s=samoylenko;e:samoylenko=wary
+s=samoylenko;e:samoylenko=wary;e:samoylenko=nervous;i=
 
 “Very good. There are some very interesting types among the insectivorous mammals. For instance, the mole is said to be useful because he devours noxious insects.”
-s=vonkoren;e:vonkoren=
+s=vonkoren;e:vonkoren=;e:vonkoren=;i=2
 
 “There is a story that some German sent William I a fur coat made of moleskins, and the Emperor ordered him to be reproved for having destroyed so great a number of useful animals.”
-e:vonkoren=thinking
+e:vonkoren=thinking;e:vonkoren=curious;i=
 
 “And yet the mole is not a bit less cruel than your little beast, and is very mischievous besides, as he spoils meadows terribly.”
-
+;e:vonkoren=annoyed;i=3
 
 Von Koren opened a box and took out a hundred-rouble note.
 s=none;e:vonkoren=neutral
 
 “The mole has a powerful thorax, just like the bat,” he went on, shutting the box;
-s=vonkoren
+s=vonkoren;e:vonkoren=curious;i=2
 
 “the bones and muscles are tremendously developed, the mouth is extraordinarily powerfully furnished. If it had the proportions of an elephant, it would be an all-destructive, invincible animal.”
-
+;e:vonkoren=;i=2
 
 “It is interesting when two moles meet underground; they begin at once as though by agreement digging a little platform; they need the platform in order to have a battle more conveniently.”
 e:vonkoren=curious
 
 “When they have made it they enter upon a ferocious struggle and fight till the weaker one falls.”
-
+;e:vonkoren=smirking;i=
 
 “Take the hundred roubles,” said Von Koren, dropping his voice, “but only on condition that you’re not borrowing it for Laevsky.”
 e:vonkoren=suspicious
@@ -3101,82 +3104,82 @@ e:vonkoren=suspicious
 s=samoylenko;e:samoylenko=angry
 
 “I can’t give it to you for Laevsky. I know you like lending people money.”
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;e:vonkoren=scowling;i=3
 
 “You would give it to Kerim, the brigand, if he were to ask you; but, excuse me, I can’t assist you in that direction.”
-e:vonkoren=serious
+e:vonkoren=serious;e:vonkoren=serious;i=2
 
 “Yes, it is for Laevsky I am asking it,” said Samoylenko, standing up and waving his right arm.
 s=samoylenko;e:samoylenko=angrywave
 
 “Yes! For Laevsky! And no one, fiend or devil, has a right to dictate to me how to dispose of my own money. It doesn’t suit you to lend it me? No?”
-e:samoylenko=scowling
+e:samoylenko=scowling;e:samoylenko=weary;i=
 
 The deacon began laughing.
 s=none;e:deacon=happy
 
 “Don’t get excited, but be reasonable,” said the zoologist.
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=serious;i=2
 
 “To shower benefits on Mr. Laevsky is, to my thinking, as senseless as to water weeds or to feed locusts.”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=annoyed;i=3
 
 “To my thinking, it is our duty to help our neighbours!” cried Samoylenko.
 s=samoylenko;e:samoylenko=angry
 
 “In that case, help that hungry Turk who is lying under the fence! He is a workman and more useful and indispensable than your Laevsky. Give him that hundred-rouble note!”
-s=vonkoren;e:vonkoren=angry
+s=vonkoren;e:vonkoren=angry;e:vonkoren=angry;i=2
 
 “Or subscribe a hundred roubles to my expedition!”
-
+;e:vonkoren=suspicious;i=
 
 “Will you give me the money or not? I ask you!”
-s=samoylenko;e:samoylenko=angry
+s=samoylenko;e:samoylenko=angry;e:samoylenko=confused;i=
 
 “Tell me openly: what does he want money for?”
-s=vonkoren;e:vonkoren=suspicious
+s=vonkoren;e:vonkoren=suspicious;e:vonkoren=scowling;i=3
 
 “It’s not a secret; he wants to go to Petersburg on Saturday.”
 s=samoylenko;e:samoylenko=serious
 
 “So that is it!” Von Koren drawled out.
-s=vonkoren;e:vonkoren=smirking
+s=vonkoren;e:vonkoren=smirking;i=2
 
 “Aha!… We understand. And is she going with him, or how is it to be?”
-
+i=
 
 “She’s staying here for the time. He’ll arrange his affairs in Petersburg and send her the money, and then she’ll go.”
-s=samoylenko
+s=samoylenko;e:samoylenko=serious;i=2
 
 “That’s smart!” said the zoologist, and he gave a short tenor laugh.
-s=vonkoren;e:vonkoren=smirking
+s=vonkoren;e:vonkoren=smirking;e:vonkoren=curious;i=
 
 “Smart, well planned.”
-
+;e:vonkoren=;i=2
 
 He went rapidly up to Samoylenko, and standing face to face with him, and looking him in the eyes, asked:
 s=
 
 “Tell me now honestly: is he tired of her? Yes? tell me: is he tired of her? Yes?”
-s=samoylenko;e:vonkoren=serious;e:samoylenko=wary
+s=vonkoren;e:vonkoren=serious
 
 “Yes,” Samoylenko articulated, beginning to perspire.
-s=samoylenko;e:samoylenko=nervous
+s=samoylenko;e:samoylenko=nervous;e:samoylenko=confused;i=
 
 “How repulsive it is!” said Von Koren, and from his face it could be seen that he felt repulsion.<e>Отвратительное sentence.</e>
-s=vonkoren;e:vonkoren=scowling
+s=vonkoren;e:vonkoren=scowling;e:vonkoren=annoyed;i=
 
 “One of two things, Alexandr Daviditch: either you are in the plot with him, or, excuse my saying so, you are a simpleton.”
-
+;e:vonkoren=scowling;i=2
 
 “Surely you must see that he is taking you in like a child in the most shameless way? Why, it’s as clear as day that he wants to get rid of her and abandon her here.”
-e:vonkoren=annoyed
+e:vonkoren=annoyed;e:vonkoren=confused;i=
 
 “She’ll be left a burden on you. It is as clear as day that you will have to send her to Petersburg at your expense.”
-
+;e:vonkoren=thinking;i=
 
 “Surely your fine friend can’t have so blinded you by his dazzling qualities that you can’t see the simplest thing?”
-
+;e:vonkoren=suspicious;i=
 
 “That’s all supposition,” said Samoylenko, sitting down.
 s=samoylenko;e:samoylenko=serious
@@ -3191,16 +3194,16 @@ s=none;e:samoylenko=wary
 s=samoylenko;e:samoylenko=weary
 
 “He is so unhappy!”
-
+;e:samoylenko=upset;i=
 
 “What of that? Thieves and incendiaries are unhappy too!”
-s=vonkoren;e:vonkoren=scowling
+s=vonkoren;e:vonkoren=scowling;e:vonkoren=scowling;i=2
 
 “Even supposing you are right…” said Samoylenko, hesitating.
-s=samoylenko;e:samoylenko=nervous
+s=samoylenko;e:samoylenko=nervous;e:samoylenko=unhappy;i=
 
 “Let us admit it.… Still, he’s a young man in a strange place… a student. We have been students, too, and there is no one but us to come to his assistance.”
-e:samoylenko=unhappy
+e:samoylenko=unhappy;e:samoylenko=upset;i=2
 
 “To help him to do abominable things, because he and you at different times have been at universities, and neither of you did anything there! What nonsense!”
 s=vonkoren;e:vonkoren=angry
@@ -3209,16 +3212,16 @@ s=vonkoren;e:vonkoren=angry
 s=samoylenko;e:samoylenko=serious
 
 “I’ll give him the money, you see, but make him promise on his honour that within a week he’ll send Nadyezhda Fyodorovna the money for the journey.”
-
+;e:samoylenko=nervous;i=
 
 “And he’ll give you his word of honour﻿—in fact, he’ll shed tears and believe in it himself; but what’s his word of honour worth?”
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;e:vonkoren=suspicious;i=
 
 “He won’t keep it, and when in a year or two you meet him on the Nevsky Prospect with a new mistress on his arm, he’ll excuse himself on the ground that he has been crippled by civilisation, and that he is made after the pattern of Rudin.”
-
+;e:vonkoren=angry;i=2
 
 “Drop him, for God’s sake! Keep away from the filth; don’t stir it up with both hands!”
-e:vonkoren=angry
+e:vonkoren=angry;e:vonkoren=serious;i=
 
 Samoylenko thought for a minute and said resolutely:
 s=none;e:samoylenko=thinking
@@ -3227,7 +3230,7 @@ s=none;e:samoylenko=thinking
 s=samoylenko;e:samoylenko=serious
 
 “Very fine, too. You can kiss him if you like.”
-s=vonkoren;e:vonkoren=scowling
+s=vonkoren;e:vonkoren=scowling;e:vonkoren=scowling;i=3
 
 “Give me the hundred roubles, then,” Samoylenko asked timidly.
 s=samoylenko;e:samoylenko=nervous
@@ -3242,52 +3245,52 @@ Samoylenko was quite crushed; his face wore a guilty, abashed, and ingratiating 
 
 
 “The bishop here goes the round of his diocese on horseback instead of in a carriage,” said the deacon, laying down his pen.
-s=deacon;e:deacon=
+s=deacon;e:deacon=;e:deacon=contemplative;i=
 
 “It’s extremely touching to see him sit on his horse. His simplicity and humility are full of Biblical grandeur.”
-e:deacon=contemplative
+e:deacon=
 
 “Is he a good man?” asked Von Koren, who was glad to change the conversation.
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=;i=2
 
 “Of course! If he hadn’t been a good man, do you suppose he would have been consecrated a bishop?”
-s=deacon;e:deacon=serious
+s=deacon;e:deacon=serious;e:deacon=annoyed;i=
 
 “Among the bishops are to be found good and gifted men,” said Von Koren.
 s=vonkoren;e:vonkoren=thinking
 
 “The only drawback is that some of them have the weakness to imagine themselves statesmen.”
-
+;e:vonkoren=scowling;i=3
 
 “One busies himself with Russification, another criticises the sciences. That’s not their business. They had much better look into their consistory a little.”
-e:vonkoren=annoyed
+e:vonkoren=annoyed;e:vonkoren=suspicious;i=
 
 “A layman cannot judge of bishops.”
-s=deacon;e:deacon=annoyed
+s=deacon;e:deacon=annoyed;e:deacon=annoyed;i=2
 
 “Why so, deacon? A bishop is a man just the same as you or I.”
 s=vonkoren;e:vonkoren=curious
 
 “The same, but not the same.”
-s=deacon;e:deacon=annoyed;i=2
+s=deacon;e:deacon=annoyed;i=2;e:deacon=annoyed;i=
 
 The deacon was offended and took up his pen.
 s=
 
 “If you had been the same, the Divine Grace would have rested upon you, and you would have been bishop yourself; and since you are not bishop, it follows you are not the same.”
-e:deacon=scowling;s=deacon
+e:deacon=scowling;s=deacon;e:deacon=serious;i=
 
 “Don’t talk nonsense, deacon,” said Samoylenko dejectedly.
-s=samoylenko;e:samoylenko=weary
+s=samoylenko;e:samoylenko=weary;e:samoylenko=upset;i=2
 
 “Listen to what I suggest,” he said, turning to Von Koren.
 e:samoylenko=serious
 
 “Don’t give me that hundred roubles. You’ll be having your dinners with me for three months before the winter, so let me have the money beforehand for three months.”
-
+;e:samoylenko=scowling;i=
 
 “I won’t.”
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=scowling;i=3
 
 Samoylenko blinked and turned crimson; he mechanically drew towards him the book with the spider on it and looked at it, then he got up and took his hat.
 s=none;e:samoylenko=upset
@@ -3296,7 +3299,7 @@ Von Koren felt sorry for him.
 e:vonkoren=sadsmile
 
 “What it is to have to live and do with people like this,” said the zoologist,
-s=vonkoren;e:vonkoren=annoyed;m=allowbreak
+s=vonkoren;e:vonkoren=annoyed;m=allowbreak;e:vonkoren=annoyed;i=3
 
 and he kicked a paper into the corner with indignation.
 m=;s=
@@ -3305,7 +3308,7 @@ m=;s=
 s=vonkoren;e:vonkoren=angry
 
 “When I was ill with typhoid as a schoolboy, my aunt in her sympathy gave me pickled mushrooms to eat, and I very nearly died.”
-e:vonkoren=scowling
+e:vonkoren=scowling;e:vonkoren=scowling;i=2
 
 “You, and my aunt too, must understand that love for man is not to be found in the heart or the stomach or the bowels, but here!”
 e:vonkoren=foreheadslap
@@ -3314,37 +3317,34 @@ Von Koren slapped himself on the forehead.
 s=none
 
 “Take it,” he said, and thrust a hundred-rouble note into his hand.
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;e:vonkoren=serious;i=
 
 “You’ve no need to be angry, Kolya,” said Samoylenko mildly, folding up the note.
 s=samoylenko;e:samoylenko=wary;x:samoylenko=uniform,hat
 
 “I quite understand you, but… you must put yourself in my place.”
-e:samoylenko=contemplative
+e:samoylenko=contemplative;e:samoylenko=thinking;i=
 
 “You are an old woman, that’s what you are.”
-s=vonkoren;e:vonkoren=weary
+s=vonkoren;e:vonkoren=weary;e:vonkoren=angry;i=2
 
 The deacon burst out laughing.
 s=none;e:deacon=happy
 
 “Hear my last request, Alexandr Daviditch,” said Von Koren hotly.
-s=vonkoren;e:vonkoren=annoyed
+s=vonkoren;e:vonkoren=annoyed;e:vonkoren=suspicious;i=
 
 “When you give that scoundrel the money, make it a condition that he takes his lady with him, or sends her on ahead, and don’t give it him without. There’s no need to stand on ceremony with him.”
-
+;e:vonkoren=scowling;i=3
 
 “Tell him so, or, if you don’t, I give you my word I’ll go to his office and kick him downstairs, and I’ll break off all acquaintance with you. So you’d better know it.”
 e:vonkoren=angry
 
-“Well! To go with her or send her on beforehand will be more convenient for him,” said Samoylenko.
+“Well! To go with her or send her on beforehand will be more convenient for him,” said Samoylenko. “He’ll be delighted indeed.”
 s=samoylenko;e:samoylenko=thinking
 
-“He’ll be delighted indeed.”
-e:samoylenko=thinking
-
 “Well, goodbye.”
-e:samoylenko=;i=
+e:samoylenko=;i=;e:samoylenko=wary;i=
 
 He said goodbye affectionately and went out, but before shutting the door after him, he looked round at Von Koren and, with a ferocious face, said:
 s=none;e:samoylenko=angry
