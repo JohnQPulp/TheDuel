@@ -3626,10 +3626,10 @@ Laevsky received two notes; he opened one and read: “Don’t go away, my darli
 s=none;e:laevsky=curious;b=marya-drawing
 
 “Who could have written that?” he thought. “Not Samoylenko, of course.”
-t=laevsky;e:laevsky=thinking
+t=laevsky;e:laevsky=thinking;e:laevsky=annoyed;i=
 
 “And not the deacon, for he doesn’t know I want to go away. Von Koren, perhaps?”
-e:laevsky=contemplative
+e:laevsky=thinking
 
 The zoologist bent over the table and drew a pyramid.
 t=none
@@ -3638,7 +3638,7 @@ Laevsky fancied that his eyes were smiling.
 e:vonkoren=smirking
 
 “Most likely Samoylenko… has been gossiping,” thought Laevsky.
-t=laevsky;e:laevsky=annoyed
+t=laevsky;e:laevsky=annoyed;e:laevsky=serious;i=
 
 In the other note, in the same disguised angular handwriting with long tails to the letters, was written: “Somebody won’t go away on Saturday.”
 t=none
@@ -3647,7 +3647,7 @@ t=none
 t=laevsky;e:laevsky=annoyed
 
 “Friday, Friday.…”<e>♫How could you leave and not take me♫</e>
-e:laevsky=thinking
+e:laevsky=thinking;e:laevsky=wary;i=
 
 Something rose in his throat.
 t=none;e:laevsky=nervous
@@ -3689,19 +3689,19 @@ He dropped on one of the beds and sobbed.
 e:laevsky=unhappy
 
 “It’s nothing, it’s nothing,” Samoylenko kept saying;
-s=samoylenko;e:samoylenko=nervous
+s=samoylenko;e:samoylenko=nervous;e:samoylenko=upset;i=
 
 “it does happen… it does happen.…”
-
+;e:samoylenko=thinking;i=
 
 Chill with horror, trembling all over and dreading something awful, Nadyezhda Fyodorovna stood by the bedside and kept asking:
 s=none;e:nadyezhda=fearful
 
 “What is it? What is it? For God’s sake, tell me.”
-s=nadyezhda
+s=nadyezhda;e:nadyezhda=upset;i=
 
 “Can Kirilin have written him something?” she thought.
-s=;t=nadyezhda;e:nadyezhda=nervous
+s=;t=nadyezhda;e:nadyezhda=nervous;e:nadyezhda=wary;i=
 
 “It’s nothing,” said Laevsky, laughing and crying; “go away, darling.”
 t=;s=laevsky;e:laevsky=hystericalcrying
@@ -3710,34 +3710,34 @@ His face expressed neither hatred nor repulsion: so he knew nothing; Nadyezhda F
 s=none;e:nadyezhda=neutral;m=allowbreak
 
 and she went into the drawing room.
-m=;b=marya-drawing
+m=;b=marya-drawing;f:b:marya-drawing=
 
 “Don’t agitate yourself, my dear!” said Marya Konstantinovna, sitting down beside her and taking her hand.
-s=marya;e:marya=nervous
+s=marya;e:marya=nervous;e:marya=crimsoned;i=
 
 “It will pass. Men are just as weak as we poor sinners.”
-e:marya=thinking
+e:marya=thinking;e:marya=serious;i=
 
 “You are both going through a crisis.… One can so well understand it!”
 e:marya=serious
 
 “Well, my dear, I am waiting for an answer. Let us have a little talk.”
-e:marya=serious
+e:marya=serious;e:marya=nervous;i=
 
 “No, we are not going to talk,” said Nadyezhda Fyodorovna, listening to Laevsky’s sobs.
-s=nadyezhda;e:nadyezhda=unhappy
+s=nadyezhda;e:nadyezhda=unhappy;e:nadyezhda=upset;i=
 
 “I feel depressed.… You must allow me to go home.”
 e:nadyezhda=weary
 
 “What do you mean, what do you mean, my dear?” cried Marya Konstantinovna in alarm.
-s=marya;e:marya=surprised
+s=marya;e:marya=surprised;e:marya=crimsoned;i=
 
 “Do you think I could let you go without supper? We will have something to eat, and then you may go with my blessing.”
-e:marya=serious
+e:marya=serious;e:marya=nervous;i=
 
 “I feel miserable…” whispered Nadyezhda Fyodorovna,
-s=nadyezhda;e:nadyezhda=weary;m=allowbreak
+s=nadyezhda;e:nadyezhda=weary;m=allowbreak;e:nadyezhda=upset;i=
 
 and she caught at the arm of the chair with both hands to avoid falling.
 m=;s=
@@ -3752,10 +3752,10 @@ When the attack was over, Laevsky sat on the strange bed and thought.
 s=none;e:laevsky=thinking;b=marya-little
 
 “Disgraceful! I’ve been howling like some wretched girl! I must have been absurd and disgusting.”
-t=laevsky;e:laevsky=unhappy
+t=laevsky;e:laevsky=unhappy;e:laevsky=upset;i=
 
 “I will go away by the back stairs.… But that would seem as though I took my hysterics too seriously. I ought to take it as a joke.…”
-i=2
+e:laevsky=unhappy;
 
 He looked in the looking-glass, sat there for some time,
 t=none;e:laevsky=neutral;m=allowbreak
@@ -3770,13 +3770,13 @@ he felt agonisingly ashamed, and he felt others were ashamed in his presence.
 s=
 
 “Fancy such a thing happening,” he said, sitting down.
-e:laevsky=nervous;s=laevsky
+e:laevsky=nervous;s=laevsky;e:laevsky=sadsmile;i=2
 
 “I was sitting here, and all of a sudden, do you know, I felt a terrible piercing pain in my side… unendurable, my nerves could not stand it, and… and it led to this silly performance.”
-
+;e:laevsky=thinking;i=
 
 “This is the age of nerves; there is no help for it.”
-
+;e:laevsky=unhappy;i=
 
 At supper he drank some wine, and, from time to time, with an abrupt sigh rubbed his side as though to suggest that he still felt the pain.
 s=none;f:b:marya-drawing=blur(3px)
@@ -3797,7 +3797,7 @@ Kirilin walked behind her with Nikodim Alexandritch, and kept humming in an unde
 e:kirilin=smirking
 
 “I don’t al-low people to play with me! I don’t al-low it.”
-s=kirilin;x:kirilin=hat
+s=kirilin;x:kirilin=hat;e:kirilin=annoyed;i=
 
 From the boulevard they went back to the pavilion and walked along the beach, and looked for a long time at the phosphorescence on the water.
 s=none;b=beach-pavilion-night
