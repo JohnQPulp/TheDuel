@@ -2627,7 +2627,7 @@ e:marya=excited;e:nadyezhda=surprised;b=vanya-sitting;x:marya=hat
 s=marya;e:marya=sadsmile
 
 “Yes, it’s true; he is dead,” answered Nadyezhda Fyodorovna.
-s=nadyezhda;e:nadyezhda=contemplative
+s=nadyezhda;e:nadyezhda=contemplative;e:nadyezhda=weary;i=
 
 “That is awful, awful, my dear!”
 s=marya;e:marya=upset
@@ -2639,7 +2639,7 @@ Every line and feature in Marya Konstantinovna’s face began quivering as thoug
 s=none;e:marya=nervous;e:marya=happy
 
 “And so you are free, my dear. You can hold your head high now, and look people boldly in the face.”
-s=marya
+s=marya;e:marya=sadsmile;i=
 
 “Henceforth God and man will bless your union with Ivan Andreitch. It’s enchanting. I am trembling with joy, I can find no words.”
 
@@ -2648,31 +2648,31 @@ s=marya
 e:marya=excited
 
 “I haven’t thought of it,” said Nadyezhda Fyodorovna, freeing her hands.
-s=nadyezhda;e:nadyezhda=curious
+s=nadyezhda;e:nadyezhda=curious;e:nadyezhda=wary;i=
 
 “That’s impossible, my dear. You have thought of it, you have.”
-s=marya;e:marya=happy
+s=marya;e:marya=happy;e:marya=upset;i=
 
 “Upon my word, I haven’t,” said Nadyezhda Fyodorovna, laughing.
-s=nadyezhda;e:nadyezhda=smirking
+s=nadyezhda;e:nadyezhda=smirking;e:nadyezhda=curious;i=
 
 “What should we be married for? I see no necessity for it. We’ll go on living as we have lived.”
-e:nadyezhda=smirking
+e:nadyezhda=smirking;e:nadyezhda=contemplative;i=;e:nadyezhda=thinking;i=2
 
 “What are you saying!” cried Marya Konstantinovna in horror.
-s=marya;e:marya=upset
+s=marya;e:marya=upset;e:marya=nervous;i=
 
 “For God’s sake, what are you saying!”
-e:marya=confused
+e:marya=confused;e:marya=fearful;i=
 
 “Our getting married won’t make things any better. On the contrary, it will make them even worse. We shall lose our freedom.”
-s=nadyezhda;e:nadyezhda=thinking
+s=nadyezhda;e:nadyezhda=thinking;e:nadyezhda=weary;i=
 
 “My dear, my dear, what are you saying!” exclaimed Marya Konstantinovna, stepping back and flinging up her hands.
 s=marya;e:marya=fearfulhands
 
 “You are talking wildly! Think what you are saying. You must settle down!”
-e:marya=upset
+e:marya=upset;e:marya=unhappy;i=
 
 “‘Settle down.’ How do you mean? I have not lived yet, and you tell me to settle down.”
 s=nadyezhda;e:nadyezhda=contemplative
@@ -2687,10 +2687,10 @@ Was that life?
 e:nadyezhda=contemplative
 
 “I ought to be married though,” she thought,
-e:nadyezhda=contemplative;t=nadyezhda;m=allowbreak
+e:nadyezhda=contemplative;t=nadyezhda;m=allowbreak;e:nadyezhda=unhappy;i=
 
 but remembering Kirilin and Atchmianov she flushed and said:
-m=;t=
+m=;t=;f:b:vanya-sitting=
 
 “No, it’s impossible. Even if Ivan Andreitch begged me to on his knees﻿—even then I would refuse.”
 s=nadyezhda;e:nadyezhda=unhappy
@@ -2699,10 +2699,10 @@ Marya Konstantinovna sat on the sofa for a minute in silence, grave and mournful
 s=none;e:marya=serious;e:marya=scowling
 
 “Goodbye, my dear! Forgive me for having troubled you.”
-s=marya;e:marya=serious
+s=marya;e:marya=serious;e:marya=thinking;i=;e:marya=unhappy;i=
 
 “Though it’s not easy for me, it’s my duty to tell you that from this day all is over between us, and, in spite of my profound respect for Ivan Andreitch, the door of my house is closed to you henceforth.”
-
+;e:marya=scowling;i=
 
 She uttered these words with great solemnity and was herself overwhelmed by her solemn tone.
 s=none;e:marya=serious
@@ -2719,11 +2719,8 @@ s=marya;e:marya=upset
 Nadyezhda Fyodorovna felt in her bosom warmth, gladness, and pity for herself, as though her own mother had really risen up and were standing before her.
 s=none;e:nadyezhda=sadsmile
 
-She impulsively embraced Marya Konstantinovna and pressed her face to her shoulder.
+She impulsively embraced Marya Konstantinovna and pressed her face to her shoulder. Both of them shed tears.
 e:nadyezhda=upset
-
-Both of them shed tears.
-
 
 They sat down on the sofa and for a few minutes sobbed without looking at one another or being able to utter a word.
 
@@ -2735,73 +2732,73 @@ s=marya;e:marya=unhappy
 s=nadyezhda;e:nadyezhda=upset
 
 “Trust me, my dear. You remember of all the ladies here, I was the only one to receive you.”
-s=marya;e:marya=serious;i=3
+s=marya;e:marya=serious;i=3;e:marya=upset;i=
 
 “You horrified me from the very first day, but I had not the heart to treat you with disdain like all the rest.”
 e:marya=sadsmile
 
 “I grieved over dear, good Ivan Andreitch as though he were my son﻿—a young man in a strange place, inexperienced, weak, with no mother; and I was worried, dreadfully worried.…”
-e:marya=upset
+e:marya=upset;e:marya=nervous;i=2
 
 “My husband was opposed to our making his acquaintance, but I talked him over… persuaded him.… We began receiving Ivan Andreitch, and with him, of course, you. If we had not, he would have been insulted.”
-e:marya=thinking
+e:marya=thinking;e:marya=unhappy;i=
 
 “I have a daughter, a son.… You understand the tender mind, the pure heart of childhood… ‘who so offendeth one of these little ones.’…”
-
+;e:marya=thinking;i=
 
 “I received you into my house and trembled for my children. Oh, when you become a mother, you will understand my fears.”
 e:marya=nervous
 
 “And everyone was surprised at my receiving you, excuse my saying so, as a respectable woman, and hinted to me… well, of course, slanders, suppositions.…”
-e:marya=nervous
+e:marya=nervous;e:marya=fearful;i=
 
 “At the bottom of my heart I blamed you, but you were unhappy, flighty, to be pitied, and my heart was wrung with pity for you.”
-e:marya=sadsmile
+e:marya=sadsmile;e:marya=confused;i=
 
 “But why, why?” asked Nadyezhda Fyodorovna, trembling all over.
-s=nadyezhda;e:nadyezhda=upset
+s=nadyezhda;e:nadyezhda=upset;e:nadyezhda=upset;i=2
 
 “What harm have I done anyone?”
-
+;e:nadyezhda=upset;i=
 
 “You are a terrible sinner. You broke the vow you made your husband at the altar.”
-s=marya;e:marya=serious
+s=marya;e:marya=serious;e:marya=scowling;i=
 
 “You seduced a fine young man, who perhaps had he not met you might have taken a lawful partner for life from a good family in his own circle, and would have been like everyone else now. You have ruined his youth.”
-
+;e:marya=unhappy;i=
 
 “Don’t speak, don’t speak, my dear! I never believe that man is to blame for our sins. It is always the woman’s fault.”
 e:marya=serious
 
 “Men are frivolous in domestic life; they are guided by their minds, and not by their hearts. There’s a great deal they don’t understand; woman understands it all. Everything depends on her. To her much is given and from her much will be required.”
-e:marya=contemplative
+e:marya=contemplative;e:marya=confused;i=
 
 “Oh, my dear, if she had been more foolish or weaker than man on that side, God would not have entrusted her with the education of boys and girls.”
-
+;e:marya=sadsmile;i=
 
 “And then, my dear, you entered on the path of vice, forgetting all modesty;”
-e:marya=serious
+e:marya=serious;e:marya=unhappy;i=
 
 “any other woman in your place would have hidden herself from people, would have sat shut up at home, and would only have been seen in the temple of God, pale, dressed all in black and weeping, and everyone would have said in genuine compassion: ‘O Lord, this erring angel is coming back again to Thee.…’”
-
+;e:marya=upset;i=
 
 “But you, my dear, have forgotten all discretion; have lived openly, extravagantly; have seemed to be proud of your sin; you have been gay and laughing, and I, looking at you, shuddered with horror, and have been afraid that thunder from Heaven would strike our house while you were sitting with us.”
 e:marya=fearful
 
 “My dear, don’t speak, don’t speak,” cried Marya Konstantinovna, observing that Nadyezhda Fyodorovna wanted to speak.
-e:marya=angry;e:nadyezhda=nervous
+e:marya=angry;e:nadyezhda=nervous;e:marya=nervous;i=
 
 “Trust me, I will not deceive you, I will not hide one truth from the eyes of your soul. Listen to me, my dear.…”
-e:marya=serious
+e:marya=serious;e:marya=unhappy;i=
 
 “God marks great sinners, and you have been marked-out: only think﻿—your costumes have always been appalling.”
-
+;e:marya=thinking;i=
 
 Nadyezhda Fyodorovna, who had always had the highest opinion of her costumes, left off crying and looked at her with surprise.
 s=none;e:nadyezhda=surprised
 
 “Yes, appalling,” Marya Konstantinovna went on.
-s=marya
+s=marya;e:marya=serious;i=3
 
 “Anyone could judge of your behaviour from the elaboration and gaudiness of your attire. People laughed and shrugged their shoulders as they looked at you, and I grieved, I grieved.…”
 e:marya=upset
@@ -2825,73 +2822,70 @@ e:marya=serious
 e:marya=nervous
 
 “My dear! A husband ought to know nothing, and his wife ought to be as neat as a little angel in his presence.”
-e:marya=thinking
+e:marya=thinking;e:marya=scowling;i=
 
 “I wake up every morning before it is light, and wash my face with cold water that my Nikodim Alexandritch may not see me looking drowsy.”
+;e:marya=thinking;i=2
 
-
-“That’s all nonsense,” Nadyezhda Fyodorovna sobbed.
+“That’s all nonsense,” Nadyezhda Fyodorovna sobbed. “If only I were happy, but I am so unhappy!”
 s=nadyezhda;e:nadyezhda=upset
 
-“If only I were happy, but I am so unhappy!”
-
-
 “Yes, yes; you are very unhappy!” Marya Konstantinovna sighed, hardly able to restrain herself from weeping.
-s=marya;e:marya=upset
+s=marya;e:marya=upset;e:marya=unhappy;i=
 
 “And there’s terrible grief in store for you in the future! A solitary old age, ill-health; and then you will have to answer at the dread judgment seat… It’s awful, awful.”
 e:marya=fearful
 
 “Now fate itself holds out to you a helping hand, and you madly thrust it from you. Be married, make haste and be married!”
-e:marya=serious
+e:marya=serious;e:marya=confused;i=
 
 “Yes, we must, we must,” said Nadyezhda Fyodorovna; “but it’s impossible!”
-s=nadyezhda;e:nadyezhda=upset
+s=nadyezhda;e:nadyezhda=upset;e:nadyezhda=upset;i=2
 
 “Why?”
-s=marya;e:marya=confused
+s=marya;e:marya=confused;e:marya=serious;i=3
 
 “It’s impossible. Oh, if only you knew!”
-s=nadyezhda;e:nadyezhda=fearful
+s=nadyezhda;e:nadyezhda=fearful;e:nadyezhda=upset;i=
 
-Nadyezhda Fyodorovna had an impulse to tell her about Kirilin, and how the evening before she had met handsome young Atchmianov at the harbour, and how the mad, ridiculous idea had occurred to her of cancelling her debt for three hundred; it had amused her very much, and she returned home late in the evening feeling that she had sold herself and was irrevocably lost.
-s=none;e:nadyezhda=nervous;e:nadyezhda=weary
+Nadyezhda Fyodorovna had an impulse to tell her about Kirilin, and how the evening before she had met handsome young Atchmianov at the harbour, and how the mad, ridiculous idea had occurred to her of cancelling her debt for three hundred;
+s=none;e:nadyezhda=nervous;e:nadyezhda=weary;f:b:vanya-sitting=blur(3px)
 
-She did not know herself how it had happened. And she longed to swear to Marya Konstantinovna that she would certainly pay that debt, but sobs and shame prevented her from speaking.
+it had amused her very much, and she returned home late in the evening feeling that she had sold herself and was irrevocably lost. She did not know herself how it had happened.
+
+
+And she longed to swear to Marya Konstantinovna that she would certainly pay that debt, but sobs and shame prevented her from speaking.
 e:nadyezhda=confused
 
 “I am going away,” she said. “Ivan Andreitch may stay, but I am going.”
-s=nadyezhda;e:nadyezhda=serious
+s=nadyezhda;e:nadyezhda=serious;e:nadyezhda=upset;i=;f:b:vanya-sitting=
 
 “Where?”
 s=marya;e:marya=surprised
 
 “To Russia.”
-s=nadyezhda;e:nadyezhda=thinking
+s=nadyezhda;e:nadyezhda=thinking;e:nadyezhda=weary;i=
 
 “But how will you live there? Why, you have nothing.”
-s=marya;e:marya=confused
+s=marya;e:marya=confused;e:marya=nervous;i=
 
 “I will do translation, or… or I will open a library.…”
-s=nadyezhda;e:nadyezhda=thinking;i=2
+s=nadyezhda;e:nadyezhda=thinking;i=2;e:nadyezhda=nervous;i=
 
 “Don’t let your fancy run away with you, my dear. You must have money for a library.”
-s=marya;e:marya=serious
+s=marya;e:marya=serious;e:marya=serious;i=3
 
 “Well, I will leave you now, and you calm yourself and think things over, and tomorrow come and see me, bright and happy. That will be enchanting! Well, goodbye, my angel. Let me kiss you.”
-e:marya=sadsmile;i=3
+e:marya=sadsmile;i=3;e:marya=sadsmile;i=
 
 Marya Konstantinovna kissed Nadyezhda Fyodorovna on the forehead, made the sign of the cross over her, and softly withdrew.
 s=none
 
 It was getting dark, and Olga lighted up in the kitchen.
+f:b:vanya-sitting=blur(3px)
 
-
-Still crying, Nadyezhda Fyodorovna went into the bedroom and lay down on the bed.
-e:nadyezhda=upset;b=vanya-bedroom
-
-She began to be very feverish.
-f:b:vanya-bedroom=blur(3px)
+Still crying, Nadyezhda Fyodorovna went into the bedroom and lay down on the bed. She began to be very feverish.
+e:nadyezhda=upset;b=vanya-bedroom;f:b:vanya-bedroom=blur(3px)
 
 She undressed without getting up, crumpled up her clothes at her feet, and curled herself up under the bedclothes.
 e:nadyezhda=weary
@@ -2899,29 +2893,29 @@ e:nadyezhda=weary
 She was thirsty, and there was no one to give her something to drink.
 x:nadyezhda=undressing
 
-“I’ll pay it back!” she said to herself, and it seemed to her in delirium that she was sitting beside some sick woman, and recognised her as herself.
-s=nadyezhda;e:nadyezhda=serious
+“I’ll pay it back!” she said to herself,
+s=nadyezhda;e:nadyezhda=serious;m=allowbreak;e:nadyezhda=weary;i=
 
-“I’ll pay it back. It would be stupid to imagine that it was for money I… I will go away and send him the money from Petersburg.”
-e:nadyezhda=contemplative
+and it seemed to her in delirium that she was sitting beside some sick woman, and recognised her as herself.
+m=;s=
 
-“At first a hundred… then another hundred… and then the third hundred.…”
-
+“I’ll pay it back. It would be stupid to imagine that it was for money I… I will go away and send him the money from Petersburg. At first a hundred… then another hundred… and then the third hundred.…”
+e:nadyezhda=contemplative;s=nadyezhda;e:nadyezhda=weary;i=2
 
 It was late at night when Laevsky came in.
 s=none;e:laevsky=weary;b=vanya-bedroom-night
 
 “At first a hundred…” Nadyezhda Fyodorovna said to him, “then another hundred…”
-s=nadyezhda;e:nadyezhda=unhappy
+s=nadyezhda;e:nadyezhda=unhappy;e:nadyezhda=nervoussmile;i=;e:nadyezhda=upset;i=
 
 “You ought to take some quinine,” he said,
-s=laevsky;e:laevsky=serious;m=allowbreak
+s=laevsky;e:laevsky=serious;m=allowbreak;e:laevsky=nervous;i=2
 
 and thought,
 s=
 
 “Tomorrow is Wednesday; the steamer goes and I am not going in it. So I shall have to go on living here till Saturday.”
-m=;t=laevsky;e:laevsky=serious
+m=;t=laevsky;e:laevsky=serious;e:laevsky=nervous;i=
 
 Nadyezhda Fyodorovna knelt up in bed.
 s=none;t=
@@ -2942,10 +2936,10 @@ He stopped in the doorway and looked round at her.
 
 
 “I was out of humour at the picnic and said something rude to you. Forgive me, for God’s sake!”
-s=laevsky;e:laevsky=unhappy
+s=laevsky;e:laevsky=unhappy;e:laevsky=unhappy;i=2
 
 Saying this, he went off to his study, lay down, and for a long while could not get to sleep.
-s=none;f:b:vanya-bedroom-night=blur(3px)
+s=none;b=vanya-study;f:b:vanya-study=blur(3px) brightness(85%)
 
 Next morning when Samoylenko, attired, as it was a holiday, in full dress uniform with epaulettes on his shoulders and decorations on his breast, came out of the bedroom after feeling Nadyezhda Fyodorovna’s pulse and looking at her tongue, Laevsky, who was standing in the doorway, asked him anxiously:
 e:samoylenko=serious;e:laevsky=nervous;b=vanya-hall;x:samoylenko=uniform
@@ -2957,13 +2951,13 @@ There was an expression of terror, of extreme uneasiness, and of hope on his fac
 s=none;e:laevsky=fearful
 
 “Don’t worry yourself; there’s nothing dangerous,” said Samoylenko; “it’s the usual fever.”
-s=samoylenko;e:samoylenko=neutral
+s=samoylenko;e:samoylenko=neutral;e:samoylenko=thinking;i=
 
 “I don’t mean that.” Laevsky frowned impatiently. “Have you got the money?”
-s=laevsky;e:laevsky=annoyed
+s=laevsky;e:laevsky=annoyed;e:laevsky=fearful;i=
 
 “My dear soul, forgive me,” he whispered, looking round at the door and overcome with confusion.
-s=samoylenko;e:samoylenko=nervous
+s=samoylenko;e:samoylenko=nervous;e:samoylenko=wary;i=
 
 “For God’s sake, forgive me! No one has anything to spare, and I’ve only been able to collect by five- and by ten-rouble notes.… Only a hundred and ten in all.”
 e:samoylenko=upset
@@ -2972,28 +2966,28 @@ e:samoylenko=upset
 e:samoylenko=unhappy
 
 “But Saturday is the latest date,” whispered Laevsky, trembling with impatience.
-s=laevsky;e:laevsky=serious
+s=laevsky;e:laevsky=serious;e:laevsky=wary;i=2
 
 “By all that’s sacred, get it by Saturday! If I don’t get away by Saturday, nothing’s any use, nothing! I can’t understand how a doctor can be without money!”
-e:laevsky=angry
+e:laevsky=angry;e:laevsky=angry;i=2
 
 “Lord have mercy on us!” Samoylenko whispered rapidly and intensely, and there was positively a breaking note in his throat.
-s=samoylenko;e:samoylenko=fearful
+s=samoylenko;e:samoylenko=fearful;e:samoylenko=upset;i=
 
 “I’ve been stripped of everything; I am owed seven thousand, and I’m in debt all round. Is it my fault?”
 e:samoylenko=upset
 
 “Then you’ll get it by Saturday? Yes?”
-s=laevsky;e:laevsky=serious
+s=laevsky;e:laevsky=serious;e:laevsky=unhappy;i=
 
 “I’ll try.”
 s=samoylenko;e:samoylenko=weary
 
 “I implore you, my dear fellow! So that the money may be in my hands by Friday morning!”
-s=laevsky;e:laevsky=serious
+s=laevsky;e:laevsky=serious;e:laevsky=nervousnailbiting;i=
 
 Samoylenko sat down and prescribed solution of quinine and kalii bromati and tincture of rhubarb, tincturæ gentianæ, aquæ foeniculi﻿—all in one mixture, added some pink syrup to sweeten it, and went away.
-s=none;e:samoylenko=serious
+s=none;e:samoylenko=serious;f:b:vanya-hall=blur(3px)
 
 ## XI
 r=title
