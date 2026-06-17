@@ -4067,22 +4067,22 @@ The zoologist had just arrived for dinner, and, as usual, was turning over the a
 e:vonkoren=neutral
 
 “How very unlucky!” thought Laevsky, seeing him.
-t=laevsky;e:laevsky=unhappy
+t=laevsky;e:laevsky=unhappy;e:laevsky=serious;i=
 
 “He may be in the way.”
 e:laevsky=wary
 
 “Good morning.”
-t=;s=laevsky;e:laevsky=serious
+t=;s=laevsky;e:laevsky=serious;e:laevsky=thinking;i=
 
 “Good morning,” answered Von Koren, without looking at him.
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=scowling;i=3
 
 “Is Alexandr Daviditch at home?”
-s=laevsky;e:laevsky=wary
+s=laevsky;e:laevsky=wary;e:laevsky=serious;i=2
 
 “Yes, in the kitchen.”
-s=vonkoren
+s=vonkoren;e:vonkoren=thinking;i=
 
 Laevsky went into the kitchen, but seeing from the door that Samoylenko was busy over the salad, he went back into the drawing room and sat down.
 s=none;e:laevsky=nervous
@@ -4097,13 +4097,13 @@ Von Koren suddenly raised his eyes to Laevsky and asked:
 e:vonkoren=serious
 
 “How do you feel after yesterday?”
-s=vonkoren
+s=vonkoren;e:vonkoren=curious;i=
 
 “Very well indeed,” said Laevsky, flushing.
 s=laevsky;e:laevsky=nervous
 
 “It really was nothing much.…”
-
+;e:laevsky=confused;i=
 
 “Until yesterday I thought it was only ladies who had hysterics, and so at first I thought you had St. Vitus’s dance.”
 s=vonkoren;e:vonkoren=smirking
@@ -4114,14 +4114,14 @@ s=none;e:laevsky=nervous
 “How indelicate on his part! He knows quite well how unpleasant it is for me.…”
 e:laevsky=annoyed;t=laevsky;e:laevsky=sadsmile
 
-“Yes, it was a ridiculous performance,” he said, still smiling. “I’ve been laughing over it the whole morning.”
+“Yes, it was a ridiculous performance,” he said, still smiling.
 s=laevsky;e:laevsky=sadsmile;t=
 
-“What’s so curious in an attack of hysterics is that you know it is absurd, and are laughing at it in your heart, and at the same time you sob.”
-e:laevsky=contemplative
+“I’ve been laughing over it the whole morning. What’s so curious in an attack of hysterics is that you know it is absurd, and are laughing at it in your heart, and at the same time you sob.”
+;e:laevsky=sadsmile;i=3
 
 “In our neurotic age we are the slaves of our nerves; they are our masters and do as they like with us. Civilisation has done us a bad turn in that way.…”
-i=3;e:laevsky=sadsmile
+i=3;e:laevsky=sadsmile;e:laevsky=thinking;i=
 
 As Laevsky talked, he felt it disagreeable that Von Koren listened to him gravely, and looked at him steadily and attentively as though studying him; and he was vexed with himself that in spite of his dislike of Von Koren, he could not banish the ingratiating smile from his face.
 s=none;e:vonkoren=serious;e:laevsky=annoyed
@@ -4154,13 +4154,13 @@ s=laevsky;e:laevsky=suspicious
 s=vonkoren;e:vonkoren=thinking
 
 “I would ask Alexandr Daviditch and my friends in general not to trouble so much about me.”
-s=laevsky;e:laevsky=annoyed
+s=laevsky;e:laevsky=annoyed;e:laevsky=serious;i=2
 
 “Here is Samoylenko; you had better ask him not to trouble so much about you.”
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=annoyed;i=3
 
 “I don’t understand your tone,” Laevsky muttered,
-s=laevsky;e:laevsky=contemplative;m=allowbreak
+s=laevsky;e:laevsky=contemplative;m=allowbreak;e:laevsky=mutterbite;i=
 
 suddenly feeling as though he had only just realised that the zoologist hated and despised him, and was jeering at him, and was his bitterest and most inveterate enemy.
 m=;s=
@@ -4175,7 +4175,7 @@ Samoylenko came in in his shirtsleeves, crimson and perspiring from the stifling
 s=none;e:samoylenko=neutral;x:samoylenko=coatless
 
 “Ah, you here?” he said. “Good morning, my dear boy. Have you had dinner? Don’t stand on ceremony. Have you had dinner?”
-s=samoylenko;e:samoylenko=happy
+s=samoylenko;e:samoylenko=happy;e:samoylenko=confused;i=
 
 “Alexandr Daviditch,” said Laevsky, standing up, “though I did appeal to you to help me in a private matter, it did not follow that I released you from the obligation of discretion and respect for other people’s private affairs.”
 s=laevsky;e:laevsky=scowling
@@ -4184,7 +4184,7 @@ s=laevsky;e:laevsky=scowling
 s=samoylenko;e:samoylenko=surprised
 
 “If you have no money,” Laevsky went on,
-s=laevsky;e:laevsky=annoyed;m=allowbreak
+s=laevsky;e:laevsky=annoyed;m=allowbreak;e:laevsky=mutter;i=
 
 raising his voice and shifting from one foot to the other in his excitement,
 m=;s=
@@ -4193,13 +4193,13 @@ m=;s=
 s=laevsky;e:laevsky=angry
 
 “I can’t endure such benevolence and friend’s assistance where there’s a shilling-worth of talk for a ha’p’orth of help!”
-
+;e:laevsky=scowling;i=2
 
 “You can boast of your benevolence as much as you please, but no one has given you the right to gossip about my private affairs!”
-
+e:laevsky=angry;i=2
 
 “What private affairs?” asked Samoylenko, puzzled and beginning to be angry.
-s=samoylenko;e:samoylenko=confused
+s=samoylenko;e:samoylenko=confused;e:samoylenko=nervous;i=
 
 “If you’ve come here to be abusive, you had better clear out. You can come again afterwards!”
 e:samoylenko=scowling
@@ -4210,29 +4210,26 @@ s=none;e:samoylenko=thinking
 “I beg you not to trouble yourself about me,” Laevsky went on.
 s=laevsky;e:laevsky=annoyed
 
-“Don’t pay any attention to me, and whose business is it what I do and how I live?”
-
-
-“Yes, I want to go away. Yes, I get into debt, I drink, I am living with another man’s wife, I’m hysterical, I’m ordinary.”
+“Don’t pay any attention to me, and whose business is it what I do and how I live? Yes, I want to go away. Yes, I get into debt, I drink, I am living with another man’s wife, I’m hysterical, I’m ordinary.”
 
 
 “I am not so profound as some people, but whose business is that? Respect other people’s privacy.”
-
+;e:laevsky=mutterbite;i=
 
 “Excuse me, brother,” said Samoylenko, who had counted up to thirty-five,
-s=samoylenko;e:samoylenko=wary
+s=samoylenko;e:samoylenko=wary;e:samoylenko=nervous;i=2
 
 “but…”
-
+;e:samoylenko=nervous;i=
 
 “Respect other people’s individuality!” interrupted Laevsky.
-s=laevsky;e:laevsky=angry
+s=laevsky;e:laevsky=angry;e:laevsky=scowling;i=2
 
 “This continual gossip about other people’s affairs, this sighing and groaning and everlasting prying, this eavesdropping, this friendly sympathy… damn it all!”
-
+;e:laevsky=scowling;i=
 
 “They lend me money and make conditions as though I were a schoolboy! I am treated as the devil knows what!”
-
+;e:laevsky=mutter;i=
 
 “I don’t want anything,” shouted Laevsky,
 e:laevsky=upset;m=allowbreak
@@ -4241,7 +4238,7 @@ staggering with excitement and afraid that it might end in another attack of hys
 m=;s=
 
 “I shan’t get away on Saturday, then,” flashed through his mind.
-t=laevsky;e:laevsky=unhappy
+t=laevsky;e:laevsky=unhappy;e:laevsky=upset;i=
 
 “I want nothing. All I ask of you is to spare me your protecting care. I’m not a boy, and I’m not mad, and I beg you to leave off looking after me.”
 s=laevsky;e:laevsky=unhappy;t=
@@ -4253,7 +4250,7 @@ s=none;e:deacon=surprised
 s=laevsky;e:laevsky=angry
 
 “What’s that… what did you say?” said Samoylenko, who had counted up to a hundred.
-s=samoylenko;e:samoylenko=serious
+s=samoylenko;e:samoylenko=serious;e:samoylenko=angry;i=2;e:samoylenko=scowling;i=
 
 He turned crimson and went up to Laevsky.
 s=none;e:samoylenko=scowling
@@ -4262,10 +4259,10 @@ s=none;e:samoylenko=scowling
 s=laevsky;e:laevsky=weary
 
 “I’m a Russian doctor, a nobleman by birth, and a civil councillor,” said Samoylenko emphatically.
-s=samoylenko;e:samoylenko=angry
+s=samoylenko;e:samoylenko=annoyed;i=
 
 “I’ve never been a spy, and I allow no one to insult me!” he shouted in a breaking voice, emphasising the last word.
-
+e:samoylenko=angry
 
 “Hold your tongue!”
 
@@ -4294,14 +4291,11 @@ e:laevsky=upset
 “Now we understand,” said Von Koren, coming from behind the table.
 s=vonkoren;e:vonkoren=serious
 
-“Mr. Laevsky wants to amuse himself with a duel before he goes away. I can give him that pleasure.”
-e:vonkoren=smirking
-
-“Mr. Laevsky, I accept your challenge.”
-e:vonkoren=smirking
+“Mr. Laevsky wants to amuse himself with a duel before he goes away. I can give him that pleasure. Mr. Laevsky, I accept your challenge.”
+e:vonkoren=smirking;e:vonkoren=suspicious;i=
 
 “A challenge,” said Laevsky, in a low voice,
-s=laevsky;e:laevsky=scowling;m=allowbreak
+s=laevsky;e:laevsky=scowling;m=allowbreak;e:laevsky=serious;i=
 
 going up to the zoologist and looking with hatred at his swarthy brow and curly hair.
 m=;s=
@@ -4310,34 +4304,31 @@ m=;s=
 e:laevsky=angry;s=laevsky
 
 “Delighted. Tomorrow morning early near Kerbalay’s. I leave all details to your taste.”
-s=vonkoren;e:vonkoren=serious
+s=vonkoren;e:vonkoren=serious;e:vonkoren=scowling;i=3
 
 “And now, clear out!”
-
+;e:vonkoren=angry;i=
 
 “I hate you,” Laevsky said softly, breathing hard.
-s=laevsky;e:laevsky=angry
+s=laevsky;e:laevsky=angry;e:laevsky=serious;i=2
 
 “I have hated you a long while! A duel! Yes!”
-
+e:laevsky=angry;i=2
 
 “Get rid of him, Alexandr Daviditch, or else I’m going,” said Von Koren.
 s=vonkoren;e:vonkoren=annoyed
 
 “He’ll bite me.”
-
+;e:vonkoren=thinking;i=
 
 Von Koren’s cool tone calmed the doctor; he seemed suddenly to come to himself, to recover his reason; he put both arms round Laevsky’s waist, and, leading him away from the zoologist, muttered in a friendly voice that shook with emotion:
 s=none;e:samoylenko=sadsmile
 
 “My friends… dear, good… you’ve lost your tempers and that’s enough… and that’s enough, my friends.”
-s=samoylenko;e:samoylenko=upset
+s=samoylenko;e:samoylenko=upset;e:samoylenko=upset;i=2
 
-Hearing his soft, friendly voice, Laevsky felt that something unheard of, monstrous, had just happened to him, as though he had been nearly run over by a train;
-s=none;e:laevsky=surprised
-
-he almost burst into tears, waved his hand, and ran out of the room.
-f:b:dr-drawing=blur(3px)
+Hearing his soft, friendly voice, Laevsky felt that something unheard of, monstrous, had just happened to him, as though he had been nearly run over by a train; he almost burst into tears, waved his hand, and ran out of the room.
+s=none;e:laevsky=surprised;f:b:dr-drawing=blur(3px)
 
 “To feel that one is hated, to expose oneself before the man who hates one, in the most pitiful, contemptible, helpless state. My God, how hard it is!” he thought a little while afterwards as he sat in the pavilion,
 e:laevsky=weary;b=pavilion;t=laevsky;m=allowbreak
@@ -4369,14 +4360,11 @@ e:laevsky=weary
 Better to shoot him in the leg or hand, wound him, then laugh at him, and let him, like an insect with a broken leg lost in the grass﻿—let him be lost with his obscure sufferings in the crowd of insignificant people like himself.
 e:laevsky=smirking
 
-Laevsky went to Sheshkovsky, told him all about it, and asked him to be his second;
-n:sheshkovsky=Sheshkovsky;e:laevsky=serious;b=town-wide;f:b:town-wide=blur(3px)
-
-then they both went to the superintendent of the postal telegraph department, and asked him, too, to be a second, and stayed to dinner with him.
-
+Laevsky went to Sheshkovsky, told him all about it, and asked him to be his second; then they both went to the superintendent of the postal telegraph department, and asked him, too, to be a second, and stayed to dinner with him.
+n:sheshkovsky=Sheshkovsky;e:laevsky=serious;b=town-wide
 
 At dinner there was a great deal of joking and laughing.
-e:laevsky=happy;b=friend-drawing-night;f:b:friend-drawing-night=blur(3px)
+e:laevsky=happy;b=friend-drawing-night
 
 Laevsky made jests at his own expense, saying he hardly knew how to fire off a pistol, calling himself a royal archer and William Tell.
 e:laevsky=smirking
@@ -4394,7 +4382,7 @@ In the given case, for instance, one could not, of course, bring an action again
 
 
 He got a little drunk and interested in the game, and felt at ease.
-e:laevsky=happy
+e:laevsky=happy;f:b:friend-drawing-night=blur(3px)
 
 But when the sun had set and it grew dark, he was possessed by a feeling of uneasiness.
 e:laevsky=nervous
@@ -4412,7 +4400,7 @@ He was eager to get into bed, to lie without moving, and to prepare his thoughts
 e:laevsky=weary
 
 Sheshkovsky and the postal superintendent saw him home and went on to Von Koren’s to arrange about the duel.
-e:sheshkovsky=neutral;b=town-wide;f:b:town-wide=blur(3px)
+e:sheshkovsky=neutral;b=town-wide-night
 
 Near his lodgings Laevsky met Atchmianov.
 e:atchmianov=excited;e:laevsky=neutral;b=vanya-wide-night;f:b:vanya-wide-night=
@@ -4421,16 +4409,16 @@ The young man was breathless and excited.
 x:laevsky=hat;x:atchmianov=hat
 
 “I am looking for you, Ivan Andreitch,” he said. “I beg you to come quickly.…”
-s=atchmianov;e:atchmianov=serious
+s=atchmianov;e:atchmianov=serious;e:atchmianov=wary;i=2
 
 “Where?”
 s=laevsky;e:laevsky=confused
 
 “Someone wants to see you, someone you don’t know, about very important business; he earnestly begs you to come for a minute.”
-s=atchmianov;i=2
+s=atchmianov;i=2;e:atchmianov=contemplative;i=
 
 “He wants to speak to you of something.… For him it’s a question of life and death.…”
-e:atchmianov=nervous
+e:atchmianov=nervous;e:atchmianov=annoyed;i=
 
 In his excitement Atchmianov spoke in a strong Armenian accent.
 s=none
@@ -4439,16 +4427,16 @@ s=none
 s=laevsky;e:laevsky=suspicious
 
 “He asked me not to tell you his name.”
-s=atchmianov
+s=atchmianov;e:atchmianov=wary;i=
 
 “Tell him I’m busy; tomorrow, if he likes.…”
 s=laevsky;e:laevsky=annoyed
 
 “How can you!” Atchmianov was aghast.
-s=atchmianov;e:atchmianov=annoyed
+s=atchmianov;e:atchmianov=annoyed;e:atchmianov=wary;i=2
 
 “He wants to tell you something very important for you… very important! If you don’t come, something dreadful will happen.”
-e:atchmianov=annoyed
+e:atchmianov=annoyed;e:atchmianov=weary;i=
 
 “Strange…” muttered Laevsky,
 s=laevsky;e:laevsky=contemplative;m=allowbreak
@@ -4463,16 +4451,16 @@ e:laevsky=wary;s=laevsky
 e:laevsky=unhappy
 
 Atchmianov walked rapidly on ahead and Laevsky followed him.
-s=none;e:atchmianov=nervous
+s=none;e:atchmianov=nervous;b=town-wide-night
 
 They walked down a street, then turned into an alley.
-b=town-wide;f:b:town-wide=
+b=town-wide-night
 
 “What a bore this is!” said Laevsky.
 s=laevsky;e:laevsky=annoyed
 
 “One minute, one minute… it’s near.”
-s=atchmianov;e:atchmianov=serious
+s=atchmianov;e:atchmianov=serious;e:atchmianov=contemplative;i=
 
 Near the old rampart they went down a narrow alley between two empty enclosures,
 s=none;m=allowbreak
@@ -4484,7 +4472,7 @@ m=;b=muridov-wide
 s=laevsky;e:laevsky=confused
 
 “Yes.”
-s=atchmianov
+s=atchmianov;e:atchmianov=serious;i=2
 
 “But why we’ve come by the back yards I don’t understand. We might have come by the street; it’s nearer.…”
 s=laevsky;i=2
@@ -4505,25 +4493,22 @@ He listened, drew a deep breath and said in a whisper:
 s=none
 
 “Open that door, and go in… don’t be afraid.”
-s=atchmianov
+s=atchmianov;e:atchmianov=contemplative;i=
 
 Laevsky, puzzled, opened the door and went into a room with a low ceiling and curtained windows.
-s=none;e:laevsky=curious
+s=none;e:laevsky=curious;f:b:muridov-hall=blur(3px)
 
 There was a candle on the table.
 
 
-“What do you want?” asked someone in the next room.
-s=kirilin;m=nospeaker
-
-“Is it you, Muridov?”
-
+“What do you want?” asked someone in the next room. “Is it you, Muridov?”
+m=dialogue
 
 Laevsky turned into that room and saw Kirilin, and beside him Nadyezhda Fyodorovna.
-s=none;e:laevsky=surprised;e:kirilin=neutral;e:nadyezhda=fearful;f:b:muridov-hall=blur(3px);m=
+s=none;e:laevsky=surprised;e:kirilin=neutral;e:nadyezhda=fearful;f:b:muridov-hall=blur(10px)
 
 He didn’t hear what was said to him; he staggered back, and did not know how he found himself in the street.
-e:laevsky=upset;b=think;f:b:think=blur(3px)
+e:laevsky=upset;b=think;f:b:think=blur(10px)
 
 His hatred for Von Koren and his uneasiness﻿—all had vanished from his soul.
 e:laevsky=weary
