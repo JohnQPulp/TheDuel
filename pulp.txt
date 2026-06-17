@@ -452,10 +452,10 @@ s=samoylenko;e:samoylenko=happy;e:samoylenko=smirking;i=
 r=title
 
 Laevsky’s not loving Nadyezhda Fyodorovna showed itself chiefly in the fact that everything she said or did seemed to him a lie, or equivalent to a lie, and everything he read against women and love seemed to him to apply perfectly to himself, to Nadyezhda Fyodorovna and her husband.
-n:nadyezhda=Nadyezhda “Nadya” Fyodorovna;e:laevsky=thinking;b=vanya-sitting
+n:nadyezhda=Nadyezhda “Nadya” Fyodorovna;e:laevsky=thinking;b=vanya-sitting;f:b:vanya-sitting=blur(3px)
 
 When he returned home, she was sitting at the window, dressed and with her hair done, and with a preoccupied face was drinking coffee and turning over the leaves of a fat magazine;
-e:nadyezhda=neutral;e:laevsky=annoyed
+e:nadyezhda=neutral;e:laevsky=annoyed;f:b:vanya-sitting=
 
 and he thought the drinking of coffee was not such a remarkable event that she need put on a preoccupied expression over it, and that she had been wasting her time doing her hair in a fashionable style, as there was no one here to attract and no need to be attractive.
 
@@ -464,16 +464,16 @@ And in the magazine he saw nothing but falsity. He thought she had dressed and d
 e:laevsky=scowling
 
 “Will it be all right for me to go to bathe today?” she said.
-s=nadyezhda;e:nadyezhda=curious
+s=nadyezhda;e:nadyezhda=curious;z:nadyezhda=80,,10;e:nadyezhda=;i=
 
 “Why? There won’t be an earthquake whether you go or not, I suppose.﻿﻿…”
-s=laevsky;e:laevsky=annoyed
+s=laevsky;e:laevsky=annoyed;e:laevsky=suspicious;i=
 
 “No, I only ask in case the doctor should be vexed.”
-s=nadyezhda;e:nadyezhda=wary
+s=nadyezhda;e:nadyezhda=wary;e:nadyezhda=thinking;i=
 
 “Well, ask the doctor, then; I’m not a doctor.”
-s=laevsky;e:laevsky=annoyed
+s=laevsky;e:laevsky=annoyed;e:laevsky=serious;i=
 
 On this occasion what displeased Laevsky most in Nadyezhda Fyodorovna was her white open neck and the little curls at the back of her head.
 s=none;e:laevsky=scowling
@@ -487,11 +487,11 @@ s=none;e:laevsky=weary;b=vanya-study
 Despondent and oppressive thoughts always about the same thing trailed slowly across his brain like a long string of wagons on a gloomy autumn evening, and he sank into a state of drowsy oppression.
 e:laevsky=unhappy;f:b:vanya-study=blur(3px)
 
-It seemed to him that he had wronged Nadyezhda Fyodorovna and her husband, and that it was through his fault that her husband had died.
-e:laevsky=upset;
+It seemed to him that he had wronged Nadyezhda Fyodorovna and her husband, and that it was through his fault that her husband had died. It seemed to him that he had sinned against his own life, which he had ruined, against the world of lofty ideas, of learning, and of work,
+e:laevsky=upset;m=allowbreak
 
-It seemed to him that he had sinned against his own life, which he had ruined, against the world of lofty ideas, of learning, and of work, and he conceived that wonderful world as real and possible, not on this seafront with hungry Turks and lazy mountaineers sauntering upon it, but there in the North, where there were operas, theatres, newspapers, and all kinds of intellectual activity.
-e:laevsky=contemplative
+and he conceived that wonderful world as real and possible, not on this seafront with hungry Turks and lazy mountaineers sauntering upon it, but there in the North, where there were operas, theatres, newspapers, and all kinds of intellectual activity.
+e:laevsky=contemplative;m=
 
 One could only there﻿—not here﻿—be honest, intelligent, lofty, and pure.
 
@@ -503,13 +503,13 @@ Two years before, when he fell in love with Nadyezhda Fyodorovna, it seemed to h
 e:laevsky=thinking
 
 “Run away,” he muttered to himself, sitting up and biting his nails.
-s=laevsky;e:laevsky=mutterbite
+s=laevsky;e:laevsky=mutterbite;f:b:vanya-study=;e:laevsky=nervousnailbiting;i=
 
 “Run away!”
-e:laevsky=mutter
+e:laevsky=mutterbite
 
 He pictured in his imagination how he would go aboard the steamer and then would have some lunch, would drink some cold beer, would talk on deck with ladies, then would get into the train at Sevastopol and set off.
-s=none;e:laevsky=contemplative
+s=none;e:laevsky=contemplative;f:b:vanya-study=blur(3px)
 
 Hurrah for freedom! One station after another would flash by, the air would keep growing colder and keener, then the birches and the fir trees, then Kursk, Moscow.﻿﻿…
 e:laevsky=excited
@@ -530,34 +530,37 @@ n:clerk=?;s=clerk;e:laevsky=surprised;m=nospeaker;f:b:vanya-study=
 
 
 “I’m here,” Laevsky responded.
-s=laevsky;e:laevsky=neutral;m=
+s=laevsky;e:laevsky=neutral;m=;e:laevsky=mutter;i=
 
 “What do you want?”
-e:laevsky=annoyed
+e:laevsky=annoyed;e:laevsky=shouting;i=
 
 “Papers.”
 s=clerk;e:clerk=neutral;m=nospeaker
 
-Laevsky got up languidly, feeling giddy, walked into the other room, yawning and shuffling with his slippers.
-s=none;e:laevsky=weary;m=;
+Laevsky got up languidly, feeling giddy,
+s=none;e:laevsky=weary;m=allowbreak
+
+walked into the other room, yawning and shuffling with his slippers.
+m=;b=vanya-sitting
 
 There, at the open window that looked into the street, stood one of his young fellow-clerks, laying out some government documents on the windowsill.
-n:clerk=Clerk;b=vanya-windows
+n:clerk=Clerk;
 
 “One minute, my dear fellow,” Laevsky said softly,
-s=laevsky;e:laevsky=weary;m=allowbreak
+s=laevsky;e:laevsky=weary;m=allowbreak;e:laevsky=gesture;i=
 
 and he went to look for the ink; returning to the window, he signed the papers without looking at them, and said:
 s=;m=
 
 “It’s hot!”
-s=laevsky
+s=laevsky;e:laevsky=annoyed;i=2
 
 “Yes. Are you coming today?”
-s=clerk;e:clerk=curious
+s=clerk;e:clerk=curious;z:clerk=89,52,8
 
 “I don’t think so.﻿﻿… I’m not quite well. Tell Sheshkovsky that I will come and see him after dinner.”
-s=laevsky;e:laevsky=weary
+s=laevsky;e:laevsky=weary;e:laevsky=thinking;i=
 
 The clerk went away.
 s=none
@@ -566,25 +569,25 @@ Laevsky lay down on his sofa again and began thinking:
 e:laevsky=thinking;b=vanya-study
 
 “And so I must weigh all the circumstances and reflect on them.”
-t=laevsky;e:laevsky=serious
+t=laevsky;e:laevsky=serious;e:laevsky=contemplative;i=
 
-“Before I go away from here I ought to pay up my debts. I owe about two thousand roubles. I have no money.﻿﻿…”<e>Remember: it's not just another Russian novel about being trapped in debt. It's a <i>deconstruction</i> of the Russian novel (that just so happens to still involve being trapped in debt).</e>
-e:laevsky=weary
+“Before I go away from here I ought to pay up my debts. I owe about two thousand roubles. I have no money.﻿﻿…”<e>Don't go thinking it's just another Russian novel about being deep in debt. It's a <i>deconstruction</i> of the Russian deep-in-debt novel, which is totally different.</e>
+e:laevsky=weary;e:laevsky=wary;i=
 
 “Of course, that’s not important; I shall pay part now, somehow, and I shall send the rest, later, from Petersburg.”
-e:laevsky=thinking
+e:laevsky=thinking;e:laevsky=upset;i=
 
 “The chief point is Nadyezhda Fyodorovna.﻿﻿… First of all we must define our relations.﻿﻿… Yes.”
-e:laevsky=contemplative
+e:laevsky=contemplative;e:laevsky=annoyed;i=
 
 A little later he was considering whether it would not be better to go to Samoylenko for advice.
 t=none
 
 “I might go,” he thought, “but what use would there be in it?”
-t=laevsky;e:laevsky=contemplative
+t=laevsky;e:laevsky=contemplative;e:laevsky=serious;i=
 
 “I shall only say something inappropriate about boudoirs, about women, about what is honest or dishonest.”
-e:laevsky=annoyed
+e:laevsky=annoyed;e:laevsky=contemplative;i=
 
 “What’s the use of talking about what is honest or dishonest, if I must make haste to save my life, if I am suffocating in this cursed slavery and am killing myself?﻿﻿…”
 e:laevsky=upset
@@ -593,10 +596,10 @@ e:laevsky=upset
 e:laevsky=angry
 
 “To run away,” he muttered, sitting down, “to run away.”
-t=;s=laevsky;e:laevsky=nervous
+t=;s=laevsky;e:laevsky=nervous;e:laevsky=mutter;i=
 
 The deserted seashore, the insatiable heat, and the monotony of the smoky lilac mountains, ever the same and silent, everlastingly solitary, overwhelmed him with depression, and, as it were, made him drowsy and sapped his energy.
-s=none;e:laevsky=weary
+s=none;e:laevsky=weary;f:b:vanya-study=blur(3px)
 
 He was perhaps very clever, talented, remarkably honest; perhaps if the sea and the mountains had not closed him in on all sides, he might have become an excellent Zemstvo leader, a statesman, an orator, a political writer, a saint.
 e:laevsky=contemplative
@@ -614,16 +617,16 @@ When the cook gave them rice and tomato soup, Laevsky said:
 
 
 “The same thing every day. Why not have cabbage soup?”
-s=laevsky;e:laevsky=annoyed
+s=laevsky;e:laevsky=annoyed;e:laevsky=serious;i=2
 
 “There are no cabbages.”
-s=nadyezhda
+s=nadyezhda;e:nadyezhda=unhappy;i=;e:nadyezhda=thinking;i=;e:nadyezhda=wary;i=
 
 “It’s strange. Samoylenko has cabbage soup and Marya Konstantinovna has cabbage soup, and only I am obliged to eat this mawkish mess.”
-s=laevsky;e:laevsky=scowling
+s=laevsky;e:laevsky=scowling;e:laevsky=mutter;i=;e:laevsky=thinking;i=;e:laevsky=unhappy;i=2
 
 “We can’t go on like this, darling.”
-e:laevsky=angry
+e:laevsky=angry;e:laevsky=serious;i=2;e:laevsky=wary;i=2;e:laevsky=nervousnailbiting;i=
 
 As is common with the vast majority of husbands and wives, not a single dinner had in earlier days passed without scenes and faultfinding between Nadyezhda Fyodorovna and Laevsky;
 s=none
@@ -632,19 +635,19 @@ but ever since Laevsky had made up his mind that he did not love her, he had tri
 
 
 “This soup tastes like liquorice,” he said, smiling;
-s=laevsky;e:laevsky=sadsmile
+s=laevsky;e:laevsky=sadsmile;e:laevsky=smirking;i=
 
 he made an effort to control himself and seem amiable, but could not refrain from saying:
 s=
 
 “Nobody looks after the housekeeping.﻿﻿… If you are too ill or busy with reading, let me look after the cooking.”
-s=laevsky;i=2
+s=laevsky;i=2;e:laevsky=thinking;i=
 
 In earlier days she would have said to him, “Do by all means,” or, “I see you want to turn me into a cook”; but now she only looked at him timidly and flushed crimson.
 s=none;e:nadyezhda=nervous;e:nadyezhda=fearful
 
 “Well, how do you feel today?” he asked kindly.
-s=laevsky;e:laevsky=sadsmile
+s=laevsky;e:laevsky=sadsmile;e:laevsky=sadsmile;i=2
 
 “I am all right today. There is nothing but a little weakness.”
 s=nadyezhda;e:nadyezhda=weary
@@ -653,7 +656,7 @@ s=nadyezhda;e:nadyezhda=weary
 s=laevsky;e:laevsky=nervous
 
 Nadyezhda Fyodorovna was ill in some way. Samoylenko said she had intermittent fever, and gave her quinine;
-s=none
+s=none;
 
 the other doctor, Ustimovitch, a tall, lean, unsociable man, who used to sit at home in the daytime, and in the evenings walk slowly up and down on the seafront coughing, with his hands folded behind him and a cane stretched along his back, was of opinion that she had a female complaint, and prescribed warm compresses.
 
@@ -677,34 +680,34 @@ He would not murder her, of course, but if he had been on a jury now, he would h
 e:laevsky=scowling
 
 “Merci, darling,” he said after dinner,
-s=laevsky;e:laevsky=sadsmile;m=allowbreak
+s=laevsky;e:laevsky=sadsmile;m=allowbreak;f:b:vanya-dining=;e:laevsky=thinking;i=
 
 and kissed Nadyezhda Fyodorovna on the forehead.
 m=;s=
 
 Going back into his study, he spent five minutes in walking to and fro, looking at his boots; then he sat down on his sofa and muttered:
-s=none;e:laevsky=contemplative;e:laevsky=serious;b=vanya-study
+s=none;e:laevsky=contemplative;e:laevsky=serious;b=vanya-study;f:b:vanya-study=
 
 “Run away, run away! We must define the position and run away!”
-s=laevsky;e:laevsky=nervous
+s=laevsky;e:laevsky=nervous;e:laevsky=mutter;i=;e:laevsky=mutterbite;i=
 
 He lay down on the sofa and recalled again that Nadyezhda Fyodorovna’s husband had died, perhaps, by his fault.
 s=none;e:laevsky=unhappy
 
 “To blame a man for loving a woman, or ceasing to love a woman, is stupid,” he persuaded himself, lying down and raising his legs in order to put on his high boots.
-s=laevsky;e:laevsky=thinking
+s=laevsky;e:laevsky=thinking;e:laevsky=serious;i=2
 
 “Love and hatred are not under our control.”
-e:laevsky=contemplative
+e:laevsky=contemplative;e:laevsky=mutter;i=
 
 “As for her husband, maybe I was in an indirect way one of the causes of his death; but again, is it my fault that I fell in love with his wife and she with me?”
-e:laevsky=serious
+e:laevsky=serious;e:laevsky=annoyed;i=2
 
 Then he got up, and finding his cap,
 s=none;e:laevsky=neutral;m=allowbreak
 
 set off to the lodgings of his colleague, Sheshkovsky, where the government clerks met every day to play Vint and drink beer.
-b=vanya-wide;m=
+b=town-wide;m=
 
 “My indecision reminds me of Hamlet,” thought Laevsky on the way.
 t=laevsky;e:laevsky=thinking;x:laevsky=hat
