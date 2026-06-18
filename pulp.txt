@@ -4870,14 +4870,11 @@ r=title
 “Upon my mind, weighed down with woe,<br>Crowd thoughts, a heavy multitude:<br>In silence memory unfolds<br>Her long, long scroll before my eyes.”
 m=margin
 
-“Loathing and shuddering I curse<br>And bitterly lament in vain,<br>And bitter though the tears I weep<br>I do not wash those lines away.”<br><div class='fright italics'>Pushkin.</div><e>Pushkin was famously killed in a duel — hence this opener.</e>
+“Loathing and shuddering I curse<br>And bitterly lament in vain,<br>And bitter though the tears I weep<br>I do not wash those lines away.”<br><div class='fright italics'>Pushkin.</div><br><e>Literary context note: Pushkin famously died in a duel.</e>
 
 
-Whether they killed him next morning, or mocked at him﻿—that is, left him his life﻿—he was ruined, anyway.
-e:laevsky=weary;m=;b=vanya-study
-
-Whether this disgraced woman killed herself in her shame and despair, or dragged on her pitiful existence, she was ruined anyway.
-e:laevsky=unhappy
+Whether they killed him next morning, or mocked at him﻿—that is, left him his life﻿—he was ruined, anyway. Whether this disgraced woman killed herself in her shame and despair, or dragged on her pitiful existence, she was ruined anyway.
+e:laevsky=weary;m=;b=vanya-study;f:b:vanya-study=brightness(90%)
 
 So thought Laevsky as he sat at the table late in the evening, still rubbing his hands.
 e:laevsky=thinking
@@ -4891,11 +4888,8 @@ e:laevsky=neutral
 He was aware of something new in his body, a sort of awkwardness he had not felt before, and his movements were strange to him.
 e:laevsky=confused
 
-He moved timidly, jerking with his elbows and shrugging his shoulders; and when he sat down to the table again, he again began rubbing his hands.
+He moved timidly, jerking with his elbows and shrugging his shoulders; and when he sat down to the table again, he again began rubbing his hands. His body had lost its suppleness.
 e:laevsky=nervous
-
-His body had lost its suppleness.
-
 
 On the eve of death one ought to write to one’s nearest relation. Laevsky thought of this. He took a pen and wrote with a tremulous hand:
 e:laevsky=thinking
@@ -4925,13 +4919,13 @@ And to right and to left, and, no doubt, over the house too, the lightning flash
 
 
 “The storm!” whispered Laevsky;
-s=laevsky;e:laevsky=contemplative
+s=laevsky;e:laevsky=contemplative;e:laevsky=serious;i=2
 
 he had a longing to pray to someone or to something, if only to the lightning or the storm-clouds.
 s=
 
 “Dear storm!”
-s=laevsky;e:laevsky=unhappy
+s=laevsky;e:laevsky=unhappy;e:laevsky=unhappy;i=2
 
 He remembered how as a boy he used to run out into the garden without a hat on when there was a storm, and how two fair-haired girls with blue eyes used to run after him, and how they got wet through with the rain;
 s=none;e:laevsky=thinking
@@ -4963,8 +4957,11 @@ e:laevsky=unhappy
 Like a stranger, like an alien from another planet, he had taken no part in the common life of men, had been indifferent to their sufferings, their ideas, their religion, their sciences, their strivings, and their struggles.
 e:laevsky=weary
 
-He had not said one good word, not written one line that was not useless and vulgar; he had not done his fellows one ha’p’orth of service, but had eaten their bread, drunk their wine, seduced their wives, lived on their thoughts, and to justify his contemptible, parasitic life in their eyes and in his own, he had always tried to assume an air of being higher and better than they.
+He had not said one good word, not written one line that was not useless and vulgar; he had not done his fellows one ha’p’orth of service, but had eaten their bread, drunk their wine, seduced their wives, lived on their thoughts,
+m=allowbreak
 
+and to justify his contemptible, parasitic life in their eyes and in his own, he had always tried to assume an air of being higher and better than they.
+m=
 
 Lies, lies, lies.…
 e:laevsky=angry
@@ -4975,17 +4972,20 @@ e:laevsky=upset;f:b:vanya-windows-night-rain=blur(3px)
 Kirilin and Atchmianov were loathsome, but they were only continuing what he had begun; they were his accomplices and his disciples.
 e:laevsky=scowling
 
-This young weak woman had trusted him more than a brother, and he had deprived her of her husband, of her friends and of her country, and had brought her here﻿—to the heat, to fever, and to boredom; and from day to day she was bound to reflect, like a mirror, his idleness, his viciousness and falsity﻿—and that was all she had had to fill her weak, listless, pitiable life.
+This young weak woman had trusted him more than a brother, and he had deprived her of her husband, of her friends and of her country, and had brought her here﻿—to the heat, to fever, and to boredom;
 e:laevsky=unhappy
+
+and from day to day she was bound to reflect, like a mirror, his idleness, his viciousness and falsity﻿—and that was all she had had to fill her weak, listless, pitiable life.
+
 
 Then he had grown sick of her, had begun to hate her, but had not had the pluck to abandon her, and he had tried to entangle her more and more closely in a web of lies.… These men had done the rest.
 e:laevsky=weary
 
 Laevsky sat at the table, then got up and went to the window; at one minute he put out the candle and then he lighted it again.
-e:laevsky=nervous;b=vanya-study
+e:laevsky=nervous;f:b:vanya-windows-night-rain=
 
 He cursed himself aloud, wept and wailed, and asked forgiveness; several times he ran to the table in despair, and wrote:
-e:laevsky=upset
+e:laevsky=upset;b=vanya-study
 
 “Mother!”
 
@@ -4997,7 +4997,7 @@ He had an impulse to run to Nadyezhda Fyodorovna, to fall at her feet, to kiss h
 e:laevsky=fearful
 
 “My life is ruined,” he repeated, rubbing his hands.
-s=laevsky;e:laevsky=upset
+s=laevsky;e:laevsky=upset;e:laevsky=weary;i=
 
 “Why am I still alive, my God!…”
 
@@ -5011,11 +5011,8 @@ e:laevsky=sadsmile
 He would have found God and goodness, but that was as impossible as to put back the fallen star into the sky, and because it was impossible he was in despair.
 e:laevsky=upset
 
-When the storm was over, he sat by the open window and thought calmly of what was before him.
-e:laevsky=contemplative;b=vanya-windows
-
-Von Koren would most likely kill him.
-e:laevsky=serious
+When the storm was over, he sat by the open window and thought calmly of what was before him. Von Koren would most likely kill him.
+e:laevsky=contemplative;b=vanya-study
 
 The man’s clear, cold theory of life justified the destruction of the rotten and the useless; if it changed at the crucial moment, it would be the hatred and the repugnance that Laevsky inspired in him that would save him.
 
@@ -5024,12 +5021,12 @@ If he missed his aim or, in mockery of his hated opponent, only wounded him, or 
 e:laevsky=thinking
 
 “Go to Petersburg?” Laevsky asked himself.
-s=laevsky;e:laevsky=contemplative
+s=laevsky;e:laevsky=contemplative;e:laevsky=annoyed;i=2
 
 But that would mean beginning over again the old life which he cursed.
 s=none;e:laevsky=weary
 
-And the man who seeks salvation in change of place like a migrating bird would find nothing anywhere, for all the world is alike to him.<e>Surprising number of similarities between this book and <book>The Secret Garden</book>.</e>
+And the man who seeks salvation in change of place like a migrating bird would find nothing anywhere, for all the world is alike to him.<e><book>Secret Garden</book> reference? <book>The Sun Also Rises</book> also had this same anti-travel sentiment. (Those wacky miserable authors!)</e>
 
 
 Seek salvation in men? In whom and how? Samoylenko’s kindness and generosity could no more save him than the deacon’s laughter or Von Koren’s hatred.
@@ -5041,29 +5038,29 @@ e:laevsky=serious
 He heard the sound of a carriage. It was getting light.
 e:laevsky=neutral
 
-The carriage passed by, turned, and crunching on the wet sand, stopped near the house.
-
-
-There were two men in the carriage.
+The carriage passed by, turned, and crunching on the wet sand, stopped near the house. There were two men in the carriage.
 
 
 “Wait a minute; I’m coming directly,” Laevsky said to them out of the window.
-s=laevsky;e:laevsky=serious
+s=laevsky;e:laevsky=serious;e:laevsky=nervous;i=2
 
 “I’m not asleep. Surely it’s not time yet?”
-
+;e:laevsky=nervousnailbiting;i=
 
 “Yes, it’s four o’clock. By the time we get there.…”
-s=;m=dialogue
+s=;n:placeholder=?;s=placeholder;m=nospeaker
 
 Laevsky put on his overcoat and cap, put some cigarettes in his pocket, and stood still hesitating. He felt as though there was something else he must do.
 s=none;e:laevsky=nervous;m=;x:laevsky=hat,overcoat
 
 In the street the seconds talked in low voices and the horses snorted, and this sound in the damp, early morning, when everybody was asleep and light was hardly dawning in the sky, filled Laevsky’s soul with a disconsolate feeling which was like a presentiment of evil.
-e:laevsky=fearful
+e:laevsky=fearful;f:b:vanya-study=blur(3px) brightness(90%)
 
-He stood for a little, hesitating, and went into the bedroom.
-b=vanya-bedroom
+He stood for a little, hesitating,
+m=allowbreak
+
+and went into the bedroom.
+b=vanya-bedroom-night;m=
 
 Nadyezhda Fyodorovna was lying stretched out on the bed, wrapped from head to foot in a rug. She did not stir, and her whole appearance, especially her head, suggested an Egyptian mummy.
 e:nadyezhda=weary
@@ -5075,7 +5072,7 @@ All at once she jumped up, and sat up in bed. Lifting her pale face and looking 
 e:nadyezhda=wary
 
 “Is it you? Is the storm over?”
-s=nadyezhda;x:nadyezhda=undressing
+s=nadyezhda;e:nadyezhda=nervous;i=
 
 “Yes.”
 s=laevsky;e:laevsky=serious
@@ -5084,13 +5081,13 @@ She remembered; put both hands to her head and shuddered all over.
 s=none;e:nadyezhda=upset
 
 “How miserable I am!” she said. “If only you knew how miserable I am!”
-s=nadyezhda
+s=nadyezhda;e:nadyezhda=upset;i=2
 
 “I expected,” she went on, half closing her eyes,
-e:nadyezhda=weary
+e:nadyezhda=weary;i=
 
 “that you would kill me or turn me out of the house into the rain and storm, but you delay… delay…”
-
+;e:nadyezhda=upset;i=
 
 Warmly and impulsively he put his arms round her and covered her knees and hands with kisses.
 s=none;e:laevsky=sadsmile;e:nadyezhda=surprised
@@ -5099,7 +5096,7 @@ Then when she muttered something and shuddered with the thought of the past, he 
 e:laevsky=contemplative;e:nadyezhda=weary
 
 When he went out of the house and got into the carriage he wanted to return home alive.
-e:laevsky=serious;f:b:vanya-bedroom=blur(3px)
+e:laevsky=serious;f:b:vanya-bedroom-night=blur(3px)
 
 ## XVIII
 r=title
