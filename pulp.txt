@@ -5138,7 +5138,7 @@ He stopped and wondered﻿—should he go back? But an intense, restless curiosi
 e:deacon=curious
 
 “Though they are infidels they are good people, and will be saved,” he assured himself.
-t=deacon;e:deacon=serious
+t=deacon;e:deacon=serious;e:deacon=contemplative;i=
 
 “They are sure to be saved,” he said aloud, lighting a cigarette.
 e:deacon=seriouscig;t=;s=deacon
@@ -5189,7 +5189,7 @@ All the same, he rather missed her.
 e:deacon=sadsmile
 
 “I must write her a nice letter…” he thought.
-t=deacon;e:deacon=thinking
+t=deacon;e:deacon=thinking;e:deacon=happylooking;i=
 
 The flag on the *duhan* hung limp, soaked by the rain, and the *duhan* itself with its wet roof seemed darker and lower than it had been before.
 t=none;e:deacon=neutral
@@ -5222,7 +5222,7 @@ t=deacon;e:deacon=thinking
 e:deacon=serious
 
 Why did he hate Laevsky and Laevsky hate him? Why were they going to fight a duel?
-t=none;e:deacon=confused
+t=none;e:deacon=confused;f:b:meadow-shed-rained=blur(3px)
 
 If from their childhood they had known poverty as the deacon had; if they had been brought up among ignorant, hard-hearted, grasping, coarse and ill-mannered people who grudged you a crust of bread, who spat on the floor and hiccuped at dinner and at prayers;
 e:deacon=contemplative
@@ -5243,22 +5243,22 @@ Instead of being led by boredom and some sort of misunderstanding to look for de
 e:deacon=angry
 
 The sound of a carriage interrupted the deacon’s thoughts.
-e:deacon=surprised
+e:deacon=surprised;f:b:meadow-shed-rained=
 
 He glanced out of the door and saw a carriage and in it three persons: Laevsky, Sheshkovsky, and the superintendent of the post-office.
 
 
 “Stop!” said Sheshkovsky.
-s=sheshkovsky;e:sheshkovsky=serious;x:sheshkovsky=hat
+s=sheshkovsky;e:sheshkovsky=serious;x:sheshkovsky=hat;z:sheshkovsky=87,,8;e:sheshkovsky=nervous;i=
 
 All three got out of the carriage and looked at one another.
 s=none;e:sheshkovsky=neutral
 
 “They are not here yet,” said Sheshkovsky, shaking the mud off.
-s=sheshkovsky;i=2
+s=sheshkovsky;i=2;e:sheshkovsky=scowling;i=
 
 “Well? Till the show begins, let us go and find a suitable spot; there’s not room to turn round here.”
-e:sheshkovsky=thinking
+e:sheshkovsky=thinking;e:sheshkovsky=contemplative;i=
 
 They went further up the river and soon vanished from sight.
 s=none
@@ -5266,17 +5266,20 @@ s=none
 The Tatar driver sat in the carriage with his head resting on his shoulder and fell asleep.
 
 
-After waiting ten minutes the deacon came out of the drying-shed, and taking off his black hat that he might not be noticed, he began threading his way among the bushes and strips of maize along the bank, crouching and looking about him.
-e:deacon=wary;x:deacon=coat,muddy
+After waiting ten minutes the deacon came out of the drying-shed, and taking off his black hat that he might not be noticed,
+e:deacon=wary;x:deacon=coat,muddy;m=allowbreak
+
+he began threading his way among the bushes and strips of maize along the bank, crouching and looking about him.
+b=glade-view;m=
 
 The grass and maize were wet, and big drops fell on his head from the trees and bushes.
 
 
 “Disgraceful!” he muttered, picking up his wet and muddy skirt.
-s=deacon;e:deacon=annoyed
+s=deacon;e:deacon=annoyed;e:deacon=weary;i=
 
 “Had I realised it, I would not have come.”
-
+e:deacon=annoyed
 
 Soon he heard voices and caught sight of them.
 s=none;e:deacon=neutral
@@ -5284,14 +5287,11 @@ s=none;e:deacon=neutral
 Laevsky was walking rapidly to and fro in the small glade with bowed back and hands thrust in his sleeves; his seconds were standing at the water’s edge, rolling cigarettes.
 e:deacon=curious;b=glade-view
 
-“Strange,” thought the deacon, not recognising Laevsky’s walk;
-t=deacon;e:deacon=contemplative
-
-“he looks like an old man.…”
-i=2
+“Strange,” thought the deacon, not recognising Laevsky’s walk; “he looks like an old man.…”
+t=deacon;e:deacon=contemplative;e:deacon=scowling;i=
 
 “How rude it is of them!” said the superintendent of the post-office, looking at his watch.
-n:superintendent=Postal Superintendent;s=superintendent;e:superintendent=annoyedlook;t=;x:superintendent=hat
+n:superintendent=Postal Superintendent;s=superintendent;e:superintendent=annoyedlook;t=;x:superintendent=hat;z:superintendent=87,,8
 
 “It may be learned manners to be late, but to my thinking it’s hoggish.”
 e:superintendent=annoyed
@@ -5300,7 +5300,7 @@ Sheshkovsky, a stout man with a black beard, listened and said:
 s=none;e:sheshkovsky=serious
 
 “They’re coming!”
-s=sheshkovsky
+s=sheshkovsky;e:sheshkovsky=nervous;i=
 
 ## XIX
 r=title
