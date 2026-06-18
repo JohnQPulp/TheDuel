@@ -2339,7 +2339,7 @@ and he envied the peace of mind of other people.
 m=;t=
 
 The windows in Samoylenko’s house were open.
-t=none;e:laevsky=neutral;b=dr-wide-night
+t=none;e:laevsky=neutral;b=dr-wide-night-open
 
 Laevsky looked in at one of them, then in at another; it was dark and still in the rooms.
 e:laevsky=curious
@@ -6106,5 +6106,5 @@ e:deacon=shouting
 It began to spot with rain.
 s=none
 
-<e>TODO</e>
+<e>The End. TODO</e>
 r=title
