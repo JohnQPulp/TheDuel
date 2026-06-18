@@ -5777,7 +5777,7 @@ Though there was not the slightest necessity, he went through the rooms again, s
 e:vonkoren=confused
 
 In the street he walked beside Samoylenko, behind them came the deacon with a box, and last of all the orderly with two portmanteaus.
-e:vonkoren=neutral;b=boulevard
+e:vonkoren=neutral;b=town-wide-night
 
 Only Samoylenko and the orderly could distinguish the dim lights on the sea. The others gazed into the darkness and saw nothing. The steamer had stopped a long way from the coast.
 e:samoylenko=contemplative
@@ -5786,7 +5786,7 @@ e:samoylenko=contemplative
 s=vonkoren;e:vonkoren=nervous;x:vonkoren=hat,satchel
 
 “I am afraid it will set off.”
-
+;e:vonkoren=serious;i=
 
 As they passed the little house with three windows, into which Laevsky had moved soon after the duel, Von Koren could not resist peeping in at the window.
 s=none;e:vonkoren=curious;b=house-wide-night
@@ -5795,16 +5795,16 @@ Laevsky was sitting, writing, bent over the table, with his back to the window.
 e:laevsky=thinking
 
 “I wonder at him!” said the zoologist softly.
-s=vonkoren;e:vonkoren=curious
+s=vonkoren;e:vonkoren=curious;e:vonkoren=nervous;i=
 
 “What a screw he has put on himself!”
-
+;e:vonkoren=contemplative;i=
 
 “Yes, one may well wonder,” said Samoylenko.
-s=samoylenko;e:samoylenko=contemplative;x:samoylenko=hat
+s=samoylenko;e:samoylenko=contemplative;x:samoylenko=hat;e:samoylenko=nervous;i=
 
 “He sits from morning till night, he’s always at work. He works to pay off his debts. And he lives, brother, worse than a beggar!”
-e:samoylenko=serious
+e:samoylenko=serious;e:samoylenko=nervoushatholding;i=
 
 Half a minute of silence followed.
 s=none
@@ -5816,10 +5816,10 @@ e:vonkoren=contemplative;e:samoylenko=contemplative;e:deacon=contemplative
 s=samoylenko;e:samoylenko=sadsmile
 
 “Yes, he has put a screw on himself,” Von Koren repeated.
-s=vonkoren;e:vonkoren=contemplative
+s=vonkoren;e:vonkoren=contemplative;e:vonkoren=contemplative;i=2
 
 “His marriage, the way he works all day long for his daily bread, a new expression in his face, and even in his walk﻿—it’s all so extraordinary that I don’t know what to call it.”
-e:vonkoren=contemplative
+e:vonkoren=contemplative;e:vonkoren=contemplative;i=
 
 The zoologist took Samoylenko’s sleeve and went on with emotion in his voice:
 s=none;e:vonkoren=sadsmile
@@ -5828,16 +5828,16 @@ s=none;e:vonkoren=sadsmile
 s=vonkoren;e:vonkoren=serious
 
 “He knows me. He knows that if I could have foreseen this change, then I might have become his best friend.”
-
+;e:vonkoren=nervous;i=
 
 “Go in and say goodbye to him.”
-s=samoylenko;e:samoylenko=happy
+s=samoylenko;e:samoylenko=happy;e:samoylenko=smirking;i=
 
 “No, that wouldn’t do.”
-s=vonkoren;e:vonkoren=wary
+s=vonkoren;e:vonkoren=wary;e:vonkoren=unhappy;i=
 
 “Why? God knows, perhaps you’ll never see him again.”
-s=samoylenko;e:samoylenko=serious
+s=samoylenko;e:samoylenko=serious;e:samoylenko=;i=
 
 The zoologist reflected, and said:
 s=none;e:vonkoren=thinking
@@ -5864,16 +5864,16 @@ taking off his goloshes in the passage, and already wishing he had not given way
 m=;s=
 
 “It is as though I were forcing myself on him,” he thought, “and that’s stupid.”
-e:vonkoren=contemplative;t=vonkoren
+e:vonkoren=contemplative;t=vonkoren;e:vonkoren=thinking;i=
 
 “Forgive me for disturbing you,” he said as he went into the room with Laevsky,
-e:vonkoren=wary;t=;s=vonkoren
+e:vonkoren=wary;t=;s=vonkoren;e:vonkoren=contemplative;i=
 
 “but I’m just going away, and I had an impulse to see you. God knows whether we shall ever meet again.”
-
+;e:vonkoren=serious;i=2
 
 “I am very glad to see you.… Please come in,” said Laevsky,
-s=laevsky;e:laevsky=nervous;m=allowbreak
+s=laevsky;e:laevsky=nervous;m=allowbreak;e:laevsky=thinking;i=
 
 and he awkwardly set chairs for his visitors as though he wanted to bar their way, and stood in the middle of the room, rubbing his hands.
 m=;s=
@@ -5894,13 +5894,13 @@ e:vonkoren=serious;s=vonkoren
 e:vonkoren=contemplative
 
 “Nobody knows the real truth.”
-
+;e:vonkoren=nervous;i=
 
 “No, no one knows the truth,” said Laevsky.
-s=laevsky;e:laevsky=contemplative
+s=laevsky;e:laevsky=contemplative;e:laevsky=contemplative;i=2
 
 “Well, goodbye.… God give you all happiness.”
-s=vonkoren;e:vonkoren=wary
+s=vonkoren;e:vonkoren=wary;e:vonkoren=unhappy;i=
 
 Von Koren gave Laevsky his hand; the latter took it and bowed.
 s=none
@@ -5909,16 +5909,16 @@ s=none
 s=vonkoren;e:vonkoren=serious
 
 “Give my greetings to your wife, and say I am very sorry not to say goodbye to her.”
-
+;e:vonkoren=nervous;i=
 
 “She is at home.”
-s=laevsky;e:laevsky=neutral
+s=laevsky;e:laevsky=neutral;e:laevsky=thinking;i=2
 
 Laevsky went to the door of the next room, and said:
 s=none
 
 “Nadya, Nikolay Vassilitch wants to say goodbye to you.”
-s=laevsky
+s=laevsky;e:laevsky=
 
 Nadyezhda Fyodorovna came in; she stopped near the doorway and looked shyly at the visitors.
 s=none;e:nadyezhda=nervous
@@ -5927,7 +5927,7 @@ There was a look of guilt and dismay on her face, and she held her hands like a 
 e:nadyezhda=upset
 
 “I’m just going away, Nadyezhda Fyodorovna,” said Von Koren, “and have come to say goodbye.”
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=contemplative;i=
 
 She held out her hand uncertainly, while Laevsky bowed.
 s=none
@@ -5942,19 +5942,19 @@ e:vonkoren=contemplative
 t=;s=vonkoren;e:vonkoren=neutral
 
 “Oh!” said Nadyezhda Fyodorovna,
-s=nadyezhda;e:nadyezhda=surprised;m=allowbreak
+s=nadyezhda;e:nadyezhda=surprised;m=allowbreak;e:nadyezhda=nervous;i=
 
 and she looked anxiously at her husband.
 m=;s=
 
 “I don’t think there’s anything.…”
-e:nadyezhda=nervous;s=nadyezhda
+e:nadyezhda=nervous;s=nadyezhda;e:nadyezhda=wary;i=
 
 “No, nothing…” said Laevsky, rubbing his hands.
-s=laevsky;e:laevsky=nervous
+s=laevsky;e:laevsky=nervous;;e:laevsky=nervous;i=
 
 “Our greetings.”
-e:laevsky=thinking
+e:laevsky=thinking;e:laevsky=sadsmile;i=2;e:laevsky=thinking;i=2
 
 Von Koren did not know what he could or ought to say, though as he went in he thought he would say a very great deal that would be warm and good and important.
 s=none;e:vonkoren=sadsmile
@@ -5963,13 +5963,13 @@ He shook hands with Laevsky and his wife in silence,
 e:vonkoren=unhappy;m=allowbreak
 
 and left them with a depressed feeling.
-m=;b=house-wide-night
+m=;b=town-wide-night
 
 “What people!” said the deacon in a low voice, as he walked behind them.
-s=deacon;e:deacon=contemplative;x:deacon=hat
+s=deacon;e:deacon=contemplative;x:deacon=hat;e:deacon=nervous;i=
 
 “My God, what people! Of a truth, the right hand of God has planted this vine! Lord! Lord! One man vanquishes thousands and another tens of thousands.”
-e:deacon=thinking
+e:deacon=thinking;e:deacon=curious;i=2
 
 “Nikolay Vassilitch,” he said ecstatically, “let me tell you that today you have conquered the greatest of man’s enemies﻿—pride.”
 e:deacon=happy
@@ -5990,40 +5990,40 @@ The orderly was standing on the quay with the two portmanteaus, and at a little 
 b=quay-night
 
 “There is a wind, though.… Brrr!” said Samoylenko.
-s=samoylenko;e:samoylenko=thinking
+s=samoylenko;e:samoylenko=thinking;e:samoylenko=unhappy;i=
 
 “There must be a pretty stiff storm on the sea now! You are not going off at a nice time, Kolya.”
 e:samoylenko=wary
 
 “I’m not afraid of seasickness.”
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=curious;i=
 
 “That’s not the point.… I only hope these rascals won’t upset you. You ought to have crossed in the agent’s sloop.”
-s=samoylenko;e:samoylenko=wary
+s=samoylenko;e:samoylenko=wary;e:samoylenko=angry;i=2
 
 “Where’s the agent’s sloop?” he shouted to the boatmen.
 e:samoylenko=shouting
 
 “It has gone, Your Excellency.”
-n:boatman=Boatman;s=boatman;e:boatman=neutral
+n:boatman=Boatman;s=boatman;e:boatman=neutral;z:boatman=87,,8
 
 “And the Customs-house boat?”
-s=samoylenko;e:samoylenko=annoyed
+s=samoylenko;e:samoylenko=annoyed;e:samoylenko=contemplative;i=
 
 “That’s gone, too.”
 s=boatman;i=2
 
 “Why didn’t you let us know,” said Samoylenko angrily.
-s=samoylenko;e:samoylenko=angry
+s=samoylenko;e:samoylenko=angry;e:samoylenko=angry;i=2
 
 “You dolts!”
-
+;e:samoylenko=scowling;i=
 
 “It’s all the same, don’t worry yourself…” said Von Koren.
-s=vonkoren;e:vonkoren=neutral
+s=vonkoren;e:vonkoren=neutral;e:vonkoren=;i=
 
 “Well, goodbye. God keep you.”
-e:vonkoren=thinking
+e:vonkoren=thinking;e:vonkoren=contemplative;i=
 
 Samoylenko embraced Von Koren and made the sign of the cross over him three times.
 s=none;e:samoylenko=sadsmile
@@ -6032,7 +6032,7 @@ s=none;e:samoylenko=sadsmile
 s=samoylenko;e:samoylenko=sadsmile
 
 “Goodbye, deacon,” said Von Koren, shaking hands with the deacon.
-s=vonkoren;e:vonkoren=contemplative
+s=vonkoren;e:vonkoren=contemplative;e:vonkoren=curious;i=
 
 “Thank you for your company and for your pleasant conversation. Think about the expedition.”
 
@@ -6053,10 +6053,10 @@ Von Koren went down the ladder, jumped into the boat, and sat at the helm.
 s=samoylenko;e:samoylenko=shouting
 
 “Take care of yourself.”
-e:samoylenko=happy
+e:samoylenko=happy;e:samoylenko=angry;i=2
 
 “No one knows the real truth,” thought Laevsky, turning up the collar of his coat and thrusting his hands into his sleeves.
-t=laevsky;e:laevsky=contemplative;x:laevsky=hat,overcoat;s=
+t=laevsky;e:laevsky=contemplative;x:laevsky=hat,overcoat;s=;e:laevsky=thinking;i=
 
 The boat turned briskly out of the harbour into the open sea.
 t=none
@@ -6068,37 +6068,31 @@ The boat moved three yards forward and was sucked two yards back.
 
 
 “Write!” shouted Samoylenko; “it’s devilish weather for you to go in.”
-s=samoylenko;e:samoylenko=excited;e:samoylenko=wary
+s=samoylenko;e:samoylenko=excited;e:samoylenko=wary;e:samoylenko=serious;i=
 
 “Yes, no one knows the real truth…” thought Laevsky, looking wearily at the dark, restless sea.
-t=laevsky;e:laevsky=contemplative;s=
+t=laevsky;e:laevsky=contemplative;s=;e:laevsky=weary;i=
 
 “It flings the boat back,” he thought; “she makes two steps forward and one step back; but the boatmen are stubborn, they work the oars unceasingly, and are not afraid of the high waves. The boat goes on and on.”
-e:laevsky=serious
+e:laevsky=serious;e:laevsky=thinking;i=
 
 “Now she is out of sight, but in half an hour the boatmen will see the steamer lights distinctly, and within an hour they will be by the steamer ladder.”
-e:laevsky=thinking
+e:laevsky=thinking;e:laevsky=contemplative;i=
 
-“So it is in life.… In the search for truth man makes two steps forward and one step back.”
+“So it is in life.… In the search for truth man makes two steps forward and one step back. Suffering, mistakes, and weariness of life thrust them back, but the thirst for truth and stubborn will drive them on and on. And who knows? Perhaps they will reach the real truth at last.”
 e:laevsky=thinking;i=2
 
-“Suffering, mistakes, and weariness of life thrust them back, but the thirst for truth and stubborn will drive them on and on.”
-e:laevsky=serious;i=2
-
-“And who knows? Perhaps they will reach the real truth at last.”
-e:laevsky=contemplative
-
 “Go-o-od-by-e,” shouted Samoylenko.
-s=samoylenko;e:samoylenko=happy;t=
+s=samoylenko;e:samoylenko=happy;t=;e:samoylenko=sadsmile;i=
 
 “There’s no sight or sound of them,” said the deacon.
-s=deacon;e:deacon=
+s=deacon;e:deacon=;e:deacon=curious;i=;e:deacon=unhappy;i=
 
 “Good luck on the journey!”
-e:deacon=shouting
+e:deacon=shouting;e:deacon=happy;i=2;e:deacon=angry;i=
 
 It began to spot with rain.
-s=none
+s=none;f:b:quay-night=blur(3px)
 
-<e>The End. From the very beginning, the title implied the existence of a gun, and by the end, a gun had indeed been fired. So this was a successful book.</e>
-r=title
+<e>The End. And you've got to hand it to Chekhov: from the very beginning, the title implied the existence of a gun, and by the end, a gun had indeed been fired. So by the one metric that matters, this was a successful book.</e>
+r=think
