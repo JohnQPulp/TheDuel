@@ -6080,7 +6080,7 @@ e:laevsky=serious;e:laevsky=thinking;i=
 e:laevsky=thinking;e:laevsky=contemplative;i=
 
 “So it is in life.… In the search for truth man makes two steps forward and one step back. Suffering, mistakes, and weariness of life thrust them back, but the thirst for truth and stubborn will drive them on and on. And who knows? Perhaps they will reach the real truth at last.”
-e:laevsky=thinking;i=2
+e:laevsky=thinking;i=
 
 “Go-o-od-by-e,” shouted Samoylenko.
 s=samoylenko;e:samoylenko=happy;t=;e:samoylenko=sadsmile;i=
