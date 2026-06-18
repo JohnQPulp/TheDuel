@@ -5618,19 +5618,19 @@ The deacon was excited; he breathed hard, and avoided looking in people’s face
 e:deacon=upset;x:deacon=muddy,coat
 
 “I thought you meant to kill him…” he muttered.
-s=deacon;e:deacon=contemplative
+s=deacon;e:deacon=contemplative;e:deacon=annoyed;i=2
 
 “How contrary to human nature it is! How utterly unnatural it is!”
-e:deacon=unhappy
+e:deacon=unhappy;e:deacon=weary;i=
 
 “But how did you come here?” asked the zoologist.
-s=vonkoren;e:vonkoren=curious;x:vonkoren=hat
+s=vonkoren;e:vonkoren=curious;x:vonkoren=hat;e:vonkoren=thinking;i=
 
 “Don’t ask,” said the deacon, waving his hand.
 s=deacon;e:deacon=wearyhand
 
 “The evil one tempted me, saying: ‘Go, go.…’ So I went and almost died of fright in the maize.”
-e:deacon=thinking
+e:deacon=thinking;e:deacon=nervous;i=
 
 “But now, thank God, thank God.… I am awfully pleased with you,” muttered the deacon.
 e:deacon=sadsmile
@@ -5639,13 +5639,13 @@ e:deacon=sadsmile
 
 
 “Only I beg of you most earnestly don’t tell anybody I was there, or I may get into hot water with the authorities. They will say: ‘The deacon was a second.’”
-e:deacon=nervous
+e:deacon=nervous;e:deacon=weary;i=
 
 “Gentlemen,” said Von Koren, “the deacon asks you not to tell anyone you’ve seen him here. He might get into trouble.”
-s=vonkoren;e:vonkoren=smirking
+s=vonkoren;e:vonkoren=smirking;e:vonkoren=smirking;i=2
 
 “How contrary to human nature it is!” sighed the deacon.
-s=deacon;e:deacon=weary
+s=deacon;e:deacon=weary;e:deacon=wearyhand;i=
 
 “Excuse my saying so, but your face was so dreadful that I thought you were going to kill him.”
 e:deacon=serious
@@ -5654,10 +5654,10 @@ e:deacon=serious
 s=vonkoren;e:vonkoren=contemplative
 
 “The whole procedure is revolting to anyone who is not used to it, and it has exhausted me, deacon. I feel awfully tired. Come along.…”
-e:vonkoren=weary
+e:vonkoren=weary;e:vonkoren=serious;i=3
 
 “No, you must let me walk back. I must get dry, for I am wet and cold.”
-s=deacon;e:deacon=unhappy
+s=deacon;e:deacon=unhappy;e:deacon=annoyed;i=2
 
 “Well, as you like,” said the zoologist, in a weary tone, feeling dispirited,
 s=vonkoren;e:vonkoren=weary;m=allowbreak
@@ -5666,40 +5666,40 @@ and, getting into the carriage, he closed his eyes.
 m=;s=
 
 “As you like.…”
-s=vonkoren;e:vonkoren=thinking
+s=vonkoren;e:vonkoren=thinking;e:vonkoren=thinking;i=2
 
-While they were moving about the carriages and taking their seats, Kerbalay stood in the road, and, laying his hands on his stomach, he bowed low, showing his teeth; he imagined that the gentry had come to enjoy the beauties of nature and drink tea, and could not understand why they were getting into the carriages.
-s=none;e:kerbalay=smirking;e:kerbalay=confused
+While they were moving about the carriages and taking their seats, Kerbalay stood in the road, and, laying his hands on his stomach, he bowed low, showing his teeth;
+s=none;e:kerbalay=smirking;e:kerbalay=confused;b=valley-duhan-road-rain-dawn
+
+he imagined that the gentry had come to enjoy the beauties of nature and drink tea, and could not understand why they were getting into the carriages.
+
 
 The party set off in complete silence and only the deacon was left by the *duhan*.
 e:deacon=neutral;b=valley-duhan-road-rain-dawn
 
-“Come to the *duhan*, drink tea,” he said to Kerbalay.
-s=deacon;e:deacon=
-
-“Me wants to eat.”
-e:deacon=contemplative
+“Come to the *duhan*, drink tea,” he said to Kerbalay. “Me wants to eat.”
+s=deacon;e:deacon=;e:deacon=curious;i=
 
 Kerbalay spoke good Russian, but the deacon imagined that the Tatar would understand him better if he talked to him in broken Russian.
 s=none;e:kerbalay=neutral
 
 “Cook omelette, give cheese.…”
-s=deacon
+s=deacon;e:deacon=sadsmile;i=
 
 “Come, come, father,” said Kerbalay, bowing.
-s=kerbalay;e:kerbalay=happy
+s=kerbalay;e:kerbalay=happy;e:kerbalay=contemplative;i=
 
 “I’ll give you everything.… I’ve cheese and wine.… Eat what you like.”
-
+;e:kerbalay=happy;i=2
 
 “What is ‘God’ in Tatar?” asked the deacon, going into the *duhan*.
-s=deacon;e:deacon=curious
+s=deacon;e:deacon=curious;e:deacon=;i=
 
 “Your God and my God are the same,” said Kerbalay, not understanding him.
-s=kerbalay;e:kerbalay=contemplative
+s=kerbalay;e:kerbalay=contemplative;i=2
 
 “God is the same for all men, only men are different. Some are Russian, some are Turks, some are English﻿—there are many sorts of men, but God is one.”
-
+i=
 
 “Very good. If all men worship the same God, why do you Mohammedans look upon Christians as your everlasting enemies?”
 s=deacon;e:deacon=thinking
@@ -5707,14 +5707,11 @@ s=deacon;e:deacon=thinking
 “Why are you angry?” said Kerbalay, laying both hands on his stomach.
 s=kerbalay;e:kerbalay=confused
 
-“You are a priest; I am a Mussulman: you say, ‘I want to eat’﻿—I give it you.…”
+“You are a priest; I am a Mussulman: you say, ‘I want to eat’﻿—I give it you.… Only the rich man distinguishes your God from my God; for the poor man it is all the same.”
 e:kerbalay=unhappy
 
-“Only the rich man distinguishes your God from my God; for the poor man it is all the same.”
-e:kerbalay=serious
-
 “If you please, it is ready.”
-e:kerbalay=happy
+e:kerbalay=happy;e:kerbalay=;i=
 
 While this theological conversation was taking place at the *duhan*, Laevsky was driving home thinking how dreadful it had been driving there at daybreak, when the roads, the rocks, and the mountains were wet and dark, and the uncertain future seemed like a terrible abyss, of which one could not see the bottom;
 s=none;e:laevsky=contemplative
@@ -5735,7 +5732,7 @@ The bullet had bruised it.
 
 
 Afterwards, when he got home, a strange, long, sweet day began for him, misty as forgetfulness.
-e:laevsky=contemplative;b=vanya-sitting
+e:laevsky=contemplative;b=vanya-wide
 
 Like a man released from prison or from hospital, he stared at the long-familiar objects and wondered that the tables, the windows, the chairs, the light, and the sea stirred in him a keen, childish delight such as he had not known for long, long years.
 e:laevsky=happy
@@ -5750,7 +5747,7 @@ e:nadyezhda=fearful;e:laevsky=happy
 s=laevsky;e:laevsky=sadsmile
 
 Then they sat a long while in the garden, huddled close together, saying nothing, or dreaming aloud of their happy life in the future, in brief, broken sentences, while it seemed to him that he had never spoken at such length or so eloquently.
-s=none;e:laevsky=happy;e:nadyezhda=sadsmile;f:b:vanya-sitting=blur(3px)
+s=none;e:laevsky=happy;e:nadyezhda=sadsmile;f:b:vanya-wide=blur(3px)
 
 ## XXI
 r=title
@@ -6103,5 +6100,5 @@ e:deacon=shouting
 It began to spot with rain.
 s=none
 
-<e>The End. TODO</e>
+<e>The End. From the very beginning, the title implied the existence of a gun, and by the end, a gun had indeed been fired. So this was a successful book.</e>
 r=title
