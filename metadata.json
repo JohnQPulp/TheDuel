@@ -6,11 +6,11 @@
   "year": 1891,
   "source": "https://standardebooks.org/ebooks/anton-chekhov/the-duel/constance-garnett",
   "words": 40835,
-  "pulpDate": null,
+  "pulpDate": "2026-06-17",
   "repo": "https://github.com/JohnQPulp/TheDuel",
   "wikipedia": "https://en.wikipedia.org/wiki/The_Duel_(Chekhov_novella)",
-  "blurb": " ",
-  "blurb2": " ",
+  "blurb": "In <i>The Duel</i>'s chapter 14, Kirilin is referred to as \"Ilya Mihalitch\", despite clearly being referred to as \"Yegor Alekseitch\" back in chapter 6. What are we, to believe these are some kind of magic patronymics? (Boy I really hope somebody got fired for that blunder.)",
+  "blurb2": "The name of the game is <i>The Duel</i>, so start placing your bets on whether a gun is fired.",
   "useAvif": true,
-  "authorWidth": null
+  "authorWidth": 80
 }

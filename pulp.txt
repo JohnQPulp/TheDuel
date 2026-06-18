@@ -3844,7 +3844,7 @@ After two meetings she was weary of him, had thrown him over, and did not that, 
 “Here I’ll say goodbye to you, darling,” said Laevsky.
 s=laevsky;e:laevsky=neutral;b=town-wide-night;e:laevsky=nervous;i=
 
-“Ilya Mihalitch will see you home.”<e>Laevsky calls him "Ilya Mihalitch" despite the book previously referring to Kirilin as "Yegor Alekseitch". Two patronymics! How embarrassing.</e>
+“Ilya Mihalitch will see you home.”<e>Russian names are already hard enough in novels where the author <i>doesn't</i> change them halfway through, Chekhov.</e>
 n:kirilin=Yegor Alekseitch “Ilya Mihalitch” Kirilin;e:laevsky=angry;i=2
 
 He nodded to Kirilin, and, quickly crossing the boulevard, walked along the street to Sheshkovsky’s, where there were lights in the windows, and then they heard the gate bang as he went in.
@@ -5026,7 +5026,7 @@ s=laevsky;e:laevsky=contemplative;e:laevsky=annoyed;i=2
 But that would mean beginning over again the old life which he cursed.
 s=none;e:laevsky=weary
 
-And the man who seeks salvation in change of place like a migrating bird would find nothing anywhere, for all the world is alike to him.<e><book>Secret Garden</book> reference? <book>The Sun Also Rises</book> also had this same anti-travel sentiment. (Those wacky miserable authors!)</e>
+And the man who seeks salvation in change of place like a migrating bird would find nothing anywhere, for all the world is alike to him.<e><book>Secret Garden</book> reference? <book>The Sun Also Rises</book> also had this same anti-travel sentiment. (Authors are so very miserable, but that's why we like them.)</e>
 
 
 Seek salvation in men? In whom and how? Samoylenko’s kindness and generosity could no more save him than the deacon’s laughter or Von Koren’s hatred.
