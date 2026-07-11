@@ -2,7 +2,7 @@ The Duel<br>Anton Chekhov<e>This book contains <book>Anna Karenina</book> spoile
 b=title;t=author;z:author=79,,7
 
 ## I
-r=title
+r=beach-wide
 
 It was eight o’clock in the morning—the time when the officers, the local officials, and the visitors usually took their morning dip in the sea after the hot, stifling night, and then went into the pavilion to drink tea or coffee.
 b=beach-wide
